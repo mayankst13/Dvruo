@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>GATE Hub</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<style>
+:root {
+  --color-active: #2a8cff;
+  --color-done: #13db87;
+}
+
+/* BODY */
+body {
+  margin: 0;
+  font-family: system-ui;
+  background: #020617;
+  color: white;
+}
+
+/* HEADER */
+.header {
+  padding: 15px;
+  position: sticky;
+  top: 0;
+  background: #020617;
+}
+
+.logo {
+  font-size: 20px;
+  font-weight: bold;
+  color: #38bdf8;
+}
+
+.search {
+  margin-top: 10px;
+  width: 100%;
+  padding: 12px;
+  border-radius: 10px;
+  border: none;
+  background: #0f172a;
+  color: white;
+}
+
+/* GRID */
+.section { padding: 15px; }
+.section-title { margin-bottom: 10px; }
+
+.grid {
+  display: grid;
+  gap: 12px;
+  grid-template-columns: repeat(2,1fr);
+}
+
+@media(min-width:600px){ .grid{grid-template-columns:repeat(3,1fr);} }
+@media(min-width:1024px){ .grid{grid-template-columns:repeat(5,1fr);} }
+
+/* CARD */
+.card {
+  background: #0f172a;
+  padding: 15px;
+  border-radius: 12px;
+  cursor: pointer;
+  text-align: center;
+}
+
+/* LOADER */
+.loader-container {
+  position: fixed;
+  inset: 0;
+  background: #020617;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 999;
+}
+
+.loader {
+  width: 300px;
+  height: 6px;
+  background: #111;
+  position: relative;
+}
+
+.progress {
+  height: 100%;
+  width: 0%;
+  background: linear-gradient(90deg,#2a8cff,#13db87);
+  animation: load 1.2s linear forwards;
+}
+
+@keyframes load {
+  to { width: 100%; }
+}
+
+/* FOOTER */
+.footer {
+  text-align: center;
+  padding: 20px;
+  color: #94a3b8;
+}
+</style>
+</head>
+
+<body>
+
+<!-- LOADER -->
+<div id="loader" class="loader-container" style="display:none;">
+  <div class="loader">
+    <div class="progress"></div>
+  </div>
+</div>
+
+<div class="header">
+  <div class="logo">🚀 GATE Hub</div>
+  <input id="search" class="search" placeholder="Search tests...">
+</div>
+
+<div id="content"></div>
+
+<div class="footer">
+  Made with ❤️ by dvruo.t.me
+</div>
+
+<script>
+// LOADER
+function showLoader(url){
+  const loader = document.getElementById("loader");
+  loader.style.display = "flex";
+
+  setTimeout(()=>{
+    window.location.href = url;
+  },1200);
+}
+
+// FETCH
+let globalData = [];
+
+fetch("/api/tests")
+.then(res=>res.json())
+.then(data=>{
+  globalData=data;
+  render(data);
+});
+
+// RENDER
+function render(data){
+  const content=document.getElementById("content");
+  content.innerHTML="";
+
+  data.forEach(a=>{
+    let section=document.createElement("div");
+    section.className="section";
+
+    section.innerHTML=`<div class="section-title">📚 ${a.academy}</div>`;
+
+    let grid=document.createElement("div");
+    grid.className="grid";
+
+    a.branches.forEach(b=>{
+      let card=document.createElement("div");
+      card.className="card";
+
+      card.innerHTML=`<h3>${b.branch}</h3><p>${b.tests.length} Tests</p>`;
+
+      card.onclick=()=>{
+        showLoader(`/branch.html?academy=${a.academy}&branch=${b.branch}`);
+      };
+
+      grid.appendChild(card);
+    });
+
+    section.appendChild(grid);
+    content.appendChild(section);
+  });
+}
+
+// SEARCH
+document.getElementById("search").addEventListener("input",function(){
+  const v=this.value.toLowerCase();
+
+  const filtered=globalData.map(a=>({
+    academy:a.academy,
+    branches:a.branches.map(b=>({
+      branch:b.branch,
+      tests:b.tests.filter(t=>t.toLowerCase().includes(v))
+    })).filter(b=>b.tests.length>0)
+  })).filter(a=>a.branches.length>0);
+
+  render(filtered);
+});
+</script>
+
+</body>
+</html>
