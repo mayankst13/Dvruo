@@ -1,0 +1,1299 @@
+<!doctype html>
+ <html lang="en" data-theme="dark">
+ <head>
+ <meta charset="utf-8"/>
+ <meta name="viewport" content="width=device-width, initial-scale=1"/>
+ <title>Subject-wise Test-16 2026 ESE CE Ethics and values in engineering profession</title>
+ <script>
+   try{ document.documentElement.dataset.theme = (localStorage.getItem('theme') || 'dark'); }catch(e){ document.documentElement.dataset.theme = 'dark'; }
+ </script>
+ <style>
+  :root{
+    --bg:#0b0c10;--card:#12131a;--ink:#e9e9ef;--muted:#a6a8b3;--accent:#6ee7ff;
+    --good:#4ade80;--bad:#fb7185;--warn:#fbbf24;--unk:#60a5fa;
+    --border:rgba(255,255,255,0.10);
+    --header-bg:rgba(11,12,16,0.92);
+    --panel-bg:rgba(15,16,22,0.92);
+    --btn-bg:linear-gradient(180deg,#1a1b25,#131420);
+    --btn-secondary-bg:#0f1016;
+    --minibtn-bg:#0f1016;
+    --input-bg:#0f1016;
+    --opt-bg:rgba(255,255,255,0.02);
+    --summary-bg:rgba(255,255,255,0.06);
+    --kpi-bg:rgba(0,0,0,0.25);
+  }
+  :root[data-theme="light"]{
+    --bg:#f6f7fb;--card:#ffffff;--ink:#101426;--muted:rgba(16,20,38,0.66);--accent:#0284c7;
+    --good:#16a34a;--bad:#e11d48;--warn:#d97706;--unk:#2563eb;
+    --border:rgba(16,20,38,0.12);
+    --header-bg:rgba(246,247,251,0.94);
+    --panel-bg:rgba(255,255,255,0.92);
+    --btn-bg:linear-gradient(180deg,#ffffff,#f1f3f8);
+    --btn-secondary-bg:#ffffff;
+    --minibtn-bg:#ffffff;
+    --input-bg:#ffffff;
+    --opt-bg:rgba(16,20,38,0.03);
+    --summary-bg:rgba(16,20,38,0.03);
+    --kpi-bg:rgba(16,20,38,0.03);
+  }
+  body{margin:0;font-family:system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif;background:var(--bg);color:var(--ink);}
+  a{color:var(--accent);text-decoration:none}
+  .wrap{max-width:1100px;margin:0 auto;padding:0 18px 40px;}
+  header{position:sticky;top:0;z-index:10000;display:flex;gap:12px;align-items:flex-start;justify-content:space-between;flex-wrap:wrap;
+         padding:18px 0 12px;margin:0 0 10px 0;background:var(--header-bg);
+         -webkit-backdrop-filter:blur(8px);backdrop-filter:blur(8px);border-bottom:1px solid var(--border);}
+  .brand{font-weight:1000;font-size:clamp(18px, 3.2vw, 28px);letter-spacing:1.2px;text-transform:uppercase;line-height:1.05;
+         background:linear-gradient(90deg,var(--accent),var(--good));
+         -webkit-background-clip:text;background-clip:text;color:transparent;}
+  h1{margin:0;font-size:clamp(16px, 2.4vw, 20px);letter-spacing:.2px}
+  .meta{color:var(--muted);font-size:12px;margin-top:6px}
+  .controls{display:flex;gap:10px;flex-wrap:wrap;align-items:center}
+  .timerWrap{display:flex;gap:8px;align-items:center;border:1px solid var(--border);background:var(--panel-bg);padding:8px 10px;border-radius:999px}
+  .timerLabel{font-size:11px;color:var(--muted);font-weight:900;letter-spacing:.9px}
+  .timerTime{font-size:13px;font-weight:1000;font-variant-numeric:tabular-nums;letter-spacing:.9px}
+  button.timerBtn{padding:7px 10px;border-radius:999px;font-size:11px}
+  .timerWrap.warn .timerTime{color:var(--warn)}
+  .timerWrap.bad .timerTime{color:var(--bad)}
+  .timerWrap.done .timerTime{color:var(--bad)}
+  button{border:1px solid var(--border);background:var(--btn-bg);color:var(--ink);
+         padding:10px 12px;border-radius:12px;cursor:pointer;font-weight:600}
+  button.secondary{background:var(--btn-secondary-bg);font-weight:600}
+  a.btn{display:inline-block;border:1px solid var(--border);background:var(--btn-bg);color:var(--ink);
+        padding:10px 12px;border-radius:12px;cursor:pointer;font-weight:700;text-decoration:none}
+  a.btn.secondary{background:var(--btn-secondary-bg);font-weight:700}
+  a.btn.primary{border-color:rgba(110,231,255,.55);
+                background:linear-gradient(180deg,rgba(110,231,255,.18),rgba(110,231,255,.08));}
+  button:hover{border-color:rgba(110,231,255,.55)}
+  a.btn:hover{border-color:rgba(110,231,255,.55)}
+  .summary{display:none;margin:14px 0 14px;border:1px solid var(--border);background:var(--summary-bg);
+            border-radius:16px;padding:12px}
+  .summary .grid{display:grid;grid-template-columns:repeat(5, minmax(0,1fr));gap:10px}
+  @media (max-width:820px){ .summary .grid{grid-template-columns:repeat(2,minmax(0,1fr));} }
+  .kpi{padding:10px;border-radius:14px;background:var(--kpi-bg);border:1px solid var(--border)}
+  .kpi .lbl{color:var(--muted);font-size:12px}
+  .kpi .val{font-size:18px;font-weight:800;margin-top:4px}
+  .kpi.good .val{color:var(--good)}
+  .kpi.bad .val{color:var(--bad)}
+  .kpi.warn .val{color:var(--warn)}
+
+  .card{border:1px solid var(--border);background:var(--card);border-radius:18px;padding:14px;margin:12px 0}
+  .qcard{scroll-margin-top:calc(var(--stickyHeaderH, 88px) + 12px);}
+  .qhead{display:flex;justify-content:space-between;gap:10px;align-items:flex-start}
+  .qid{font-weight:800}
+  .tags{color:var(--muted);font-size:12px;margin-top:4px}
+  .badge{font-size:11px;border:1px solid var(--border);padding:4px 8px;border-radius:999px;color:var(--muted)}
+  .badge.good{border-color:rgba(74,222,128,.7);color:var(--good)}
+  .badge.bad{border-color:rgba(251,113,133,.7);color:var(--bad)}
+  .badge.warn{border-color:rgba(251,191,36,.85);color:var(--warn)}
+  .badge.unk{border-color:rgba(96,165,250,.85);color:var(--unk)}
+
+  .qtext{margin-top:10px;line-height:1.45}
+  /* Ensure embedded question/option images are visible on mobile (shrink to fit). */
+  img{max-width:100%;height:auto}
+  /* Allow flex option body to shrink so wide images don't get pushed off-screen. */
+  label.opt > div{min-width:0}
+  .opts{margin-top:12px;display:flex;flex-direction:column;gap:8px}
+  label.opt{display:flex;gap:10px;align-items:flex-start;padding:10px 10px;border:1px solid var(--border);border-radius:12px;background:var(--opt-bg);cursor:pointer}
+  label.opt:hover{border-color:rgba(110,231,255,.35)}
+  label.opt.correct{border-color:rgba(74,222,128,.8);background:rgba(74,222,128,.12)}
+  label.opt.wrong{border-color:rgba(251,113,133,.8);background:rgba(251,113,133,.10)}
+  label.opt.skipped{border-color:rgba(251,191,36,.8);background:rgba(251,191,36,.10)}
+  input[type="radio"]{margin-top:2px;transform:scale(1.1)}
+  .nat{margin-top:12px;display:flex;gap:10px;align-items:center;flex-wrap:wrap}
+  .natInput{width:min(260px, 70vw);padding:10px 12px;border-radius:12px;border:1px solid var(--border);background:var(--input-bg);color:var(--ink);outline:none}
+  .natInput:focus{border-color:rgba(110,231,255,.55)}
+  .natInput.correct{border-color:rgba(74,222,128,.9);background:rgba(74,222,128,.12)}
+  .natInput.wrong{border-color:rgba(251,113,133,.9);background:rgba(251,113,133,.10)}
+  .natInput.skipped{border-color:rgba(251,191,36,.95);background:rgba(251,191,36,.10)}
+  .natHint{color:var(--muted);font-size:12px}
+  .answerline{display:none;margin-top:10px;color:var(--muted);font-size:13px}
+  .answerline b{color:var(--ink)}
+  details.solution{margin-top:10px;border:1px dashed var(--border);border-radius:12px;padding:8px 10px;background:rgba(255,255,255,0.03)}
+  details.solution summary{cursor:pointer;color:var(--accent);font-weight:700}
+  .hidden{display:none !important}
+
+  /* Notice (anti-scam + official contact). */
+  .notice{display:flex;gap:12px;align-items:flex-start;justify-content:space-between;margin:12px 0 16px;padding:12px 14px;
+          border-radius:18px;border:1px solid rgba(110,231,255,.24);
+          background:linear-gradient(135deg, rgba(110,231,255,.12), rgba(74,222,128,.06) 55%, rgba(251,191,36,.06));
+          box-shadow:0 10px 28px rgba(0,0,0,0.25)}
+  .noticeMain{min-width:0}
+  .noticeTitle{font-weight:1000;letter-spacing:.3px;font-size:13px;line-height:1.25}
+  .noticeTitle .who{color:var(--accent)}
+  .noticeText{margin-top:6px;color:var(--muted);font-size:12px;line-height:1.45}
+  details.noticeMore{margin-top:8px}
+  details.noticeMore summary{cursor:pointer;color:var(--accent);font-weight:800;font-size:12px}
+  details.noticeMore .tips{margin-top:6px;color:var(--muted);font-size:12px;line-height:1.45}
+  details.noticeMore ul{margin:6px 0 0 18px;padding:0}
+  details.noticeMore li{margin:4px 0}
+  .noticeActions{display:flex;gap:8px;flex-wrap:wrap;align-items:center;justify-content:flex-end}
+  @media (max-width:700px){ .notice{flex-direction:column;align-items:stretch} .noticeActions{justify-content:flex-start} }
+
+  /* Toast for copy/hide actions. */
+  .toast{position:fixed;left:50%;bottom:64px;transform:translateX(-50%) translateY(6px);z-index:9999;
+         border:1px solid var(--border);background:var(--panel-bg);
+         -webkit-backdrop-filter:blur(6px);backdrop-filter:blur(6px);
+         color:var(--ink);padding:8px 12px;border-radius:999px;font-size:12px;font-weight:800;
+         opacity:0;pointer-events:none;transition:opacity .18s ease, transform .18s ease}
+  .toast.show{opacity:1;transform:translateX(-50%) translateY(0)}
+
+  /* Layout: main content + right tools/palette (no overlap with questions). */
+  .shell{display:grid;grid-template-columns:minmax(0,1fr) 260px;gap:14px;align-items:start;grid-template-areas:"main side";}
+  .main{grid-area:main;min-width:0;}
+  .side{grid-area:side;position:sticky;top:calc(var(--stickyHeaderH, 88px) + 12px);align-self:start;
+         max-height:calc(100vh - var(--stickyHeaderH, 88px) - 24px);display:flex;flex-direction:column;gap:10px;overflow:hidden;}
+  @media (max-width:980px){
+    .shell{grid-template-columns:1fr;grid-template-areas:"side" "main";}
+    .side{max-height:none;overflow:visible;}
+  }
+
+  .cornerTools{width:100%;display:grid;grid-template-columns:repeat(2, minmax(0,1fr));gap:6px;
+               border:1px solid var(--border);background:var(--panel-bg);
+               -webkit-backdrop-filter:blur(6px);backdrop-filter:blur(6px);border-radius:16px;padding:10px}
+  .cornerTools button{padding:8px 10px;border-radius:12px;font-size:12px}
+  .cornerTools button.primary{border-color:rgba(110,231,255,.55);
+                              background:linear-gradient(180deg,rgba(110,231,255,.18),rgba(110,231,255,.08));}
+  .cornerPanel{display:none;border:1px solid var(--border);background:var(--panel-bg);
+               -webkit-backdrop-filter:blur(6px);backdrop-filter:blur(6px);border-radius:16px;padding:10px;
+               overflow:auto;flex:1;min-height:0}
+  .cornerNav.open .cornerPanel{display:block}
+  .cornerGrid{display:grid;grid-template-columns:repeat(5,28px);gap:6px}
+  .cornerGrid .minibtn{width:28px;height:28px;padding:0;border-radius:999px;font-size:12px;font-weight:800;
+                       border:1px solid #2a2c3a;background:var(--minibtn-bg);color:var(--ink);cursor:pointer}
+  .cornerGrid .minibtn:hover{border-color:rgba(110,231,255,.55)}
+  .cornerGrid .minibtn.good{border-color:rgba(74,222,128,.9);background:rgba(74,222,128,.14)}
+  .cornerGrid .minibtn.bad{border-color:rgba(251,113,133,.9);background:rgba(251,113,133,.14)}
+  .cornerGrid .minibtn.warn{border-color:rgba(251,191,36,.95);background:rgba(251,191,36,.12)}
+  .cornerGrid .minibtn.unk{border-color:rgba(96,165,250,.95);background:rgba(96,165,250,.12)}
+  @media (max-width:520px){
+    .wrap{padding:0 12px 36px;}
+    .controls{width:100%;}
+    .cornerTools{grid-template-columns:repeat(3, minmax(0,1fr));}
+    .cornerTools button{font-size:11px;padding:8px 8px;}
+    .cornerGrid{grid-template-columns:repeat(6,32px);}
+    .cornerGrid .minibtn{width:32px;height:32px;}
+  }
+
+  /* Admin button (bottom-right). */
+  .adminFloat{position:fixed;right:12px;bottom:12px;z-index:9999;display:inline-block;
+              border:1px solid var(--border);background:var(--panel-bg);
+              -webkit-backdrop-filter:blur(6px);backdrop-filter:blur(6px);
+              color:var(--ink);padding:10px 12px;border-radius:999px;font-size:12px;font-weight:900;letter-spacing:.6px}
+  .adminFloat:hover{border-color:rgba(110,231,255,.55)}
+
+  @media print {
+    body{background:#fff;color:#000}
+    .wrap{max-width:none}
+    header,.summary,.side,.adminFloat,.notice,.toast{display:none !important}
+    .card{break-inside:avoid;border:1px solid #ddd;background:#fff}
+    label.opt{border:1px solid #ddd;background:#fff}
+    .qid{color:#000}
+    .tags,.meta{color:#444}
+    .answerline{display:block !important}
+    details.solution{open:true}
+  }
+</style>
+</head>
+<body>
+<a class="adminFloat" href="https://t.me/dvruo" target="_blank" rel="noopener">dvruo</a>
+<div class="wrap">
+  <header id="pageHeader">
+    <div>
+      <div class="brand">MADE EASY TEST SERIES</div>
+      <h1>Subject-wise Test-16 2026 ESE CE Ethics and values in engineering profession</h1>
+      <div class="meta">
+        Package: GATE 2026 + ESE 2026 Online Test Series - Civil Engineering • Questions: 25
+      </div>
+    </div>
+    <div class="controls">
+      <button class="secondary" type="button" id="themeToggle" title="Toggle theme" aria-label="Toggle theme">☾</button><button class="secondary" type="button" id="noticeInfo">Info</button><button class="secondary" type="button" id="copyAdmin">Copy @dvruo</button><a class="btn primary" href="https://t.me/dvruo" target="_blank" rel="noopener">Contact @dvruo</a>
+      <div class="timerWrap" id="timerWrap" data-duration="1800" aria-label="Timer"><span class="timerLabel">TIME LEFT</span><span class="timerTime" id="timerTime">--:--</span><button class="secondary timerBtn" type="button" id="timerToggle">Pause</button><button class="secondary timerBtn" type="button" id="timerReset" title="Reset timer">Reset</button></div>
+    </div>
+  </header>
+
+  <section class="notice" id="noticeBar" data-handle="@dvruo" aria-label="Official contact and scam warning">
+    <div class="noticeMain">
+      <div class="noticeTitle">FREE provided by <span class="who">@dvruo</span></div>
+      <div class="noticeText">Don't fall for scammers. For any course or support, contact only <span class="who">@dvruo</span>.</div>
+      <details class="noticeMore">
+        <summary>How to verify</summary>
+        <div class="tips">
+          <ul>
+            <li>Only trust the official Telegram handle shown here.</li>
+            <li>If anyone asks for money using a different username/number, ignore and block.</li>
+            <li>Use the buttons to copy the handle or open the official Telegram link.</li>
+          </ul>
+        </div>
+      </details>
+    </div>
+    <div class="noticeActions">
+      <button class="secondary" type="button" id="noticeCopy">Copy @dvruo</button>
+      <a class="btn primary" href="https://t.me/dvruo" target="_blank" rel="noopener">Open Telegram</a>
+      <button class="secondary" type="button" id="noticeHide">Hide</button>
+    </div>
+  </section>
+  <div class="toast" id="toast" aria-live="polite"></div>
+
+  <div class="shell">
+    <main class="main">
+      <div class="summary" id="summary">
+        <div class="grid">
+          <div class="kpi good"><div class="lbl">Correct</div><div class="val" id="kpi_correct">0</div></div>
+          <div class="kpi bad"><div class="lbl">Wrong</div><div class="val" id="kpi_wrong">0</div></div>
+          <div class="kpi warn"><div class="lbl">Skipped</div><div class="val" id="kpi_skipped">0</div></div>
+          <div class="kpi"><div class="lbl">Marks</div><div class="val" id="kpi_marks">0</div></div>
+          <div class="kpi"><div class="lbl">Attempted</div><div class="val" id="kpi_attempted">0</div></div>
+        </div>
+      </div>
+
+      <div id="questions">
+
+<section class="card qcard" id="q1" data-qnum="1" data-qtype="MCQ" data-nat-low="" data-nat-high="" data-correct="A" data-right="2.0" data-wrong="0.66">
+<div class="qhead">
+<div>
+<div class="qid">Q1 <span class="badge warn" data-badge style="display:none;">Not checked</span></div>
+<div class="tags">Technical • MECHANICAL ENGINEERING • +2 / -0.66</div>
+</div>
+<div style="text-align:right;"><span class="badge" data-choice>Not attempted</span></div>
+</div>
+<div class="qtext"><p>Which ethical principle emphasizes being truthful and straightforward in professional dealings?</p></div>
+<div class="opts">
+<label class="opt" data-opt="A"><input type="radio" name="q1" value="A"/><div><b>A.</b> Integrity</div></label>
+<label class="opt" data-opt="B"><input type="radio" name="q1" value="B"/><div><b>B.</b> Confidentiality</div></label>
+<label class="opt" data-opt="C"><input type="radio" name="q1" value="C"/><div><b>C.</b> Responsibility</div></label>
+<label class="opt" data-opt="D"><input type="radio" name="q1" value="D"/><div><b>D.</b> Accountability</div></label>
+</div>
+<div class="answerline" data-answerline>Correct answer: <b>A</b></div>
+<details class="solution">
+<summary>Solution</summary>
+<p>(a)</p>
+</details>
+</section>
+<section class="card qcard" id="q2" data-qnum="2" data-qtype="MCQ" data-nat-low="" data-nat-high="" data-correct="A" data-right="2.0" data-wrong="0.66">
+<div class="qhead">
+<div>
+<div class="qid">Q2 <span class="badge warn" data-badge style="display:none;">Not checked</span></div>
+<div class="tags">Technical • MECHANICAL ENGINEERING • +2 / -0.66</div>
+</div>
+<div style="text-align:right;"><span class="badge" data-choice>Not attempted</span></div>
+</div>
+<div class="qtext"><p>Consider the following statements:<br />
+1. Changing engineering paradigms necessitates engineers to study ethics.<br />
+2. To be a complete engineer, one must be aware of the ethical competencies involved in engineering as a profession.<br />
+Which of the above statements is/are correct?</p></div>
+<div class="opts">
+<label class="opt" data-opt="A"><input type="radio" name="q2" value="A"/><div><b>A.</b> 1 only</div></label>
+<label class="opt" data-opt="B"><input type="radio" name="q2" value="B"/><div><b>B.</b> 2 only</div></label>
+<label class="opt" data-opt="C"><input type="radio" name="q2" value="C"/><div><b>C.</b> Both 1 and 2</div></label>
+<label class="opt" data-opt="D"><input type="radio" name="q2" value="D"/><div><b>D.</b> Neither 1 nor 2</div></label>
+</div>
+<div class="answerline" data-answerline>Correct answer: <b>A</b></div>
+<details class="solution">
+<summary>Solution</summary>
+<p>(a)</p>
+</details>
+</section>
+<section class="card qcard" id="q3" data-qnum="3" data-qtype="MCQ" data-nat-low="" data-nat-high="" data-correct="B" data-right="2.0" data-wrong="0.66">
+<div class="qhead">
+<div>
+<div class="qid">Q3 <span class="badge warn" data-badge style="display:none;">Not checked</span></div>
+<div class="tags">Technical • MECHANICAL ENGINEERING • +2 / -0.66</div>
+</div>
+<div style="text-align:right;"><span class="badge" data-choice>Not attempted</span></div>
+</div>
+<div class="qtext"><p>Which of the following is NOT a key ethical consideration in the field of education?</p></div>
+<div class="opts">
+<label class="opt" data-opt="A"><input type="radio" name="q3" value="A"/><div><b>A.</b> Promoting student learning and welfare</div></label>
+<label class="opt" data-opt="B"><input type="radio" name="q3" value="B"/><div><b>B.</b> Maximizing personal income</div></label>
+<label class="opt" data-opt="C"><input type="radio" name="q3" value="C"/><div><b>C.</b> Maintaining a safe and inclusive learning environment</div></label>
+<label class="opt" data-opt="D"><input type="radio" name="q3" value="D"/><div><b>D.</b> Avoiding plagiarism</div></label>
+</div>
+<div class="answerline" data-answerline>Correct answer: <b>B</b></div>
+<details class="solution">
+<summary>Solution</summary>
+<p>(b)</p>
+</details>
+</section>
+<section class="card qcard" id="q4" data-qnum="4" data-qtype="MCQ" data-nat-low="" data-nat-high="" data-correct="B" data-right="2.0" data-wrong="0.66">
+<div class="qhead">
+<div>
+<div class="qid">Q4 <span class="badge warn" data-badge style="display:none;">Not checked</span></div>
+<div class="tags">Technical • MECHANICAL ENGINEERING • +2 / -0.66</div>
+</div>
+<div style="text-align:right;"><span class="badge" data-choice>Not attempted</span></div>
+</div>
+<div class="qtext"><p>Which of the following pairs is correctly matched?</p></div>
+<div class="opts">
+<label class="opt" data-opt="A"><input type="radio" name="q4" value="A"/><div><b>A.</b> Applied ethics: Provides ‘The Golden Rule’ of doing to other as we want them do to us.</div></label>
+<label class="opt" data-opt="B"><input type="radio" name="q4" value="B"/><div><b>B.</b> Normative ethics: looks for an ideal litmus test of reasonable behavior.</div></label>
+<label class="opt" data-opt="C"><input type="radio" name="q4" value="C"/><div><b>C.</b> Meta-ethics: Compares ethical system</div></label>
+<label class="opt" data-opt="D"><input type="radio" name="q4" value="D"/><div><b>D.</b> None of the above</div></label>
+</div>
+<div class="answerline" data-answerline>Correct answer: <b>B</b></div>
+<details class="solution">
+<summary>Solution</summary>
+<p>(b)<br />
+Normative theory involves arriving at moral standards that regulate right and wrong conduct. In<br />
+a sense, it is a search for an ideal litmus test of proper behavior.</p>
+</details>
+</section>
+<section class="card qcard" id="q5" data-qnum="5" data-qtype="MCQ" data-nat-low="" data-nat-high="" data-correct="B" data-right="2.0" data-wrong="0.66">
+<div class="qhead">
+<div>
+<div class="qid">Q5 <span class="badge warn" data-badge style="display:none;">Not checked</span></div>
+<div class="tags">Technical • MECHANICAL ENGINEERING • +2 / -0.66</div>
+</div>
+<div style="text-align:right;"><span class="badge" data-choice>Not attempted</span></div>
+</div>
+<div class="qtext"><p>Consider the following statements:<br />
+1. According to John Stuart Mill, most good produced is absolute morality.<br />
+2. According to him, rules of morality are imbibed through years of human experience and they are not flexible.<br />
+Which of the above statements is/are INCORRECT?</p></div>
+<div class="opts">
+<label class="opt" data-opt="A"><input type="radio" name="q5" value="A"/><div><b>A.</b> 1 only</div></label>
+<label class="opt" data-opt="B"><input type="radio" name="q5" value="B"/><div><b>B.</b> 2 only</div></label>
+<label class="opt" data-opt="C"><input type="radio" name="q5" value="C"/><div><b>C.</b> Both 1 and 2</div></label>
+<label class="opt" data-opt="D"><input type="radio" name="q5" value="D"/><div><b>D.</b> Neither 1 nor 2</div></label>
+</div>
+<div class="answerline" data-answerline>Correct answer: <b>B</b></div>
+<details class="solution">
+<summary>Solution</summary>
+<p>(b)<br />
+Rules of morality are imbibed through years of human experience and they are flexible. Hence statement 2 is incorrect.</p>
+</details>
+</section>
+<section class="card qcard" id="q6" data-qnum="6" data-qtype="MCQ" data-nat-low="" data-nat-high="" data-correct="C" data-right="2.0" data-wrong="0.66">
+<div class="qhead">
+<div>
+<div class="qid">Q6 <span class="badge warn" data-badge style="display:none;">Not checked</span></div>
+<div class="tags">Technical • MECHANICAL ENGINEERING • +2 / -0.66</div>
+</div>
+<div style="text-align:right;"><span class="badge" data-choice>Not attempted</span></div>
+</div>
+<div class="qtext"><p>Consider the following statements:<br />
+1. Value conflicts are often more difficult to resolve than either technical or economic-based conflicts.<br />
+2. Value conflict and ethical dilemma both are interwoven.<br />
+Which of the above statements is/are correct?</p></div>
+<div class="opts">
+<label class="opt" data-opt="A"><input type="radio" name="q6" value="A"/><div><b>A.</b> 1 only</div></label>
+<label class="opt" data-opt="B"><input type="radio" name="q6" value="B"/><div><b>B.</b> 2 only</div></label>
+<label class="opt" data-opt="C"><input type="radio" name="q6" value="C"/><div><b>C.</b> Both 1 and 2</div></label>
+<label class="opt" data-opt="D"><input type="radio" name="q6" value="D"/><div><b>D.</b> Neither 1 nor 2</div></label>
+</div>
+<div class="answerline" data-answerline>Correct answer: <b>C</b></div>
+<details class="solution">
+<summary>Solution</summary>
+<p>(c)</p>
+</details>
+</section>
+<section class="card qcard" id="q7" data-qnum="7" data-qtype="MCQ" data-nat-low="" data-nat-high="" data-correct="B" data-right="2.0" data-wrong="0.66">
+<div class="qhead">
+<div>
+<div class="qid">Q7 <span class="badge warn" data-badge style="display:none;">Not checked</span></div>
+<div class="tags">Technical • MECHANICAL ENGINEERING • +2 / -0.66</div>
+</div>
+<div style="text-align:right;"><span class="badge" data-choice>Not attempted</span></div>
+</div>
+<div class="qtext"><p>Consider the following statements:<br />
+1. In engineering context, moonlighting refers to working on projects which are prohibited or not properly authorized.<br />
+2. White-collar often arises in circumstances where business professionals misuse company information for financial gain.<br />
+3. Grease payments are usually offered to clear the passage of goods through customs and getting faster processing or permits.<br />
+Which of the above statements are correct?</p></div>
+<div class="opts">
+<label class="opt" data-opt="A"><input type="radio" name="q7" value="A"/><div><b>A.</b> 1 and 2 only</div></label>
+<label class="opt" data-opt="B"><input type="radio" name="q7" value="B"/><div><b>B.</b> 2 and 3 only</div></label>
+<label class="opt" data-opt="C"><input type="radio" name="q7" value="C"/><div><b>C.</b> 1 and 3 only</div></label>
+<label class="opt" data-opt="D"><input type="radio" name="q7" value="D"/><div><b>D.</b> 1, 2 and 3</div></label>
+</div>
+<div class="answerline" data-answerline>Correct answer: <b>B</b></div>
+<details class="solution">
+<summary>Solution</summary>
+<p>(b)</p>
+</details>
+</section>
+<section class="card qcard" id="q8" data-qnum="8" data-qtype="MCQ" data-nat-low="" data-nat-high="" data-correct="B" data-right="2.0" data-wrong="0.66">
+<div class="qhead">
+<div>
+<div class="qid">Q8 <span class="badge warn" data-badge style="display:none;">Not checked</span></div>
+<div class="tags">Technical • MECHANICAL ENGINEERING • +2 / -0.66</div>
+</div>
+<div style="text-align:right;"><span class="badge" data-choice>Not attempted</span></div>
+</div>
+<div class="qtext"><p>Which of the following statements is INCORRECT?</p></div>
+<div class="opts">
+<label class="opt" data-opt="A"><input type="radio" name="q8" value="A"/><div><b>A.</b> Contractual right arises solely out of an employee contract created by organizational policies or contracts.</div></label>
+<label class="opt" data-opt="B"><input type="radio" name="q8" value="B"/><div><b>B.</b> Balance of power is not the component of collegiality.</div></label>
+<label class="opt" data-opt="C"><input type="radio" name="q8" value="C"/><div><b>C.</b> Displaying initiative means going beyond work demands.</div></label>
+<label class="opt" data-opt="D"><input type="radio" name="q8" value="D"/><div><b>D.</b> Computer programming comes under hard skills.</div></label>
+</div>
+<div class="answerline" data-answerline>Correct answer: <b>B</b></div>
+<details class="solution">
+<summary>Solution</summary>
+<p>(b)<br />
+Balance of power is one of the components of collegiality. Hence statement was incorrect.</p>
+</details>
+</section>
+<section class="card qcard" id="q9" data-qnum="9" data-qtype="MCQ" data-nat-low="" data-nat-high="" data-correct="C" data-right="2.0" data-wrong="0.66">
+<div class="qhead">
+<div>
+<div class="qid">Q9 <span class="badge warn" data-badge style="display:none;">Not checked</span></div>
+<div class="tags">Technical • MECHANICAL ENGINEERING • +2 / -0.66</div>
+</div>
+<div style="text-align:right;"><span class="badge" data-choice>Not attempted</span></div>
+</div>
+<div class="qtext"><p>Which of the following cannot be exploited by assigning or by licensing the rights to others?</p></div>
+<div class="opts">
+<label class="opt" data-opt="A"><input type="radio" name="q9" value="A"/><div><b>A.</b> Patent</div></label>
+<label class="opt" data-opt="B"><input type="radio" name="q9" value="B"/><div><b>B.</b> Designs</div></label>
+<label class="opt" data-opt="C"><input type="radio" name="q9" value="C"/><div><b>C.</b> Trademark</div></label>
+<label class="opt" data-opt="D"><input type="radio" name="q9" value="D"/><div><b>D.</b> All of these</div></label>
+</div>
+<div class="answerline" data-answerline>Correct answer: <b>C</b></div>
+<details class="solution">
+<summary>Solution</summary>
+<p>(c)</p>
+</details>
+</section>
+<section class="card qcard" id="q10" data-qnum="10" data-qtype="MCQ" data-nat-low="" data-nat-high="" data-correct="B" data-right="2.0" data-wrong="0.66">
+<div class="qhead">
+<div>
+<div class="qid">Q10 <span class="badge warn" data-badge style="display:none;">Not checked</span></div>
+<div class="tags">Technical • MECHANICAL ENGINEERING • +2 / -0.66</div>
+</div>
+<div style="text-align:right;"><span class="badge" data-choice>Not attempted</span></div>
+</div>
+<div class="qtext"><p>Consider the following statements:<br />
+1. Nepotism describes a variety of practices related to favoritism including hiring one’s own family members who are overqualified.<br />
+2. Paternalism is a behavior by an organization which limits employee’s autonomy for own benefits.<br />
+Which of the above statements is/are correct?</p></div>
+<div class="opts">
+<label class="opt" data-opt="A"><input type="radio" name="q10" value="A"/><div><b>A.</b> 1 only</div></label>
+<label class="opt" data-opt="B"><input type="radio" name="q10" value="B"/><div><b>B.</b> 2 only</div></label>
+<label class="opt" data-opt="C"><input type="radio" name="q10" value="C"/><div><b>C.</b> Both 1 and 2</div></label>
+<label class="opt" data-opt="D"><input type="radio" name="q10" value="D"/><div><b>D.</b> Neither 1 nor 2</div></label>
+</div>
+<div class="answerline" data-answerline>Correct answer: <b>B</b></div>
+<details class="solution">
+<summary>Solution</summary>
+<p>(b)</p>
+</details>
+</section>
+<section class="card qcard" id="q11" data-qnum="11" data-qtype="MCQ" data-nat-low="" data-nat-high="" data-correct="D" data-right="2.0" data-wrong="0.66">
+<div class="qhead">
+<div>
+<div class="qid">Q11 <span class="badge warn" data-badge style="display:none;">Not checked</span></div>
+<div class="tags">Technical • MECHANICAL ENGINEERING • +2 / -0.66</div>
+</div>
+<div style="text-align:right;"><span class="badge" data-choice>Not attempted</span></div>
+</div>
+<div class="qtext"><p>Consider the following statements:<br />
+1. Moral misconduct involves values that are in conflict.<br />
+2. Those who are guilty of moral misconduct generally rationalize their action in order to avoid feeling guilty.<br />
+3. Conflict of interest refers to an inherent conflict between professional actively pursuing certain interests and carrying out his or her professional duties.<br />
+Which of the above statements are correct?</p></div>
+<div class="opts">
+<label class="opt" data-opt="A"><input type="radio" name="q11" value="A"/><div><b>A.</b> 1 and 2 only</div></label>
+<label class="opt" data-opt="B"><input type="radio" name="q11" value="B"/><div><b>B.</b> 2 and 3 only</div></label>
+<label class="opt" data-opt="C"><input type="radio" name="q11" value="C"/><div><b>C.</b> 1 and 3 only</div></label>
+<label class="opt" data-opt="D"><input type="radio" name="q11" value="D"/><div><b>D.</b> 1, 2 and 3</div></label>
+</div>
+<div class="answerline" data-answerline>Correct answer: <b>D</b></div>
+<details class="solution">
+<summary>Solution</summary>
+<p>(d)</p>
+</details>
+</section>
+<section class="card qcard" id="q12" data-qnum="12" data-qtype="MCQ" data-nat-low="" data-nat-high="" data-correct="C" data-right="2.0" data-wrong="0.66">
+<div class="qhead">
+<div>
+<div class="qid">Q12 <span class="badge warn" data-badge style="display:none;">Not checked</span></div>
+<div class="tags">Technical • MECHANICAL ENGINEERING • +2 / -0.66</div>
+</div>
+<div style="text-align:right;"><span class="badge" data-choice>Not attempted</span></div>
+</div>
+<div class="qtext"><p>Consider the following statements about the forms of dishonesty:<br />
+1. Falsification involves presenting only those data which are fit for one’s favoured theory and discarding the data related to his\her irregularities.<br />
+2. Fabrication involves inventing incorrect data and even reporting result of experiments that were never conducted.<br />
+Which of the above statements is/are correct?</p></div>
+<div class="opts">
+<label class="opt" data-opt="A"><input type="radio" name="q12" value="A"/><div><b>A.</b> 1 only</div></label>
+<label class="opt" data-opt="B"><input type="radio" name="q12" value="B"/><div><b>B.</b> 2 only</div></label>
+<label class="opt" data-opt="C"><input type="radio" name="q12" value="C"/><div><b>C.</b> Both 1 and 2</div></label>
+<label class="opt" data-opt="D"><input type="radio" name="q12" value="D"/><div><b>D.</b> Neither 1 nor 2</div></label>
+</div>
+<div class="answerline" data-answerline>Correct answer: <b>C</b></div>
+<details class="solution">
+<summary>Solution</summary>
+<p>(c)</p>
+</details>
+</section>
+<section class="card qcard" id="q13" data-qnum="13" data-qtype="MCQ" data-nat-low="" data-nat-high="" data-correct="B" data-right="2.0" data-wrong="0.66">
+<div class="qhead">
+<div>
+<div class="qid">Q13 <span class="badge warn" data-badge style="display:none;">Not checked</span></div>
+<div class="tags">Technical • MECHANICAL ENGINEERING • +2 / -0.66</div>
+</div>
+<div style="text-align:right;"><span class="badge" data-choice>Not attempted</span></div>
+</div>
+<div class="qtext"><p>Consider the following statements about Accountability:<br />
+1. Accountability do not include being answerable for meeting specific obligations.<br />
+2. Praiseworthy or blameworthy means to own the responsibility for the good or bad outcomes.<br />
+3. Conscientiousness is the willingness to upgrade their skills and put efforts for assigned work.<br />
+Which of the above statements are correct?</p></div>
+<div class="opts">
+<label class="opt" data-opt="A"><input type="radio" name="q13" value="A"/><div><b>A.</b> 1 and 2 only</div></label>
+<label class="opt" data-opt="B"><input type="radio" name="q13" value="B"/><div><b>B.</b> 2 and 3 only</div></label>
+<label class="opt" data-opt="C"><input type="radio" name="q13" value="C"/><div><b>C.</b> 1 and 3 only</div></label>
+<label class="opt" data-opt="D"><input type="radio" name="q13" value="D"/><div><b>D.</b> 1, 2 and 3</div></label>
+</div>
+<div class="answerline" data-answerline>Correct answer: <b>B</b></div>
+<details class="solution">
+<summary>Solution</summary>
+<p>(b)<br />
+Accountability include being answerable for meeting specific obligations. Hence statement 1 is incorrect.</p>
+</details>
+</section>
+<section class="card qcard" id="q14" data-qnum="14" data-qtype="MCQ" data-nat-low="" data-nat-high="" data-correct="B" data-right="2.0" data-wrong="0.66">
+<div class="qhead">
+<div>
+<div class="qid">Q14 <span class="badge warn" data-badge style="display:none;">Not checked</span></div>
+<div class="tags">Technical • MECHANICAL ENGINEERING • +2 / -0.66</div>
+</div>
+<div style="text-align:right;"><span class="badge" data-choice>Not attempted</span></div>
+</div>
+<div class="qtext"><p>Which of the following can be patented under Patent Act, 1970?</p></div>
+<div class="opts">
+<label class="opt" data-opt="A"><input type="radio" name="q14" value="A"/><div><b>A.</b> Playing a game</div></label>
+<label class="opt" data-opt="B"><input type="radio" name="q14" value="B"/><div><b>B.</b> An invention</div></label>
+<label class="opt" data-opt="C"><input type="radio" name="q14" value="C"/><div><b>C.</b> A scheme</div></label>
+<label class="opt" data-opt="D"><input type="radio" name="q14" value="D"/><div><b>D.</b> An aesthetic creation</div></label>
+</div>
+<div class="answerline" data-answerline>Correct answer: <b>B</b></div>
+<details class="solution">
+<summary>Solution</summary>
+<p>(b)</p>
+</details>
+</section>
+<section class="card qcard" id="q15" data-qnum="15" data-qtype="MCQ" data-nat-low="" data-nat-high="" data-correct="D" data-right="2.0" data-wrong="0.66">
+<div class="qhead">
+<div>
+<div class="qid">Q15 <span class="badge warn" data-badge style="display:none;">Not checked</span></div>
+<div class="tags">Technical • MECHANICAL ENGINEERING • +2 / -0.66</div>
+</div>
+<div style="text-align:right;"><span class="badge" data-choice>Not attempted</span></div>
+</div>
+<div class="qtext"><p>Which of following factors is/are considered while making ethical judgements?<br />
+1. The motive from the action emanates<br />
+2. The nature of the act<br />
+3. The resulting consequences<br />
+Select the correct answer using the codes given below:</p></div>
+<div class="opts">
+<label class="opt" data-opt="A"><input type="radio" name="q15" value="A"/><div><b>A.</b> 1 and 2 only</div></label>
+<label class="opt" data-opt="B"><input type="radio" name="q15" value="B"/><div><b>B.</b> 2 only</div></label>
+<label class="opt" data-opt="C"><input type="radio" name="q15" value="C"/><div><b>C.</b> 1 and 3 only</div></label>
+<label class="opt" data-opt="D"><input type="radio" name="q15" value="D"/><div><b>D.</b> 1, 2 and 3</div></label>
+</div>
+<div class="answerline" data-answerline>Correct answer: <b>D</b></div>
+<details class="solution">
+<summary>Solution</summary>
+<p>(d)</p>
+</details>
+</section>
+<section class="card qcard" id="q16" data-qnum="16" data-qtype="MCQ" data-nat-low="" data-nat-high="" data-correct="D" data-right="2.0" data-wrong="0.66">
+<div class="qhead">
+<div>
+<div class="qid">Q16 <span class="badge warn" data-badge style="display:none;">Not checked</span></div>
+<div class="tags">Technical • MECHANICAL ENGINEERING • +2 / -0.66</div>
+</div>
+<div style="text-align:right;"><span class="badge" data-choice>Not attempted</span></div>
+</div>
+<div class="qtext"><p>Engineers as employees are should be concerned with issues beyond wages, perks and job security; such as:</p></div>
+<div class="opts">
+<label class="opt" data-opt="A"><input type="radio" name="q16" value="A"/><div><b>A.</b> Public safety</div></label>
+<label class="opt" data-opt="B"><input type="radio" name="q16" value="B"/><div><b>B.</b> Job satisfaction</div></label>
+<label class="opt" data-opt="C"><input type="radio" name="q16" value="C"/><div><b>C.</b> Stress reduction</div></label>
+<label class="opt" data-opt="D"><input type="radio" name="q16" value="D"/><div><b>D.</b> All of the above</div></label>
+</div>
+<div class="answerline" data-answerline>Correct answer: <b>D</b></div>
+<details class="solution">
+<summary>Solution</summary>
+<p>(d)</p>
+</details>
+</section>
+<section class="card qcard" id="q17" data-qnum="17" data-qtype="MCQ" data-nat-low="" data-nat-high="" data-correct="D" data-right="2.0" data-wrong="0.66">
+<div class="qhead">
+<div>
+<div class="qid">Q17 <span class="badge warn" data-badge style="display:none;">Not checked</span></div>
+<div class="tags">Technical • MECHANICAL ENGINEERING • +2 / -0.66</div>
+</div>
+<div style="text-align:right;"><span class="badge" data-choice>Not attempted</span></div>
+</div>
+<div class="qtext"><p>Which of the following is a team-work virtue?</p></div>
+<div class="opts">
+<label class="opt" data-opt="A"><input type="radio" name="q17" value="A"/><div><b>A.</b> Perseverance</div></label>
+<label class="opt" data-opt="B"><input type="radio" name="q17" value="B"/><div><b>B.</b> Generosity</div></label>
+<label class="opt" data-opt="C"><input type="radio" name="q17" value="C"/><div><b>C.</b> Creativity</div></label>
+<label class="opt" data-opt="D"><input type="radio" name="q17" value="D"/><div><b>D.</b> Respect for authority</div></label>
+</div>
+<div class="answerline" data-answerline>Correct answer: <b>D</b></div>
+<details class="solution">
+<summary>Solution</summary>
+<p>(d)</p>
+</details>
+</section>
+<section class="card qcard" id="q18" data-qnum="18" data-qtype="MCQ" data-nat-low="" data-nat-high="" data-correct="D" data-right="2.0" data-wrong="0.66">
+<div class="qhead">
+<div>
+<div class="qid">Q18 <span class="badge warn" data-badge style="display:none;">Not checked</span></div>
+<div class="tags">Technical • MECHANICAL ENGINEERING • +2 / -0.66</div>
+</div>
+<div style="text-align:right;"><span class="badge" data-choice>Not attempted</span></div>
+</div>
+<div class="qtext"><p>For a design meets safety obligations, which of the following criteria are required?<br />
+1. Exploring alternate safer designs<br />
+2. Testing prototype as well as final product<br />
+3. Making the design based on the applicable law<br />
+Select the correct answer using the codes given below:</p></div>
+<div class="opts">
+<label class="opt" data-opt="A"><input type="radio" name="q18" value="A"/><div><b>A.</b> 1 and 2 only</div></label>
+<label class="opt" data-opt="B"><input type="radio" name="q18" value="B"/><div><b>B.</b> 2 and 3 only</div></label>
+<label class="opt" data-opt="C"><input type="radio" name="q18" value="C"/><div><b>C.</b> 1 and 3 only</div></label>
+<label class="opt" data-opt="D"><input type="radio" name="q18" value="D"/><div><b>D.</b> 1, 2 and 3</div></label>
+</div>
+<div class="answerline" data-answerline>Correct answer: <b>D</b></div>
+<details class="solution">
+<summary>Solution</summary>
+<p>(d)</p>
+</details>
+</section>
+<section class="card qcard" id="q19" data-qnum="19" data-qtype="MCQ" data-nat-low="" data-nat-high="" data-correct="C" data-right="2.0" data-wrong="0.66">
+<div class="qhead">
+<div>
+<div class="qid">Q19 <span class="badge warn" data-badge style="display:none;">Not checked</span></div>
+<div class="tags">Technical • MECHANICAL ENGINEERING • +2 / -0.66</div>
+</div>
+<div style="text-align:right;"><span class="badge" data-choice>Not attempted</span></div>
+</div>
+<div class="qtext"><p>Consider the following statements:<br />
+1. Conscientious moral commitment means being sensitive to full range of moral values and responsibilities relevant to the prevailing situation.<br />
+2. The willingness to develop the skill and put efforts needed to reach the consensus come under the ambit of conscientious moral commitment.<br />
+Which of the above statements is/are correct?</p></div>
+<div class="opts">
+<label class="opt" data-opt="A"><input type="radio" name="q19" value="A"/><div><b>A.</b> 1 only</div></label>
+<label class="opt" data-opt="B"><input type="radio" name="q19" value="B"/><div><b>B.</b> 2 only</div></label>
+<label class="opt" data-opt="C"><input type="radio" name="q19" value="C"/><div><b>C.</b> Both 1 and 2</div></label>
+<label class="opt" data-opt="D"><input type="radio" name="q19" value="D"/><div><b>D.</b> Neither 1 nor 2</div></label>
+</div>
+<div class="answerline" data-answerline>Correct answer: <b>C</b></div>
+<details class="solution">
+<summary>Solution</summary>
+<p>(c)</p>
+</details>
+</section>
+<section class="card qcard" id="q20" data-qnum="20" data-qtype="MCQ" data-nat-low="" data-nat-high="" data-correct="C" data-right="2.0" data-wrong="0.66">
+<div class="qhead">
+<div>
+<div class="qid">Q20 <span class="badge warn" data-badge style="display:none;">Not checked</span></div>
+<div class="tags">Technical • MECHANICAL ENGINEERING • +2 / -0.66</div>
+</div>
+<div style="text-align:right;"><span class="badge" data-choice>Not attempted</span></div>
+</div>
+<div class="qtext"><p>Consider the following statements:<br />
+1. Moonlighting refers to paid work that you do in addition to your normal job, especially without telling your employer.<br />
+2. The conflict of interest excludes the execution and evaluation of the project.<br />
+3. Insider information is typically gained by someone who is working within or close to a listed company.<br />
+Which of the above statements are correct?</p></div>
+<div class="opts">
+<label class="opt" data-opt="A"><input type="radio" name="q20" value="A"/><div><b>A.</b> 1 and 2 only</div></label>
+<label class="opt" data-opt="B"><input type="radio" name="q20" value="B"/><div><b>B.</b> 2 and 3 only</div></label>
+<label class="opt" data-opt="C"><input type="radio" name="q20" value="C"/><div><b>C.</b> 1 and 3 only</div></label>
+<label class="opt" data-opt="D"><input type="radio" name="q20" value="D"/><div><b>D.</b> 1, 2 and 3</div></label>
+</div>
+<div class="answerline" data-answerline>Correct answer: <b>C</b></div>
+<details class="solution">
+<summary>Solution</summary>
+<p>(c)<br />
+According to the European Federation Consultancy Association (EFCA), the conflict of interest<br />
+also includes the execution and evaluation of the project.</p>
+</details>
+</section>
+<section class="card qcard" id="q21" data-qnum="21" data-qtype="MCQ" data-nat-low="" data-nat-high="" data-correct="D" data-right="2.0" data-wrong="0.66">
+<div class="qhead">
+<div>
+<div class="qid">Q21 <span class="badge warn" data-badge style="display:none;">Not checked</span></div>
+<div class="tags">Technical • MECHANICAL ENGINEERING • +2 / -0.66</div>
+</div>
+<div style="text-align:right;"><span class="badge" data-choice>Not attempted</span></div>
+</div>
+<div class="qtext"><p><strong>Statement (I):</strong> Passive responsibility involves only accountability.<br />
+<strong>Statement (II):</strong> Blameworthiness means to blame someone for his/her actions or the consequences of those actions.</p></div>
+<div class="opts">
+<label class="opt" data-opt="A"><input type="radio" name="q21" value="A"/><div><b>A.</b> a</div></label>
+<label class="opt" data-opt="B"><input type="radio" name="q21" value="B"/><div><b>B.</b> b</div></label>
+<label class="opt" data-opt="C"><input type="radio" name="q21" value="C"/><div><b>C.</b> c</div></label>
+<label class="opt" data-opt="D"><input type="radio" name="q21" value="D"/><div><b>D.</b> d</div></label>
+</div>
+<div class="answerline" data-answerline>Correct answer: <b>D</b></div>
+<details class="solution">
+<summary>Solution</summary>
+<p>(d)<br />
+Passive responsibility involves not only accountability but also blameworthiness. Hence statement<br />
+I is incorrect.</p>
+</details>
+</section>
+<section class="card qcard" id="q22" data-qnum="22" data-qtype="MCQ" data-nat-low="" data-nat-high="" data-correct="D" data-right="2.0" data-wrong="0.66">
+<div class="qhead">
+<div>
+<div class="qid">Q22 <span class="badge warn" data-badge style="display:none;">Not checked</span></div>
+<div class="tags">Technical • MECHANICAL ENGINEERING • +2 / -0.66</div>
+</div>
+<div style="text-align:right;"><span class="badge" data-choice>Not attempted</span></div>
+</div>
+<div class="qtext"><p><strong>Statement (I):</strong> Utilitarianism does not ignore motivation and also focuses on consequences.<br />
+<strong>Statement (II):</strong> Act utilitarianism is sometimes referred to as consequentialism.</p></div>
+<div class="opts">
+<label class="opt" data-opt="A"><input type="radio" name="q22" value="A"/><div><b>A.</b> a</div></label>
+<label class="opt" data-opt="B"><input type="radio" name="q22" value="B"/><div><b>B.</b> b</div></label>
+<label class="opt" data-opt="C"><input type="radio" name="q22" value="C"/><div><b>C.</b> c</div></label>
+<label class="opt" data-opt="D"><input type="radio" name="q22" value="D"/><div><b>D.</b> d</div></label>
+</div>
+<div class="answerline" data-answerline>Correct answer: <b>D</b></div>
+<details class="solution">
+<summary>Solution</summary>
+<p>(d)<br />
+Utilitarianism is not concerned with motives behind an action.</p>
+</details>
+</section>
+<section class="card qcard" id="q23" data-qnum="23" data-qtype="MCQ" data-nat-low="" data-nat-high="" data-correct="D" data-right="2.0" data-wrong="0.66">
+<div class="qhead">
+<div>
+<div class="qid">Q23 <span class="badge warn" data-badge style="display:none;">Not checked</span></div>
+<div class="tags">Technical • MECHANICAL ENGINEERING • +2 / -0.66</div>
+</div>
+<div style="text-align:right;"><span class="badge" data-choice>Not attempted</span></div>
+</div>
+<div class="qtext"><p><strong>Statement (I):</strong> What is legal will always be ethical.<br />
+<strong>Statement (II):</strong> Ethical standards and law share the same theme of what is permissible and impermissible.</p></div>
+<div class="opts">
+<label class="opt" data-opt="A"><input type="radio" name="q23" value="A"/><div><b>A.</b> a</div></label>
+<label class="opt" data-opt="B"><input type="radio" name="q23" value="B"/><div><b>B.</b> b</div></label>
+<label class="opt" data-opt="C"><input type="radio" name="q23" value="C"/><div><b>C.</b> c</div></label>
+<label class="opt" data-opt="D"><input type="radio" name="q23" value="D"/><div><b>D.</b> d</div></label>
+</div>
+<div class="answerline" data-answerline>Correct answer: <b>D</b></div>
+<details class="solution">
+<summary>Solution</summary>
+<p>(d)</p>
+</details>
+</section>
+<section class="card qcard" id="q24" data-qnum="24" data-qtype="MCQ" data-nat-low="" data-nat-high="" data-correct="B" data-right="2.0" data-wrong="0.66">
+<div class="qhead">
+<div>
+<div class="qid">Q24 <span class="badge warn" data-badge style="display:none;">Not checked</span></div>
+<div class="tags">Technical • MECHANICAL ENGINEERING • +2 / -0.66</div>
+</div>
+<div style="text-align:right;"><span class="badge" data-choice>Not attempted</span></div>
+</div>
+<div class="qtext"><p><strong>Statement (I):</strong> Role morality is an extension of one being a professional.<br />
+<strong>Statement (II):</strong> Self-regulation and service to the public form a major part of one being a professional.</p></div>
+<div class="opts">
+<label class="opt" data-opt="A"><input type="radio" name="q24" value="A"/><div><b>A.</b> a</div></label>
+<label class="opt" data-opt="B"><input type="radio" name="q24" value="B"/><div><b>B.</b> b</div></label>
+<label class="opt" data-opt="C"><input type="radio" name="q24" value="C"/><div><b>C.</b> c</div></label>
+<label class="opt" data-opt="D"><input type="radio" name="q24" value="D"/><div><b>D.</b> d</div></label>
+</div>
+<div class="answerline" data-answerline>Correct answer: <b>B</b></div>
+<details class="solution">
+<summary>Solution</summary>
+<p>(b)</p>
+</details>
+</section>
+<section class="card qcard" id="q25" data-qnum="25" data-qtype="MCQ" data-nat-low="" data-nat-high="" data-correct="C" data-right="2.0" data-wrong="0.66">
+<div class="qhead">
+<div>
+<div class="qid">Q25 <span class="badge warn" data-badge style="display:none;">Not checked</span></div>
+<div class="tags">Technical • MECHANICAL ENGINEERING • +2 / -0.66</div>
+</div>
+<div style="text-align:right;"><span class="badge" data-choice>Not attempted</span></div>
+</div>
+<div class="qtext"><p><strong>Statement (I):</strong> Code of conduct can be divided into three parts, preamble, fundamental canons and rules of practice.<br />
+<strong>Statement (II):</strong> Engineers can accept free engineering designs, from material or equipment suppliers for specifying their product.</p></div>
+<div class="opts">
+<label class="opt" data-opt="A"><input type="radio" name="q25" value="A"/><div><b>A.</b> a</div></label>
+<label class="opt" data-opt="B"><input type="radio" name="q25" value="B"/><div><b>B.</b> b</div></label>
+<label class="opt" data-opt="C"><input type="radio" name="q25" value="C"/><div><b>C.</b> c</div></label>
+<label class="opt" data-opt="D"><input type="radio" name="q25" value="D"/><div><b>D.</b> d</div></label>
+</div>
+<div class="answerline" data-answerline>Correct answer: <b>C</b></div>
+<details class="solution">
+<summary>Solution</summary>
+<p>(c)<br />
+As per code of ethics engineers shall not accept financial or other considerations, including free engineering designs, from material or equipment suppliers for specifying their product.</p>
+</details>
+</section>
+
+      </div>
+    </main>
+
+    <aside class="side cornerNav" id="cornerNav" aria-label="Quick tools">
+      <div class="cornerTools">
+        <button class="secondary" type="button" onclick="window.print()">Print</button>
+        <button class="secondary" type="button" onclick="openAllSolutions()">Open</button>
+        <button class="secondary" type="button" onclick="closeAllSolutions()">Close</button>
+        <button class="secondary" type="button" onclick="resetAll()">Reset</button>
+        <button class="primary" type="button" onclick="submitAndCheck()">Submit</button>
+        <button class="cornerToggle secondary" type="button" id="cornerToggle" title="Question palette">Qs</button>
+      </div>
+      <div class="cornerPanel" id="cornerPanel">
+        <div class="cornerGrid">
+          <button class="minibtn" type="button" data-jump="q1" id="mini_q1" title="Q1">1</button><button class="minibtn" type="button" data-jump="q2" id="mini_q2" title="Q2">2</button><button class="minibtn" type="button" data-jump="q3" id="mini_q3" title="Q3">3</button><button class="minibtn" type="button" data-jump="q4" id="mini_q4" title="Q4">4</button><button class="minibtn" type="button" data-jump="q5" id="mini_q5" title="Q5">5</button><button class="minibtn" type="button" data-jump="q6" id="mini_q6" title="Q6">6</button><button class="minibtn" type="button" data-jump="q7" id="mini_q7" title="Q7">7</button><button class="minibtn" type="button" data-jump="q8" id="mini_q8" title="Q8">8</button><button class="minibtn" type="button" data-jump="q9" id="mini_q9" title="Q9">9</button><button class="minibtn" type="button" data-jump="q10" id="mini_q10" title="Q10">10</button><button class="minibtn" type="button" data-jump="q11" id="mini_q11" title="Q11">11</button><button class="minibtn" type="button" data-jump="q12" id="mini_q12" title="Q12">12</button><button class="minibtn" type="button" data-jump="q13" id="mini_q13" title="Q13">13</button><button class="minibtn" type="button" data-jump="q14" id="mini_q14" title="Q14">14</button><button class="minibtn" type="button" data-jump="q15" id="mini_q15" title="Q15">15</button><button class="minibtn" type="button" data-jump="q16" id="mini_q16" title="Q16">16</button><button class="minibtn" type="button" data-jump="q17" id="mini_q17" title="Q17">17</button><button class="minibtn" type="button" data-jump="q18" id="mini_q18" title="Q18">18</button><button class="minibtn" type="button" data-jump="q19" id="mini_q19" title="Q19">19</button><button class="minibtn" type="button" data-jump="q20" id="mini_q20" title="Q20">20</button><button class="minibtn" type="button" data-jump="q21" id="mini_q21" title="Q21">21</button><button class="minibtn" type="button" data-jump="q22" id="mini_q22" title="Q22">22</button><button class="minibtn" type="button" data-jump="q23" id="mini_q23" title="Q23">23</button><button class="minibtn" type="button" data-jump="q24" id="mini_q24" title="Q24">24</button><button class="minibtn" type="button" data-jump="q25" id="mini_q25" title="Q25">25</button>
+        </div>
+      </div>
+    </aside>
+  </div>
+ </div>
+
+
+<script>
+  // ---- Helpers ----
+  function byId(id){ return document.getElementById(id); }
+  function smoothScrollTo(el){
+    if(!el) return;
+    const headerH = pageHeader ? pageHeader.offsetHeight : 0;
+    let extra = 0;
+    // On narrow screens, the tools sidebar is placed above the content and may be sticky.
+    try{
+      if (window.matchMedia && window.matchMedia('(max-width:980px)').matches){
+        const side = byId('cornerNav');
+        const tools = side ? side.querySelector('.cornerTools') : null;
+        extra = tools ? tools.offsetHeight : (side ? side.offsetHeight : 0);
+      }
+    }catch(e){}
+    const y = el.getBoundingClientRect().top + window.scrollY - headerH - extra - 12;
+    window.scrollTo({top: Math.max(0, y), behavior:"smooth"});
+  }
+
+  // Sticky header height -> CSS var for scroll offsets & sidebar placement.
+  const pageHeader = byId('pageHeader');
+  function syncStickyHeaderH(){
+    const h = pageHeader ? pageHeader.offsetHeight : 0;
+    document.documentElement.style.setProperty('--stickyHeaderH', h + 'px');
+  }
+  window.addEventListener('resize', syncStickyHeaderH);
+  if (pageHeader && (typeof ResizeObserver !== 'undefined')){
+    try{
+      const ro = new ResizeObserver(() => syncStickyHeaderH());
+      ro.observe(pageHeader);
+    }catch(e){}
+  }
+  syncStickyHeaderH();
+
+  // Jump buttons
+  document.querySelectorAll('[data-jump]').forEach(btn => {
+    btn.addEventListener('click', () => {
+      const target = btn.getAttribute('data-jump');
+      smoothScrollTo(byId(target));
+    });
+  });
+
+  // Question palette toggle (persisted)
+  const cornerNav = byId('cornerNav');
+  const cornerToggle = byId('cornerToggle');
+  function setCornerOpen(on){
+    if(!cornerNav) return;
+    cornerNav.classList.toggle('open', !!on);
+    try{ localStorage.setItem('cornerNavOpen', on ? '1' : '0'); }catch(e){}
+  }
+  if (cornerNav && cornerToggle){
+    let saved = null;
+    try{ saved = localStorage.getItem('cornerNavOpen'); }catch(e){}
+    let initialOpen;
+    if (saved === '0' || saved === '1'){
+      initialOpen = (saved === '1');
+    } else {
+      // Default: open on wider screens, closed on mobile.
+      try{ initialOpen = !!(window.matchMedia && window.matchMedia('(min-width:981px)').matches); }catch(e){ initialOpen = true; }
+    }
+    setCornerOpen(initialOpen);
+    cornerToggle.addEventListener('click', () => {
+      setCornerOpen(!cornerNav.classList.contains('open'));
+    });
+  }
+
+  // Notice banner (anti-scam + official contact).
+  const noticeBar = byId('noticeBar');
+  const toastEl = byId('toast');
+  let toastTimer = null;
+  function showToast(msg){
+    if (!toastEl) return;
+    toastEl.textContent = msg || '';
+    toastEl.classList.add('show');
+    if (toastTimer) clearTimeout(toastTimer);
+    toastTimer = setTimeout(() => { try{ toastEl.classList.remove('show'); }catch(e){} }, 1800);
+  }
+  // Theme toggle (persisted)
+  function getTheme(){
+    return (document.documentElement.dataset.theme || 'dark').toLowerCase();
+  }
+  function applyTheme(t){
+    const theme = (t === 'light') ? 'light' : 'dark';
+    document.documentElement.dataset.theme = theme;
+    try{ localStorage.setItem('theme', theme); }catch(e){}
+    const btn = byId('themeToggle');
+    if (btn){
+      btn.textContent = (theme === 'dark') ? '☾' : '☀';
+      btn.title = 'Toggle theme';
+    }
+  }
+  applyTheme(getTheme());
+  const themeToggle = byId('themeToggle');
+  if (themeToggle){
+    themeToggle.addEventListener('click', () => {
+      const next = (getTheme() === 'dark') ? 'light' : 'dark';
+      applyTheme(next);
+      showToast(next === 'dark' ? 'Dark mode' : 'Light mode');
+    });
+  }
+
+  // Countdown timer (optional, provided by generator)
+  const timerWrap = byId('timerWrap');
+  if (timerWrap){
+    const timerTime = byId('timerTime');
+    const timerToggle = byId('timerToggle');
+    const timerReset = byId('timerReset');
+    const totalS = parseInt(timerWrap.getAttribute('data-duration') || '0', 10) || 0;
+    let remainingS = Math.max(0, totalS);
+    let running = false;
+    let endAtMs = 0;
+    let interval = null;
+
+    function fmtTime(s){
+      const x = Math.max(0, Math.floor(s));
+      const h = Math.floor(x / 3600);
+      const m = Math.floor((x % 3600) / 60);
+      const sec = x % 60;
+      if (h > 0) return String(h) + ':' + String(m).padStart(2,'0') + ':' + String(sec).padStart(2,'0');
+      return String(m) + ':' + String(sec).padStart(2,'0');
+    }
+    function syncTimerBtn(){
+      if (!timerToggle) return;
+      timerToggle.textContent = running ? 'Pause' : 'Resume';
+    }
+    function updateTimerUI(){
+      if (timerTime) timerTime.textContent = fmtTime(remainingS);
+      timerWrap.classList.toggle('warn', remainingS <= 5*60 && remainingS > 60);
+      timerWrap.classList.toggle('bad', remainingS <= 60 && remainingS > 0);
+      timerWrap.classList.toggle('done', remainingS <= 0);
+      syncTimerBtn();
+    }
+    function tick(){
+      if (!running) return;
+      remainingS = Math.max(0, Math.ceil((endAtMs - Date.now()) / 1000));
+      updateTimerUI();
+      if (remainingS <= 0){
+        pauseTimer();
+        try{ showToast('Time up'); }catch(e){}
+      }
+    }
+    function startTimer(){
+      if (running) return;
+      running = true;
+      endAtMs = Date.now() + remainingS * 1000;
+      if (interval) clearInterval(interval);
+      interval = setInterval(tick, 250);
+      tick();
+    }
+    function pauseTimer(){
+      if (!running) return;
+      tick();
+      running = false;
+      endAtMs = 0;
+      if (interval) clearInterval(interval);
+      interval = null;
+      updateTimerUI();
+    }
+    function toggleTimer(){
+      if (remainingS <= 0) return;
+      if (running) pauseTimer(); else startTimer();
+    }
+    function resetTimer(){
+      remainingS = Math.max(0, totalS);
+      timerWrap.classList.remove('done');
+      startTimer();
+      updateTimerUI();
+      try{ showToast('Timer reset'); }catch(e){}
+    }
+
+    updateTimerUI();
+    if (totalS > 0) startTimer();
+    if (timerToggle) timerToggle.addEventListener('click', toggleTimer);
+    if (timerReset) timerReset.addEventListener('click', resetTimer);
+    window.addEventListener('beforeunload', () => { try{ if (interval) clearInterval(interval); }catch(e){} });
+  }
+
+  async function copyText(txt){
+    const t = (txt || '').trim();
+    if (!t) return;
+    try{
+      if (navigator.clipboard && window.isSecureContext){
+        await navigator.clipboard.writeText(t);
+      } else {
+        const ta = document.createElement('textarea');
+        ta.value = t;
+        ta.setAttribute('readonly', '');
+        ta.style.position = 'fixed';
+        ta.style.left = '-9999px';
+        document.body.appendChild(ta);
+        ta.select();
+        document.execCommand('copy');
+        ta.remove();
+      }
+      showToast('Copied: ' + t);
+    }catch(e){
+      showToast('Copy failed');
+    }
+  }
+  function setNoticeHidden(on){
+    if (!noticeBar) return;
+    noticeBar.classList.toggle('hidden', !!on);
+    try{ localStorage.setItem('noticeHidden', on ? '1' : '0'); }catch(e){}
+  }
+  function getAdminHandle(){
+    if (!noticeBar) return '';
+    return (noticeBar.getAttribute('data-handle') || '').trim();
+  }
+  if (noticeBar){
+    let hidden = false;
+    try{ hidden = (localStorage.getItem('noticeHidden') === '1'); }catch(e){}
+    if (hidden) noticeBar.classList.add('hidden');
+
+    const btnCopy = byId('noticeCopy');
+    if (btnCopy) btnCopy.addEventListener('click', () => copyText(getAdminHandle()));
+    const btnHide = byId('noticeHide');
+    if (btnHide) btnHide.addEventListener('click', () => { setNoticeHidden(true); showToast('Notice hidden'); });
+  }
+  const copyAdmin = byId('copyAdmin');
+  if (copyAdmin){
+    copyAdmin.addEventListener('click', () => copyText(getAdminHandle()));
+  }
+  const noticeInfo = byId('noticeInfo');
+  if (noticeInfo){
+    noticeInfo.addEventListener('click', () => {
+      if (!noticeBar) return;
+      setNoticeHidden(false);
+      smoothScrollTo(noticeBar);
+    });
+  }
+
+  function openAllSolutions(){ document.querySelectorAll('details.solution').forEach(d => d.open = true); }
+  function closeAllSolutions(){ document.querySelectorAll('details.solution').forEach(d => d.open = false); }
+
+  function resetAll(){
+    // clear radios
+    document.querySelectorAll('.qcard').forEach(card => {
+      card.querySelectorAll('input[type="radio"]').forEach(r => r.checked = false);
+      card.querySelectorAll('label.opt').forEach(l => l.classList.remove('correct','wrong','skipped'));
+      card.querySelectorAll('input[data-nat-input]').forEach(inp => {
+        inp.value = "";
+        inp.classList.remove('correct','wrong','skipped');
+      });
+      const badge = card.querySelector('[data-badge]');
+      if (badge){ badge.style.display = "none"; badge.className = "badge warn"; badge.textContent = "Not checked"; }
+      const choice = card.querySelector('[data-choice]');
+      if (choice){ choice.textContent = "Not attempted"; choice.className = "badge"; }
+      const ans = card.querySelector('[data-answerline]');
+      if (ans) ans.style.display = "none";
+      const mini = byId('mini_q' + card.getAttribute('data-qnum'));
+      if (mini) mini.classList.remove('good','bad','warn','unk');
+    });
+    const sum = byId('summary');
+    if (sum) sum.style.display = "none";
+  }
+
+  function submitAndCheck(){
+    let correct = 0, wrong = 0, skipped = 0, marks = 0, attempted = 0;
+
+    document.querySelectorAll('.qcard').forEach(card => {
+      const qnum = card.getAttribute('data-qnum');
+      const qtype = (card.getAttribute('data-qtype') || 'MCQ').toLowerCase();
+      const correctAns = (card.getAttribute('data-correct') || '').toUpperCase();
+      const right = parseFloat(card.getAttribute('data-right') || '0') || 0;
+      const neg = parseFloat(card.getAttribute('data-wrong') || '0') || 0;
+
+      // reset option classes
+      card.querySelectorAll('label.opt').forEach(l => l.classList.remove('correct','wrong','skipped'));
+      const natInput = card.querySelector('input[data-nat-input]');
+      if (natInput) natInput.classList.remove('correct','wrong','skipped');
+
+      // status badge
+      const badge = card.querySelector('[data-badge]');
+      const choice = card.querySelector('[data-choice]');
+      const ansline = card.querySelector('[data-answerline]');
+      if (ansline) ansline.style.display = "block";
+
+      const mini = byId('mini_q' + qnum);
+      if (mini) mini.classList.remove('good','bad','warn','unk');
+
+      // ---- NAT grading ----
+      if (qtype === 'nat'){
+        const raw = natInput ? (natInput.value || '').trim() : "";
+        const low = parseFloat(card.getAttribute('data-nat-low') || '');
+        const high = parseFloat(card.getAttribute('data-nat-high') || '');
+        const hasKey = Number.isFinite(low) && Number.isFinite(high);
+
+        if (!raw){
+          skipped += 1;
+          if (badge){
+            badge.style.display = "inline-block";
+            badge.className = "badge warn";
+            badge.textContent = "Skipped";
+          }
+          if (choice){
+            choice.className = "badge warn";
+            choice.textContent = "Not attempted";
+          }
+          if (natInput && hasKey) natInput.classList.add('skipped');
+          if (mini) mini.classList.add(hasKey ? 'warn' : 'unk');
+          return;
+        }
+
+        attempted += 1;
+        if (choice){
+          choice.className = "badge";
+          choice.textContent = "Entered: " + raw;
+        }
+
+        if (!hasKey){
+          if (badge){
+            badge.style.display = "inline-block";
+            badge.className = "badge unk";
+            badge.textContent = "Key not available";
+          }
+          if (mini) mini.classList.add('unk');
+          return;
+        }
+
+        const val = parseFloat(raw.replace(/,/g, ''));
+        if (!Number.isFinite(val)){
+          wrong += 1;
+          marks -= neg;
+          if (natInput) natInput.classList.add('wrong');
+          if (badge){
+            badge.style.display = "inline-block";
+            badge.className = "badge bad";
+            badge.textContent = "Invalid number";
+          }
+          if (mini) mini.classList.add('bad');
+          return;
+        }
+
+        const eps = 1e-9;
+        const ok = (val + eps >= low) && (val - eps <= high);
+        if (ok){
+          correct += 1;
+          marks += right;
+          if (natInput) natInput.classList.add('correct');
+          if (badge){
+            badge.style.display = "inline-block";
+            badge.className = "badge good";
+            badge.textContent = "Correct";
+          }
+          if (mini) mini.classList.add('good');
+        } else {
+          wrong += 1;
+          marks -= neg;
+          if (natInput) natInput.classList.add('wrong');
+          if (badge){
+            badge.style.display = "inline-block";
+            badge.className = "badge bad";
+            badge.textContent = "Wrong";
+          }
+          if (mini) mini.classList.add('bad');
+        }
+        return;
+      }
+
+      // ---- MCQ grading ----
+      // selected
+      const sel = card.querySelector('input[type="radio"]:checked');
+      const selVal = sel ? sel.value.toUpperCase() : "";
+
+      if (!selVal){
+        skipped += 1;
+        if (badge){
+          badge.style.display = "inline-block";
+          badge.className = "badge warn";
+          badge.textContent = "Skipped";
+        }
+        if (choice){
+          choice.className = "badge warn";
+          choice.textContent = "Not attempted";
+        }
+        // highlight correct option only
+        if (correctAns){
+          const correctLabel = card.querySelector('label.opt[data-opt="' + correctAns + '"]');
+          if (correctLabel) correctLabel.classList.add('skipped');
+          if (mini) mini.classList.add('warn');
+        } else {
+          if (mini) mini.classList.add('unk');
+        }
+        return;
+      }
+
+      attempted += 1;
+      if (choice){
+        choice.className = "badge";
+        choice.textContent = "Selected: " + selVal;
+      }
+
+      if (!correctAns){
+        // Unknown key
+        if (badge){
+          badge.style.display = "inline-block";
+          badge.className = "badge unk";
+          badge.textContent = "Key not available";
+        }
+        if (mini) mini.classList.add('unk');
+        return;
+      }
+
+      const correctLabel = card.querySelector('label.opt[data-opt="' + correctAns + '"]');
+      if (correctLabel) correctLabel.classList.add('correct');
+
+      if (selVal === correctAns){
+        correct += 1;
+        marks += right;
+        if (badge){
+          badge.style.display = "inline-block";
+          badge.className = "badge good";
+          badge.textContent = "Correct";
+        }
+        if (mini) mini.classList.add('good');
+      } else {
+        wrong += 1;
+        marks -= neg;
+        const selLabel = card.querySelector('label.opt[data-opt="' + selVal + '"]');
+        if (selLabel) selLabel.classList.add('wrong');
+        if (badge){
+          badge.style.display = "inline-block";
+          badge.className = "badge bad";
+          badge.textContent = "Wrong";
+        }
+        if (mini) mini.classList.add('bad');
+      }
+    });
+
+    // Summary
+    byId('kpi_correct').textContent = String(correct);
+    byId('kpi_wrong').textContent = String(wrong);
+    byId('kpi_skipped').textContent = String(skipped);
+    byId('kpi_marks').textContent = (Math.round(marks * 100) / 100).toString();
+    byId('kpi_attempted').textContent = String(attempted);
+    byId('summary').style.display = "block";
+
+    // Scroll to summary for convenience
+    smoothScrollTo(byId('summary'));
+  }
+</script>
+</body>
+</html>
