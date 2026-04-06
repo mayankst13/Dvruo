@@ -1,0 +1,175 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>BIJZLI Test Series Portal</title>
+  <meta
+    name="description"
+    content="Professional BIJZLI test series portal with theme switching, fast branch browsing, and a cleaner student-first homepage."
+  >
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Sora:wght@400;500;600;700;800&family=Manrope:wght@500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/styles.css@v=20260402-brandfix.css">
+</head>
+<body data-theme="dark">
+  <div class="bg-grid" aria-hidden="true"></div>
+  <div class="bg-shape bg-shape-a" aria-hidden="true"></div>
+  <div class="bg-shape bg-shape-b" aria-hidden="true"></div>
+  <div class="bg-shape bg-shape-c" aria-hidden="true"></div>
+
+  <main class="layout">
+    <header class="hero card">
+      <div class="hero-top">
+        <p class="pill">
+          <a class="brand-link brand-link-pill" href="https://t.me/BIJZLI" target="_blank" rel="noopener">BIJZLI</a>
+          <span>TEST SERIES</span>
+        </p>
+        <div class="theme-corner" role="group" aria-label="Theme selector">
+          <button class="theme-btn" type="button" data-theme="dark" aria-pressed="false" title="Dark">
+            <span class="theme-swatch theme-swatch-dark" aria-hidden="true"></span>
+            <span class="theme-label">Dark</span>
+          </button>
+          <button class="theme-btn" type="button" data-theme="bright" aria-pressed="false" title="Bright">
+            <span class="theme-swatch theme-swatch-bright" aria-hidden="true"></span>
+            <span class="theme-label">Bright</span>
+          </button>
+          <button class="theme-btn" type="button" data-theme="green" aria-pressed="false" title="Green">
+            <span class="theme-swatch theme-swatch-green" aria-hidden="true"></span>
+            <span class="theme-label">Green</span>
+          </button>
+        </div>
+      </div>
+
+      <div class="support-banner">
+        <span class="support-label">Student Notice</span>
+        <p>
+          This is freely given. Do not fall into the trap of any sellers.
+          If someone tries to sell this content, report them on Telegram at
+          <a class="brand-link" href="https://t.me/BIJZLI" target="_blank" rel="noopener">@BIJZLI</a>.
+          For any content issue, contact
+          <a class="brand-link" href="https://t.me/BIJZLI" target="_blank" rel="noopener">BIJZLI</a>
+          first.
+        </p>
+      </div>
+
+      <section class="hero-copy">
+        <h1>Free test access, built by <a class="brand-link hero-brand-link" href="https://t.me/BIJZLI" target="_blank" rel="noopener">BIJZLI</a> for students.</h1>
+        <p class="subtitle">
+          <a class="brand-link" href="https://t.me/BIJZLI" target="_blank" rel="noopener">BIJZLI</a>
+          stands with learners, keeps quality access open, and leaves no room for reseller traps.
+        </p>
+
+        <div class="hero-manifesto" aria-label="Student support slogan">
+          <p>Made for students.</p>
+          <p>Free to use.</p>
+          <p>Not for resellers.</p>
+        </div>
+
+        <div class="brand-list">
+          <a class="brand-chip brand-chip-link" href="https://t.me/BIJZLI" target="_blank" rel="noopener">BIJZLI EASY</a>
+          <a class="brand-chip brand-chip-link" href="https://t.me/BIJZLI" target="_blank" rel="noopener">BIJZLI ZEAL</a>
+        </div>
+
+        <p class="contact-line">
+          For any content issue, contact
+          <a class="brand-link" href="https://t.me/BIJZLI" target="_blank" rel="noopener">BIJZLI</a>
+          first.
+        </p>
+
+        <div class="stats">
+          <article class="stat-card">
+            <h2 id="branch-count">-</h2>
+            <p>Branches</p>
+          </article>
+          <article class="stat-card">
+            <h2 id="provider-count">-</h2>
+            <p>Providers</p>
+          </article>
+          <article class="stat-card">
+            <h2 id="test-count">-</h2>
+            <p>Total Tests</p>
+          </article>
+        </div>
+      </section>
+    </header>
+
+    <section class="selector card" aria-labelledby="selector-title">
+      <div class="selector-top">
+        <div>
+          <p class="step-text">Portal</p>
+          <h2 id="selector-title">Find your test series</h2>
+        </div>
+        <button id="reset-btn" class="ghost-btn" type="button">Reset Selection</button>
+      </div>
+
+      <div id="status-note" class="status-note">Loading BIJZLI test library...</div>
+
+      <section>
+        <h3>Branch</h3>
+        <div id="branch-grid" class="branch-grid"></div>
+      </section>
+
+      <section id="provider-section" class="hidden">
+        <h3>Provider</h3>
+        <div id="provider-chips" class="chip-wrap"></div>
+      </section>
+
+      <section id="series-section" class="hidden">
+        <h3>Index</h3>
+        <div id="series-grid" class="series-grid"></div>
+      </section>
+
+      <section id="tests-section" class="hidden">
+        <div class="tests-top">
+          <h3>Papers</h3>
+          <input id="search-input" type="search" placeholder="Search papers">
+        </div>
+        <div id="filter-chips" class="chip-wrap"></div>
+        <p id="result-count" class="result-count"></p>
+        <div id="tests-list" class="tests-list"></div>
+      </section>
+    </section>
+  </main>
+
+  <script>
+    (function () {
+      var key = "bijzli-theme-v3";
+      var supported = { dark: true, bright: true, green: true };
+
+      function applyTheme(themeName) {
+        var nextTheme = supported[themeName] ? themeName : "dark";
+        document.body.dataset.theme = nextTheme;
+
+        var buttons = document.querySelectorAll(".theme-btn");
+        buttons.forEach(function (button) {
+          var active = button.getAttribute("data-theme") === nextTheme;
+          button.classList.toggle("active", active);
+          button.setAttribute("aria-pressed", String(active));
+        });
+
+        try {
+          localStorage.setItem(key, nextTheme);
+        } catch (_error) {}
+      }
+
+      window.__bijzliThemeKey = key;
+      window.setBijzliTheme = applyTheme;
+
+      try {
+        applyTheme(localStorage.getItem(key) || "dark");
+      } catch (_error) {
+        applyTheme("dark");
+      }
+
+      document.addEventListener("click", function (event) {
+        var button = event.target.closest(".theme-btn");
+        if (!button) return;
+        applyTheme(button.getAttribute("data-theme"));
+      });
+    })();
+  </script>
+  <script src="assets/app.js@v=20260402-brandfix" defer></script>
+</body>
+</html>

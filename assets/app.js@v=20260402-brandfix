@@ -1,0 +1,438 @@
+const refs = {
+  statusNote: document.getElementById("status-note"),
+  branchGrid: document.getElementById("branch-grid"),
+  providerSection: document.getElementById("provider-section"),
+  providerChips: document.getElementById("provider-chips"),
+  seriesSection: document.getElementById("series-section"),
+  seriesGrid: document.getElementById("series-grid"),
+  testsSection: document.getElementById("tests-section"),
+  testsList: document.getElementById("tests-list"),
+  filterChips: document.getElementById("filter-chips"),
+  searchInput: document.getElementById("search-input"),
+  resultCount: document.getElementById("result-count"),
+  branchCount: document.getElementById("branch-count"),
+  providerCount: document.getElementById("provider-count"),
+  testCount: document.getElementById("test-count"),
+  resetBtn: document.getElementById("reset-btn"),
+  themeButtons: Array.from(document.querySelectorAll(".theme-btn"))
+};
+
+const filterOrder = [
+  "all",
+  "mock",
+  "subjectwise",
+  "topicwise",
+  "basic",
+  "advance",
+  "demo",
+  "full-syllabus",
+  "other"
+];
+
+const filterLabels = {
+  all: "All",
+  mock: "Mock",
+  subjectwise: "Subjectwise",
+  topicwise: "Topicwise",
+  basic: "Basic",
+  advance: "Advance",
+  demo: "Demo",
+  "full-syllabus": "Full Syllabus",
+  other: "Other"
+};
+
+const providerDisplayNames = {
+  "MADE EASY": "BIJZLI EASY",
+  "GATE ZEAL": "BIJZLI ZEAL"
+};
+
+const supportedThemes = new Set(["bright", "dark", "green"]);
+const themeStorageKey = window.__bijzliThemeKey || "bijzli-theme-v3";
+
+const state = {
+  manifest: null,
+  branchIndex: null,
+  providerIndex: null,
+  seriesIndex: null,
+  filter: "all",
+  searchText: "",
+  theme: "dark"
+};
+
+function categoryFromTitle(title) {
+  const text = title.toLowerCase();
+  if (text.includes("mock")) return "mock";
+  if (text.includes("subjectwise")) return "subjectwise";
+  if (text.includes("topicwise")) return "topicwise";
+  if (text.includes("basic")) return "basic";
+  if (text.includes("advance")) return "advance";
+  if (text.includes("demo")) return "demo";
+  if (text.includes("full syllabus")) return "full-syllabus";
+  return "other";
+}
+
+function encodedPath(path) {
+  return encodeURI(path);
+}
+
+function normalizeLabel(text) {
+  return String(text ?? "")
+    .replace(/_/g, " ")
+    .replace(/\s+/g, " ")
+    .trim();
+}
+
+function displayBranchName(name) {
+  return normalizeLabel(name);
+}
+
+function displaySeriesName(name) {
+  return normalizeLabel(name);
+}
+
+function displayProviderName(name) {
+  const normalized = normalizeLabel(name);
+  return providerDisplayNames[normalized.toUpperCase()] ?? normalized;
+}
+
+function createElement(tagName, className, text) {
+  const element = document.createElement(tagName);
+  if (className) {
+    element.className = className;
+  }
+  if (typeof text === "string") {
+    element.textContent = text;
+  }
+  return element;
+}
+
+function pluralize(count, singular, plural = `${singular}s`) {
+  return `${count} ${count === 1 ? singular : plural}`;
+}
+
+function getBranch() {
+  if (state.branchIndex === null) return null;
+  return state.manifest.branches[state.branchIndex] ?? null;
+}
+
+function getProvider() {
+  const branch = getBranch();
+  if (!branch || state.providerIndex === null) return null;
+  return branch.providers[state.providerIndex] ?? null;
+}
+
+function getSeries() {
+  const provider = getProvider();
+  if (!provider || state.seriesIndex === null) return null;
+  return provider.series[state.seriesIndex] ?? null;
+}
+
+function setStatus(message, isError = false) {
+  refs.statusNote.textContent = message;
+  refs.statusNote.classList.toggle("error", isError);
+}
+
+function updateThemeButtons() {
+  refs.themeButtons.forEach((button) => {
+    const isActive = button.dataset.theme === state.theme;
+    button.classList.toggle("active", isActive);
+    button.setAttribute("aria-pressed", String(isActive));
+  });
+}
+
+function applyTheme(themeName) {
+  const nextTheme = supportedThemes.has(themeName) ? themeName : "dark";
+  state.theme = nextTheme;
+  document.body.dataset.theme = nextTheme;
+  updateThemeButtons();
+
+  try {
+    localStorage.setItem(themeStorageKey, nextTheme);
+  } catch (_error) {
+    // Theme persistence is optional.
+  }
+}
+
+function initializeTheme() {
+  refs.themeButtons.forEach((button) => {
+    button.addEventListener("click", () => {
+      if (typeof window.setBijzliTheme === "function") {
+        window.setBijzliTheme(button.dataset.theme);
+      }
+      applyTheme(button.dataset.theme);
+    });
+  });
+
+  let storedTheme = "dark";
+  try {
+    storedTheme = localStorage.getItem(themeStorageKey) || "dark";
+  } catch (_error) {
+    storedTheme = "dark";
+  }
+
+  applyTheme(storedTheme);
+}
+
+function updateHeaderCounts() {
+  refs.branchCount.textContent = String(state.manifest.branchCount ?? 0);
+  refs.testCount.textContent = String(state.manifest.testCount ?? 0);
+  const providers = new Set();
+
+  state.manifest.branches.forEach((branch) => {
+    branch.providers.forEach((provider) => {
+      providers.add(displayProviderName(provider.name));
+    });
+  });
+
+  refs.providerCount.textContent = String(providers.size);
+}
+
+function resetSelection() {
+  state.branchIndex = null;
+  state.providerIndex = null;
+  state.seriesIndex = null;
+  state.filter = "all";
+  state.searchText = "";
+  refs.searchInput.value = "";
+  render();
+}
+
+function renderBranches() {
+  refs.branchGrid.innerHTML = "";
+
+  state.manifest.branches.forEach((branch, index) => {
+    const button = createElement("button", "branch-card");
+    button.type = "button";
+
+    if (state.branchIndex === index) {
+      button.classList.add("active");
+    }
+
+    const title = createElement("h4", "", displayBranchName(branch.name));
+    const meta = createElement(
+      "p",
+      "meta",
+      `${pluralize(branch.providerCount, "provider")} | ${branch.testCount} tests`
+    );
+
+    button.append(title, meta);
+    button.addEventListener("click", () => {
+      state.branchIndex = index;
+      state.providerIndex = null;
+      state.seriesIndex = null;
+      state.filter = "all";
+      state.searchText = "";
+      refs.searchInput.value = "";
+      render();
+    });
+
+    refs.branchGrid.appendChild(button);
+  });
+}
+
+function renderProviders() {
+  const branch = getBranch();
+  refs.providerChips.innerHTML = "";
+  refs.providerSection.classList.toggle("hidden", !branch);
+
+  if (!branch) return;
+
+  branch.providers.forEach((provider, index) => {
+    const button = createElement(
+      "button",
+      "chip",
+      `${displayProviderName(provider.name)} (${provider.testCount})`
+    );
+
+    button.type = "button";
+
+    if (state.providerIndex === index) {
+      button.classList.add("active");
+    }
+
+    button.addEventListener("click", () => {
+      state.providerIndex = index;
+      state.seriesIndex = null;
+      state.filter = "all";
+      state.searchText = "";
+      refs.searchInput.value = "";
+      render();
+    });
+
+    refs.providerChips.appendChild(button);
+  });
+}
+
+function renderSeries() {
+  const provider = getProvider();
+  refs.seriesGrid.innerHTML = "";
+  refs.seriesSection.classList.toggle("hidden", !provider);
+
+  if (!provider) return;
+
+  provider.series.forEach((series, index) => {
+    const button = createElement("button", "series-card");
+    button.type = "button";
+
+    if (state.seriesIndex === index) {
+      button.classList.add("active");
+    }
+
+    const title = createElement("h4", "", displaySeriesName(series.name));
+    const meta = createElement("p", "meta", `${series.testCount} tests`);
+
+    button.append(title, meta);
+    button.addEventListener("click", () => {
+      state.seriesIndex = index;
+      state.filter = "all";
+      state.searchText = "";
+      refs.searchInput.value = "";
+      render();
+    });
+
+    refs.seriesGrid.appendChild(button);
+  });
+}
+
+function renderTests() {
+  const series = getSeries();
+  refs.testsSection.classList.toggle("hidden", !series);
+  refs.testsList.innerHTML = "";
+  refs.filterChips.innerHTML = "";
+  refs.resultCount.textContent = "";
+
+  if (!series) return;
+
+  const availableFilters = new Set(["all"]);
+  series.tests.forEach((test) => {
+    availableFilters.add(categoryFromTitle(test.title));
+  });
+
+  const orderedFilters = filterOrder.filter((key) => availableFilters.has(key));
+  if (!availableFilters.has(state.filter)) {
+    state.filter = "all";
+  }
+
+  orderedFilters.forEach((filterKey) => {
+    const button = createElement("button", "chip", filterLabels[filterKey] ?? filterKey);
+    button.type = "button";
+
+    if (state.filter === filterKey) {
+      button.classList.add("active");
+    }
+
+    button.addEventListener("click", () => {
+      state.filter = filterKey;
+      renderTests();
+    });
+
+    refs.filterChips.appendChild(button);
+  });
+
+  const searchValue = state.searchText.toLowerCase().trim();
+  const filteredTests = series.tests.filter((test) => {
+    const matchesFilter =
+      state.filter === "all" || categoryFromTitle(test.title) === state.filter;
+
+    if (!matchesFilter) return false;
+    if (!searchValue) return true;
+
+    return test.title.toLowerCase().includes(searchValue);
+  });
+
+  refs.resultCount.textContent = `${filteredTests.length} papers`;
+
+  if (filteredTests.length === 0) {
+    const empty = createElement(
+      "div",
+      "empty-state",
+      "No tests matched this filter or search term. Try a different keyword."
+    );
+    refs.testsList.appendChild(empty);
+    return;
+  }
+
+  filteredTests.forEach((test) => {
+    const link = createElement("a", "test-card");
+    link.href = encodedPath(test.path);
+    link.target = "_blank";
+    link.rel = "noopener";
+
+    const category = categoryFromTitle(test.title);
+    const tag = createElement("span", "tag", filterLabels[category] ?? "Other");
+    const name = createElement("span", "name", test.title);
+
+    link.append(tag, name);
+    refs.testsList.appendChild(link);
+  });
+}
+
+function renderStatusText() {
+  const branch = getBranch();
+  const provider = getProvider();
+  const series = getSeries();
+
+  if (!branch) {
+    setStatus("Select a branch.");
+    return;
+  }
+
+  if (!provider) {
+    setStatus(`${displayBranchName(branch.name)} selected. Select a provider.`);
+    return;
+  }
+
+  if (!series) {
+    setStatus(
+      `${displayBranchName(branch.name)} | ${displayProviderName(provider.name)}`
+    );
+    return;
+  }
+
+  setStatus(
+    `${displayBranchName(branch.name)} | ${displayProviderName(provider.name)} | ${displaySeriesName(series.name)}`
+  );
+}
+
+function render() {
+  renderBranches();
+  renderProviders();
+  renderSeries();
+  renderTests();
+  renderStatusText();
+}
+
+async function initialize() {
+  initializeTheme();
+
+  refs.resetBtn.addEventListener("click", resetSelection);
+  refs.searchInput.addEventListener("input", (event) => {
+    state.searchText = event.target.value;
+    renderTests();
+  });
+
+  try {
+    const response = await fetch("https://raw.githubusercontent.com/mayankst13/Dvruo/main/data/series-manifest.json", { cache: "no-store" });
+    if (!response.ok) {
+      throw new Error(`Manifest fetch failed with status ${response.status}`);
+    }
+
+    const manifest = await response.json();
+    if (!manifest || !Array.isArray(manifest.branches)) {
+      throw new Error("Manifest format is invalid.");
+    }
+
+    state.manifest = manifest;
+    document.title = manifest.siteTitle || "Dvruo Test Series Portal";
+    updateHeaderCounts();
+    render();
+  } catch (error) {
+    setStatus(
+      "Could not load test data. Run this folder on Netlify or a local server and reload the page.",
+      true
+    );
+    console.error(error);
+  }
+}
+
+initialize();
