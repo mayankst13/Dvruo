@@ -744,6 +744,408 @@
           ]
         },
         {
+          "name": "Electronics-Communication",
+          "series": [
+            {
+              "name": "All",
+              "tests": [
+                {
+                  "title": "001_Advance Level Test-1 Full Syllabus GATE 2025 EC",
+                  "path": "/tests/providers/Electronics-Communication/MadeEasy/001_Advance Level Test-1 Full Syllabus GATE 2025 EC.html"
+                },
+                {
+                  "title": "002_Advance Level Test-1 Full Syllabus GATE 2026 EC",
+                  "path": "/tests/providers/Electronics-Communication/MadeEasy/002_Advance Level Test-1 Full Syllabus GATE 2026 EC.html"
+                },
+                {
+                  "title": "003_Advance Level Test-2 Full Syllabus GATE 2025 EC",
+                  "path": "/tests/providers/Electronics-Communication/MadeEasy/003_Advance Level Test-2 Full Syllabus GATE 2025 EC.html"
+                },
+                {
+                  "title": "004_Advance Level Test-2 Full Syllabus GATE 2026 EC",
+                  "path": "/tests/providers/Electronics-Communication/MadeEasy/004_Advance Level Test-2 Full Syllabus GATE 2026 EC.html"
+                },
+                {
+                  "title": "005_Advance Level Test-3 Full Syllabus GATE 2025 EC",
+                  "path": "/tests/providers/Electronics-Communication/MadeEasy/005_Advance Level Test-3 Full Syllabus GATE 2025 EC.html"
+                },
+                {
+                  "title": "006_Advance Level Test-3 Full Syllabus GATE 2026 EC",
+                  "path": "/tests/providers/Electronics-Communication/MadeEasy/006_Advance Level Test-3 Full Syllabus GATE 2026 EC.html"
+                },
+                {
+                  "title": "007_Advance Level Test-4 Full Syllabus GATE 2025 EC",
+                  "path": "/tests/providers/Electronics-Communication/MadeEasy/007_Advance Level Test-4 Full Syllabus GATE 2025 EC.html"
+                },
+                {
+                  "title": "008_Advance Level Test-4 Full Syllabus GATE 2026 EC",
+                  "path": "/tests/providers/Electronics-Communication/MadeEasy/008_Advance Level Test-4 Full Syllabus GATE 2026 EC.html"
+                },
+                {
+                  "title": "009_Basic Level Test-1 Full Syllabus GATE 2025 EC",
+                  "path": "/tests/providers/Electronics-Communication/MadeEasy/009_Basic Level Test-1 Full Syllabus GATE 2025 EC.html"
+                },
+                {
+                  "title": "010_Basic Level Test-1 Full Syllabus GATE 2026 EC",
+                  "path": "/tests/providers/Electronics-Communication/MadeEasy/010_Basic Level Test-1 Full Syllabus GATE 2026 EC.html"
+                },
+                {
+                  "title": "011_Basic Level Test-2 Full Syllabus GATE 2025 EC",
+                  "path": "/tests/providers/Electronics-Communication/MadeEasy/011_Basic Level Test-2 Full Syllabus GATE 2025 EC.html"
+                },
+                {
+                  "title": "012_Basic Level Test-2 Full Syllabus GATE 2026 EC",
+                  "path": "/tests/providers/Electronics-Communication/MadeEasy/012_Basic Level Test-2 Full Syllabus GATE 2026 EC.html"
+                },
+                {
+                  "title": "013_Basic Level Test-3 Full Syllabus GATE 2025 EC",
+                  "path": "/tests/providers/Electronics-Communication/MadeEasy/013_Basic Level Test-3 Full Syllabus GATE 2025 EC.html"
+                },
+                {
+                  "title": "014_Basic Level Test-3 Full Syllabus GATE 2026 EC",
+                  "path": "/tests/providers/Electronics-Communication/MadeEasy/014_Basic Level Test-3 Full Syllabus GATE 2026 EC.html"
+                },
+                {
+                  "title": "015_Basic Level Test-4 Full Syllabus GATE 2025 EC",
+                  "path": "/tests/providers/Electronics-Communication/MadeEasy/015_Basic Level Test-4 Full Syllabus GATE 2025 EC.html"
+                },
+                {
+                  "title": "016_Basic Level Test-4 Full Syllabus GATE 2026 EC",
+                  "path": "/tests/providers/Electronics-Communication/MadeEasy/016_Basic Level Test-4 Full Syllabus GATE 2026 EC.html"
+                },
+                {
+                  "title": "017_ESE 2026 DEMO TEST EC",
+                  "path": "/tests/providers/Electronics-Communication/MadeEasy/017_ESE 2026 DEMO TEST EC.html"
+                },
+                {
+                  "title": "018_GATE 2026 DEMO TEST EC",
+                  "path": "/tests/providers/Electronics-Communication/MadeEasy/018_GATE 2026 DEMO TEST EC.html"
+                },
+                {
+                  "title": "019_Mock Level Test-1 Full Syllabus GATE 2025 EC",
+                  "path": "/tests/providers/Electronics-Communication/MadeEasy/019_Mock Level Test-1 Full Syllabus GATE 2025 EC.html"
+                },
+                {
+                  "title": "020_Mock_Level_Test_1_Full_Syllabus_GATE_2026_EC_GATE_Mock_Test",
+                  "path": "/tests/providers/Electronics-Communication/MadeEasy/020_Mock_Level_Test_1_Full_Syllabus_GATE_2026_EC_GATE_Mock_Test.html"
+                },
+                {
+                  "title": "021_Mock Level Test-2 Full Syllabus GATE 2025 EC",
+                  "path": "/tests/providers/Electronics-Communication/MadeEasy/021_Mock Level Test-2 Full Syllabus GATE 2025 EC.html"
+                },
+                {
+                  "title": "022_Mock Level Test-2 Full Syllabus GATE 2026 EC",
+                  "path": "/tests/providers/Electronics-Communication/MadeEasy/022_Mock Level Test-2 Full Syllabus GATE 2026 EC.html"
+                },
+                {
+                  "title": "023_Mock Level Test-3 Full Syllabus GATE 2025 EC",
+                  "path": "/tests/providers/Electronics-Communication/MadeEasy/023_Mock Level Test-3 Full Syllabus GATE 2025 EC.html"
+                },
+                {
+                  "title": "024_Mock Level Test-3 Full Syllabus GATE 2026 EC",
+                  "path": "/tests/providers/Electronics-Communication/MadeEasy/024_Mock Level Test-3 Full Syllabus GATE 2026 EC.html"
+                },
+                {
+                  "title": "025_Mock Level Test-4 Full Syllabus GATE 2025 EC",
+                  "path": "/tests/providers/Electronics-Communication/MadeEasy/025_Mock Level Test-4 Full Syllabus GATE 2025 EC.html"
+                },
+                {
+                  "title": "026_Mock Level Test-4 Full Syllabus GATE 2026 EC",
+                  "path": "/tests/providers/Electronics-Communication/MadeEasy/026_Mock Level Test-4 Full Syllabus GATE 2026 EC.html"
+                },
+                {
+                  "title": "027_Subjectwise Test-1 Part Syllabus GATE 2025 EC Networks",
+                  "path": "/tests/providers/Electronics-Communication/MadeEasy/027_Subjectwise Test-1 Part Syllabus GATE 2025 EC Networks.html"
+                },
+                {
+                  "title": "028_Subjectwise Test-1 Part Syllabus GATE 2026 EC Networks",
+                  "path": "/tests/providers/Electronics-Communication/MadeEasy/028_Subjectwise Test-1 Part Syllabus GATE 2026 EC Networks.html"
+                },
+                {
+                  "title": "029_Subjectwise_Test_10_Part_Syllabus_GATE_2025_EC_Digital_Circuits",
+                  "path": "/tests/providers/Electronics-Communication/MadeEasy/029_Subjectwise_Test_10_Part_Syllabus_GATE_2025_EC_Digital_Circuits.html"
+                },
+                {
+                  "title": "030_Subjectwise_Test_10_Part_Syllabus_GATE_2026_EC_Digital_Circuits",
+                  "path": "/tests/providers/Electronics-Communication/MadeEasy/030_Subjectwise_Test_10_Part_Syllabus_GATE_2026_EC_Digital_Circuits.html"
+                },
+                {
+                  "title": "031_Subjectwise_Test_11_Part_Syllabus_GATE_2025_EC_Electromagnetics",
+                  "path": "/tests/providers/Electronics-Communication/MadeEasy/031_Subjectwise_Test_11_Part_Syllabus_GATE_2025_EC_Electromagnetics.html"
+                },
+                {
+                  "title": "032_Subjectwise_Test_11_Part_Syllabus_GATE_2026_EC_Electromagnetics",
+                  "path": "/tests/providers/Electronics-Communication/MadeEasy/032_Subjectwise_Test_11_Part_Syllabus_GATE_2026_EC_Electromagnetics.html"
+                },
+                {
+                  "title": "033_Subjectwise Test-12 Part Syllabus GATE 2025 EC COA",
+                  "path": "/tests/providers/Electronics-Communication/MadeEasy/033_Subjectwise Test-12 Part Syllabus GATE 2025 EC COA.html"
+                },
+                {
+                  "title": "034_Subjectwise_Test_12_Part_Syllabus_GATE_2026_EC_COMPUTER_ORGANISATION",
+                  "path": "/tests/providers/Electronics-Communication/MadeEasy/034_Subjectwise_Test_12_Part_Syllabus_GATE_2026_EC_COMPUTER_ORGANISATION.html"
+                },
+                {
+                  "title": "035_Subjectwise_Test_2_Part_Syllabus_GATE_2025_EC_Control_Systems",
+                  "path": "/tests/providers/Electronics-Communication/MadeEasy/035_Subjectwise_Test_2_Part_Syllabus_GATE_2025_EC_Control_Systems.html"
+                },
+                {
+                  "title": "036_Subjectwise_Test_2_Part_Syllabus_GATE_2026_EC_Control_Systems",
+                  "path": "/tests/providers/Electronics-Communication/MadeEasy/036_Subjectwise_Test_2_Part_Syllabus_GATE_2026_EC_Control_Systems.html"
+                },
+                {
+                  "title": "037_Subjectwise_Test_3_Part_Syllabus_GATE_2025_EC_ELECTRONIC_DEVICES",
+                  "path": "/tests/providers/Electronics-Communication/MadeEasy/037_Subjectwise_Test_3_Part_Syllabus_GATE_2025_EC_ELECTRONIC_DEVICES.html"
+                },
+                {
+                  "title": "038_Subjectwise_Test_3_Part_Syllabus_GATE_2026_EC_ELECTRONIC_DEVICES",
+                  "path": "/tests/providers/Electronics-Communication/MadeEasy/038_Subjectwise_Test_3_Part_Syllabus_GATE_2026_EC_ELECTRONIC_DEVICES.html"
+                },
+                {
+                  "title": "039_Subjectwise_Test_4_Part_Syllabus_GATE_2025_EC_Signals_and_Systems",
+                  "path": "/tests/providers/Electronics-Communication/MadeEasy/039_Subjectwise_Test_4_Part_Syllabus_GATE_2025_EC_Signals_and_Systems.html"
+                },
+                {
+                  "title": "040_Subjectwise_Test_4_Part_Syllabus_GATE_2026_EC_Signals_and_Systems",
+                  "path": "/tests/providers/Electronics-Communication/MadeEasy/040_Subjectwise_Test_4_Part_Syllabus_GATE_2026_EC_Signals_and_Systems.html"
+                },
+                {
+                  "title": "041_Subjectwise_Test_5_Part_Syllabus_GATE_2025_EC_Engineering_Mathematics",
+                  "path": "/tests/providers/Electronics-Communication/MadeEasy/041_Subjectwise_Test_5_Part_Syllabus_GATE_2025_EC_Engineering_Mathematics.html"
+                },
+                {
+                  "title": "042_Subjectwise_Test_5_Part_Syllabus_GATE_2026_EC_Engineering_Mathematics",
+                  "path": "/tests/providers/Electronics-Communication/MadeEasy/042_Subjectwise_Test_5_Part_Syllabus_GATE_2026_EC_Engineering_Mathematics.html"
+                },
+                {
+                  "title": "043_Subjectwise_Test_6_Part_Syllabus_GATE_2025_EC_General_Aptitude",
+                  "path": "/tests/providers/Electronics-Communication/MadeEasy/043_Subjectwise_Test_6_Part_Syllabus_GATE_2025_EC_General_Aptitude.html"
+                },
+                {
+                  "title": "044_Subjectwise_Test_6_Part_Syllabus_GATE_2026_EC_General_Aptitude",
+                  "path": "/tests/providers/Electronics-Communication/MadeEasy/044_Subjectwise_Test_6_Part_Syllabus_GATE_2026_EC_General_Aptitude.html"
+                },
+                {
+                  "title": "045_Subjectwise_Test_7_Part_Syllabus_GATE_2025_EC_Analog_Circuits",
+                  "path": "/tests/providers/Electronics-Communication/MadeEasy/045_Subjectwise_Test_7_Part_Syllabus_GATE_2025_EC_Analog_Circuits.html"
+                },
+                {
+                  "title": "046_Subjectwise_Test_7_Part_Syllabus_GATE_2026_EC_Analog_Circuits",
+                  "path": "/tests/providers/Electronics-Communication/MadeEasy/046_Subjectwise_Test_7_Part_Syllabus_GATE_2026_EC_Analog_Circuits.html"
+                },
+                {
+                  "title": "047_Subjectwise_Test_8_Part_Syllabus_GATE_2025_EC_Analog_Communication",
+                  "path": "/tests/providers/Electronics-Communication/MadeEasy/047_Subjectwise_Test_8_Part_Syllabus_GATE_2025_EC_Analog_Communication.html"
+                },
+                {
+                  "title": "048_Subjectwise_Test_8_Part_Syllabus_GATE_2026_EC_Analog_Communication",
+                  "path": "/tests/providers/Electronics-Communication/MadeEasy/048_Subjectwise_Test_8_Part_Syllabus_GATE_2026_EC_Analog_Communication.html"
+                },
+                {
+                  "title": "049_Subjectwise_Test_9_Part_Syllabus_GATE_2025_EC_Digital_Communication",
+                  "path": "/tests/providers/Electronics-Communication/MadeEasy/049_Subjectwise_Test_9_Part_Syllabus_GATE_2025_EC_Digital_Communication.html"
+                },
+                {
+                  "title": "050_Subjectwise_Test_9_Part_Syllabus_GATE_2026_EC_Digital_Communication",
+                  "path": "/tests/providers/Electronics-Communication/MadeEasy/050_Subjectwise_Test_9_Part_Syllabus_GATE_2026_EC_Digital_Communication.html"
+                },
+                {
+                  "title": "051_Topicwise Test -1 Part Syllabus GATE 2026 EC Network 1",
+                  "path": "/tests/providers/Electronics-Communication/MadeEasy/051_Topicwise Test -1 Part Syllabus GATE 2026 EC Network 1.html"
+                },
+                {
+                  "title": "052_Topicwise Test-1 Part Syllabus GATE 2025 EC Network -1",
+                  "path": "/tests/providers/Electronics-Communication/MadeEasy/052_Topicwise Test-1 Part Syllabus GATE 2025 EC Network -1.html"
+                },
+                {
+                  "title": "053_Topicwise_Test_10_Part_Syllabus_GATE_2025_EC_Engineering_Mathematics",
+                  "path": "/tests/providers/Electronics-Communication/MadeEasy/053_Topicwise_Test_10_Part_Syllabus_GATE_2025_EC_Engineering_Mathematics.html"
+                },
+                {
+                  "title": "054_Topicwise_Test_10_Part_Syllabus_GATE_2026_EC_Engineering_Mathematics",
+                  "path": "/tests/providers/Electronics-Communication/MadeEasy/054_Topicwise_Test_10_Part_Syllabus_GATE_2026_EC_Engineering_Mathematics.html"
+                },
+                {
+                  "title": "055_Topicwise_Test_11_Part_Syllabus_GATE_2025_EC_General_Aptitude",
+                  "path": "/tests/providers/Electronics-Communication/MadeEasy/055_Topicwise_Test_11_Part_Syllabus_GATE_2025_EC_General_Aptitude.html"
+                },
+                {
+                  "title": "056_Topicwise_Test_11_Part_Syllabus_GATE_2026_EC_General_Aptitude",
+                  "path": "/tests/providers/Electronics-Communication/MadeEasy/056_Topicwise_Test_11_Part_Syllabus_GATE_2026_EC_General_Aptitude.html"
+                },
+                {
+                  "title": "057_Topicwise_Test_12_Part_Syllabus_GATE_2025_EC_General_Aptitude",
+                  "path": "/tests/providers/Electronics-Communication/MadeEasy/057_Topicwise_Test_12_Part_Syllabus_GATE_2025_EC_General_Aptitude.html"
+                },
+                {
+                  "title": "058_Topicwise_Test_12_Part_Syllabus_GATE_2026_EC_General_Aptitude",
+                  "path": "/tests/providers/Electronics-Communication/MadeEasy/058_Topicwise_Test_12_Part_Syllabus_GATE_2026_EC_General_Aptitude.html"
+                },
+                {
+                  "title": "059_Topicwise_Test_13_Part_Syllabus_GATE_2025_EC_Analog_circuit",
+                  "path": "/tests/providers/Electronics-Communication/MadeEasy/059_Topicwise_Test_13_Part_Syllabus_GATE_2025_EC_Analog_circuit.html"
+                },
+                {
+                  "title": "060_Topicwise_Test_13_Part_Syllabus_GATE_2026_EC_Analog_circuit",
+                  "path": "/tests/providers/Electronics-Communication/MadeEasy/060_Topicwise_Test_13_Part_Syllabus_GATE_2026_EC_Analog_circuit.html"
+                },
+                {
+                  "title": "061_Topicwise_Test_14_Part_Syllabus_GATE_2025_EC_Analog_circuit",
+                  "path": "/tests/providers/Electronics-Communication/MadeEasy/061_Topicwise_Test_14_Part_Syllabus_GATE_2025_EC_Analog_circuit.html"
+                },
+                {
+                  "title": "062_Topicwise_Test_14_Part_Syllabus_GATE_2026_EC_Analog_circuit",
+                  "path": "/tests/providers/Electronics-Communication/MadeEasy/062_Topicwise_Test_14_Part_Syllabus_GATE_2026_EC_Analog_circuit.html"
+                },
+                {
+                  "title": "063_Topicwise_Test_15_Part_Syllabus_GATE_2025_EC_Analog_circuit",
+                  "path": "/tests/providers/Electronics-Communication/MadeEasy/063_Topicwise_Test_15_Part_Syllabus_GATE_2025_EC_Analog_circuit.html"
+                },
+                {
+                  "title": "064_Topicwise_Test_15_Part_Syllabus_GATE_2026_EC_Analog_circuit",
+                  "path": "/tests/providers/Electronics-Communication/MadeEasy/064_Topicwise_Test_15_Part_Syllabus_GATE_2026_EC_Analog_circuit.html"
+                },
+                {
+                  "title": "065_Topicwise_Test_16_Part_Syllabus_GATE_2025_EC_Computer_Organisation",
+                  "path": "/tests/providers/Electronics-Communication/MadeEasy/065_Topicwise_Test_16_Part_Syllabus_GATE_2025_EC_Computer_Organisation.html"
+                },
+                {
+                  "title": "066_Topicwise_Test_16_Part_Syllabus_GATE_2026_EC_Computer_Organisation",
+                  "path": "/tests/providers/Electronics-Communication/MadeEasy/066_Topicwise_Test_16_Part_Syllabus_GATE_2026_EC_Computer_Organisation.html"
+                },
+                {
+                  "title": "067_Topicwise_Test_17_Part_Syllabus_GATE_2025_EC_Digital_circuits",
+                  "path": "/tests/providers/Electronics-Communication/MadeEasy/067_Topicwise_Test_17_Part_Syllabus_GATE_2025_EC_Digital_circuits.html"
+                },
+                {
+                  "title": "068_Topicwise_Test_17_Part_Syllabus_GATE_2026_EC_Digital_circuits",
+                  "path": "/tests/providers/Electronics-Communication/MadeEasy/068_Topicwise_Test_17_Part_Syllabus_GATE_2026_EC_Digital_circuits.html"
+                },
+                {
+                  "title": "069_Topicwise_Test_18_Part_Syllabus_GATE_2025_EC_Digital_circuits",
+                  "path": "/tests/providers/Electronics-Communication/MadeEasy/069_Topicwise_Test_18_Part_Syllabus_GATE_2025_EC_Digital_circuits.html"
+                },
+                {
+                  "title": "070_Topicwise_Test_18_Part_Syllabus_GATE_2026_EC_Digital_circuits",
+                  "path": "/tests/providers/Electronics-Communication/MadeEasy/070_Topicwise_Test_18_Part_Syllabus_GATE_2026_EC_Digital_circuits.html"
+                },
+                {
+                  "title": "071_Topicwise_Test_19_Part_Syllabus_GATE_2025_EC_Communications",
+                  "path": "/tests/providers/Electronics-Communication/MadeEasy/071_Topicwise_Test_19_Part_Syllabus_GATE_2025_EC_Communications.html"
+                },
+                {
+                  "title": "072_Topicwise_Test_19_Part_Syllabus_GATE_2026_EC_Communications",
+                  "path": "/tests/providers/Electronics-Communication/MadeEasy/072_Topicwise_Test_19_Part_Syllabus_GATE_2026_EC_Communications.html"
+                },
+                {
+                  "title": "073_Topicwise Test-2 Part Syllabus GATE 2025 EC Network-2",
+                  "path": "/tests/providers/Electronics-Communication/MadeEasy/073_Topicwise Test-2 Part Syllabus GATE 2025 EC Network-2.html"
+                },
+                {
+                  "title": "074_Topicwise Test-2 Part Syllabus GATE 2026 EC Network-2",
+                  "path": "/tests/providers/Electronics-Communication/MadeEasy/074_Topicwise Test-2 Part Syllabus GATE 2026 EC Network-2.html"
+                },
+                {
+                  "title": "075_Topicwise_Test_20_Part_Syllabus_GATE_2025_EC_Communications",
+                  "path": "/tests/providers/Electronics-Communication/MadeEasy/075_Topicwise_Test_20_Part_Syllabus_GATE_2025_EC_Communications.html"
+                },
+                {
+                  "title": "076_Topicwise_Test_20_Part_Syllabus_GATE_2026_EC_Communications",
+                  "path": "/tests/providers/Electronics-Communication/MadeEasy/076_Topicwise_Test_20_Part_Syllabus_GATE_2026_EC_Communications.html"
+                },
+                {
+                  "title": "077_Topicwise_Test_21_Part_Syllabus_GATE_2025_EC_Communications",
+                  "path": "/tests/providers/Electronics-Communication/MadeEasy/077_Topicwise_Test_21_Part_Syllabus_GATE_2025_EC_Communications.html"
+                },
+                {
+                  "title": "078_Topicwise_Test_21_Part_Syllabus_GATE_2026_EC_Communications",
+                  "path": "/tests/providers/Electronics-Communication/MadeEasy/078_Topicwise_Test_21_Part_Syllabus_GATE_2026_EC_Communications.html"
+                },
+                {
+                  "title": "079_Topicwise_Test_22_Part_Syllabus_GATE_2025_EC_Electromagnetics",
+                  "path": "/tests/providers/Electronics-Communication/MadeEasy/079_Topicwise_Test_22_Part_Syllabus_GATE_2025_EC_Electromagnetics.html"
+                },
+                {
+                  "title": "080_Topicwise_Test_22_Part_Syllabus_GATE_2026_EC_Electromagnetics",
+                  "path": "/tests/providers/Electronics-Communication/MadeEasy/080_Topicwise_Test_22_Part_Syllabus_GATE_2026_EC_Electromagnetics.html"
+                },
+                {
+                  "title": "081_Topicwise_Test_23_Part_Syllabus_GATE_2025_EC_Electromagnetics",
+                  "path": "/tests/providers/Electronics-Communication/MadeEasy/081_Topicwise_Test_23_Part_Syllabus_GATE_2025_EC_Electromagnetics.html"
+                },
+                {
+                  "title": "082_Topicwise_Test_23_Part_Syllabus_GATE_2026_EC_Electromagnetics",
+                  "path": "/tests/providers/Electronics-Communication/MadeEasy/082_Topicwise_Test_23_Part_Syllabus_GATE_2026_EC_Electromagnetics.html"
+                },
+                {
+                  "title": "083_Topicwise_Test_24_Part_Syllabus_GATE_2025_EC_Electromagnetics",
+                  "path": "/tests/providers/Electronics-Communication/MadeEasy/083_Topicwise_Test_24_Part_Syllabus_GATE_2025_EC_Electromagnetics.html"
+                },
+                {
+                  "title": "084_Topicwise_Test_24_Part_Syllabus_GATE_2026_EC_Electromagnetics",
+                  "path": "/tests/providers/Electronics-Communication/MadeEasy/084_Topicwise_Test_24_Part_Syllabus_GATE_2026_EC_Electromagnetics.html"
+                },
+                {
+                  "title": "085_Topicwise_Test_3_Part_Syllabus_GATE_2025_EC_Control_System_1",
+                  "path": "/tests/providers/Electronics-Communication/MadeEasy/085_Topicwise_Test_3_Part_Syllabus_GATE_2025_EC_Control_System_1.html"
+                },
+                {
+                  "title": "086_Topicwise_Test_3_Part_Syllabus_GATE_2026_EC_Control_System_1",
+                  "path": "/tests/providers/Electronics-Communication/MadeEasy/086_Topicwise_Test_3_Part_Syllabus_GATE_2026_EC_Control_System_1.html"
+                },
+                {
+                  "title": "087_Topicwise_Test_4_Part_Syllabus_GATE_2025_EC_Control_System_2",
+                  "path": "/tests/providers/Electronics-Communication/MadeEasy/087_Topicwise_Test_4_Part_Syllabus_GATE_2025_EC_Control_System_2.html"
+                },
+                {
+                  "title": "088_Topicwise_Test_4_Part_Syllabus_GATE_2026_EC_Control_System_2",
+                  "path": "/tests/providers/Electronics-Communication/MadeEasy/088_Topicwise_Test_4_Part_Syllabus_GATE_2026_EC_Control_System_2.html"
+                },
+                {
+                  "title": "089_Topicwise_Test_5_Part_Syllabus_GATE_2025_EC_Electronic_devices",
+                  "path": "/tests/providers/Electronics-Communication/MadeEasy/089_Topicwise_Test_5_Part_Syllabus_GATE_2025_EC_Electronic_devices.html"
+                },
+                {
+                  "title": "090_Topicwise_Test_5_Part_Syllabus_GATE_2026_EC_Electronic_Devices",
+                  "path": "/tests/providers/Electronics-Communication/MadeEasy/090_Topicwise_Test_5_Part_Syllabus_GATE_2026_EC_Electronic_Devices.html"
+                },
+                {
+                  "title": "091_Topicwise_Test_6_Part_Syllabus_GATE_2025_EC_Electronic_Devices",
+                  "path": "/tests/providers/Electronics-Communication/MadeEasy/091_Topicwise_Test_6_Part_Syllabus_GATE_2025_EC_Electronic_Devices.html"
+                },
+                {
+                  "title": "092_Topicwise_Test_6_Part_Syllabus_GATE_2026_EC_Electronic_Devices",
+                  "path": "/tests/providers/Electronics-Communication/MadeEasy/092_Topicwise_Test_6_Part_Syllabus_GATE_2026_EC_Electronic_Devices.html"
+                },
+                {
+                  "title": "093_Topicwise_Test_7_Part_Syllabus_GATE_2025_EC_Signals_and_Systems",
+                  "path": "/tests/providers/Electronics-Communication/MadeEasy/093_Topicwise_Test_7_Part_Syllabus_GATE_2025_EC_Signals_and_Systems.html"
+                },
+                {
+                  "title": "094_Topicwise_Test_7_Part_Syllabus_GATE_2026_EC_Signals_and_Systems",
+                  "path": "/tests/providers/Electronics-Communication/MadeEasy/094_Topicwise_Test_7_Part_Syllabus_GATE_2026_EC_Signals_and_Systems.html"
+                },
+                {
+                  "title": "095_Topicwise_Test_8_Part_Syllabus_GATE_2025_EC_Signal_and_Systems",
+                  "path": "/tests/providers/Electronics-Communication/MadeEasy/095_Topicwise_Test_8_Part_Syllabus_GATE_2025_EC_Signal_and_Systems.html"
+                },
+                {
+                  "title": "096_Topicwise_Test_8_Part_Syllabus_GATE_2026_EC_Signal_and_Systems",
+                  "path": "/tests/providers/Electronics-Communication/MadeEasy/096_Topicwise_Test_8_Part_Syllabus_GATE_2026_EC_Signal_and_Systems.html"
+                },
+                {
+                  "title": "097_Topicwise_Test_9_Part_Syllabus_GATE_2025_EC_Engineering_Mathematics",
+                  "path": "/tests/providers/Electronics-Communication/MadeEasy/097_Topicwise_Test_9_Part_Syllabus_GATE_2025_EC_Engineering_Mathematics.html"
+                },
+                {
+                  "title": "098_Topicwise_Test_9_Part_Syllabus_GATE_2026_EC_Engineering_Mathematics",
+                  "path": "/tests/providers/Electronics-Communication/MadeEasy/098_Topicwise_Test_9_Part_Syllabus_GATE_2026_EC_Engineering_Mathematics.html"
+                }
+              ]
+            }
+          ]
+        },
+        {
           "name": "Mechanical",
           "series": [
             {
