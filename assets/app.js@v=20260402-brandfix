@@ -42,12 +42,12 @@ const filterLabels = {
 };
 
 const providerDisplayNames = {
-  "MADE EASY": "BIJZLI EASY",
-  "GATE ZEAL": "BIJZLI ZEAL"
+  "MADE EASY": "dvruo EASY",
+  "GATE ZEAL": "dvruo ZEAL"
 };
 
 const supportedThemes = new Set(["bright", "dark", "green"]);
-const themeStorageKey = window.__bijzliThemeKey || "bijzli-theme-v3";
+const themeStorageKey = window.__dvruoThemeKey || "dvruo-theme-v3";
 
 const state = {
   manifest: null,
@@ -156,8 +156,8 @@ function applyTheme(themeName) {
 function initializeTheme() {
   refs.themeButtons.forEach((button) => {
     button.addEventListener("click", () => {
-      if (typeof window.setBijzliTheme === "function") {
-        window.setBijzliTheme(button.dataset.theme);
+      if (typeof window.setdvruoTheme === "function") {
+        window.setdvruoTheme(button.dataset.theme);
       }
       applyTheme(button.dataset.theme);
     });
