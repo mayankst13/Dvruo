@@ -77,7 +77,7 @@ function encodedPath(path) {
 
 function normalizeLabel(text) {
   return String(text ?? "")
-    .replace(/_/g, " ")
+    .replace(/[_-]/g, " ")   // 🔥 ye add karna zaroori hai
     .replace(/\s+/g, " ")
     .trim();
 }
@@ -209,13 +209,25 @@ function renderBranches() {
     }
 
     const title = createElement("h4", "", displayBranchName(branch.name));
+
+    // ✅ FIXED COUNT
+    const providerCount = branch.providers?.length || 0;
+
+    let testCount = 0;
+    branch.providers?.forEach(provider => {
+      provider.series?.forEach(series => {
+        testCount += series.tests?.length || 0;
+      });
+    });
+
     const meta = createElement(
       "p",
       "meta",
-      `${pluralize(branch.providerCount, "provider")} | ${branch.testCount} tests`
+      `${providerCount} providers | ${testCount} tests`
     );
 
     button.append(title, meta);
+
     button.addEventListener("click", () => {
       state.branchIndex = index;
       state.providerIndex = null;
@@ -423,6 +435,9 @@ async function initialize() {
     }
 
     state.manifest = manifest;
+
+// 🔥 merge duplicate branches
+    state.manifest.branches = mergeBranches(state.manifest.branches);
     document.title = manifest.siteTitle || "Dvruo Test Series Portal";
     updateHeaderCounts();
     render();
@@ -436,3 +451,21 @@ async function initialize() {
 }
 
 initialize();
+function mergeBranches(branches) {
+  const map = {};
+
+  branches.forEach(branch => {
+    let key = branch.name.toLowerCase().replace(/[\s-]/g, "");
+
+    if (!map[key]) {
+      map[key] = {
+        ...branch,
+        providers: [...(branch.providers || [])]
+      };
+    } else {
+      map[key].providers.push(...(branch.providers || []));
+    }
+  });
+
+  return Object.values(map);
+}

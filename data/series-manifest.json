@@ -1,277 +1,1137 @@
 {
   "branches": [
     {
-      "name": "Computer Science",
+      "name": "MadeEasy",
       "providers": [
         {
-          "name": "GateZeal",
+          "name": "Civil",
           "series": [
             {
               "name": "All",
               "tests": [
                 {
-                  "title": "file_1 [@ Dvruo Gate Zeal CSE 2026 Test Series].html",
-                  "path": "tests/providers/GateZeal/Computer Science/file_1 [@ Dvruo Gate Zeal CSE 2026 Test Series].html"
+                  "title": "001_Advance Level Test-1 Full Syllabus GATE 2026 CE",
+                  "path": "/tests/providers/Civil/MadeEasy/001_Advance Level Test-1 Full Syllabus GATE 2026 CE.html"
                 },
                 {
-                  "title": "file_10 [@ Dvruo Gate Zeal CSE 2026 Test Series].html",
-                  "path": "tests/providers/GateZeal/Computer Science/file_10 [@ Dvruo Gate Zeal CSE 2026 Test Series].html"
+                  "title": "002_Advance Level Test-2 Full Syllabus GATE 2026 CE",
+                  "path": "/tests/providers/Civil/MadeEasy/002_Advance Level Test-2 Full Syllabus GATE 2026 CE.html"
                 },
                 {
-                  "title": "file_15 [@ Dvruo Gate Zeal CSE 2026 Test Series].html",
-                  "path": "tests/providers/GateZeal/Computer Science/file_15 [@ Dvruo Gate Zeal CSE 2026 Test Series].html"
+                  "title": "003_Advance Level Test-3 Full Syllabus GATE 2026 CE",
+                  "path": "/tests/providers/Civil/MadeEasy/003_Advance Level Test-3 Full Syllabus GATE 2026 CE.html"
                 },
                 {
-                  "title": "file_17 [@ Dvruo Gate Zeal CSE 2026 Test Series].html",
-                  "path": "tests/providers/GateZeal/Computer Science/file_17 [@ Dvruo Gate Zeal CSE 2026 Test Series].html"
+                  "title": "004_Advance Level Test-4 Full Syllabus GATE 2026 CE",
+                  "path": "/tests/providers/Civil/MadeEasy/004_Advance Level Test-4 Full Syllabus GATE 2026 CE.html"
                 },
                 {
-                  "title": "file_18 [@ Dvruo Gate Zeal CSE 2026 Test Series].html",
-                  "path": "tests/providers/GateZeal/Computer Science/file_18 [@ Dvruo Gate Zeal CSE 2026 Test Series].html"
+                  "title": "005_Basic Level Test-1 Full Syllabus GATE 2026 CE",
+                  "path": "/tests/providers/Civil/MadeEasy/005_Basic Level Test-1 Full Syllabus GATE 2026 CE.html"
                 },
                 {
-                  "title": "file_2 [@ Dvruo Gate Zeal CSE 2026 Test Series].html",
-                  "path": "tests/providers/GateZeal/Computer Science/file_2 [@ Dvruo Gate Zeal CSE 2026 Test Series].html"
+                  "title": "006_Basic Level Test-2 Full Syllabus GATE 2026 CE",
+                  "path": "/tests/providers/Civil/MadeEasy/006_Basic Level Test-2 Full Syllabus GATE 2026 CE.html"
                 },
                 {
-                  "title": "file_21 [@ Dvruo Gate Zeal CSE 2026 Test Series].html",
-                  "path": "tests/providers/GateZeal/Computer Science/file_21 [@ Dvruo Gate Zeal CSE 2026 Test Series].html"
+                  "title": "007_Basic Level Test-3 Full Syllabus GATE 2026 CE",
+                  "path": "/tests/providers/Civil/MadeEasy/007_Basic Level Test-3 Full Syllabus GATE 2026 CE.html"
                 },
                 {
-                  "title": "file_22 [@ Dvruo Gate Zeal CSE 2026 Test Series].html",
-                  "path": "tests/providers/GateZeal/Computer Science/file_22 [@ Dvruo Gate Zeal CSE 2026 Test Series].html"
+                  "title": "008_Basic Level Test-4 Full Syllabus GATE 2026 CE",
+                  "path": "/tests/providers/Civil/MadeEasy/008_Basic Level Test-4 Full Syllabus GATE 2026 CE.html"
                 },
                 {
-                  "title": "file_23 [@ Dvruo Gate Zeal CSE 2026 Test Series].html",
-                  "path": "tests/providers/GateZeal/Computer Science/file_23 [@ Dvruo Gate Zeal CSE 2026 Test Series].html"
+                  "title": "009_ESE 2026 DEMO TEST CE",
+                  "path": "/tests/providers/Civil/MadeEasy/009_ESE 2026 DEMO TEST CE.html"
                 },
                 {
-                  "title": "file_24 [@ Dvruo Gate Zeal CSE 2026 Test Series].html",
-                  "path": "tests/providers/GateZeal/Computer Science/file_24 [@ Dvruo Gate Zeal CSE 2026 Test Series].html"
+                  "title": "010_Full_Syllabus_Test_1_2026_ESE_CE_General_Studies_&_Engineering",
+                  "path": "/tests/providers/Civil/MadeEasy/010_Full_Syllabus_Test_1_2026_ESE_CE_General_Studies_&_Engineering.html"
                 },
                 {
-                  "title": "file_25 [@ Dvruo Gate Zeal CSE 2026 Test Series].html",
-                  "path": "tests/providers/GateZeal/Computer Science/file_25 [@ Dvruo Gate Zeal CSE 2026 Test Series].html"
+                  "title": "011_Full_Syllabus_Test_10_2026_ESE_CE_Engineering_Discipline",
+                  "path": "/tests/providers/Civil/MadeEasy/011_Full_Syllabus_Test_10_2026_ESE_CE_Engineering_Discipline.html"
                 },
                 {
-                  "title": "file_26 [@ Dvruo Gate Zeal CSE 2026 Test Series].html",
-                  "path": "tests/providers/GateZeal/Computer Science/file_26 [@ Dvruo Gate Zeal CSE 2026 Test Series].html"
+                  "title": "012_Full_Syllabus_Test_11_2026_ESE_CE_General_Studies_&_Engineering",
+                  "path": "/tests/providers/Civil/MadeEasy/012_Full_Syllabus_Test_11_2026_ESE_CE_General_Studies_&_Engineering.html"
                 },
                 {
-                  "title": "file_27 [@ Dvruo Gate Zeal CSE 2026 Test Series].html",
-                  "path": "tests/providers/GateZeal/Computer Science/file_27 [@ Dvruo Gate Zeal CSE 2026 Test Series].html"
+                  "title": "013_Full_Syllabus_Test_12_2026_ESE_CE_Engineering_Discipline",
+                  "path": "/tests/providers/Civil/MadeEasy/013_Full_Syllabus_Test_12_2026_ESE_CE_Engineering_Discipline.html"
                 },
                 {
-                  "title": "file_28 [@ Dvruo Gate Zeal CSE 2026 Test Series].html",
-                  "path": "tests/providers/GateZeal/Computer Science/file_28 [@ Dvruo Gate Zeal CSE 2026 Test Series].html"
+                  "title": "014_Full Syllabus Test-2 2026 ESE CE Engineering Discipline",
+                  "path": "/tests/providers/Civil/MadeEasy/014_Full Syllabus Test-2 2026 ESE CE Engineering Discipline.html"
                 },
                 {
-                  "title": "file_29 [@ Dvruo Gate Zeal CSE 2026 Test Series].html",
-                  "path": "tests/providers/GateZeal/Computer Science/file_29 [@ Dvruo Gate Zeal CSE 2026 Test Series].html"
+                  "title": "015_Full_Syllabus_Test_3_2026_ESE_CE_General_Studies_&_Engineering",
+                  "path": "/tests/providers/Civil/MadeEasy/015_Full_Syllabus_Test_3_2026_ESE_CE_General_Studies_&_Engineering.html"
                 },
                 {
-                  "title": "file_3 [@ Dvruo Gate Zeal CSE 2026 Test Series].html",
-                  "path": "tests/providers/GateZeal/Computer Science/file_3 [@ Dvruo Gate Zeal CSE 2026 Test Series].html"
+                  "title": "016_Full Syllabus Test-4 2026 ESE CE Engineering Discipline",
+                  "path": "/tests/providers/Civil/MadeEasy/016_Full Syllabus Test-4 2026 ESE CE Engineering Discipline.html"
                 },
                 {
-                  "title": "file_30 [@ Dvruo Gate Zeal CSE 2026 Test Series].html",
-                  "path": "tests/providers/GateZeal/Computer Science/file_30 [@ Dvruo Gate Zeal CSE 2026 Test Series].html"
+                  "title": "017_Full_Syllabus_Test_5_2026_ESE_CE_General_Studies_&_Engineering",
+                  "path": "/tests/providers/Civil/MadeEasy/017_Full_Syllabus_Test_5_2026_ESE_CE_General_Studies_&_Engineering.html"
                 },
                 {
-                  "title": "file_33 [@ Dvruo Gate Zeal CSE 2026 Test Series].html",
-                  "path": "tests/providers/GateZeal/Computer Science/file_33 [@ Dvruo Gate Zeal CSE 2026 Test Series].html"
+                  "title": "018_Full Syllabus Test-6 2026 ESE CE Engineering Discipline",
+                  "path": "/tests/providers/Civil/MadeEasy/018_Full Syllabus Test-6 2026 ESE CE Engineering Discipline.html"
                 },
                 {
-                  "title": "file_34 [@ Dvruo Gate Zeal CSE 2026 Test Series].html",
-                  "path": "tests/providers/GateZeal/Computer Science/file_34 [@ Dvruo Gate Zeal CSE 2026 Test Series].html"
+                  "title": "019_Full_Syllabus_Test_7_2026_ESE_CE_General_Studies_&_Engineering",
+                  "path": "/tests/providers/Civil/MadeEasy/019_Full_Syllabus_Test_7_2026_ESE_CE_General_Studies_&_Engineering.html"
                 },
                 {
-                  "title": "file_35 [@ Dvruo Gate Zeal CSE 2026 Test Series].html",
-                  "path": "tests/providers/GateZeal/Computer Science/file_35 [@ Dvruo Gate Zeal CSE 2026 Test Series].html"
+                  "title": "020_Full Syllabus Test-8 2026 ESE CE Engineering Discipline",
+                  "path": "/tests/providers/Civil/MadeEasy/020_Full Syllabus Test-8 2026 ESE CE Engineering Discipline.html"
                 },
                 {
-                  "title": "file_36 [@ Dvruo Gate Zeal CSE 2026 Test Series].html",
-                  "path": "tests/providers/GateZeal/Computer Science/file_36 [@ Dvruo Gate Zeal CSE 2026 Test Series].html"
+                  "title": "021_Full_Syllabus_Test_9_2026_ESE_CE_General_Studies_&_Engineering",
+                  "path": "/tests/providers/Civil/MadeEasy/021_Full_Syllabus_Test_9_2026_ESE_CE_General_Studies_&_Engineering.html"
                 },
                 {
-                  "title": "file_39 [@ Dvruo Gate Zeal CSE 2026 Test Series].html",
-                  "path": "tests/providers/GateZeal/Computer Science/file_39 [@ Dvruo Gate Zeal CSE 2026 Test Series].html"
+                  "title": "022_GATE 2026 DEMO TEST CE",
+                  "path": "/tests/providers/Civil/MadeEasy/022_GATE 2026 DEMO TEST CE.html"
                 },
                 {
-                  "title": "file_4 [@ Dvruo Gate Zeal CSE 2026 Test Series].html",
-                  "path": "tests/providers/GateZeal/Computer Science/file_4 [@ Dvruo Gate Zeal CSE 2026 Test Series].html"
+                  "title": "023_Mock Level Test- 3 Full Syllabus GATE 2026 CE",
+                  "path": "/tests/providers/Civil/MadeEasy/023_Mock Level Test- 3 Full Syllabus GATE 2026 CE.html"
                 },
                 {
-                  "title": "file_40 [@ Dvruo Gate Zeal CSE 2026 Test Series].html",
-                  "path": "tests/providers/GateZeal/Computer Science/file_40 [@ Dvruo Gate Zeal CSE 2026 Test Series].html"
+                  "title": "024_Mock Level Test- 4 Full Syllabus GATE 2026 CE",
+                  "path": "/tests/providers/Civil/MadeEasy/024_Mock Level Test- 4 Full Syllabus GATE 2026 CE.html"
                 },
                 {
-                  "title": "file_41 [@ Dvruo Gate Zeal CSE 2026 Test Series].html",
-                  "path": "tests/providers/GateZeal/Computer Science/file_41 [@ Dvruo Gate Zeal CSE 2026 Test Series].html"
+                  "title": "025_Mock Level Test-1 Full Syllabus GATE 2026 CE",
+                  "path": "/tests/providers/Civil/MadeEasy/025_Mock Level Test-1 Full Syllabus GATE 2026 CE.html"
                 },
                 {
-                  "title": "file_42 [@ Dvruo Gate Zeal CSE 2026 Test Series].html",
-                  "path": "tests/providers/GateZeal/Computer Science/file_42 [@ Dvruo Gate Zeal CSE 2026 Test Series].html"
+                  "title": "026_Mock Level Test-2 Full Syllabus GATE 2026 CE",
+                  "path": "/tests/providers/Civil/MadeEasy/026_Mock Level Test-2 Full Syllabus GATE 2026 CE.html"
                 },
                 {
-                  "title": "file_43 [@ Dvruo Gate Zeal CSE 2026 Test Series].html",
-                  "path": "tests/providers/GateZeal/Computer Science/file_43 [@ Dvruo Gate Zeal CSE 2026 Test Series].html"
+                  "title": "027_Subject-wise Test-1 2026 ESE CE Solid Mechanics",
+                  "path": "/tests/providers/Civil/MadeEasy/027_Subject-wise Test-1 2026 ESE CE Solid Mechanics.html"
                 },
                 {
-                  "title": "file_44 [@ Dvruo Gate Zeal CSE 2026 Test Series].html",
-                  "path": "tests/providers/GateZeal/Computer Science/file_44 [@ Dvruo Gate Zeal CSE 2026 Test Series].html"
+                  "title": "028_Subject_wise_Test_10_2026_ESE_CE_Basics_of_Project_Management",
+                  "path": "/tests/providers/Civil/MadeEasy/028_Subject_wise_Test_10_2026_ESE_CE_Basics_of_Project_Management.html"
                 },
                 {
-                  "title": "file_45 [@ Dvruo Gate Zeal CSE 2026 Test Series].html",
-                  "path": "tests/providers/GateZeal/Computer Science/file_45 [@ Dvruo Gate Zeal CSE 2026 Test Series].html"
+                  "title": "029_Subject_wise_Test_11_2026_ESE_CE_Flow_of_Fluids,_Hydraulic_Machines",
+                  "path": "/tests/providers/Civil/MadeEasy/029_Subject_wise_Test_11_2026_ESE_CE_Flow_of_Fluids,_Hydraulic_Machines.html"
                 },
                 {
-                  "title": "file_46 [@ Dvruo Gate Zeal CSE 2026 Test Series].html",
-                  "path": "tests/providers/GateZeal/Computer Science/file_46 [@ Dvruo Gate Zeal CSE 2026 Test Series].html"
+                  "title": "030_Subject_wise_Test_12_2026_ESE_CE_Basics_of_Material_Science",
+                  "path": "/tests/providers/Civil/MadeEasy/030_Subject_wise_Test_12_2026_ESE_CE_Basics_of_Material_Science.html"
                 },
                 {
-                  "title": "file_47 [@ Dvruo Gate Zeal CSE 2026 Test Series].html",
-                  "path": "tests/providers/GateZeal/Computer Science/file_47 [@ Dvruo Gate Zeal CSE 2026 Test Series].html"
+                  "title": "031_Subject_wise_Test_13_2026_ESE_CE_Design_of_Steel_Structures",
+                  "path": "/tests/providers/Civil/MadeEasy/031_Subject_wise_Test_13_2026_ESE_CE_Design_of_Steel_Structures.html"
                 },
                 {
-                  "title": "file_48 [@ Dvruo Gate Zeal CSE 2026 Test Series].html",
-                  "path": "tests/providers/GateZeal/Computer Science/file_48 [@ Dvruo Gate Zeal CSE 2026 Test Series].html"
+                  "title": "032_Subject_wise_Test_14_2026_ESE_CE_Information_and_Communication",
+                  "path": "/tests/providers/Civil/MadeEasy/032_Subject_wise_Test_14_2026_ESE_CE_Information_and_Communication.html"
                 },
                 {
-                  "title": "file_49 [@ Dvruo Gate Zeal CSE 2026 Test Series].html",
-                  "path": "tests/providers/GateZeal/Computer Science/file_49 [@ Dvruo Gate Zeal CSE 2026 Test Series].html"
+                  "title": "033_Subject_wise_Test_15_2026_ESE_CE_Geo_Technical_Engineering_&",
+                  "path": "/tests/providers/Civil/MadeEasy/033_Subject_wise_Test_15_2026_ESE_CE_Geo_Technical_Engineering_&.html"
                 },
                 {
-                  "title": "file_5 [@ Dvruo Gate Zeal CSE 2026 Test Series].html",
-                  "path": "tests/providers/GateZeal/Computer Science/file_5 [@ Dvruo Gate Zeal CSE 2026 Test Series].html"
+                  "title": "034_Subject_wise_Test_16_2026_ESE_CE_Ethics_and_values_in_engineering",
+                  "path": "/tests/providers/Civil/MadeEasy/034_Subject_wise_Test_16_2026_ESE_CE_Ethics_and_values_in_engineering.html"
                 },
                 {
-                  "title": "file_50 [@ Dvruo Gate Zeal CSE 2026 Test Series].html",
-                  "path": "tests/providers/GateZeal/Computer Science/file_50 [@ Dvruo Gate Zeal CSE 2026 Test Series].html"
+                  "title": "035_Subject_wise_Test_17_2026_ESE_CE_Construction_Practice,_Planning",
+                  "path": "/tests/providers/Civil/MadeEasy/035_Subject_wise_Test_17_2026_ESE_CE_Construction_Practice,_Planning.html"
                 },
                 {
-                  "title": "file_51 [@ Dvruo Gate Zeal CSE 2026 Test Series].html",
-                  "path": "tests/providers/GateZeal/Computer Science/file_51 [@ Dvruo Gate Zeal CSE 2026 Test Series].html"
+                  "title": "036_Subject_wise_Test_18_2026_ESE_CE_Standards_and_Quality_practices",
+                  "path": "/tests/providers/Civil/MadeEasy/036_Subject_wise_Test_18_2026_ESE_CE_Standards_and_Quality_practices.html"
                 },
                 {
-                  "title": "file_52 [@ Dvruo Gate Zeal CSE 2026 Test Series].html",
-                  "path": "tests/providers/GateZeal/Computer Science/file_52 [@ Dvruo Gate Zeal CSE 2026 Test Series].html"
+                  "title": "037_Subject_wise_Test_19_2026_ESE_CE_Transporting_Engineering",
+                  "path": "/tests/providers/Civil/MadeEasy/037_Subject_wise_Test_19_2026_ESE_CE_Transporting_Engineering.html"
                 },
                 {
-                  "title": "file_53 [@ Dvruo Gate Zeal CSE 2026 Test Series].html",
-                  "path": "tests/providers/GateZeal/Computer Science/file_53 [@ Dvruo Gate Zeal CSE 2026 Test Series].html"
+                  "title": "038_Subject-wise Test-2 2026 ESE CE Engineering Aptitude",
+                  "path": "/tests/providers/Civil/MadeEasy/038_Subject-wise Test-2 2026 ESE CE Engineering Aptitude.html"
                 },
                 {
-                  "title": "file_54 [@ Dvruo Gate Zeal CSE 2026 Test Series].html",
-                  "path": "tests/providers/GateZeal/Computer Science/file_54 [@ Dvruo Gate Zeal CSE 2026 Test Series].html"
+                  "title": "039_Subject_wise_Test_20_2026_ESE_CE_Current_issues_National_and",
+                  "path": "/tests/providers/Civil/MadeEasy/039_Subject_wise_Test_20_2026_ESE_CE_Current_issues_National_and.html"
                 },
                 {
-                  "title": "file_55 [@ Dvruo Gate Zeal CSE 2026 Test Series].html",
-                  "path": "tests/providers/GateZeal/Computer Science/file_55 [@ Dvruo Gate Zeal CSE 2026 Test Series].html"
+                  "title": "040_Subject-wise Test-21 2026 ESE CE Building Materials",
+                  "path": "/tests/providers/Civil/MadeEasy/040_Subject-wise Test-21 2026 ESE CE Building Materials.html"
                 },
                 {
-                  "title": "file_57 [@ Dvruo Gate Zeal CSE 2026 Test Series].html",
-                  "path": "tests/providers/GateZeal/Computer Science/file_57 [@ Dvruo Gate Zeal CSE 2026 Test Series].html"
+                  "title": "041_Subject-wise Test-22 2026 ESE CE Surveying and Geology",
+                  "path": "/tests/providers/Civil/MadeEasy/041_Subject-wise Test-22 2026 ESE CE Surveying and Geology.html"
                 },
                 {
-                  "title": "file_58 [@ Dvruo Gate Zeal CSE 2026 Test Series].html",
-                  "path": "tests/providers/GateZeal/Computer Science/file_58 [@ Dvruo Gate Zeal CSE 2026 Test Series].html"
+                  "title": "042_Subject_wise_Test_3_2026_ESE_CE_Environmental_Engineering",
+                  "path": "/tests/providers/Civil/MadeEasy/042_Subject_wise_Test_3_2026_ESE_CE_Environmental_Engineering.html"
                 },
                 {
-                  "title": "file_59 [@ Dvruo Gate Zeal CSE 2026 Test Series].html",
-                  "path": "tests/providers/GateZeal/Computer Science/file_59 [@ Dvruo Gate Zeal CSE 2026 Test Series].html"
+                  "title": "043_Subject_wise_Test_4_2026_ESE_CE_Engineering_Mathematics_&_Numerical",
+                  "path": "/tests/providers/Civil/MadeEasy/043_Subject_wise_Test_4_2026_ESE_CE_Engineering_Mathematics_&_Numerical.html"
                 },
                 {
-                  "title": "file_6 [@ Dvruo Gate Zeal CSE 2026 Test Series].html",
-                  "path": "tests/providers/GateZeal/Computer Science/file_6 [@ Dvruo Gate Zeal CSE 2026 Test Series].html"
+                  "title": "044_Subject-wise Test-5 2026 ESE CE Structural Analysis",
+                  "path": "/tests/providers/Civil/MadeEasy/044_Subject-wise Test-5 2026 ESE CE Structural Analysis.html"
                 },
                 {
-                  "title": "file_60 [@ Dvruo Gate Zeal CSE 2026 Test Series].html",
-                  "path": "tests/providers/GateZeal/Computer Science/file_60 [@ Dvruo Gate Zeal CSE 2026 Test Series].html"
+                  "title": "045_Subject_wise_Test_6_2026_ESE_CE_General_Principles_of_Design",
+                  "path": "/tests/providers/Civil/MadeEasy/045_Subject_wise_Test_6_2026_ESE_CE_General_Principles_of_Design.html"
                 },
                 {
-                  "title": "file_61 [@ Dvruo Gate Zeal CSE 2026 Test Series].html",
-                  "path": "tests/providers/GateZeal/Computer Science/file_61 [@ Dvruo Gate Zeal CSE 2026 Test Series].html"
+                  "title": "046_Subject_wise_Test_7_2026_ESE_CE_Hydrology_&_Water_Resource_Engineering",
+                  "path": "/tests/providers/Civil/MadeEasy/046_Subject_wise_Test_7_2026_ESE_CE_Hydrology_&_Water_Resource_Engineering.html"
                 },
                 {
-                  "title": "file_62 [@ Dvruo Gate Zeal CSE 2026 Test Series].html",
-                  "path": "tests/providers/GateZeal/Computer Science/file_62 [@ Dvruo Gate Zeal CSE 2026 Test Series].html"
+                  "title": "047_Subject_wise_Test_8_2026_ESE_CE_Basics_of_Energy_and_Environment",
+                  "path": "/tests/providers/Civil/MadeEasy/047_Subject_wise_Test_8_2026_ESE_CE_Basics_of_Energy_and_Environment.html"
                 },
                 {
-                  "title": "file_63 [@ Dvruo Gate Zeal CSE 2026 Test Series].html",
-                  "path": "tests/providers/GateZeal/Computer Science/file_63 [@ Dvruo Gate Zeal CSE 2026 Test Series].html"
+                  "title": "048_Subject_wise_Test_9_2026_ESE_CE_Design_of_Concrete_&_Masonry",
+                  "path": "/tests/providers/Civil/MadeEasy/048_Subject_wise_Test_9_2026_ESE_CE_Design_of_Concrete_&_Masonry.html"
                 },
                 {
-                  "title": "file_64 [@ Dvruo Gate Zeal CSE 2026 Test Series].html",
-                  "path": "tests/providers/GateZeal/Computer Science/file_64 [@ Dvruo Gate Zeal CSE 2026 Test Series].html"
+                  "title": "049_Subjectwise_Test_1_Part_Syllabus_GATE_2026_CE_Solid_Mechanics",
+                  "path": "/tests/providers/Civil/MadeEasy/049_Subjectwise_Test_1_Part_Syllabus_GATE_2026_CE_Solid_Mechanics.html"
                 },
                 {
-                  "title": "file_65 [@ Dvruo Gate Zeal CSE 2026 Test Series].html",
-                  "path": "tests/providers/GateZeal/Computer Science/file_65 [@ Dvruo Gate Zeal CSE 2026 Test Series].html"
+                  "title": "050_Subjectwise_Test_10_Part_Syllabus_GATE_2026_CE_Steel_Structures",
+                  "path": "/tests/providers/Civil/MadeEasy/050_Subjectwise_Test_10_Part_Syllabus_GATE_2026_CE_Steel_Structures.html"
                 },
                 {
-                  "title": "file_66 [@ Dvruo Gate Zeal CSE 2026 Test Series].html",
-                  "path": "tests/providers/GateZeal/Computer Science/file_66 [@ Dvruo Gate Zeal CSE 2026 Test Series].html"
+                  "title": "051_Subjectwise_Test_11_Part_Syllabus_GATE_2026_CE_Hydrology_and",
+                  "path": "/tests/providers/Civil/MadeEasy/051_Subjectwise_Test_11_Part_Syllabus_GATE_2026_CE_Hydrology_and.html"
                 },
                 {
-                  "title": "file_68 [@ Dvruo Gate Zeal CSE 2026 Test Series].html",
-                  "path": "tests/providers/GateZeal/Computer Science/file_68 [@ Dvruo Gate Zeal CSE 2026 Test Series].html"
+                  "title": "052_Subjectwise_Test_12_Part_Syllabus_GATE_2026_CE_Engineering_Mechanics",
+                  "path": "/tests/providers/Civil/MadeEasy/052_Subjectwise_Test_12_Part_Syllabus_GATE_2026_CE_Engineering_Mechanics.html"
                 },
                 {
-                  "title": "file_69 [@ Dvruo Gate Zeal CSE 2026 Test Series].html",
-                  "path": "tests/providers/GateZeal/Computer Science/file_69 [@ Dvruo Gate Zeal CSE 2026 Test Series].html"
+                  "title": "053_Subjectwise_Test_2_Part_Syllabus_GATE_2026_CE_Concrete_Structures",
+                  "path": "/tests/providers/Civil/MadeEasy/053_Subjectwise_Test_2_Part_Syllabus_GATE_2026_CE_Concrete_Structures.html"
                 },
                 {
-                  "title": "file_7 [@ Dvruo Gate Zeal CSE 2026 Test Series].html",
-                  "path": "tests/providers/GateZeal/Computer Science/file_7 [@ Dvruo Gate Zeal CSE 2026 Test Series].html"
+                  "title": "054_Subjectwise_Test_3_Part_Syllabus_GATE_2026_CE_Environmental",
+                  "path": "/tests/providers/Civil/MadeEasy/054_Subjectwise_Test_3_Part_Syllabus_GATE_2026_CE_Environmental.html"
                 },
                 {
-                  "title": "file_70 [@ Dvruo Gate Zeal CSE 2026 Test Series].html",
-                  "path": "tests/providers/GateZeal/Computer Science/file_70 [@ Dvruo Gate Zeal CSE 2026 Test Series].html"
+                  "title": "055_Subjectwise_Test_4_Part_Syllabus_GATE_2026_CE_Fluid_Mechanics",
+                  "path": "/tests/providers/Civil/MadeEasy/055_Subjectwise_Test_4_Part_Syllabus_GATE_2026_CE_Fluid_Mechanics.html"
                 },
                 {
-                  "title": "file_71 [@ Dvruo Gate Zeal CSE 2026 Test Series].html",
-                  "path": "tests/providers/GateZeal/Computer Science/file_71 [@ Dvruo Gate Zeal CSE 2026 Test Series].html"
+                  "title": "056_Subjectwise_Test_5_Part_Syllabus_GATE_2026_CE_ENGINEERING_MATHEMATICS",
+                  "path": "/tests/providers/Civil/MadeEasy/056_Subjectwise_Test_5_Part_Syllabus_GATE_2026_CE_ENGINEERING_MATHEMATICS.html"
                 },
                 {
-                  "title": "file_72 [@ Dvruo Gate Zeal CSE 2026 Test Series].html",
-                  "path": "tests/providers/GateZeal/Computer Science/file_72 [@ Dvruo Gate Zeal CSE 2026 Test Series].html"
+                  "title": "057_Subjectwise_Test_6_Part_Syllabus_GATE_2026_CE_General_Aptitude",
+                  "path": "/tests/providers/Civil/MadeEasy/057_Subjectwise_Test_6_Part_Syllabus_GATE_2026_CE_General_Aptitude.html"
                 },
                 {
-                  "title": "file_73 [@ Dvruo Gate Zeal CSE 2026 Test Series].html",
-                  "path": "tests/providers/GateZeal/Computer Science/file_73 [@ Dvruo Gate Zeal CSE 2026 Test Series].html"
+                  "title": "058_Subjectwise_Test_7_Part_Syllabus_GATE_2026_CE_Transportation",
+                  "path": "/tests/providers/Civil/MadeEasy/058_Subjectwise_Test_7_Part_Syllabus_GATE_2026_CE_Transportation.html"
                 },
                 {
-                  "title": "file_74 [@ Dvruo Gate Zeal CSE 2026 Test Series].html",
-                  "path": "tests/providers/GateZeal/Computer Science/file_74 [@ Dvruo Gate Zeal CSE 2026 Test Series].html"
+                  "title": "059_Subjectwise_Test_8_Part_Syllabus_GATE_2026_CE_Structural_Analysis",
+                  "path": "/tests/providers/Civil/MadeEasy/059_Subjectwise_Test_8_Part_Syllabus_GATE_2026_CE_Structural_Analysis.html"
                 },
                 {
-                  "title": "file_75 [@ Dvruo Gate Zeal CSE 2026 Test Series].html",
-                  "path": "tests/providers/GateZeal/Computer Science/file_75 [@ Dvruo Gate Zeal CSE 2026 Test Series].html"
+                  "title": "060_Subjectwise_Test_9_Part_Syllabus_GATE_2026_CE_Geotechnical_Engineering",
+                  "path": "/tests/providers/Civil/MadeEasy/060_Subjectwise_Test_9_Part_Syllabus_GATE_2026_CE_Geotechnical_Engineering.html"
                 },
                 {
-                  "title": "file_76 [@ Dvruo Gate Zeal CSE 2026 Test Series].html",
-                  "path": "tests/providers/GateZeal/Computer Science/file_76 [@ Dvruo Gate Zeal CSE 2026 Test Series].html"
+                  "title": "061_Topicwise_Test_1_Part_Syllabus_GATE_2026_CE_Solid_Mechanics",
+                  "path": "/tests/providers/Civil/MadeEasy/061_Topicwise_Test_1_Part_Syllabus_GATE_2026_CE_Solid_Mechanics.html"
                 },
                 {
-                  "title": "file_77 [@ Dvruo Gate Zeal CSE 2026 Test Series].html",
-                  "path": "tests/providers/GateZeal/Computer Science/file_77 [@ Dvruo Gate Zeal CSE 2026 Test Series].html"
+                  "title": "062_Topicwise_Test_10_Part_Syllabus_GATE_2026_CE_Engineering_Mathematics",
+                  "path": "/tests/providers/Civil/MadeEasy/062_Topicwise_Test_10_Part_Syllabus_GATE_2026_CE_Engineering_Mathematics.html"
                 },
                 {
-                  "title": "file_78 [@ Dvruo Gate Zeal CSE 2026 Test Series].html",
-                  "path": "tests/providers/GateZeal/Computer Science/file_78 [@ Dvruo Gate Zeal CSE 2026 Test Series].html"
+                  "title": "063_Topicwise_Test_11_Part_Syllabus_GATE_2026_CE_General_Aptitude",
+                  "path": "/tests/providers/Civil/MadeEasy/063_Topicwise_Test_11_Part_Syllabus_GATE_2026_CE_General_Aptitude.html"
                 },
                 {
-                  "title": "file_79 [@ Dvruo Gate Zeal CSE 2026 Test Series].html",
-                  "path": "tests/providers/GateZeal/Computer Science/file_79 [@ Dvruo Gate Zeal CSE 2026 Test Series].html"
+                  "title": "064_Topicwise_Test_12_Part_Syllabus_GATE_2026_CE_General_Aptitude",
+                  "path": "/tests/providers/Civil/MadeEasy/064_Topicwise_Test_12_Part_Syllabus_GATE_2026_CE_General_Aptitude.html"
                 },
                 {
-                  "title": "file_8 [@ Dvruo Gate Zeal CSE 2026 Test Series].html",
-                  "path": "tests/providers/GateZeal/Computer Science/file_8 [@ Dvruo Gate Zeal CSE 2026 Test Series].html"
+                  "title": "065_Topicwise_Test_13_Part_Syllabus_GATE_2026_CE_Transportation",
+                  "path": "/tests/providers/Civil/MadeEasy/065_Topicwise_Test_13_Part_Syllabus_GATE_2026_CE_Transportation.html"
                 },
                 {
-                  "title": "file_9 [@ Dvruo Gate Zeal CSE 2026 Test Series].html",
-                  "path": "tests/providers/GateZeal/Computer Science/file_9 [@ Dvruo Gate Zeal CSE 2026 Test Series].html"
+                  "title": "066_Topicwise_Test_14_Part_Syllabus_GATE_2026_CE_Transportation",
+                  "path": "/tests/providers/Civil/MadeEasy/066_Topicwise_Test_14_Part_Syllabus_GATE_2026_CE_Transportation.html"
+                },
+                {
+                  "title": "067_Topicwise_Test_15_Part_Syllabus_GATE_2026_CE_Structural_Analysis",
+                  "path": "/tests/providers/Civil/MadeEasy/067_Topicwise_Test_15_Part_Syllabus_GATE_2026_CE_Structural_Analysis.html"
+                },
+                {
+                  "title": "068_Topicwise_Test_16_Part_Syllabus_GATE_2026_CE_Structural_Analysis",
+                  "path": "/tests/providers/Civil/MadeEasy/068_Topicwise_Test_16_Part_Syllabus_GATE_2026_CE_Structural_Analysis.html"
+                },
+                {
+                  "title": "069_Topicwise_Test_17_Part_Syllabus_GATE_2026_CE_Geotechnical_Engineering",
+                  "path": "/tests/providers/Civil/MadeEasy/069_Topicwise_Test_17_Part_Syllabus_GATE_2026_CE_Geotechnical_Engineering.html"
+                },
+                {
+                  "title": "070_Topicwise_Test_18_Part_Syllabus_GATE_2026_CE_Geotechnical_Engg",
+                  "path": "/tests/providers/Civil/MadeEasy/070_Topicwise_Test_18_Part_Syllabus_GATE_2026_CE_Geotechnical_Engg.html"
+                },
+                {
+                  "title": "071_Topicwise_Test_19_Part_Syllabus_GATE_2026_CE_Geotechnical_Engg",
+                  "path": "/tests/providers/Civil/MadeEasy/071_Topicwise_Test_19_Part_Syllabus_GATE_2026_CE_Geotechnical_Engg.html"
+                },
+                {
+                  "title": "072_Topicwise_Test_2_Part_Syllabus_GATE_2026_CE_Solid_Mechanics",
+                  "path": "/tests/providers/Civil/MadeEasy/072_Topicwise_Test_2_Part_Syllabus_GATE_2026_CE_Solid_Mechanics.html"
+                },
+                {
+                  "title": "073_Topicwise_Test_20_Part_Syllabus_GATE_2026_CE_Steel_Structures",
+                  "path": "/tests/providers/Civil/MadeEasy/073_Topicwise_Test_20_Part_Syllabus_GATE_2026_CE_Steel_Structures.html"
+                },
+                {
+                  "title": "074_Topicwise_Test_21_Part_Syllabus_GATE_2026_CE_Steel_Structures",
+                  "path": "/tests/providers/Civil/MadeEasy/074_Topicwise_Test_21_Part_Syllabus_GATE_2026_CE_Steel_Structures.html"
+                },
+                {
+                  "title": "075_Topicwise Test-22 Part Syllabus GATE 2026 CE Hydrology",
+                  "path": "/tests/providers/Civil/MadeEasy/075_Topicwise Test-22 Part Syllabus GATE 2026 CE Hydrology.html"
+                },
+                {
+                  "title": "076_Topicwise Test-23 Part Syllabus GATE 2026 CE Irrigation",
+                  "path": "/tests/providers/Civil/MadeEasy/076_Topicwise Test-23 Part Syllabus GATE 2026 CE Irrigation.html"
+                },
+                {
+                  "title": "078_Topicwise_Test_3_Part_Syllabus_GATE_2026_CE_Concrete_Structures",
+                  "path": "/tests/providers/Civil/MadeEasy/078_Topicwise_Test_3_Part_Syllabus_GATE_2026_CE_Concrete_Structures.html"
+                },
+                {
+                  "title": "079_Topicwise_Test_4_Part_Syllabus_GATE_2026_CE_Concrete_Structure",
+                  "path": "/tests/providers/Civil/MadeEasy/079_Topicwise_Test_4_Part_Syllabus_GATE_2026_CE_Concrete_Structure.html"
+                },
+                {
+                  "title": "080_Topicwise_Test_5_Part_Syllabus_GATE_2026_CE_Environmental_Engg",
+                  "path": "/tests/providers/Civil/MadeEasy/080_Topicwise_Test_5_Part_Syllabus_GATE_2026_CE_Environmental_Engg.html"
+                },
+                {
+                  "title": "081_Topicwise_Test_6_Part_Syllabus_GATE_2026_CE_Environmental_Engg",
+                  "path": "/tests/providers/Civil/MadeEasy/081_Topicwise_Test_6_Part_Syllabus_GATE_2026_CE_Environmental_Engg.html"
+                },
+                {
+                  "title": "082_Topicwise_Test_7_Part_Syllabus_GATE_2026_CE_Fluid_Mechanics",
+                  "path": "/tests/providers/Civil/MadeEasy/082_Topicwise_Test_7_Part_Syllabus_GATE_2026_CE_Fluid_Mechanics.html"
+                },
+                {
+                  "title": "083_Topicwise_Test_8_Part_Syllabus_GATE_2026_CE_Fluid_Mechanics",
+                  "path": "/tests/providers/Civil/MadeEasy/083_Topicwise_Test_8_Part_Syllabus_GATE_2026_CE_Fluid_Mechanics.html"
+                },
+                {
+                  "title": "084_Topicwise_Test_9_Part_Syllabus_GATE_2026_CE_Engineering_Mathematics",
+                  "path": "/tests/providers/Civil/MadeEasy/084_Topicwise_Test_9_Part_Syllabus_GATE_2026_CE_Engineering_Mathematics.html"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Computer Science",
+          "series": [
+            {
+              "name": "All",
+              "tests": [
+                {
+                  "title": "001_Advance Level Test-1 Full Syllabus GATE 2026 CS",
+                  "path": "/tests/providers/Computer Science/MadeEasy/001_Advance Level Test-1 Full Syllabus GATE 2026 CS.html"
+                },
+                {
+                  "title": "002_Advance Level Test-2 Full Syllabus GATE 2026 CS",
+                  "path": "/tests/providers/Computer Science/MadeEasy/002_Advance Level Test-2 Full Syllabus GATE 2026 CS.html"
+                },
+                {
+                  "title": "003_Advance Level Test-3 Full Syllabus GATE 2026 CS",
+                  "path": "/tests/providers/Computer Science/MadeEasy/003_Advance Level Test-3 Full Syllabus GATE 2026 CS.html"
+                },
+                {
+                  "title": "004_Advance Level Test-4 Full Syllabus GATE 2026 CS",
+                  "path": "/tests/providers/Computer Science/MadeEasy/004_Advance Level Test-4 Full Syllabus GATE 2026 CS.html"
+                },
+                {
+                  "title": "005_Basic Level Test-1 Full Syllabus GATE 2026 CS",
+                  "path": "/tests/providers/Computer Science/MadeEasy/005_Basic Level Test-1 Full Syllabus GATE 2026 CS.html"
+                },
+                {
+                  "title": "006_Basic Level Test-2 Full Syllabus GATE 2026 CS",
+                  "path": "/tests/providers/Computer Science/MadeEasy/006_Basic Level Test-2 Full Syllabus GATE 2026 CS.html"
+                },
+                {
+                  "title": "007_Basic Level Test-3 Full Syllabus GATE 2026 CS",
+                  "path": "/tests/providers/Computer Science/MadeEasy/007_Basic Level Test-3 Full Syllabus GATE 2026 CS.html"
+                },
+                {
+                  "title": "008_Basic Level Test-4 Full Syllabus GATE 2026 CS",
+                  "path": "/tests/providers/Computer Science/MadeEasy/008_Basic Level Test-4 Full Syllabus GATE 2026 CS.html"
+                },
+                {
+                  "title": "009_GATE 2026 DEMO TEST CS",
+                  "path": "/tests/providers/Computer Science/MadeEasy/009_GATE 2026 DEMO TEST CS.html"
+                },
+                {
+                  "title": "010_Mock Level Test-1 Full Syllabus GATE 2026 CS",
+                  "path": "/tests/providers/Computer Science/MadeEasy/010_Mock Level Test-1 Full Syllabus GATE 2026 CS.html"
+                },
+                {
+                  "title": "011_Mock Level Test-2 Full Syllabus GATE 2026 CS",
+                  "path": "/tests/providers/Computer Science/MadeEasy/011_Mock Level Test-2 Full Syllabus GATE 2026 CS.html"
+                },
+                {
+                  "title": "012_Mock Level Test-3 Full Syllabus GATE 2026 CS",
+                  "path": "/tests/providers/Computer Science/MadeEasy/012_Mock Level Test-3 Full Syllabus GATE 2026 CS.html"
+                },
+                {
+                  "title": "013_Mock Level Test-4 Full Syllabus GATE 2026 CS",
+                  "path": "/tests/providers/Computer Science/MadeEasy/013_Mock Level Test-4 Full Syllabus GATE 2026 CS.html"
+                },
+                {
+                  "title": "014_Subjectwise_Test_1_Part_Syllabus_GATE_2026_CS_Theory_of_Computation",
+                  "path": "/tests/providers/Computer Science/MadeEasy/014_Subjectwise_Test_1_Part_Syllabus_GATE_2026_CS_Theory_of_Computation.html"
+                },
+                {
+                  "title": "015_Subjectwise_Test_10_Part_Syllabus_GATE_2026_CS_Digital_Logic",
+                  "path": "/tests/providers/Computer Science/MadeEasy/015_Subjectwise_Test_10_Part_Syllabus_GATE_2026_CS_Digital_Logic.html"
+                },
+                {
+                  "title": "016_Subjectwise_Test_11_Part_Syllabus_GATE_2026_CS_Compiler_Design",
+                  "path": "/tests/providers/Computer Science/MadeEasy/016_Subjectwise_Test_11_Part_Syllabus_GATE_2026_CS_Compiler_Design.html"
+                },
+                {
+                  "title": "017_Subjectwise_Test_12_Part_Syllabus_GATE_2026_CS_Discrete_Mathematics",
+                  "path": "/tests/providers/Computer Science/MadeEasy/017_Subjectwise_Test_12_Part_Syllabus_GATE_2026_CS_Discrete_Mathematics.html"
+                },
+                {
+                  "title": "018_Subjectwise_Test_2_Part_Syllabus_GATE_2026_CS_Algorithms",
+                  "path": "/tests/providers/Computer Science/MadeEasy/018_Subjectwise_Test_2_Part_Syllabus_GATE_2026_CS_Algorithms.html"
+                },
+                {
+                  "title": "019_Subjectwise_Test_3_Part_Syllabus_GATE_2026_CS_Computer_Organization",
+                  "path": "/tests/providers/Computer Science/MadeEasy/019_Subjectwise_Test_3_Part_Syllabus_GATE_2026_CS_Computer_Organization.html"
+                },
+                {
+                  "title": "020_Subjectwise_Test_4_Part_Syllabus_GATE_2026_CS_Operating_System",
+                  "path": "/tests/providers/Computer Science/MadeEasy/020_Subjectwise_Test_4_Part_Syllabus_GATE_2026_CS_Operating_System.html"
+                },
+                {
+                  "title": "021_Subjectwise_Test_5_Part_Syllabus_GATE_2026_CS_Engineering_Mathematics",
+                  "path": "/tests/providers/Computer Science/MadeEasy/021_Subjectwise_Test_5_Part_Syllabus_GATE_2026_CS_Engineering_Mathematics.html"
+                },
+                {
+                  "title": "022_Subjectwise_Test_6_Part_Syllabus_GATE_2026_CS_General_Aptitude",
+                  "path": "/tests/providers/Computer Science/MadeEasy/022_Subjectwise_Test_6_Part_Syllabus_GATE_2026_CS_General_Aptitude.html"
+                },
+                {
+                  "title": "023_Subjectwise Test-7 Part Syllabus GATE 2026 CS Database",
+                  "path": "/tests/providers/Computer Science/MadeEasy/023_Subjectwise Test-7 Part Syllabus GATE 2026 CS Database.html"
+                },
+                {
+                  "title": "024_Subjectwise_Test_8_Part_Syllabus_GATE_2026_CS_Programming_and",
+                  "path": "/tests/providers/Computer Science/MadeEasy/024_Subjectwise_Test_8_Part_Syllabus_GATE_2026_CS_Programming_and.html"
+                },
+                {
+                  "title": "025_Subjectwise_Test_9_Part_Syllabus_GATE_2026_CS_Computer_Networks",
+                  "path": "/tests/providers/Computer Science/MadeEasy/025_Subjectwise_Test_9_Part_Syllabus_GATE_2026_CS_Computer_Networks.html"
+                },
+                {
+                  "title": "026_Topicwise_Test_1_Part_Syllabus_GATE_2026_CS_Theory_of_Computation",
+                  "path": "/tests/providers/Computer Science/MadeEasy/026_Topicwise_Test_1_Part_Syllabus_GATE_2026_CS_Theory_of_Computation.html"
+                },
+                {
+                  "title": "027_Topicwise_Test_10_Part_Syllabus_GATE_2026_CS_Engineering_Mathematics",
+                  "path": "/tests/providers/Computer Science/MadeEasy/027_Topicwise_Test_10_Part_Syllabus_GATE_2026_CS_Engineering_Mathematics.html"
+                },
+                {
+                  "title": "028_Topicwise_Test_11_Part_Syllabus_GATE_2026_CS_General_Aptitude",
+                  "path": "/tests/providers/Computer Science/MadeEasy/028_Topicwise_Test_11_Part_Syllabus_GATE_2026_CS_General_Aptitude.html"
+                },
+                {
+                  "title": "029_Topicwise_Test_12_Part_Syllabus_GATE_2026_CS_General_Aptitude",
+                  "path": "/tests/providers/Computer Science/MadeEasy/029_Topicwise_Test_12_Part_Syllabus_GATE_2026_CS_General_Aptitude.html"
+                },
+                {
+                  "title": "030_Topicwise_Test_13_Part_Syllabus_GATE_2026_CS_Operating_System",
+                  "path": "/tests/providers/Computer Science/MadeEasy/030_Topicwise_Test_13_Part_Syllabus_GATE_2026_CS_Operating_System.html"
+                },
+                {
+                  "title": "031_Topicwise_Test_14_Part_Syllabus_GATE_2026_CS_Operating_System",
+                  "path": "/tests/providers/Computer Science/MadeEasy/031_Topicwise_Test_14_Part_Syllabus_GATE_2026_CS_Operating_System.html"
+                },
+                {
+                  "title": "032_Topicwise_Test_15_Part_Syllabus_GATE_2026_CS_Programming_and",
+                  "path": "/tests/providers/Computer Science/MadeEasy/032_Topicwise_Test_15_Part_Syllabus_GATE_2026_CS_Programming_and.html"
+                },
+                {
+                  "title": "033_Topicwise_Test_16_Part_Syllabus_GATE_2026_CS_Programming_and",
+                  "path": "/tests/providers/Computer Science/MadeEasy/033_Topicwise_Test_16_Part_Syllabus_GATE_2026_CS_Programming_and.html"
+                },
+                {
+                  "title": "034_Topicwise_Test_17_Part_Syllabus_GATE_2026_CS_Computer_Networks",
+                  "path": "/tests/providers/Computer Science/MadeEasy/034_Topicwise_Test_17_Part_Syllabus_GATE_2026_CS_Computer_Networks.html"
+                },
+                {
+                  "title": "035_Topicwise_Test_18_Part_Syllabus_GATE_2026_CS_Computer_Networks",
+                  "path": "/tests/providers/Computer Science/MadeEasy/035_Topicwise_Test_18_Part_Syllabus_GATE_2026_CS_Computer_Networks.html"
+                },
+                {
+                  "title": "036_Topicwise_Test_19_Part_Syllabus_GATE_2026_CS_Digital_Logic_1",
+                  "path": "/tests/providers/Computer Science/MadeEasy/036_Topicwise_Test_19_Part_Syllabus_GATE_2026_CS_Digital_Logic_1.html"
+                },
+                {
+                  "title": "037_Topicwise_Test_2_Part_Syllabus_GATE_2026_CS_Theory_of_Computation",
+                  "path": "/tests/providers/Computer Science/MadeEasy/037_Topicwise_Test_2_Part_Syllabus_GATE_2026_CS_Theory_of_Computation.html"
+                },
+                {
+                  "title": "038_Topicwise_Test_20_Part_Syllabus_GATE_2026_CS_Digital_Logic_2",
+                  "path": "/tests/providers/Computer Science/MadeEasy/038_Topicwise_Test_20_Part_Syllabus_GATE_2026_CS_Digital_Logic_2.html"
+                },
+                {
+                  "title": "039_Topicwise_Test_21_Part_Syllabus_GATE_2026_CS_Discrete_Mathematics",
+                  "path": "/tests/providers/Computer Science/MadeEasy/039_Topicwise_Test_21_Part_Syllabus_GATE_2026_CS_Discrete_Mathematics.html"
+                },
+                {
+                  "title": "040_Topicwise_Test_22_Part_Syllabus_GATE_2026_CS_Discrete_Mathematics",
+                  "path": "/tests/providers/Computer Science/MadeEasy/040_Topicwise_Test_22_Part_Syllabus_GATE_2026_CS_Discrete_Mathematics.html"
+                },
+                {
+                  "title": "041_Topicwise_Test_23_Part_Syllabus_GATE_2026_CS_Compiler_Design",
+                  "path": "/tests/providers/Computer Science/MadeEasy/041_Topicwise_Test_23_Part_Syllabus_GATE_2026_CS_Compiler_Design.html"
+                },
+                {
+                  "title": "042_Topicwise_Test_24_Part_Syllabus_GATE_2026_CS_Compiler_Design",
+                  "path": "/tests/providers/Computer Science/MadeEasy/042_Topicwise_Test_24_Part_Syllabus_GATE_2026_CS_Compiler_Design.html"
+                },
+                {
+                  "title": "043_Topicwise_Test_3_Part_Syllabus_GATE_2026_CS_Algorithms_1",
+                  "path": "/tests/providers/Computer Science/MadeEasy/043_Topicwise_Test_3_Part_Syllabus_GATE_2026_CS_Algorithms_1.html"
+                },
+                {
+                  "title": "044_Topicwise_Test_4_Part_Syllabus_GATE_2026_CS_Algorithms_2",
+                  "path": "/tests/providers/Computer Science/MadeEasy/044_Topicwise_Test_4_Part_Syllabus_GATE_2026_CS_Algorithms_2.html"
+                },
+                {
+                  "title": "045_Topicwise_Test_5_Part_Syllabus_GATE_2026_CS_Computer_Organization",
+                  "path": "/tests/providers/Computer Science/MadeEasy/045_Topicwise_Test_5_Part_Syllabus_GATE_2026_CS_Computer_Organization.html"
+                },
+                {
+                  "title": "046_Topicwise_Test_6_Part_Syllabus_GATE_2026_CS_Computer_Organization",
+                  "path": "/tests/providers/Computer Science/MadeEasy/046_Topicwise_Test_6_Part_Syllabus_GATE_2026_CS_Computer_Organization.html"
+                },
+                {
+                  "title": "047_Topicwise Test-7 Part Syllabus GATE 2026 CS Databases-1",
+                  "path": "/tests/providers/Computer Science/MadeEasy/047_Topicwise Test-7 Part Syllabus GATE 2026 CS Databases-1.html"
+                },
+                {
+                  "title": "048_Topicwise Test-8 Part Syllabus GATE 2026 CS Databases-2",
+                  "path": "/tests/providers/Computer Science/MadeEasy/048_Topicwise Test-8 Part Syllabus GATE 2026 CS Databases-2.html"
+                },
+                {
+                  "title": "049_Topicwise_Test_9_Part_Syllabus_GATE_2026_CS_Engineering_Mathematics",
+                  "path": "/tests/providers/Computer Science/MadeEasy/049_Topicwise_Test_9_Part_Syllabus_GATE_2026_CS_Engineering_Mathematics.html"
+                },
+                {
+                  "title": "050_Topicwise_Test_1_Part_Syllabus_GATE_2025_CS_Theory_of_Computation",
+                  "path": "/tests/providers/Computer Science/MadeEasy/050_Topicwise_Test_1_Part_Syllabus_GATE_2025_CS_Theory_of_Computation.html"
+                },
+                {
+                  "title": "051_Topicwise_Test_1_Part_Syllabus_GATE_2026_CS_Theory_of_Computation",
+                  "path": "/tests/providers/Computer Science/MadeEasy/051_Topicwise_Test_1_Part_Syllabus_GATE_2026_CS_Theory_of_Computation.html"
+                },
+                {
+                  "title": "052_Topicwise_Test_10_Part_Syllabus_GATE_2025_CS_Engineering_Mathematics",
+                  "path": "/tests/providers/Computer Science/MadeEasy/052_Topicwise_Test_10_Part_Syllabus_GATE_2025_CS_Engineering_Mathematics.html"
+                },
+                {
+                  "title": "053_Topicwise_Test_10_Part_Syllabus_GATE_2026_CS_Engineering_Mathematics",
+                  "path": "/tests/providers/Computer Science/MadeEasy/053_Topicwise_Test_10_Part_Syllabus_GATE_2026_CS_Engineering_Mathematics.html"
+                },
+                {
+                  "title": "054_Topicwise_Test_11_Part_Syllabus_GATE_2025_CS_General_Aptitude",
+                  "path": "/tests/providers/Computer Science/MadeEasy/054_Topicwise_Test_11_Part_Syllabus_GATE_2025_CS_General_Aptitude.html"
+                },
+                {
+                  "title": "055_Topicwise_Test_11_Part_Syllabus_GATE_2026_CS_General_Aptitude",
+                  "path": "/tests/providers/Computer Science/MadeEasy/055_Topicwise_Test_11_Part_Syllabus_GATE_2026_CS_General_Aptitude.html"
+                },
+                {
+                  "title": "056_Topicwise_Test_12_Part_Syllabus_GATE_2025_CS_General_Aptitude",
+                  "path": "/tests/providers/Computer Science/MadeEasy/056_Topicwise_Test_12_Part_Syllabus_GATE_2025_CS_General_Aptitude.html"
+                },
+                {
+                  "title": "057_Topicwise_Test_12_Part_Syllabus_GATE_2026_CS_General_Aptitude",
+                  "path": "/tests/providers/Computer Science/MadeEasy/057_Topicwise_Test_12_Part_Syllabus_GATE_2026_CS_General_Aptitude.html"
+                },
+                {
+                  "title": "058_Topicwise_Test_13_Part_Syllabus_GATE_2025_CS_Operating_System",
+                  "path": "/tests/providers/Computer Science/MadeEasy/058_Topicwise_Test_13_Part_Syllabus_GATE_2025_CS_Operating_System.html"
+                },
+                {
+                  "title": "059_Topicwise_Test_13_Part_Syllabus_GATE_2026_CS_Operating_System",
+                  "path": "/tests/providers/Computer Science/MadeEasy/059_Topicwise_Test_13_Part_Syllabus_GATE_2026_CS_Operating_System.html"
+                },
+                {
+                  "title": "060_Topicwise_Test_14_Part_Syllabus_GATE_2025_CS_Operating_System",
+                  "path": "/tests/providers/Computer Science/MadeEasy/060_Topicwise_Test_14_Part_Syllabus_GATE_2025_CS_Operating_System.html"
+                },
+                {
+                  "title": "061_Topicwise_Test_14_Part_Syllabus_GATE_2026_CS_Operating_System",
+                  "path": "/tests/providers/Computer Science/MadeEasy/061_Topicwise_Test_14_Part_Syllabus_GATE_2026_CS_Operating_System.html"
+                },
+                {
+                  "title": "062_Topicwise_Test_15_Part_Syllabus_GATE_2025_CS_Programming_and",
+                  "path": "/tests/providers/Computer Science/MadeEasy/062_Topicwise_Test_15_Part_Syllabus_GATE_2025_CS_Programming_and.html"
+                },
+                {
+                  "title": "063_Topicwise_Test_15_Part_Syllabus_GATE_2026_CS_Programming_and",
+                  "path": "/tests/providers/Computer Science/MadeEasy/063_Topicwise_Test_15_Part_Syllabus_GATE_2026_CS_Programming_and.html"
+                },
+                {
+                  "title": "064_Topicwise_Test_16_Part_Syllabus_GATE_2025_CS_Programming_and",
+                  "path": "/tests/providers/Computer Science/MadeEasy/064_Topicwise_Test_16_Part_Syllabus_GATE_2025_CS_Programming_and.html"
+                },
+                {
+                  "title": "065_Topicwise_Test_16_Part_Syllabus_GATE_2026_CS_Programming_and",
+                  "path": "/tests/providers/Computer Science/MadeEasy/065_Topicwise_Test_16_Part_Syllabus_GATE_2026_CS_Programming_and.html"
+                },
+                {
+                  "title": "066_Topicwise_Test_17_Part_Syllabus_GATE_2025_CS_Computer_Networks",
+                  "path": "/tests/providers/Computer Science/MadeEasy/066_Topicwise_Test_17_Part_Syllabus_GATE_2025_CS_Computer_Networks.html"
+                },
+                {
+                  "title": "067_Topicwise_Test_17_Part_Syllabus_GATE_2026_CS_Computer_Networks",
+                  "path": "/tests/providers/Computer Science/MadeEasy/067_Topicwise_Test_17_Part_Syllabus_GATE_2026_CS_Computer_Networks.html"
+                },
+                {
+                  "title": "068_Topicwise_Test_18_Part_Syllabus_GATE_2025_CS_Computer_Networks",
+                  "path": "/tests/providers/Computer Science/MadeEasy/068_Topicwise_Test_18_Part_Syllabus_GATE_2025_CS_Computer_Networks.html"
+                },
+                {
+                  "title": "069_Topicwise_Test_18_Part_Syllabus_GATE_2026_CS_Computer_Networks",
+                  "path": "/tests/providers/Computer Science/MadeEasy/069_Topicwise_Test_18_Part_Syllabus_GATE_2026_CS_Computer_Networks.html"
+                },
+                {
+                  "title": "070_Topicwise_Test_19_Part_Syllabus_GATE_2025_CS_Digital_Logic_1",
+                  "path": "/tests/providers/Computer Science/MadeEasy/070_Topicwise_Test_19_Part_Syllabus_GATE_2025_CS_Digital_Logic_1.html"
+                },
+                {
+                  "title": "071_Topicwise_Test_19_Part_Syllabus_GATE_2026_CS_Digital_Logic_1",
+                  "path": "/tests/providers/Computer Science/MadeEasy/071_Topicwise_Test_19_Part_Syllabus_GATE_2026_CS_Digital_Logic_1.html"
+                },
+                {
+                  "title": "072_Topicwise_Test_2_Part_Syllabus_GATE_2025_CS_Theory_of_Computation",
+                  "path": "/tests/providers/Computer Science/MadeEasy/072_Topicwise_Test_2_Part_Syllabus_GATE_2025_CS_Theory_of_Computation.html"
+                },
+                {
+                  "title": "073_Topicwise_Test_2_Part_Syllabus_GATE_2026_CS_Theory_of_Computation",
+                  "path": "/tests/providers/Computer Science/MadeEasy/073_Topicwise_Test_2_Part_Syllabus_GATE_2026_CS_Theory_of_Computation.html"
+                },
+                {
+                  "title": "074_Topicwise_Test_20_Part_Syllabus_GATE_2025_CS_Digital_Logic_2",
+                  "path": "/tests/providers/Computer Science/MadeEasy/074_Topicwise_Test_20_Part_Syllabus_GATE_2025_CS_Digital_Logic_2.html"
+                },
+                {
+                  "title": "075_Topicwise_Test_20_Part_Syllabus_GATE_2026_CS_Digital_Logic_2",
+                  "path": "/tests/providers/Computer Science/MadeEasy/075_Topicwise_Test_20_Part_Syllabus_GATE_2026_CS_Digital_Logic_2.html"
+                },
+                {
+                  "title": "076_Topicwise_Test_21_Part_Syllabus_GATE_2025_CS_Discrete_Mathematics",
+                  "path": "/tests/providers/Computer Science/MadeEasy/076_Topicwise_Test_21_Part_Syllabus_GATE_2025_CS_Discrete_Mathematics.html"
+                },
+                {
+                  "title": "077_Topicwise_Test_21_Part_Syllabus_GATE_2026_CS_Discrete_Mathematics",
+                  "path": "/tests/providers/Computer Science/MadeEasy/077_Topicwise_Test_21_Part_Syllabus_GATE_2026_CS_Discrete_Mathematics.html"
+                },
+                {
+                  "title": "078_Topicwise_Test_22_Part_Syllabus_GATE_2025_CS_Discrete_Mathematics",
+                  "path": "/tests/providers/Computer Science/MadeEasy/078_Topicwise_Test_22_Part_Syllabus_GATE_2025_CS_Discrete_Mathematics.html"
+                },
+                {
+                  "title": "079_Topicwise_Test_22_Part_Syllabus_GATE_2026_CS_Discrete_Mathematics",
+                  "path": "/tests/providers/Computer Science/MadeEasy/079_Topicwise_Test_22_Part_Syllabus_GATE_2026_CS_Discrete_Mathematics.html"
+                },
+                {
+                  "title": "080_Topicwise_Test_23_Part_Syllabus_GATE_2025_CS_Compiler_Design",
+                  "path": "/tests/providers/Computer Science/MadeEasy/080_Topicwise_Test_23_Part_Syllabus_GATE_2025_CS_Compiler_Design.html"
+                },
+                {
+                  "title": "081_Topicwise_Test_23_Part_Syllabus_GATE_2026_CS_Compiler_Design",
+                  "path": "/tests/providers/Computer Science/MadeEasy/081_Topicwise_Test_23_Part_Syllabus_GATE_2026_CS_Compiler_Design.html"
+                },
+                {
+                  "title": "082_Topicwise_Test_24_Part_Syllabus_GATE_2025_CS_Compiler_Design",
+                  "path": "/tests/providers/Computer Science/MadeEasy/082_Topicwise_Test_24_Part_Syllabus_GATE_2025_CS_Compiler_Design.html"
+                },
+                {
+                  "title": "083_Topicwise_Test_24_Part_Syllabus_GATE_2026_CS_Compiler_Design",
+                  "path": "/tests/providers/Computer Science/MadeEasy/083_Topicwise_Test_24_Part_Syllabus_GATE_2026_CS_Compiler_Design.html"
+                },
+                {
+                  "title": "084_Topicwise_Test_3_Part_Syllabus_GATE_2025_CS_Algorithms_1",
+                  "path": "/tests/providers/Computer Science/MadeEasy/084_Topicwise_Test_3_Part_Syllabus_GATE_2025_CS_Algorithms_1.html"
+                },
+                {
+                  "title": "085_Topicwise_Test_3_Part_Syllabus_GATE_2026_CS_Algorithms_1",
+                  "path": "/tests/providers/Computer Science/MadeEasy/085_Topicwise_Test_3_Part_Syllabus_GATE_2026_CS_Algorithms_1.html"
+                },
+                {
+                  "title": "086_Topicwise_Test_4_Part_Syllabus_GATE_2025_CS_Algorithms_2",
+                  "path": "/tests/providers/Computer Science/MadeEasy/086_Topicwise_Test_4_Part_Syllabus_GATE_2025_CS_Algorithms_2.html"
+                },
+                {
+                  "title": "087_Topicwise_Test_4_Part_Syllabus_GATE_2026_CS_Algorithms_2",
+                  "path": "/tests/providers/Computer Science/MadeEasy/087_Topicwise_Test_4_Part_Syllabus_GATE_2026_CS_Algorithms_2.html"
+                },
+                {
+                  "title": "088_Topicwise_Test_5_Part_Syllabus_GATE_2025_CS_Computer_Organization",
+                  "path": "/tests/providers/Computer Science/MadeEasy/088_Topicwise_Test_5_Part_Syllabus_GATE_2025_CS_Computer_Organization.html"
+                },
+                {
+                  "title": "089_Topicwise_Test_5_Part_Syllabus_GATE_2026_CS_Computer_Organization",
+                  "path": "/tests/providers/Computer Science/MadeEasy/089_Topicwise_Test_5_Part_Syllabus_GATE_2026_CS_Computer_Organization.html"
+                },
+                {
+                  "title": "090_Topicwise_Test_6_Part_Syllabus_GATE_2025_CS_Computer_Organization",
+                  "path": "/tests/providers/Computer Science/MadeEasy/090_Topicwise_Test_6_Part_Syllabus_GATE_2025_CS_Computer_Organization.html"
+                },
+                {
+                  "title": "091_Topicwise_Test_6_Part_Syllabus_GATE_2026_CS_Computer_Organization",
+                  "path": "/tests/providers/Computer Science/MadeEasy/091_Topicwise_Test_6_Part_Syllabus_GATE_2026_CS_Computer_Organization.html"
+                },
+                {
+                  "title": "092_Topicwise Test-7 Part Syllabus GATE 2025 CS Databases-1",
+                  "path": "/tests/providers/Computer Science/MadeEasy/092_Topicwise Test-7 Part Syllabus GATE 2025 CS Databases-1.html"
+                },
+                {
+                  "title": "093_Topicwise Test-7 Part Syllabus GATE 2026 CS Databases-1",
+                  "path": "/tests/providers/Computer Science/MadeEasy/093_Topicwise Test-7 Part Syllabus GATE 2026 CS Databases-1.html"
+                },
+                {
+                  "title": "094_Topicwise Test-8 Part Syllabus GATE 2025 CS Databases-2",
+                  "path": "/tests/providers/Computer Science/MadeEasy/094_Topicwise Test-8 Part Syllabus GATE 2025 CS Databases-2.html"
+                },
+                {
+                  "title": "095_Topicwise Test-8 Part Syllabus GATE 2026 CS Databases-2",
+                  "path": "/tests/providers/Computer Science/MadeEasy/095_Topicwise Test-8 Part Syllabus GATE 2026 CS Databases-2.html"
+                },
+                {
+                  "title": "096_Topicwise_Test_9_Part_Syllabus_GATE_2025_CS_Engineering_Mathematics",
+                  "path": "/tests/providers/Computer Science/MadeEasy/096_Topicwise_Test_9_Part_Syllabus_GATE_2025_CS_Engineering_Mathematics.html"
+                },
+                {
+                  "title": "097_Topicwise_Test_9_Part_Syllabus_GATE_2026_CS_Engineering_Mathematics",
+                  "path": "/tests/providers/Computer Science/MadeEasy/097_Topicwise_Test_9_Part_Syllabus_GATE_2026_CS_Engineering_Mathematics.html"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Mechanical",
+          "series": [
+            {
+              "name": "All",
+              "tests": [
+                {
+                  "title": "001_Advance Level Test-1 Full Syllabus GATE 2025 ME",
+                  "path": "/tests/providers/Mechanical/MadeEasy/001_Advance Level Test-1 Full Syllabus GATE 2025 ME.html"
+                },
+                {
+                  "title": "002_Advance Level Test-1 Full Syllabus GATE 2026 ME",
+                  "path": "/tests/providers/Mechanical/MadeEasy/002_Advance Level Test-1 Full Syllabus GATE 2026 ME.html"
+                },
+                {
+                  "title": "003_Advance Level Test-2 Full Syllabus GATE 2025 ME",
+                  "path": "/tests/providers/Mechanical/MadeEasy/003_Advance Level Test-2 Full Syllabus GATE 2025 ME.html"
+                },
+                {
+                  "title": "004_Advance Level Test-2 Full Syllabus GATE 2026 ME",
+                  "path": "/tests/providers/Mechanical/MadeEasy/004_Advance Level Test-2 Full Syllabus GATE 2026 ME.html"
+                },
+                {
+                  "title": "005_Advance Level Test-3 Full Syllabus GATE 2025 ME",
+                  "path": "/tests/providers/Mechanical/MadeEasy/005_Advance Level Test-3 Full Syllabus GATE 2025 ME.html"
+                },
+                {
+                  "title": "006_Advance Level Test-3 Full Syllabus GATE 2026 ME",
+                  "path": "/tests/providers/Mechanical/MadeEasy/006_Advance Level Test-3 Full Syllabus GATE 2026 ME.html"
+                },
+                {
+                  "title": "007_Advance Level Test-4 Full Syllabus GATE 2025 ME",
+                  "path": "/tests/providers/Mechanical/MadeEasy/007_Advance Level Test-4 Full Syllabus GATE 2025 ME.html"
+                },
+                {
+                  "title": "008_Advance Level Test-4 Full Syllabus GATE 2026 ME",
+                  "path": "/tests/providers/Mechanical/MadeEasy/008_Advance Level Test-4 Full Syllabus GATE 2026 ME.html"
+                },
+                {
+                  "title": "009_Basic Level Test-1 Full Syllabus GATE 2025 ME",
+                  "path": "/tests/providers/Mechanical/MadeEasy/009_Basic Level Test-1 Full Syllabus GATE 2025 ME.html"
+                },
+                {
+                  "title": "010_Basic Level Test-1 Full Syllabus GATE 2026 ME",
+                  "path": "/tests/providers/Mechanical/MadeEasy/010_Basic Level Test-1 Full Syllabus GATE 2026 ME.html"
+                },
+                {
+                  "title": "011_Basic Level Test-2 Full Syllabus GATE 2025 ME",
+                  "path": "/tests/providers/Mechanical/MadeEasy/011_Basic Level Test-2 Full Syllabus GATE 2025 ME.html"
+                },
+                {
+                  "title": "012_Basic Level Test-2 Full Syllabus GATE 2026 ME",
+                  "path": "/tests/providers/Mechanical/MadeEasy/012_Basic Level Test-2 Full Syllabus GATE 2026 ME.html"
+                },
+                {
+                  "title": "013_Basic Level Test-3 Full Syllabus GATE 2025 ME",
+                  "path": "/tests/providers/Mechanical/MadeEasy/013_Basic Level Test-3 Full Syllabus GATE 2025 ME.html"
+                },
+                {
+                  "title": "014_Basic Level Test-3 Full Syllabus GATE 2026 ME",
+                  "path": "/tests/providers/Mechanical/MadeEasy/014_Basic Level Test-3 Full Syllabus GATE 2026 ME.html"
+                },
+                {
+                  "title": "015_Basic Level Test-4 Full Syllabus GATE 2025 ME",
+                  "path": "/tests/providers/Mechanical/MadeEasy/015_Basic Level Test-4 Full Syllabus GATE 2025 ME.html"
+                },
+                {
+                  "title": "016_Basic Level Test-4 Full Syllabus GATE 2026 ME",
+                  "path": "/tests/providers/Mechanical/MadeEasy/016_Basic Level Test-4 Full Syllabus GATE 2026 ME.html"
+                },
+                {
+                  "title": "017_ESE 2026 DEMO TEST ME",
+                  "path": "/tests/providers/Mechanical/MadeEasy/017_ESE 2026 DEMO TEST ME.html"
+                },
+                {
+                  "title": "018_Mock Level Test-1 Full Syllabus GATE 2025 ME",
+                  "path": "/tests/providers/Mechanical/MadeEasy/018_Mock Level Test-1 Full Syllabus GATE 2025 ME.html"
+                },
+                {
+                  "title": "019_Mock Level Test-1 Full Syllabus GATE 2026 ME",
+                  "path": "/tests/providers/Mechanical/MadeEasy/019_Mock Level Test-1 Full Syllabus GATE 2026 ME.html"
+                },
+                {
+                  "title": "020_Mock Level Test-2 Full Syllabus GATE 2025 ME",
+                  "path": "/tests/providers/Mechanical/MadeEasy/020_Mock Level Test-2 Full Syllabus GATE 2025 ME.html"
+                },
+                {
+                  "title": "021_Mock Level Test-2 Full Syllabus GATE 2026 ME",
+                  "path": "/tests/providers/Mechanical/MadeEasy/021_Mock Level Test-2 Full Syllabus GATE 2026 ME.html"
+                },
+                {
+                  "title": "022_Mock Level Test-3 Full Syllabus GATE 2025 ME",
+                  "path": "/tests/providers/Mechanical/MadeEasy/022_Mock Level Test-3 Full Syllabus GATE 2025 ME.html"
+                },
+                {
+                  "title": "023_Mock Level Test-3 Full Syllabus GATE 2026 ME",
+                  "path": "/tests/providers/Mechanical/MadeEasy/023_Mock Level Test-3 Full Syllabus GATE 2026 ME.html"
+                },
+                {
+                  "title": "024_Mock Level Test-4 Full Syllabus GATE 2025 ME",
+                  "path": "/tests/providers/Mechanical/MadeEasy/024_Mock Level Test-4 Full Syllabus GATE 2025 ME.html"
+                },
+                {
+                  "title": "025_Mock Level Test-4 Full Syllabus GATE 2026 ME",
+                  "path": "/tests/providers/Mechanical/MadeEasy/025_Mock Level Test-4 Full Syllabus GATE 2026 ME.html"
+                },
+                {
+                  "title": "026_Subjectwise_Test_1_Part_Syllabus_GATE_2025_ME_Strength_of_Materials",
+                  "path": "/tests/providers/Mechanical/MadeEasy/026_Subjectwise_Test_1_Part_Syllabus_GATE_2025_ME_Strength_of_Materials.html"
+                },
+                {
+                  "title": "027_Subjectwise_Test_1_Part_Syllabus_GATE_2026_ME_Strength_of_Materials",
+                  "path": "/tests/providers/Mechanical/MadeEasy/027_Subjectwise_Test_1_Part_Syllabus_GATE_2026_ME_Strength_of_Materials.html"
+                },
+                {
+                  "title": "028_Subjectwise_Test_10_Part_Syllabus_GATE_2025_ME_IC_Engine,_Power",
+                  "path": "/tests/providers/Mechanical/MadeEasy/028_Subjectwise_Test_10_Part_Syllabus_GATE_2025_ME_IC_Engine,_Power.html"
+                },
+                {
+                  "title": "029_Subjectwise_Test_10_Part_Syllabus_GATE_2026_ME_IC_Engine,_Power",
+                  "path": "/tests/providers/Mechanical/MadeEasy/029_Subjectwise_Test_10_Part_Syllabus_GATE_2026_ME_IC_Engine,_Power.html"
+                },
+                {
+                  "title": "030_Subjectwise_Test_11_Part_Syllabus_GATE_2025_ME_Industrial_Engineering",
+                  "path": "/tests/providers/Mechanical/MadeEasy/030_Subjectwise_Test_11_Part_Syllabus_GATE_2025_ME_Industrial_Engineering.html"
+                },
+                {
+                  "title": "031_Subjectwise_Test_11_Part_Syllabus_GATE_2026_ME_Industrial_Engineering",
+                  "path": "/tests/providers/Mechanical/MadeEasy/031_Subjectwise_Test_11_Part_Syllabus_GATE_2026_ME_Industrial_Engineering.html"
+                },
+                {
+                  "title": "032_Subjectwise_Test_12_Part_Syllabus_GATE_2025_ME_Machine_Design",
+                  "path": "/tests/providers/Mechanical/MadeEasy/032_Subjectwise_Test_12_Part_Syllabus_GATE_2025_ME_Machine_Design.html"
+                },
+                {
+                  "title": "033_Subjectwise_Test_12_Part_Syllabus_GATE_2026_ME_Machine_Design",
+                  "path": "/tests/providers/Mechanical/MadeEasy/033_Subjectwise_Test_12_Part_Syllabus_GATE_2026_ME_Machine_Design.html"
+                },
+                {
+                  "title": "034_Subjectwise_Test_2_Part_Syllabus_GATE_2025_ME_Thermodynamics",
+                  "path": "/tests/providers/Mechanical/MadeEasy/034_Subjectwise_Test_2_Part_Syllabus_GATE_2025_ME_Thermodynamics.html"
+                },
+                {
+                  "title": "035_Subjectwise_Test_2_Part_Syllabus_GATE_2026_ME_Thermodynamics",
+                  "path": "/tests/providers/Mechanical/MadeEasy/035_Subjectwise_Test_2_Part_Syllabus_GATE_2026_ME_Thermodynamics.html"
+                },
+                {
+                  "title": "036_Subjectwise_Test_3_Part_Syllabus_GATE_2025_ME_Fluid_Mechanics",
+                  "path": "/tests/providers/Mechanical/MadeEasy/036_Subjectwise_Test_3_Part_Syllabus_GATE_2025_ME_Fluid_Mechanics.html"
+                },
+                {
+                  "title": "037_Subjectwise_Test_3_Part_Syllabus_GATE_2026_ME_Fluid_Mechanics",
+                  "path": "/tests/providers/Mechanical/MadeEasy/037_Subjectwise_Test_3_Part_Syllabus_GATE_2026_ME_Fluid_Mechanics.html"
+                },
+                {
+                  "title": "038_Subjectwise_Test_4_Part_Syllabus_GATE_2025_ME_Manufacturing",
+                  "path": "/tests/providers/Mechanical/MadeEasy/038_Subjectwise_Test_4_Part_Syllabus_GATE_2025_ME_Manufacturing.html"
+                },
+                {
+                  "title": "039_Subjectwise_Test_4_Part_Syllabus_GATE_2026_ME_Manufacturing",
+                  "path": "/tests/providers/Mechanical/MadeEasy/039_Subjectwise_Test_4_Part_Syllabus_GATE_2026_ME_Manufacturing.html"
+                },
+                {
+                  "title": "040_Subjectwise_Test_5_Part_Syllabus_GATE_2025_ME_Engineering_Mathematics",
+                  "path": "/tests/providers/Mechanical/MadeEasy/040_Subjectwise_Test_5_Part_Syllabus_GATE_2025_ME_Engineering_Mathematics.html"
+                },
+                {
+                  "title": "041_Subjectwise_Test_5_Part_Syllabus_GATE_2026_ME_Engineering_Mathematics",
+                  "path": "/tests/providers/Mechanical/MadeEasy/041_Subjectwise_Test_5_Part_Syllabus_GATE_2026_ME_Engineering_Mathematics.html"
+                },
+                {
+                  "title": "042_Subjectwise_Test_6_Part_Syllabus_GATE_2025_ME_General_Aptitude",
+                  "path": "/tests/providers/Mechanical/MadeEasy/042_Subjectwise_Test_6_Part_Syllabus_GATE_2025_ME_General_Aptitude.html"
+                },
+                {
+                  "title": "043_Subjectwise_Test_6_Part_Syllabus_GATE_2026_ME_General_Aptitude",
+                  "path": "/tests/providers/Mechanical/MadeEasy/043_Subjectwise_Test_6_Part_Syllabus_GATE_2026_ME_General_Aptitude.html"
+                },
+                {
+                  "title": "044_Subjectwise_Test_7_Part_Syllabus_GATE_2025_ME_Heat_Transfer",
+                  "path": "/tests/providers/Mechanical/MadeEasy/044_Subjectwise_Test_7_Part_Syllabus_GATE_2025_ME_Heat_Transfer.html"
+                },
+                {
+                  "title": "045_Subjectwise_Test_7_Part_Syllabus_GATE_2026_ME_Heat_Transfer",
+                  "path": "/tests/providers/Mechanical/MadeEasy/045_Subjectwise_Test_7_Part_Syllabus_GATE_2026_ME_Heat_Transfer.html"
+                },
+                {
+                  "title": "046_Subjectwise_Test_8_Part_Syllabus_GATE_2025_ME_Engineering_Mechanics",
+                  "path": "/tests/providers/Mechanical/MadeEasy/046_Subjectwise_Test_8_Part_Syllabus_GATE_2025_ME_Engineering_Mechanics.html"
+                },
+                {
+                  "title": "047_Subjectwise_Test_8_Part_Syllabus_GATE_2026_ME_Engineering_Mechanics",
+                  "path": "/tests/providers/Mechanical/MadeEasy/047_Subjectwise_Test_8_Part_Syllabus_GATE_2026_ME_Engineering_Mechanics.html"
+                },
+                {
+                  "title": "048_Subjectwise_Test_9_Part_Syllabus_GATE_2025_ME_Theory_of_Machines",
+                  "path": "/tests/providers/Mechanical/MadeEasy/048_Subjectwise_Test_9_Part_Syllabus_GATE_2025_ME_Theory_of_Machines.html"
+                },
+                {
+                  "title": "049_Subjectwise_Test_9_Part_Syllabus_GATE_2026_ME_Theory_of_Machines",
+                  "path": "/tests/providers/Mechanical/MadeEasy/049_Subjectwise_Test_9_Part_Syllabus_GATE_2026_ME_Theory_of_Machines.html"
+                },
+                {
+                  "title": "050_Topicwise_Test_1_Part_Syllabus_GATE_2025_ME_Strength_of_Materials",
+                  "path": "/tests/providers/Mechanical/MadeEasy/050_Topicwise_Test_1_Part_Syllabus_GATE_2025_ME_Strength_of_Materials.html"
+                },
+                {
+                  "title": "051_Topicwise_Test_1_Part_Syllabus_GATE_2026_ME_Strength_of_Materials",
+                  "path": "/tests/providers/Mechanical/MadeEasy/051_Topicwise_Test_1_Part_Syllabus_GATE_2026_ME_Strength_of_Materials.html"
+                },
+                {
+                  "title": "052_Topicwise_Test_10_Part_Syllabus_GATE_2025_ME_Engineering_Mathematics",
+                  "path": "/tests/providers/Mechanical/MadeEasy/052_Topicwise_Test_10_Part_Syllabus_GATE_2025_ME_Engineering_Mathematics.html"
+                },
+                {
+                  "title": "053_Topicwise_Test_10_Part_Syllabus_GATE_2026_ME_Engineering_Mathematics",
+                  "path": "/tests/providers/Mechanical/MadeEasy/053_Topicwise_Test_10_Part_Syllabus_GATE_2026_ME_Engineering_Mathematics.html"
+                },
+                {
+                  "title": "054_Topicwise_Test_11_Part_Syllabus_GATE_2025_ME_General_Aptitude",
+                  "path": "/tests/providers/Mechanical/MadeEasy/054_Topicwise_Test_11_Part_Syllabus_GATE_2025_ME_General_Aptitude.html"
+                },
+                {
+                  "title": "055_Topicwise_Test_11_Part_Syllabus_GATE_2026_ME_General_Aptitude",
+                  "path": "/tests/providers/Mechanical/MadeEasy/055_Topicwise_Test_11_Part_Syllabus_GATE_2026_ME_General_Aptitude.html"
+                },
+                {
+                  "title": "056_Topicwise_Test_12_Part_Syllabus_GATE_2025_ME_General_Aptitude",
+                  "path": "/tests/providers/Mechanical/MadeEasy/056_Topicwise_Test_12_Part_Syllabus_GATE_2025_ME_General_Aptitude.html"
+                },
+                {
+                  "title": "057_Topicwise_Test_12_Part_Syllabus_GATE_2026_ME_General_Aptitude",
+                  "path": "/tests/providers/Mechanical/MadeEasy/057_Topicwise_Test_12_Part_Syllabus_GATE_2026_ME_General_Aptitude.html"
+                },
+                {
+                  "title": "058_Topicwise_Test_13_Part_Syllabus_GATE_2025_ME_Casting,_Forming",
+                  "path": "/tests/providers/Mechanical/MadeEasy/058_Topicwise_Test_13_Part_Syllabus_GATE_2025_ME_Casting,_Forming.html"
+                },
+                {
+                  "title": "059_Topicwise_Test_13_Part_Syllabus_GATE_2026_ME_Casting_Forming",
+                  "path": "/tests/providers/Mechanical/MadeEasy/059_Topicwise_Test_13_Part_Syllabus_GATE_2026_ME_Casting_Forming.html"
+                },
+                {
+                  "title": "060_Topicwise_Test_14_Part_Syllabus_GATE_2025_ME_Machining_and_Machine",
+                  "path": "/tests/providers/Mechanical/MadeEasy/060_Topicwise_Test_14_Part_Syllabus_GATE_2025_ME_Machining_and_Machine.html"
+                },
+                {
+                  "title": "061_Topicwise_Test_14_Part_Syllabus_GATE_2026_ME_Manufacturing_Engineering",
+                  "path": "/tests/providers/Mechanical/MadeEasy/061_Topicwise_Test_14_Part_Syllabus_GATE_2026_ME_Manufacturing_Engineering.html"
+                },
+                {
+                  "title": "062_Topicwise_Test_15_Part_Syllabus_GATE_2025_ME_Metrology,_Engineering",
+                  "path": "/tests/providers/Mechanical/MadeEasy/062_Topicwise_Test_15_Part_Syllabus_GATE_2025_ME_Metrology,_Engineering.html"
+                },
+                {
+                  "title": "063_Topicwise_Test_15_Part_Syllabus_GATE_2026_ME_Metrology,_Engineering",
+                  "path": "/tests/providers/Mechanical/MadeEasy/063_Topicwise_Test_15_Part_Syllabus_GATE_2026_ME_Metrology,_Engineering.html"
+                },
+                {
+                  "title": "064_Topicwise_Test_16_Part_Syllabus_GATE_2025_ME_Engineering_Mechanics",
+                  "path": "/tests/providers/Mechanical/MadeEasy/064_Topicwise_Test_16_Part_Syllabus_GATE_2025_ME_Engineering_Mechanics.html"
+                },
+                {
+                  "title": "065_Topicwise_Test_16_Part_Syllabus_GATE_2026_ME_Engineering_Mechanics",
+                  "path": "/tests/providers/Mechanical/MadeEasy/065_Topicwise_Test_16_Part_Syllabus_GATE_2026_ME_Engineering_Mechanics.html"
+                },
+                {
+                  "title": "066_Topicwise_Test_17_Part_Syllabus_GATE_2025_ME_Theory_of_Machines",
+                  "path": "/tests/providers/Mechanical/MadeEasy/066_Topicwise_Test_17_Part_Syllabus_GATE_2025_ME_Theory_of_Machines.html"
+                },
+                {
+                  "title": "067_Topicwise_Test_17_Part_Syllabus_GATE_2026_ME_Theory_of_Machines",
+                  "path": "/tests/providers/Mechanical/MadeEasy/067_Topicwise_Test_17_Part_Syllabus_GATE_2026_ME_Theory_of_Machines.html"
+                },
+                {
+                  "title": "068_Topicwise_Test_18_Part_Syllabus_GATE_2025_ME_Theory_of_Machines",
+                  "path": "/tests/providers/Mechanical/MadeEasy/068_Topicwise_Test_18_Part_Syllabus_GATE_2025_ME_Theory_of_Machines.html"
+                },
+                {
+                  "title": "069_Topicwise_Test_18_Part_Syllabus_GATE_2026_ME_Theory_of_Machines",
+                  "path": "/tests/providers/Mechanical/MadeEasy/069_Topicwise_Test_18_Part_Syllabus_GATE_2026_ME_Theory_of_Machines.html"
+                },
+                {
+                  "title": "070_Topicwise_Test_19_Part_Syllabus_GATE_2025_ME_IC_Engine_&_Power",
+                  "path": "/tests/providers/Mechanical/MadeEasy/070_Topicwise_Test_19_Part_Syllabus_GATE_2025_ME_IC_Engine_&_Power.html"
+                },
+                {
+                  "title": "071_Topicwise_Test_19_Part_Syllabus_GATE_2026_ME_IC_Engine_&_Power",
+                  "path": "/tests/providers/Mechanical/MadeEasy/071_Topicwise_Test_19_Part_Syllabus_GATE_2026_ME_IC_Engine_&_Power.html"
+                },
+                {
+                  "title": "072_Topicwise_Test_2_Part_Syllabus_GATE_2025_ME_Strength_of_Materials",
+                  "path": "/tests/providers/Mechanical/MadeEasy/072_Topicwise_Test_2_Part_Syllabus_GATE_2025_ME_Strength_of_Materials.html"
+                },
+                {
+                  "title": "073_Topicwise_Test_2_Part_Syllabus_GATE_2026_ME_Strength_of_Materials",
+                  "path": "/tests/providers/Mechanical/MadeEasy/073_Topicwise_Test_2_Part_Syllabus_GATE_2026_ME_Strength_of_Materials.html"
+                },
+                {
+                  "title": "074_Topicwise_Test_20_Part_Syllabus_GATE_2025_ME_Refrigeration_&",
+                  "path": "/tests/providers/Mechanical/MadeEasy/074_Topicwise_Test_20_Part_Syllabus_GATE_2025_ME_Refrigeration_&.html"
+                },
+                {
+                  "title": "075_Topicwise_Test_20_Part_Syllabus_GATE_2026_ME_Refrigeration_&",
+                  "path": "/tests/providers/Mechanical/MadeEasy/075_Topicwise_Test_20_Part_Syllabus_GATE_2026_ME_Refrigeration_&.html"
+                },
+                {
+                  "title": "076_Topicwise_Test_21_Part_Syllabus_GATE_2025_ME_Industrial_Engineering",
+                  "path": "/tests/providers/Mechanical/MadeEasy/076_Topicwise_Test_21_Part_Syllabus_GATE_2025_ME_Industrial_Engineering.html"
+                },
+                {
+                  "title": "077_Topicwise_Test_21_Part_Syllabus_GATE_2026_ME_Industrial_Engineering",
+                  "path": "/tests/providers/Mechanical/MadeEasy/077_Topicwise_Test_21_Part_Syllabus_GATE_2026_ME_Industrial_Engineering.html"
+                },
+                {
+                  "title": "078_Topicwise_Test_22_Part_Syllabus_GATE_2026_ME_Industrial_Engineering",
+                  "path": "/tests/providers/Mechanical/MadeEasy/078_Topicwise_Test_22_Part_Syllabus_GATE_2026_ME_Industrial_Engineering.html"
+                },
+                {
+                  "title": "079_Topicwise_Test_23_Part_Syllabus_GATE_2025_ME_Machine_Design",
+                  "path": "/tests/providers/Mechanical/MadeEasy/079_Topicwise_Test_23_Part_Syllabus_GATE_2025_ME_Machine_Design.html"
+                },
+                {
+                  "title": "080_Topicwise_Test_23_Part_Syllabus_GATE_2026_ME_Machine_Design",
+                  "path": "/tests/providers/Mechanical/MadeEasy/080_Topicwise_Test_23_Part_Syllabus_GATE_2026_ME_Machine_Design.html"
+                },
+                {
+                  "title": "081_Topicwise_Test_24_Part_Syllabus_GATE_2025_ME_Machine_Design",
+                  "path": "/tests/providers/Mechanical/MadeEasy/081_Topicwise_Test_24_Part_Syllabus_GATE_2025_ME_Machine_Design.html"
+                },
+                {
+                  "title": "082_Topicwise_Test_24_Part_Syllabus_GATE_2026_ME_Machine_Design",
+                  "path": "/tests/providers/Mechanical/MadeEasy/082_Topicwise_Test_24_Part_Syllabus_GATE_2026_ME_Machine_Design.html"
+                },
+                {
+                  "title": "083_Topicwise_Test_3_Part_Syllabus_GATE_2025_ME_Thermodynamics_1",
+                  "path": "/tests/providers/Mechanical/MadeEasy/083_Topicwise_Test_3_Part_Syllabus_GATE_2025_ME_Thermodynamics_1.html"
+                },
+                {
+                  "title": "084_Topicwise_Test_3_Part_Syllabus_GATE_2026_ME_Thermodynamics_1",
+                  "path": "/tests/providers/Mechanical/MadeEasy/084_Topicwise_Test_3_Part_Syllabus_GATE_2026_ME_Thermodynamics_1.html"
+                },
+                {
+                  "title": "085_Topicwise_Test_4_Part_Syllabus_GATE_2025_ME_Thermodynamics_2",
+                  "path": "/tests/providers/Mechanical/MadeEasy/085_Topicwise_Test_4_Part_Syllabus_GATE_2025_ME_Thermodynamics_2.html"
+                },
+                {
+                  "title": "086_Topicwise_Test_4_Part_Syllabus_GATE_2026_ME_Thermodynamics_2",
+                  "path": "/tests/providers/Mechanical/MadeEasy/086_Topicwise_Test_4_Part_Syllabus_GATE_2026_ME_Thermodynamics_2.html"
+                },
+                {
+                  "title": "087_Topicwise_Test_5_Part_Syllabus_GATE_2025_ME_Fluid_Mechanics",
+                  "path": "/tests/providers/Mechanical/MadeEasy/087_Topicwise_Test_5_Part_Syllabus_GATE_2025_ME_Fluid_Mechanics.html"
+                },
+                {
+                  "title": "088_Topicwise_Test_5_Part_Syllabus_GATE_2026_ME_Fluid_Mechanics",
+                  "path": "/tests/providers/Mechanical/MadeEasy/088_Topicwise_Test_5_Part_Syllabus_GATE_2026_ME_Fluid_Mechanics.html"
+                },
+                {
+                  "title": "090_Topicwise_Test_6_Part_Syllabus_GATE_2026_ME_Fluid_Mechanics (1)",
+                  "path": "/tests/providers/Mechanical/MadeEasy/090_Topicwise_Test_6_Part_Syllabus_GATE_2026_ME_Fluid_Mechanics (1).html"
+                },
+                {
+                  "title": "090_Topicwise_Test_6_Part_Syllabus_GATE_2026_ME_Fluid_Mechanics",
+                  "path": "/tests/providers/Mechanical/MadeEasy/090_Topicwise_Test_6_Part_Syllabus_GATE_2026_ME_Fluid_Mechanics.html"
+                },
+                {
+                  "title": "091_Topicwise_Test_7_Part_Syllabus_GATE_2025_ME_Heat_Transfer_1",
+                  "path": "/tests/providers/Mechanical/MadeEasy/091_Topicwise_Test_7_Part_Syllabus_GATE_2025_ME_Heat_Transfer_1.html"
+                },
+                {
+                  "title": "092_Topicwise_Test_7_Part_Syllabus_GATE_2026_ME_Heat_Transfer_1",
+                  "path": "/tests/providers/Mechanical/MadeEasy/092_Topicwise_Test_7_Part_Syllabus_GATE_2026_ME_Heat_Transfer_1.html"
+                },
+                {
+                  "title": "093_Topicwise_Test_8_Part_Syllabus_GATE_2025_ME_Heat_Transfer_2",
+                  "path": "/tests/providers/Mechanical/MadeEasy/093_Topicwise_Test_8_Part_Syllabus_GATE_2025_ME_Heat_Transfer_2.html"
+                },
+                {
+                  "title": "094_Topicwise_Test_8_Part_Syllabus_GATE_2026_ME_Heat_Transfer_2",
+                  "path": "/tests/providers/Mechanical/MadeEasy/094_Topicwise_Test_8_Part_Syllabus_GATE_2026_ME_Heat_Transfer_2.html"
+                },
+                {
+                  "title": "095_Topicwise_Test_9_Part_Syllabus_GATE_2025_ME_Engineering_Mathematics",
+                  "path": "/tests/providers/Mechanical/MadeEasy/095_Topicwise_Test_9_Part_Syllabus_GATE_2025_ME_Engineering_Mathematics.html"
+                },
+                {
+                  "title": "096_Topicwise_Test_9_Part_Syllabus_GATE_2026_ME_Engineering_Mathematics",
+                  "path": "/tests/providers/Mechanical/MadeEasy/096_Topicwise_Test_9_Part_Syllabus_GATE_2026_ME_Engineering_Mathematics.html"
                 }
               ]
             }
@@ -280,1147 +1140,277 @@
       ]
     },
     {
-      "name": "Civil",
+      "name": "Gate Zeal",
       "providers": [
         {
-          "name": "MadeEasy",
+          "name": "Computer Science",
           "series": [
             {
               "name": "All",
               "tests": [
                 {
-                  "title": "001_Advance Level Test-1 Full Syllabus GATE 2026 CE.html",
-                  "path": "tests/providers/MadeEasy/Civil/001_Advance Level Test-1 Full Syllabus GATE 2026 CE.html"
+                  "title": "file_1 [@ Dvruo Gate Zeal CSE 2026 Test Series]",
+                  "path": "/tests/providers/Computer Science/Gate Zeal/file_1 [@ Dvruo Gate Zeal CSE 2026 Test Series].html"
                 },
                 {
-                  "title": "002_Advance Level Test-2 Full Syllabus GATE 2026 CE.html",
-                  "path": "tests/providers/MadeEasy/Civil/002_Advance Level Test-2 Full Syllabus GATE 2026 CE.html"
+                  "title": "file_10 [@ Dvruo Gate Zeal CSE 2026 Test Series]",
+                  "path": "/tests/providers/Computer Science/Gate Zeal/file_10 [@ Dvruo Gate Zeal CSE 2026 Test Series].html"
                 },
                 {
-                  "title": "003_Advance Level Test-3 Full Syllabus GATE 2026 CE.html",
-                  "path": "tests/providers/MadeEasy/Civil/003_Advance Level Test-3 Full Syllabus GATE 2026 CE.html"
+                  "title": "file_15 [@ Dvruo Gate Zeal CSE 2026 Test Series]",
+                  "path": "/tests/providers/Computer Science/Gate Zeal/file_15 [@ Dvruo Gate Zeal CSE 2026 Test Series].html"
                 },
                 {
-                  "title": "004_Advance Level Test-4 Full Syllabus GATE 2026 CE.html",
-                  "path": "tests/providers/MadeEasy/Civil/004_Advance Level Test-4 Full Syllabus GATE 2026 CE.html"
+                  "title": "file_17 [@ Dvruo Gate Zeal CSE 2026 Test Series]",
+                  "path": "/tests/providers/Computer Science/Gate Zeal/file_17 [@ Dvruo Gate Zeal CSE 2026 Test Series].html"
                 },
                 {
-                  "title": "005_Basic Level Test-1 Full Syllabus GATE 2026 CE.html",
-                  "path": "tests/providers/MadeEasy/Civil/005_Basic Level Test-1 Full Syllabus GATE 2026 CE.html"
+                  "title": "file_18 [@ Dvruo Gate Zeal CSE 2026 Test Series]",
+                  "path": "/tests/providers/Computer Science/Gate Zeal/file_18 [@ Dvruo Gate Zeal CSE 2026 Test Series].html"
                 },
                 {
-                  "title": "006_Basic Level Test-2 Full Syllabus GATE 2026 CE.html",
-                  "path": "tests/providers/MadeEasy/Civil/006_Basic Level Test-2 Full Syllabus GATE 2026 CE.html"
+                  "title": "file_2 [@ Dvruo Gate Zeal CSE 2026 Test Series]",
+                  "path": "/tests/providers/Computer Science/Gate Zeal/file_2 [@ Dvruo Gate Zeal CSE 2026 Test Series].html"
                 },
                 {
-                  "title": "007_Basic Level Test-3 Full Syllabus GATE 2026 CE.html",
-                  "path": "tests/providers/MadeEasy/Civil/007_Basic Level Test-3 Full Syllabus GATE 2026 CE.html"
+                  "title": "file_21 [@ Dvruo Gate Zeal CSE 2026 Test Series]",
+                  "path": "/tests/providers/Computer Science/Gate Zeal/file_21 [@ Dvruo Gate Zeal CSE 2026 Test Series].html"
                 },
                 {
-                  "title": "008_Basic Level Test-4 Full Syllabus GATE 2026 CE.html",
-                  "path": "tests/providers/MadeEasy/Civil/008_Basic Level Test-4 Full Syllabus GATE 2026 CE.html"
+                  "title": "file_22 [@ Dvruo Gate Zeal CSE 2026 Test Series]",
+                  "path": "/tests/providers/Computer Science/Gate Zeal/file_22 [@ Dvruo Gate Zeal CSE 2026 Test Series].html"
                 },
                 {
-                  "title": "009_ESE 2026 DEMO TEST CE.html",
-                  "path": "tests/providers/MadeEasy/Civil/009_ESE 2026 DEMO TEST CE.html"
+                  "title": "file_23 [@ Dvruo Gate Zeal CSE 2026 Test Series]",
+                  "path": "/tests/providers/Computer Science/Gate Zeal/file_23 [@ Dvruo Gate Zeal CSE 2026 Test Series].html"
                 },
                 {
-                  "title": "010_Full_Syllabus_Test_1_2026_ESE_CE_General_Studies_&_Engineering.html",
-                  "path": "tests/providers/MadeEasy/Civil/010_Full_Syllabus_Test_1_2026_ESE_CE_General_Studies_&_Engineering.html"
+                  "title": "file_24 [@ Dvruo Gate Zeal CSE 2026 Test Series]",
+                  "path": "/tests/providers/Computer Science/Gate Zeal/file_24 [@ Dvruo Gate Zeal CSE 2026 Test Series].html"
                 },
                 {
-                  "title": "011_Full_Syllabus_Test_10_2026_ESE_CE_Engineering_Discipline.html",
-                  "path": "tests/providers/MadeEasy/Civil/011_Full_Syllabus_Test_10_2026_ESE_CE_Engineering_Discipline.html"
+                  "title": "file_25 [@ Dvruo Gate Zeal CSE 2026 Test Series]",
+                  "path": "/tests/providers/Computer Science/Gate Zeal/file_25 [@ Dvruo Gate Zeal CSE 2026 Test Series].html"
                 },
                 {
-                  "title": "012_Full_Syllabus_Test_11_2026_ESE_CE_General_Studies_&_Engineering.html",
-                  "path": "tests/providers/MadeEasy/Civil/012_Full_Syllabus_Test_11_2026_ESE_CE_General_Studies_&_Engineering.html"
+                  "title": "file_26 [@ Dvruo Gate Zeal CSE 2026 Test Series]",
+                  "path": "/tests/providers/Computer Science/Gate Zeal/file_26 [@ Dvruo Gate Zeal CSE 2026 Test Series].html"
                 },
                 {
-                  "title": "013_Full_Syllabus_Test_12_2026_ESE_CE_Engineering_Discipline.html",
-                  "path": "tests/providers/MadeEasy/Civil/013_Full_Syllabus_Test_12_2026_ESE_CE_Engineering_Discipline.html"
+                  "title": "file_27 [@ Dvruo Gate Zeal CSE 2026 Test Series]",
+                  "path": "/tests/providers/Computer Science/Gate Zeal/file_27 [@ Dvruo Gate Zeal CSE 2026 Test Series].html"
                 },
                 {
-                  "title": "014_Full Syllabus Test-2 2026 ESE CE Engineering Discipline.html",
-                  "path": "tests/providers/MadeEasy/Civil/014_Full Syllabus Test-2 2026 ESE CE Engineering Discipline.html"
+                  "title": "file_28 [@ Dvruo Gate Zeal CSE 2026 Test Series]",
+                  "path": "/tests/providers/Computer Science/Gate Zeal/file_28 [@ Dvruo Gate Zeal CSE 2026 Test Series].html"
                 },
                 {
-                  "title": "015_Full_Syllabus_Test_3_2026_ESE_CE_General_Studies_&_Engineering.html",
-                  "path": "tests/providers/MadeEasy/Civil/015_Full_Syllabus_Test_3_2026_ESE_CE_General_Studies_&_Engineering.html"
+                  "title": "file_29 [@ Dvruo Gate Zeal CSE 2026 Test Series]",
+                  "path": "/tests/providers/Computer Science/Gate Zeal/file_29 [@ Dvruo Gate Zeal CSE 2026 Test Series].html"
                 },
                 {
-                  "title": "016_Full Syllabus Test-4 2026 ESE CE Engineering Discipline.html",
-                  "path": "tests/providers/MadeEasy/Civil/016_Full Syllabus Test-4 2026 ESE CE Engineering Discipline.html"
+                  "title": "file_3 [@ Dvruo Gate Zeal CSE 2026 Test Series]",
+                  "path": "/tests/providers/Computer Science/Gate Zeal/file_3 [@ Dvruo Gate Zeal CSE 2026 Test Series].html"
                 },
                 {
-                  "title": "017_Full_Syllabus_Test_5_2026_ESE_CE_General_Studies_&_Engineering.html",
-                  "path": "tests/providers/MadeEasy/Civil/017_Full_Syllabus_Test_5_2026_ESE_CE_General_Studies_&_Engineering.html"
+                  "title": "file_30 [@ Dvruo Gate Zeal CSE 2026 Test Series]",
+                  "path": "/tests/providers/Computer Science/Gate Zeal/file_30 [@ Dvruo Gate Zeal CSE 2026 Test Series].html"
                 },
                 {
-                  "title": "018_Full Syllabus Test-6 2026 ESE CE Engineering Discipline.html",
-                  "path": "tests/providers/MadeEasy/Civil/018_Full Syllabus Test-6 2026 ESE CE Engineering Discipline.html"
+                  "title": "file_33 [@ Dvruo Gate Zeal CSE 2026 Test Series]",
+                  "path": "/tests/providers/Computer Science/Gate Zeal/file_33 [@ Dvruo Gate Zeal CSE 2026 Test Series].html"
                 },
                 {
-                  "title": "019_Full_Syllabus_Test_7_2026_ESE_CE_General_Studies_&_Engineering.html",
-                  "path": "tests/providers/MadeEasy/Civil/019_Full_Syllabus_Test_7_2026_ESE_CE_General_Studies_&_Engineering.html"
+                  "title": "file_34 [@ Dvruo Gate Zeal CSE 2026 Test Series]",
+                  "path": "/tests/providers/Computer Science/Gate Zeal/file_34 [@ Dvruo Gate Zeal CSE 2026 Test Series].html"
                 },
                 {
-                  "title": "020_Full Syllabus Test-8 2026 ESE CE Engineering Discipline.html",
-                  "path": "tests/providers/MadeEasy/Civil/020_Full Syllabus Test-8 2026 ESE CE Engineering Discipline.html"
+                  "title": "file_35 [@ Dvruo Gate Zeal CSE 2026 Test Series]",
+                  "path": "/tests/providers/Computer Science/Gate Zeal/file_35 [@ Dvruo Gate Zeal CSE 2026 Test Series].html"
                 },
                 {
-                  "title": "021_Full_Syllabus_Test_9_2026_ESE_CE_General_Studies_&_Engineering.html",
-                  "path": "tests/providers/MadeEasy/Civil/021_Full_Syllabus_Test_9_2026_ESE_CE_General_Studies_&_Engineering.html"
+                  "title": "file_36 [@ Dvruo Gate Zeal CSE 2026 Test Series]",
+                  "path": "/tests/providers/Computer Science/Gate Zeal/file_36 [@ Dvruo Gate Zeal CSE 2026 Test Series].html"
                 },
                 {
-                  "title": "022_GATE 2026 DEMO TEST CE.html",
-                  "path": "tests/providers/MadeEasy/Civil/022_GATE 2026 DEMO TEST CE.html"
+                  "title": "file_39 [@ Dvruo Gate Zeal CSE 2026 Test Series]",
+                  "path": "/tests/providers/Computer Science/Gate Zeal/file_39 [@ Dvruo Gate Zeal CSE 2026 Test Series].html"
                 },
                 {
-                  "title": "023_Mock Level Test- 3 Full Syllabus GATE 2026 CE.html",
-                  "path": "tests/providers/MadeEasy/Civil/023_Mock Level Test- 3 Full Syllabus GATE 2026 CE.html"
+                  "title": "file_4 [@ Dvruo Gate Zeal CSE 2026 Test Series]",
+                  "path": "/tests/providers/Computer Science/Gate Zeal/file_4 [@ Dvruo Gate Zeal CSE 2026 Test Series].html"
                 },
                 {
-                  "title": "024_Mock Level Test- 4 Full Syllabus GATE 2026 CE.html",
-                  "path": "tests/providers/MadeEasy/Civil/024_Mock Level Test- 4 Full Syllabus GATE 2026 CE.html"
+                  "title": "file_40 [@ Dvruo Gate Zeal CSE 2026 Test Series]",
+                  "path": "/tests/providers/Computer Science/Gate Zeal/file_40 [@ Dvruo Gate Zeal CSE 2026 Test Series].html"
                 },
                 {
-                  "title": "025_Mock Level Test-1 Full Syllabus GATE 2026 CE.html",
-                  "path": "tests/providers/MadeEasy/Civil/025_Mock Level Test-1 Full Syllabus GATE 2026 CE.html"
+                  "title": "file_41 [@ Dvruo Gate Zeal CSE 2026 Test Series]",
+                  "path": "/tests/providers/Computer Science/Gate Zeal/file_41 [@ Dvruo Gate Zeal CSE 2026 Test Series].html"
                 },
                 {
-                  "title": "026_Mock Level Test-2 Full Syllabus GATE 2026 CE.html",
-                  "path": "tests/providers/MadeEasy/Civil/026_Mock Level Test-2 Full Syllabus GATE 2026 CE.html"
+                  "title": "file_42 [@ Dvruo Gate Zeal CSE 2026 Test Series]",
+                  "path": "/tests/providers/Computer Science/Gate Zeal/file_42 [@ Dvruo Gate Zeal CSE 2026 Test Series].html"
                 },
                 {
-                  "title": "027_Subject-wise Test-1 2026 ESE CE Solid Mechanics.html",
-                  "path": "tests/providers/MadeEasy/Civil/027_Subject-wise Test-1 2026 ESE CE Solid Mechanics.html"
+                  "title": "file_43 [@ Dvruo Gate Zeal CSE 2026 Test Series]",
+                  "path": "/tests/providers/Computer Science/Gate Zeal/file_43 [@ Dvruo Gate Zeal CSE 2026 Test Series].html"
                 },
                 {
-                  "title": "028_Subject_wise_Test_10_2026_ESE_CE_Basics_of_Project_Management.html",
-                  "path": "tests/providers/MadeEasy/Civil/028_Subject_wise_Test_10_2026_ESE_CE_Basics_of_Project_Management.html"
+                  "title": "file_44 [@ Dvruo Gate Zeal CSE 2026 Test Series]",
+                  "path": "/tests/providers/Computer Science/Gate Zeal/file_44 [@ Dvruo Gate Zeal CSE 2026 Test Series].html"
                 },
                 {
-                  "title": "029_Subject_wise_Test_11_2026_ESE_CE_Flow_of_Fluids,_Hydraulic_Machines.html",
-                  "path": "tests/providers/MadeEasy/Civil/029_Subject_wise_Test_11_2026_ESE_CE_Flow_of_Fluids,_Hydraulic_Machines.html"
+                  "title": "file_45 [@ Dvruo Gate Zeal CSE 2026 Test Series]",
+                  "path": "/tests/providers/Computer Science/Gate Zeal/file_45 [@ Dvruo Gate Zeal CSE 2026 Test Series].html"
                 },
                 {
-                  "title": "030_Subject_wise_Test_12_2026_ESE_CE_Basics_of_Material_Science.html",
-                  "path": "tests/providers/MadeEasy/Civil/030_Subject_wise_Test_12_2026_ESE_CE_Basics_of_Material_Science.html"
+                  "title": "file_46 [@ Dvruo Gate Zeal CSE 2026 Test Series]",
+                  "path": "/tests/providers/Computer Science/Gate Zeal/file_46 [@ Dvruo Gate Zeal CSE 2026 Test Series].html"
                 },
                 {
-                  "title": "031_Subject_wise_Test_13_2026_ESE_CE_Design_of_Steel_Structures.html",
-                  "path": "tests/providers/MadeEasy/Civil/031_Subject_wise_Test_13_2026_ESE_CE_Design_of_Steel_Structures.html"
+                  "title": "file_47 [@ Dvruo Gate Zeal CSE 2026 Test Series]",
+                  "path": "/tests/providers/Computer Science/Gate Zeal/file_47 [@ Dvruo Gate Zeal CSE 2026 Test Series].html"
                 },
                 {
-                  "title": "032_Subject_wise_Test_14_2026_ESE_CE_Information_and_Communication.html",
-                  "path": "tests/providers/MadeEasy/Civil/032_Subject_wise_Test_14_2026_ESE_CE_Information_and_Communication.html"
+                  "title": "file_48 [@ Dvruo Gate Zeal CSE 2026 Test Series]",
+                  "path": "/tests/providers/Computer Science/Gate Zeal/file_48 [@ Dvruo Gate Zeal CSE 2026 Test Series].html"
                 },
                 {
-                  "title": "033_Subject_wise_Test_15_2026_ESE_CE_Geo_Technical_Engineering_&.html",
-                  "path": "tests/providers/MadeEasy/Civil/033_Subject_wise_Test_15_2026_ESE_CE_Geo_Technical_Engineering_&.html"
+                  "title": "file_49 [@ Dvruo Gate Zeal CSE 2026 Test Series]",
+                  "path": "/tests/providers/Computer Science/Gate Zeal/file_49 [@ Dvruo Gate Zeal CSE 2026 Test Series].html"
                 },
                 {
-                  "title": "034_Subject_wise_Test_16_2026_ESE_CE_Ethics_and_values_in_engineering.html",
-                  "path": "tests/providers/MadeEasy/Civil/034_Subject_wise_Test_16_2026_ESE_CE_Ethics_and_values_in_engineering.html"
+                  "title": "file_5 [@ Dvruo Gate Zeal CSE 2026 Test Series]",
+                  "path": "/tests/providers/Computer Science/Gate Zeal/file_5 [@ Dvruo Gate Zeal CSE 2026 Test Series].html"
                 },
                 {
-                  "title": "035_Subject_wise_Test_17_2026_ESE_CE_Construction_Practice,_Planning.html",
-                  "path": "tests/providers/MadeEasy/Civil/035_Subject_wise_Test_17_2026_ESE_CE_Construction_Practice,_Planning.html"
+                  "title": "file_50 [@ Dvruo Gate Zeal CSE 2026 Test Series]",
+                  "path": "/tests/providers/Computer Science/Gate Zeal/file_50 [@ Dvruo Gate Zeal CSE 2026 Test Series].html"
                 },
                 {
-                  "title": "036_Subject_wise_Test_18_2026_ESE_CE_Standards_and_Quality_practices.html",
-                  "path": "tests/providers/MadeEasy/Civil/036_Subject_wise_Test_18_2026_ESE_CE_Standards_and_Quality_practices.html"
+                  "title": "file_51 [@ Dvruo Gate Zeal CSE 2026 Test Series]",
+                  "path": "/tests/providers/Computer Science/Gate Zeal/file_51 [@ Dvruo Gate Zeal CSE 2026 Test Series].html"
                 },
                 {
-                  "title": "037_Subject_wise_Test_19_2026_ESE_CE_Transporting_Engineering.html",
-                  "path": "tests/providers/MadeEasy/Civil/037_Subject_wise_Test_19_2026_ESE_CE_Transporting_Engineering.html"
+                  "title": "file_52 [@ Dvruo Gate Zeal CSE 2026 Test Series]",
+                  "path": "/tests/providers/Computer Science/Gate Zeal/file_52 [@ Dvruo Gate Zeal CSE 2026 Test Series].html"
                 },
                 {
-                  "title": "038_Subject-wise Test-2 2026 ESE CE Engineering Aptitude.html",
-                  "path": "tests/providers/MadeEasy/Civil/038_Subject-wise Test-2 2026 ESE CE Engineering Aptitude.html"
+                  "title": "file_53 [@ Dvruo Gate Zeal CSE 2026 Test Series]",
+                  "path": "/tests/providers/Computer Science/Gate Zeal/file_53 [@ Dvruo Gate Zeal CSE 2026 Test Series].html"
                 },
                 {
-                  "title": "039_Subject_wise_Test_20_2026_ESE_CE_Current_issues_National_and.html",
-                  "path": "tests/providers/MadeEasy/Civil/039_Subject_wise_Test_20_2026_ESE_CE_Current_issues_National_and.html"
+                  "title": "file_54 [@ Dvruo Gate Zeal CSE 2026 Test Series]",
+                  "path": "/tests/providers/Computer Science/Gate Zeal/file_54 [@ Dvruo Gate Zeal CSE 2026 Test Series].html"
                 },
                 {
-                  "title": "040_Subject-wise Test-21 2026 ESE CE Building Materials.html",
-                  "path": "tests/providers/MadeEasy/Civil/040_Subject-wise Test-21 2026 ESE CE Building Materials.html"
+                  "title": "file_55 [@ Dvruo Gate Zeal CSE 2026 Test Series]",
+                  "path": "/tests/providers/Computer Science/Gate Zeal/file_55 [@ Dvruo Gate Zeal CSE 2026 Test Series].html"
                 },
                 {
-                  "title": "041_Subject-wise Test-22 2026 ESE CE Surveying and Geology.html",
-                  "path": "tests/providers/MadeEasy/Civil/041_Subject-wise Test-22 2026 ESE CE Surveying and Geology.html"
+                  "title": "file_57 [@ Dvruo Gate Zeal CSE 2026 Test Series]",
+                  "path": "/tests/providers/Computer Science/Gate Zeal/file_57 [@ Dvruo Gate Zeal CSE 2026 Test Series].html"
                 },
                 {
-                  "title": "042_Subject_wise_Test_3_2026_ESE_CE_Environmental_Engineering.html",
-                  "path": "tests/providers/MadeEasy/Civil/042_Subject_wise_Test_3_2026_ESE_CE_Environmental_Engineering.html"
+                  "title": "file_58 [@ Dvruo Gate Zeal CSE 2026 Test Series]",
+                  "path": "/tests/providers/Computer Science/Gate Zeal/file_58 [@ Dvruo Gate Zeal CSE 2026 Test Series].html"
                 },
                 {
-                  "title": "043_Subject_wise_Test_4_2026_ESE_CE_Engineering_Mathematics_&_Numerical.html",
-                  "path": "tests/providers/MadeEasy/Civil/043_Subject_wise_Test_4_2026_ESE_CE_Engineering_Mathematics_&_Numerical.html"
+                  "title": "file_59 [@ Dvruo Gate Zeal CSE 2026 Test Series]",
+                  "path": "/tests/providers/Computer Science/Gate Zeal/file_59 [@ Dvruo Gate Zeal CSE 2026 Test Series].html"
                 },
                 {
-                  "title": "044_Subject-wise Test-5 2026 ESE CE Structural Analysis.html",
-                  "path": "tests/providers/MadeEasy/Civil/044_Subject-wise Test-5 2026 ESE CE Structural Analysis.html"
+                  "title": "file_6 [@ Dvruo Gate Zeal CSE 2026 Test Series]",
+                  "path": "/tests/providers/Computer Science/Gate Zeal/file_6 [@ Dvruo Gate Zeal CSE 2026 Test Series].html"
                 },
                 {
-                  "title": "045_Subject_wise_Test_6_2026_ESE_CE_General_Principles_of_Design.html",
-                  "path": "tests/providers/MadeEasy/Civil/045_Subject_wise_Test_6_2026_ESE_CE_General_Principles_of_Design.html"
+                  "title": "file_60 [@ Dvruo Gate Zeal CSE 2026 Test Series]",
+                  "path": "/tests/providers/Computer Science/Gate Zeal/file_60 [@ Dvruo Gate Zeal CSE 2026 Test Series].html"
                 },
                 {
-                  "title": "046_Subject_wise_Test_7_2026_ESE_CE_Hydrology_&_Water_Resource_Engineering.html",
-                  "path": "tests/providers/MadeEasy/Civil/046_Subject_wise_Test_7_2026_ESE_CE_Hydrology_&_Water_Resource_Engineering.html"
+                  "title": "file_61 [@ Dvruo Gate Zeal CSE 2026 Test Series]",
+                  "path": "/tests/providers/Computer Science/Gate Zeal/file_61 [@ Dvruo Gate Zeal CSE 2026 Test Series].html"
                 },
                 {
-                  "title": "047_Subject_wise_Test_8_2026_ESE_CE_Basics_of_Energy_and_Environment.html",
-                  "path": "tests/providers/MadeEasy/Civil/047_Subject_wise_Test_8_2026_ESE_CE_Basics_of_Energy_and_Environment.html"
+                  "title": "file_62 [@ Dvruo Gate Zeal CSE 2026 Test Series]",
+                  "path": "/tests/providers/Computer Science/Gate Zeal/file_62 [@ Dvruo Gate Zeal CSE 2026 Test Series].html"
                 },
                 {
-                  "title": "048_Subject_wise_Test_9_2026_ESE_CE_Design_of_Concrete_&_Masonry.html",
-                  "path": "tests/providers/MadeEasy/Civil/048_Subject_wise_Test_9_2026_ESE_CE_Design_of_Concrete_&_Masonry.html"
+                  "title": "file_63 [@ Dvruo Gate Zeal CSE 2026 Test Series]",
+                  "path": "/tests/providers/Computer Science/Gate Zeal/file_63 [@ Dvruo Gate Zeal CSE 2026 Test Series].html"
                 },
                 {
-                  "title": "049_Subjectwise_Test_1_Part_Syllabus_GATE_2026_CE_Solid_Mechanics.html",
-                  "path": "tests/providers/MadeEasy/Civil/049_Subjectwise_Test_1_Part_Syllabus_GATE_2026_CE_Solid_Mechanics.html"
+                  "title": "file_64 [@ Dvruo Gate Zeal CSE 2026 Test Series]",
+                  "path": "/tests/providers/Computer Science/Gate Zeal/file_64 [@ Dvruo Gate Zeal CSE 2026 Test Series].html"
                 },
                 {
-                  "title": "050_Subjectwise_Test_10_Part_Syllabus_GATE_2026_CE_Steel_Structures.html",
-                  "path": "tests/providers/MadeEasy/Civil/050_Subjectwise_Test_10_Part_Syllabus_GATE_2026_CE_Steel_Structures.html"
+                  "title": "file_65 [@ Dvruo Gate Zeal CSE 2026 Test Series]",
+                  "path": "/tests/providers/Computer Science/Gate Zeal/file_65 [@ Dvruo Gate Zeal CSE 2026 Test Series].html"
                 },
                 {
-                  "title": "051_Subjectwise_Test_11_Part_Syllabus_GATE_2026_CE_Hydrology_and.html",
-                  "path": "tests/providers/MadeEasy/Civil/051_Subjectwise_Test_11_Part_Syllabus_GATE_2026_CE_Hydrology_and.html"
+                  "title": "file_66 [@ Dvruo Gate Zeal CSE 2026 Test Series]",
+                  "path": "/tests/providers/Computer Science/Gate Zeal/file_66 [@ Dvruo Gate Zeal CSE 2026 Test Series].html"
                 },
                 {
-                  "title": "052_Subjectwise_Test_12_Part_Syllabus_GATE_2026_CE_Engineering_Mechanics.html",
-                  "path": "tests/providers/MadeEasy/Civil/052_Subjectwise_Test_12_Part_Syllabus_GATE_2026_CE_Engineering_Mechanics.html"
+                  "title": "file_68 [@ Dvruo Gate Zeal CSE 2026 Test Series]",
+                  "path": "/tests/providers/Computer Science/Gate Zeal/file_68 [@ Dvruo Gate Zeal CSE 2026 Test Series].html"
                 },
                 {
-                  "title": "053_Subjectwise_Test_2_Part_Syllabus_GATE_2026_CE_Concrete_Structures.html",
-                  "path": "tests/providers/MadeEasy/Civil/053_Subjectwise_Test_2_Part_Syllabus_GATE_2026_CE_Concrete_Structures.html"
+                  "title": "file_69 [@ Dvruo Gate Zeal CSE 2026 Test Series]",
+                  "path": "/tests/providers/Computer Science/Gate Zeal/file_69 [@ Dvruo Gate Zeal CSE 2026 Test Series].html"
                 },
                 {
-                  "title": "054_Subjectwise_Test_3_Part_Syllabus_GATE_2026_CE_Environmental.html",
-                  "path": "tests/providers/MadeEasy/Civil/054_Subjectwise_Test_3_Part_Syllabus_GATE_2026_CE_Environmental.html"
+                  "title": "file_7 [@ Dvruo Gate Zeal CSE 2026 Test Series]",
+                  "path": "/tests/providers/Computer Science/Gate Zeal/file_7 [@ Dvruo Gate Zeal CSE 2026 Test Series].html"
                 },
                 {
-                  "title": "055_Subjectwise_Test_4_Part_Syllabus_GATE_2026_CE_Fluid_Mechanics.html",
-                  "path": "tests/providers/MadeEasy/Civil/055_Subjectwise_Test_4_Part_Syllabus_GATE_2026_CE_Fluid_Mechanics.html"
+                  "title": "file_70 [@ Dvruo Gate Zeal CSE 2026 Test Series]",
+                  "path": "/tests/providers/Computer Science/Gate Zeal/file_70 [@ Dvruo Gate Zeal CSE 2026 Test Series].html"
                 },
                 {
-                  "title": "056_Subjectwise_Test_5_Part_Syllabus_GATE_2026_CE_ENGINEERING_MATHEMATICS.html",
-                  "path": "tests/providers/MadeEasy/Civil/056_Subjectwise_Test_5_Part_Syllabus_GATE_2026_CE_ENGINEERING_MATHEMATICS.html"
+                  "title": "file_71 [@ Dvruo Gate Zeal CSE 2026 Test Series]",
+                  "path": "/tests/providers/Computer Science/Gate Zeal/file_71 [@ Dvruo Gate Zeal CSE 2026 Test Series].html"
                 },
                 {
-                  "title": "057_Subjectwise_Test_6_Part_Syllabus_GATE_2026_CE_General_Aptitude.html",
-                  "path": "tests/providers/MadeEasy/Civil/057_Subjectwise_Test_6_Part_Syllabus_GATE_2026_CE_General_Aptitude.html"
+                  "title": "file_72 [@ Dvruo Gate Zeal CSE 2026 Test Series]",
+                  "path": "/tests/providers/Computer Science/Gate Zeal/file_72 [@ Dvruo Gate Zeal CSE 2026 Test Series].html"
                 },
                 {
-                  "title": "058_Subjectwise_Test_7_Part_Syllabus_GATE_2026_CE_Transportation.html",
-                  "path": "tests/providers/MadeEasy/Civil/058_Subjectwise_Test_7_Part_Syllabus_GATE_2026_CE_Transportation.html"
+                  "title": "file_73 [@ Dvruo Gate Zeal CSE 2026 Test Series]",
+                  "path": "/tests/providers/Computer Science/Gate Zeal/file_73 [@ Dvruo Gate Zeal CSE 2026 Test Series].html"
                 },
                 {
-                  "title": "059_Subjectwise_Test_8_Part_Syllabus_GATE_2026_CE_Structural_Analysis.html",
-                  "path": "tests/providers/MadeEasy/Civil/059_Subjectwise_Test_8_Part_Syllabus_GATE_2026_CE_Structural_Analysis.html"
+                  "title": "file_74 [@ Dvruo Gate Zeal CSE 2026 Test Series]",
+                  "path": "/tests/providers/Computer Science/Gate Zeal/file_74 [@ Dvruo Gate Zeal CSE 2026 Test Series].html"
                 },
                 {
-                  "title": "060_Subjectwise_Test_9_Part_Syllabus_GATE_2026_CE_Geotechnical_Engineering.html",
-                  "path": "tests/providers/MadeEasy/Civil/060_Subjectwise_Test_9_Part_Syllabus_GATE_2026_CE_Geotechnical_Engineering.html"
+                  "title": "file_75 [@ Dvruo Gate Zeal CSE 2026 Test Series]",
+                  "path": "/tests/providers/Computer Science/Gate Zeal/file_75 [@ Dvruo Gate Zeal CSE 2026 Test Series].html"
                 },
                 {
-                  "title": "061_Topicwise_Test_1_Part_Syllabus_GATE_2026_CE_Solid_Mechanics.html",
-                  "path": "tests/providers/MadeEasy/Civil/061_Topicwise_Test_1_Part_Syllabus_GATE_2026_CE_Solid_Mechanics.html"
+                  "title": "file_76 [@ Dvruo Gate Zeal CSE 2026 Test Series]",
+                  "path": "/tests/providers/Computer Science/Gate Zeal/file_76 [@ Dvruo Gate Zeal CSE 2026 Test Series].html"
                 },
                 {
-                  "title": "062_Topicwise_Test_10_Part_Syllabus_GATE_2026_CE_Engineering_Mathematics.html",
-                  "path": "tests/providers/MadeEasy/Civil/062_Topicwise_Test_10_Part_Syllabus_GATE_2026_CE_Engineering_Mathematics.html"
+                  "title": "file_77 [@ Dvruo Gate Zeal CSE 2026 Test Series]",
+                  "path": "/tests/providers/Computer Science/Gate Zeal/file_77 [@ Dvruo Gate Zeal CSE 2026 Test Series].html"
                 },
                 {
-                  "title": "063_Topicwise_Test_11_Part_Syllabus_GATE_2026_CE_General_Aptitude.html",
-                  "path": "tests/providers/MadeEasy/Civil/063_Topicwise_Test_11_Part_Syllabus_GATE_2026_CE_General_Aptitude.html"
+                  "title": "file_78 [@ Dvruo Gate Zeal CSE 2026 Test Series]",
+                  "path": "/tests/providers/Computer Science/Gate Zeal/file_78 [@ Dvruo Gate Zeal CSE 2026 Test Series].html"
                 },
                 {
-                  "title": "064_Topicwise_Test_12_Part_Syllabus_GATE_2026_CE_General_Aptitude.html",
-                  "path": "tests/providers/MadeEasy/Civil/064_Topicwise_Test_12_Part_Syllabus_GATE_2026_CE_General_Aptitude.html"
+                  "title": "file_79 [@ Dvruo Gate Zeal CSE 2026 Test Series]",
+                  "path": "/tests/providers/Computer Science/Gate Zeal/file_79 [@ Dvruo Gate Zeal CSE 2026 Test Series].html"
                 },
                 {
-                  "title": "065_Topicwise_Test_13_Part_Syllabus_GATE_2026_CE_Transportation.html",
-                  "path": "tests/providers/MadeEasy/Civil/065_Topicwise_Test_13_Part_Syllabus_GATE_2026_CE_Transportation.html"
+                  "title": "file_8 [@ Dvruo Gate Zeal CSE 2026 Test Series]",
+                  "path": "/tests/providers/Computer Science/Gate Zeal/file_8 [@ Dvruo Gate Zeal CSE 2026 Test Series].html"
                 },
                 {
-                  "title": "066_Topicwise_Test_14_Part_Syllabus_GATE_2026_CE_Transportation.html",
-                  "path": "tests/providers/MadeEasy/Civil/066_Topicwise_Test_14_Part_Syllabus_GATE_2026_CE_Transportation.html"
-                },
-                {
-                  "title": "067_Topicwise_Test_15_Part_Syllabus_GATE_2026_CE_Structural_Analysis.html",
-                  "path": "tests/providers/MadeEasy/Civil/067_Topicwise_Test_15_Part_Syllabus_GATE_2026_CE_Structural_Analysis.html"
-                },
-                {
-                  "title": "068_Topicwise_Test_16_Part_Syllabus_GATE_2026_CE_Structural_Analysis.html",
-                  "path": "tests/providers/MadeEasy/Civil/068_Topicwise_Test_16_Part_Syllabus_GATE_2026_CE_Structural_Analysis.html"
-                },
-                {
-                  "title": "069_Topicwise_Test_17_Part_Syllabus_GATE_2026_CE_Geotechnical_Engineering.html",
-                  "path": "tests/providers/MadeEasy/Civil/069_Topicwise_Test_17_Part_Syllabus_GATE_2026_CE_Geotechnical_Engineering.html"
-                },
-                {
-                  "title": "070_Topicwise_Test_18_Part_Syllabus_GATE_2026_CE_Geotechnical_Engg.html",
-                  "path": "tests/providers/MadeEasy/Civil/070_Topicwise_Test_18_Part_Syllabus_GATE_2026_CE_Geotechnical_Engg.html"
-                },
-                {
-                  "title": "071_Topicwise_Test_19_Part_Syllabus_GATE_2026_CE_Geotechnical_Engg.html",
-                  "path": "tests/providers/MadeEasy/Civil/071_Topicwise_Test_19_Part_Syllabus_GATE_2026_CE_Geotechnical_Engg.html"
-                },
-                {
-                  "title": "072_Topicwise_Test_2_Part_Syllabus_GATE_2026_CE_Solid_Mechanics.html",
-                  "path": "tests/providers/MadeEasy/Civil/072_Topicwise_Test_2_Part_Syllabus_GATE_2026_CE_Solid_Mechanics.html"
-                },
-                {
-                  "title": "073_Topicwise_Test_20_Part_Syllabus_GATE_2026_CE_Steel_Structures.html",
-                  "path": "tests/providers/MadeEasy/Civil/073_Topicwise_Test_20_Part_Syllabus_GATE_2026_CE_Steel_Structures.html"
-                },
-                {
-                  "title": "074_Topicwise_Test_21_Part_Syllabus_GATE_2026_CE_Steel_Structures.html",
-                  "path": "tests/providers/MadeEasy/Civil/074_Topicwise_Test_21_Part_Syllabus_GATE_2026_CE_Steel_Structures.html"
-                },
-                {
-                  "title": "075_Topicwise Test-22 Part Syllabus GATE 2026 CE Hydrology.html",
-                  "path": "tests/providers/MadeEasy/Civil/075_Topicwise Test-22 Part Syllabus GATE 2026 CE Hydrology.html"
-                },
-                {
-                  "title": "076_Topicwise Test-23 Part Syllabus GATE 2026 CE Irrigation.html",
-                  "path": "tests/providers/MadeEasy/Civil/076_Topicwise Test-23 Part Syllabus GATE 2026 CE Irrigation.html"
-                },
-                {
-                  "title": "078_Topicwise_Test_3_Part_Syllabus_GATE_2026_CE_Concrete_Structures.html",
-                  "path": "tests/providers/MadeEasy/Civil/078_Topicwise_Test_3_Part_Syllabus_GATE_2026_CE_Concrete_Structures.html"
-                },
-                {
-                  "title": "079_Topicwise_Test_4_Part_Syllabus_GATE_2026_CE_Concrete_Structure.html",
-                  "path": "tests/providers/MadeEasy/Civil/079_Topicwise_Test_4_Part_Syllabus_GATE_2026_CE_Concrete_Structure.html"
-                },
-                {
-                  "title": "080_Topicwise_Test_5_Part_Syllabus_GATE_2026_CE_Environmental_Engg.html",
-                  "path": "tests/providers/MadeEasy/Civil/080_Topicwise_Test_5_Part_Syllabus_GATE_2026_CE_Environmental_Engg.html"
-                },
-                {
-                  "title": "081_Topicwise_Test_6_Part_Syllabus_GATE_2026_CE_Environmental_Engg.html",
-                  "path": "tests/providers/MadeEasy/Civil/081_Topicwise_Test_6_Part_Syllabus_GATE_2026_CE_Environmental_Engg.html"
-                },
-                {
-                  "title": "082_Topicwise_Test_7_Part_Syllabus_GATE_2026_CE_Fluid_Mechanics.html",
-                  "path": "tests/providers/MadeEasy/Civil/082_Topicwise_Test_7_Part_Syllabus_GATE_2026_CE_Fluid_Mechanics.html"
-                },
-                {
-                  "title": "083_Topicwise_Test_8_Part_Syllabus_GATE_2026_CE_Fluid_Mechanics.html",
-                  "path": "tests/providers/MadeEasy/Civil/083_Topicwise_Test_8_Part_Syllabus_GATE_2026_CE_Fluid_Mechanics.html"
-                },
-                {
-                  "title": "084_Topicwise_Test_9_Part_Syllabus_GATE_2026_CE_Engineering_Mathematics.html",
-                  "path": "tests/providers/MadeEasy/Civil/084_Topicwise_Test_9_Part_Syllabus_GATE_2026_CE_Engineering_Mathematics.html"
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "name": "Computer-Science",
-      "providers": [
-        {
-          "name": "MadeEasy",
-          "series": [
-            {
-              "name": "All",
-              "tests": [
-                {
-                  "title": "001_Advance Level Test-1 Full Syllabus GATE 2026 CS.html",
-                  "path": "tests/providers/MadeEasy/Computer-Science/001_Advance Level Test-1 Full Syllabus GATE 2026 CS.html"
-                },
-                {
-                  "title": "002_Advance Level Test-2 Full Syllabus GATE 2026 CS.html",
-                  "path": "tests/providers/MadeEasy/Computer-Science/002_Advance Level Test-2 Full Syllabus GATE 2026 CS.html"
-                },
-                {
-                  "title": "003_Advance Level Test-3 Full Syllabus GATE 2026 CS.html",
-                  "path": "tests/providers/MadeEasy/Computer-Science/003_Advance Level Test-3 Full Syllabus GATE 2026 CS.html"
-                },
-                {
-                  "title": "004_Advance Level Test-4 Full Syllabus GATE 2026 CS.html",
-                  "path": "tests/providers/MadeEasy/Computer-Science/004_Advance Level Test-4 Full Syllabus GATE 2026 CS.html"
-                },
-                {
-                  "title": "005_Basic Level Test-1 Full Syllabus GATE 2026 CS.html",
-                  "path": "tests/providers/MadeEasy/Computer-Science/005_Basic Level Test-1 Full Syllabus GATE 2026 CS.html"
-                },
-                {
-                  "title": "006_Basic Level Test-2 Full Syllabus GATE 2026 CS.html",
-                  "path": "tests/providers/MadeEasy/Computer-Science/006_Basic Level Test-2 Full Syllabus GATE 2026 CS.html"
-                },
-                {
-                  "title": "007_Basic Level Test-3 Full Syllabus GATE 2026 CS.html",
-                  "path": "tests/providers/MadeEasy/Computer-Science/007_Basic Level Test-3 Full Syllabus GATE 2026 CS.html"
-                },
-                {
-                  "title": "008_Basic Level Test-4 Full Syllabus GATE 2026 CS.html",
-                  "path": "tests/providers/MadeEasy/Computer-Science/008_Basic Level Test-4 Full Syllabus GATE 2026 CS.html"
-                },
-                {
-                  "title": "009_GATE 2026 DEMO TEST CS.html",
-                  "path": "tests/providers/MadeEasy/Computer-Science/009_GATE 2026 DEMO TEST CS.html"
-                },
-                {
-                  "title": "010_Mock Level Test-1 Full Syllabus GATE 2026 CS.html",
-                  "path": "tests/providers/MadeEasy/Computer-Science/010_Mock Level Test-1 Full Syllabus GATE 2026 CS.html"
-                },
-                {
-                  "title": "011_Mock Level Test-2 Full Syllabus GATE 2026 CS.html",
-                  "path": "tests/providers/MadeEasy/Computer-Science/011_Mock Level Test-2 Full Syllabus GATE 2026 CS.html"
-                },
-                {
-                  "title": "012_Mock Level Test-3 Full Syllabus GATE 2026 CS.html",
-                  "path": "tests/providers/MadeEasy/Computer-Science/012_Mock Level Test-3 Full Syllabus GATE 2026 CS.html"
-                },
-                {
-                  "title": "013_Mock Level Test-4 Full Syllabus GATE 2026 CS.html",
-                  "path": "tests/providers/MadeEasy/Computer-Science/013_Mock Level Test-4 Full Syllabus GATE 2026 CS.html"
-                },
-                {
-                  "title": "014_Subjectwise_Test_1_Part_Syllabus_GATE_2026_CS_Theory_of_Computation.html",
-                  "path": "tests/providers/MadeEasy/Computer-Science/014_Subjectwise_Test_1_Part_Syllabus_GATE_2026_CS_Theory_of_Computation.html"
-                },
-                {
-                  "title": "015_Subjectwise_Test_10_Part_Syllabus_GATE_2026_CS_Digital_Logic.html",
-                  "path": "tests/providers/MadeEasy/Computer-Science/015_Subjectwise_Test_10_Part_Syllabus_GATE_2026_CS_Digital_Logic.html"
-                },
-                {
-                  "title": "016_Subjectwise_Test_11_Part_Syllabus_GATE_2026_CS_Compiler_Design.html",
-                  "path": "tests/providers/MadeEasy/Computer-Science/016_Subjectwise_Test_11_Part_Syllabus_GATE_2026_CS_Compiler_Design.html"
-                },
-                {
-                  "title": "017_Subjectwise_Test_12_Part_Syllabus_GATE_2026_CS_Discrete_Mathematics.html",
-                  "path": "tests/providers/MadeEasy/Computer-Science/017_Subjectwise_Test_12_Part_Syllabus_GATE_2026_CS_Discrete_Mathematics.html"
-                },
-                {
-                  "title": "018_Subjectwise_Test_2_Part_Syllabus_GATE_2026_CS_Algorithms.html",
-                  "path": "tests/providers/MadeEasy/Computer-Science/018_Subjectwise_Test_2_Part_Syllabus_GATE_2026_CS_Algorithms.html"
-                },
-                {
-                  "title": "019_Subjectwise_Test_3_Part_Syllabus_GATE_2026_CS_Computer_Organization.html",
-                  "path": "tests/providers/MadeEasy/Computer-Science/019_Subjectwise_Test_3_Part_Syllabus_GATE_2026_CS_Computer_Organization.html"
-                },
-                {
-                  "title": "020_Subjectwise_Test_4_Part_Syllabus_GATE_2026_CS_Operating_System.html",
-                  "path": "tests/providers/MadeEasy/Computer-Science/020_Subjectwise_Test_4_Part_Syllabus_GATE_2026_CS_Operating_System.html"
-                },
-                {
-                  "title": "021_Subjectwise_Test_5_Part_Syllabus_GATE_2026_CS_Engineering_Mathematics.html",
-                  "path": "tests/providers/MadeEasy/Computer-Science/021_Subjectwise_Test_5_Part_Syllabus_GATE_2026_CS_Engineering_Mathematics.html"
-                },
-                {
-                  "title": "022_Subjectwise_Test_6_Part_Syllabus_GATE_2026_CS_General_Aptitude.html",
-                  "path": "tests/providers/MadeEasy/Computer-Science/022_Subjectwise_Test_6_Part_Syllabus_GATE_2026_CS_General_Aptitude.html"
-                },
-                {
-                  "title": "023_Subjectwise Test-7 Part Syllabus GATE 2026 CS Database.html",
-                  "path": "tests/providers/MadeEasy/Computer-Science/023_Subjectwise Test-7 Part Syllabus GATE 2026 CS Database.html"
-                },
-                {
-                  "title": "024_Subjectwise_Test_8_Part_Syllabus_GATE_2026_CS_Programming_and.html",
-                  "path": "tests/providers/MadeEasy/Computer-Science/024_Subjectwise_Test_8_Part_Syllabus_GATE_2026_CS_Programming_and.html"
-                },
-                {
-                  "title": "025_Subjectwise_Test_9_Part_Syllabus_GATE_2026_CS_Computer_Networks.html",
-                  "path": "tests/providers/MadeEasy/Computer-Science/025_Subjectwise_Test_9_Part_Syllabus_GATE_2026_CS_Computer_Networks.html"
-                },
-                {
-                  "title": "026_Topicwise_Test_1_Part_Syllabus_GATE_2026_CS_Theory_of_Computation.html",
-                  "path": "tests/providers/MadeEasy/Computer-Science/026_Topicwise_Test_1_Part_Syllabus_GATE_2026_CS_Theory_of_Computation.html"
-                },
-                {
-                  "title": "027_Topicwise_Test_10_Part_Syllabus_GATE_2026_CS_Engineering_Mathematics.html",
-                  "path": "tests/providers/MadeEasy/Computer-Science/027_Topicwise_Test_10_Part_Syllabus_GATE_2026_CS_Engineering_Mathematics.html"
-                },
-                {
-                  "title": "028_Topicwise_Test_11_Part_Syllabus_GATE_2026_CS_General_Aptitude.html",
-                  "path": "tests/providers/MadeEasy/Computer-Science/028_Topicwise_Test_11_Part_Syllabus_GATE_2026_CS_General_Aptitude.html"
-                },
-                {
-                  "title": "029_Topicwise_Test_12_Part_Syllabus_GATE_2026_CS_General_Aptitude.html",
-                  "path": "tests/providers/MadeEasy/Computer-Science/029_Topicwise_Test_12_Part_Syllabus_GATE_2026_CS_General_Aptitude.html"
-                },
-                {
-                  "title": "030_Topicwise_Test_13_Part_Syllabus_GATE_2026_CS_Operating_System.html",
-                  "path": "tests/providers/MadeEasy/Computer-Science/030_Topicwise_Test_13_Part_Syllabus_GATE_2026_CS_Operating_System.html"
-                },
-                {
-                  "title": "031_Topicwise_Test_14_Part_Syllabus_GATE_2026_CS_Operating_System.html",
-                  "path": "tests/providers/MadeEasy/Computer-Science/031_Topicwise_Test_14_Part_Syllabus_GATE_2026_CS_Operating_System.html"
-                },
-                {
-                  "title": "032_Topicwise_Test_15_Part_Syllabus_GATE_2026_CS_Programming_and.html",
-                  "path": "tests/providers/MadeEasy/Computer-Science/032_Topicwise_Test_15_Part_Syllabus_GATE_2026_CS_Programming_and.html"
-                },
-                {
-                  "title": "033_Topicwise_Test_16_Part_Syllabus_GATE_2026_CS_Programming_and.html",
-                  "path": "tests/providers/MadeEasy/Computer-Science/033_Topicwise_Test_16_Part_Syllabus_GATE_2026_CS_Programming_and.html"
-                },
-                {
-                  "title": "034_Topicwise_Test_17_Part_Syllabus_GATE_2026_CS_Computer_Networks.html",
-                  "path": "tests/providers/MadeEasy/Computer-Science/034_Topicwise_Test_17_Part_Syllabus_GATE_2026_CS_Computer_Networks.html"
-                },
-                {
-                  "title": "035_Topicwise_Test_18_Part_Syllabus_GATE_2026_CS_Computer_Networks.html",
-                  "path": "tests/providers/MadeEasy/Computer-Science/035_Topicwise_Test_18_Part_Syllabus_GATE_2026_CS_Computer_Networks.html"
-                },
-                {
-                  "title": "036_Topicwise_Test_19_Part_Syllabus_GATE_2026_CS_Digital_Logic_1.html",
-                  "path": "tests/providers/MadeEasy/Computer-Science/036_Topicwise_Test_19_Part_Syllabus_GATE_2026_CS_Digital_Logic_1.html"
-                },
-                {
-                  "title": "037_Topicwise_Test_2_Part_Syllabus_GATE_2026_CS_Theory_of_Computation.html",
-                  "path": "tests/providers/MadeEasy/Computer-Science/037_Topicwise_Test_2_Part_Syllabus_GATE_2026_CS_Theory_of_Computation.html"
-                },
-                {
-                  "title": "038_Topicwise_Test_20_Part_Syllabus_GATE_2026_CS_Digital_Logic_2.html",
-                  "path": "tests/providers/MadeEasy/Computer-Science/038_Topicwise_Test_20_Part_Syllabus_GATE_2026_CS_Digital_Logic_2.html"
-                },
-                {
-                  "title": "039_Topicwise_Test_21_Part_Syllabus_GATE_2026_CS_Discrete_Mathematics.html",
-                  "path": "tests/providers/MadeEasy/Computer-Science/039_Topicwise_Test_21_Part_Syllabus_GATE_2026_CS_Discrete_Mathematics.html"
-                },
-                {
-                  "title": "040_Topicwise_Test_22_Part_Syllabus_GATE_2026_CS_Discrete_Mathematics.html",
-                  "path": "tests/providers/MadeEasy/Computer-Science/040_Topicwise_Test_22_Part_Syllabus_GATE_2026_CS_Discrete_Mathematics.html"
-                },
-                {
-                  "title": "041_Topicwise_Test_23_Part_Syllabus_GATE_2026_CS_Compiler_Design.html",
-                  "path": "tests/providers/MadeEasy/Computer-Science/041_Topicwise_Test_23_Part_Syllabus_GATE_2026_CS_Compiler_Design.html"
-                },
-                {
-                  "title": "042_Topicwise_Test_24_Part_Syllabus_GATE_2026_CS_Compiler_Design.html",
-                  "path": "tests/providers/MadeEasy/Computer-Science/042_Topicwise_Test_24_Part_Syllabus_GATE_2026_CS_Compiler_Design.html"
-                },
-                {
-                  "title": "043_Topicwise_Test_3_Part_Syllabus_GATE_2026_CS_Algorithms_1.html",
-                  "path": "tests/providers/MadeEasy/Computer-Science/043_Topicwise_Test_3_Part_Syllabus_GATE_2026_CS_Algorithms_1.html"
-                },
-                {
-                  "title": "044_Topicwise_Test_4_Part_Syllabus_GATE_2026_CS_Algorithms_2.html",
-                  "path": "tests/providers/MadeEasy/Computer-Science/044_Topicwise_Test_4_Part_Syllabus_GATE_2026_CS_Algorithms_2.html"
-                },
-                {
-                  "title": "045_Topicwise_Test_5_Part_Syllabus_GATE_2026_CS_Computer_Organization.html",
-                  "path": "tests/providers/MadeEasy/Computer-Science/045_Topicwise_Test_5_Part_Syllabus_GATE_2026_CS_Computer_Organization.html"
-                },
-                {
-                  "title": "046_Topicwise_Test_6_Part_Syllabus_GATE_2026_CS_Computer_Organization.html",
-                  "path": "tests/providers/MadeEasy/Computer-Science/046_Topicwise_Test_6_Part_Syllabus_GATE_2026_CS_Computer_Organization.html"
-                },
-                {
-                  "title": "047_Topicwise Test-7 Part Syllabus GATE 2026 CS Databases-1.html",
-                  "path": "tests/providers/MadeEasy/Computer-Science/047_Topicwise Test-7 Part Syllabus GATE 2026 CS Databases-1.html"
-                },
-                {
-                  "title": "048_Topicwise Test-8 Part Syllabus GATE 2026 CS Databases-2.html",
-                  "path": "tests/providers/MadeEasy/Computer-Science/048_Topicwise Test-8 Part Syllabus GATE 2026 CS Databases-2.html"
-                },
-                {
-                  "title": "049_Topicwise_Test_9_Part_Syllabus_GATE_2026_CS_Engineering_Mathematics.html",
-                  "path": "tests/providers/MadeEasy/Computer-Science/049_Topicwise_Test_9_Part_Syllabus_GATE_2026_CS_Engineering_Mathematics.html"
-                },
-                {
-                  "title": "050_Topicwise_Test_1_Part_Syllabus_GATE_2025_CS_Theory_of_Computation.html",
-                  "path": "tests/providers/MadeEasy/Computer-Science/050_Topicwise_Test_1_Part_Syllabus_GATE_2025_CS_Theory_of_Computation.html"
-                },
-                {
-                  "title": "051_Topicwise_Test_1_Part_Syllabus_GATE_2026_CS_Theory_of_Computation.html",
-                  "path": "tests/providers/MadeEasy/Computer-Science/051_Topicwise_Test_1_Part_Syllabus_GATE_2026_CS_Theory_of_Computation.html"
-                },
-                {
-                  "title": "052_Topicwise_Test_10_Part_Syllabus_GATE_2025_CS_Engineering_Mathematics.html",
-                  "path": "tests/providers/MadeEasy/Computer-Science/052_Topicwise_Test_10_Part_Syllabus_GATE_2025_CS_Engineering_Mathematics.html"
-                },
-                {
-                  "title": "053_Topicwise_Test_10_Part_Syllabus_GATE_2026_CS_Engineering_Mathematics.html",
-                  "path": "tests/providers/MadeEasy/Computer-Science/053_Topicwise_Test_10_Part_Syllabus_GATE_2026_CS_Engineering_Mathematics.html"
-                },
-                {
-                  "title": "054_Topicwise_Test_11_Part_Syllabus_GATE_2025_CS_General_Aptitude.html",
-                  "path": "tests/providers/MadeEasy/Computer-Science/054_Topicwise_Test_11_Part_Syllabus_GATE_2025_CS_General_Aptitude.html"
-                },
-                {
-                  "title": "055_Topicwise_Test_11_Part_Syllabus_GATE_2026_CS_General_Aptitude.html",
-                  "path": "tests/providers/MadeEasy/Computer-Science/055_Topicwise_Test_11_Part_Syllabus_GATE_2026_CS_General_Aptitude.html"
-                },
-                {
-                  "title": "056_Topicwise_Test_12_Part_Syllabus_GATE_2025_CS_General_Aptitude.html",
-                  "path": "tests/providers/MadeEasy/Computer-Science/056_Topicwise_Test_12_Part_Syllabus_GATE_2025_CS_General_Aptitude.html"
-                },
-                {
-                  "title": "057_Topicwise_Test_12_Part_Syllabus_GATE_2026_CS_General_Aptitude.html",
-                  "path": "tests/providers/MadeEasy/Computer-Science/057_Topicwise_Test_12_Part_Syllabus_GATE_2026_CS_General_Aptitude.html"
-                },
-                {
-                  "title": "058_Topicwise_Test_13_Part_Syllabus_GATE_2025_CS_Operating_System.html",
-                  "path": "tests/providers/MadeEasy/Computer-Science/058_Topicwise_Test_13_Part_Syllabus_GATE_2025_CS_Operating_System.html"
-                },
-                {
-                  "title": "059_Topicwise_Test_13_Part_Syllabus_GATE_2026_CS_Operating_System.html",
-                  "path": "tests/providers/MadeEasy/Computer-Science/059_Topicwise_Test_13_Part_Syllabus_GATE_2026_CS_Operating_System.html"
-                },
-                {
-                  "title": "060_Topicwise_Test_14_Part_Syllabus_GATE_2025_CS_Operating_System.html",
-                  "path": "tests/providers/MadeEasy/Computer-Science/060_Topicwise_Test_14_Part_Syllabus_GATE_2025_CS_Operating_System.html"
-                },
-                {
-                  "title": "061_Topicwise_Test_14_Part_Syllabus_GATE_2026_CS_Operating_System.html",
-                  "path": "tests/providers/MadeEasy/Computer-Science/061_Topicwise_Test_14_Part_Syllabus_GATE_2026_CS_Operating_System.html"
-                },
-                {
-                  "title": "062_Topicwise_Test_15_Part_Syllabus_GATE_2025_CS_Programming_and.html",
-                  "path": "tests/providers/MadeEasy/Computer-Science/062_Topicwise_Test_15_Part_Syllabus_GATE_2025_CS_Programming_and.html"
-                },
-                {
-                  "title": "063_Topicwise_Test_15_Part_Syllabus_GATE_2026_CS_Programming_and.html",
-                  "path": "tests/providers/MadeEasy/Computer-Science/063_Topicwise_Test_15_Part_Syllabus_GATE_2026_CS_Programming_and.html"
-                },
-                {
-                  "title": "064_Topicwise_Test_16_Part_Syllabus_GATE_2025_CS_Programming_and.html",
-                  "path": "tests/providers/MadeEasy/Computer-Science/064_Topicwise_Test_16_Part_Syllabus_GATE_2025_CS_Programming_and.html"
-                },
-                {
-                  "title": "065_Topicwise_Test_16_Part_Syllabus_GATE_2026_CS_Programming_and.html",
-                  "path": "tests/providers/MadeEasy/Computer-Science/065_Topicwise_Test_16_Part_Syllabus_GATE_2026_CS_Programming_and.html"
-                },
-                {
-                  "title": "066_Topicwise_Test_17_Part_Syllabus_GATE_2025_CS_Computer_Networks.html",
-                  "path": "tests/providers/MadeEasy/Computer-Science/066_Topicwise_Test_17_Part_Syllabus_GATE_2025_CS_Computer_Networks.html"
-                },
-                {
-                  "title": "067_Topicwise_Test_17_Part_Syllabus_GATE_2026_CS_Computer_Networks.html",
-                  "path": "tests/providers/MadeEasy/Computer-Science/067_Topicwise_Test_17_Part_Syllabus_GATE_2026_CS_Computer_Networks.html"
-                },
-                {
-                  "title": "068_Topicwise_Test_18_Part_Syllabus_GATE_2025_CS_Computer_Networks.html",
-                  "path": "tests/providers/MadeEasy/Computer-Science/068_Topicwise_Test_18_Part_Syllabus_GATE_2025_CS_Computer_Networks.html"
-                },
-                {
-                  "title": "069_Topicwise_Test_18_Part_Syllabus_GATE_2026_CS_Computer_Networks.html",
-                  "path": "tests/providers/MadeEasy/Computer-Science/069_Topicwise_Test_18_Part_Syllabus_GATE_2026_CS_Computer_Networks.html"
-                },
-                {
-                  "title": "070_Topicwise_Test_19_Part_Syllabus_GATE_2025_CS_Digital_Logic_1.html",
-                  "path": "tests/providers/MadeEasy/Computer-Science/070_Topicwise_Test_19_Part_Syllabus_GATE_2025_CS_Digital_Logic_1.html"
-                },
-                {
-                  "title": "071_Topicwise_Test_19_Part_Syllabus_GATE_2026_CS_Digital_Logic_1.html",
-                  "path": "tests/providers/MadeEasy/Computer-Science/071_Topicwise_Test_19_Part_Syllabus_GATE_2026_CS_Digital_Logic_1.html"
-                },
-                {
-                  "title": "072_Topicwise_Test_2_Part_Syllabus_GATE_2025_CS_Theory_of_Computation.html",
-                  "path": "tests/providers/MadeEasy/Computer-Science/072_Topicwise_Test_2_Part_Syllabus_GATE_2025_CS_Theory_of_Computation.html"
-                },
-                {
-                  "title": "073_Topicwise_Test_2_Part_Syllabus_GATE_2026_CS_Theory_of_Computation.html",
-                  "path": "tests/providers/MadeEasy/Computer-Science/073_Topicwise_Test_2_Part_Syllabus_GATE_2026_CS_Theory_of_Computation.html"
-                },
-                {
-                  "title": "074_Topicwise_Test_20_Part_Syllabus_GATE_2025_CS_Digital_Logic_2.html",
-                  "path": "tests/providers/MadeEasy/Computer-Science/074_Topicwise_Test_20_Part_Syllabus_GATE_2025_CS_Digital_Logic_2.html"
-                },
-                {
-                  "title": "075_Topicwise_Test_20_Part_Syllabus_GATE_2026_CS_Digital_Logic_2.html",
-                  "path": "tests/providers/MadeEasy/Computer-Science/075_Topicwise_Test_20_Part_Syllabus_GATE_2026_CS_Digital_Logic_2.html"
-                },
-                {
-                  "title": "076_Topicwise_Test_21_Part_Syllabus_GATE_2025_CS_Discrete_Mathematics.html",
-                  "path": "tests/providers/MadeEasy/Computer-Science/076_Topicwise_Test_21_Part_Syllabus_GATE_2025_CS_Discrete_Mathematics.html"
-                },
-                {
-                  "title": "077_Topicwise_Test_21_Part_Syllabus_GATE_2026_CS_Discrete_Mathematics.html",
-                  "path": "tests/providers/MadeEasy/Computer-Science/077_Topicwise_Test_21_Part_Syllabus_GATE_2026_CS_Discrete_Mathematics.html"
-                },
-                {
-                  "title": "078_Topicwise_Test_22_Part_Syllabus_GATE_2025_CS_Discrete_Mathematics.html",
-                  "path": "tests/providers/MadeEasy/Computer-Science/078_Topicwise_Test_22_Part_Syllabus_GATE_2025_CS_Discrete_Mathematics.html"
-                },
-                {
-                  "title": "079_Topicwise_Test_22_Part_Syllabus_GATE_2026_CS_Discrete_Mathematics.html",
-                  "path": "tests/providers/MadeEasy/Computer-Science/079_Topicwise_Test_22_Part_Syllabus_GATE_2026_CS_Discrete_Mathematics.html"
-                },
-                {
-                  "title": "080_Topicwise_Test_23_Part_Syllabus_GATE_2025_CS_Compiler_Design.html",
-                  "path": "tests/providers/MadeEasy/Computer-Science/080_Topicwise_Test_23_Part_Syllabus_GATE_2025_CS_Compiler_Design.html"
-                },
-                {
-                  "title": "081_Topicwise_Test_23_Part_Syllabus_GATE_2026_CS_Compiler_Design.html",
-                  "path": "tests/providers/MadeEasy/Computer-Science/081_Topicwise_Test_23_Part_Syllabus_GATE_2026_CS_Compiler_Design.html"
-                },
-                {
-                  "title": "082_Topicwise_Test_24_Part_Syllabus_GATE_2025_CS_Compiler_Design.html",
-                  "path": "tests/providers/MadeEasy/Computer-Science/082_Topicwise_Test_24_Part_Syllabus_GATE_2025_CS_Compiler_Design.html"
-                },
-                {
-                  "title": "083_Topicwise_Test_24_Part_Syllabus_GATE_2026_CS_Compiler_Design.html",
-                  "path": "tests/providers/MadeEasy/Computer-Science/083_Topicwise_Test_24_Part_Syllabus_GATE_2026_CS_Compiler_Design.html"
-                },
-                {
-                  "title": "084_Topicwise_Test_3_Part_Syllabus_GATE_2025_CS_Algorithms_1.html",
-                  "path": "tests/providers/MadeEasy/Computer-Science/084_Topicwise_Test_3_Part_Syllabus_GATE_2025_CS_Algorithms_1.html"
-                },
-                {
-                  "title": "085_Topicwise_Test_3_Part_Syllabus_GATE_2026_CS_Algorithms_1.html",
-                  "path": "tests/providers/MadeEasy/Computer-Science/085_Topicwise_Test_3_Part_Syllabus_GATE_2026_CS_Algorithms_1.html"
-                },
-                {
-                  "title": "086_Topicwise_Test_4_Part_Syllabus_GATE_2025_CS_Algorithms_2.html",
-                  "path": "tests/providers/MadeEasy/Computer-Science/086_Topicwise_Test_4_Part_Syllabus_GATE_2025_CS_Algorithms_2.html"
-                },
-                {
-                  "title": "087_Topicwise_Test_4_Part_Syllabus_GATE_2026_CS_Algorithms_2.html",
-                  "path": "tests/providers/MadeEasy/Computer-Science/087_Topicwise_Test_4_Part_Syllabus_GATE_2026_CS_Algorithms_2.html"
-                },
-                {
-                  "title": "088_Topicwise_Test_5_Part_Syllabus_GATE_2025_CS_Computer_Organization.html",
-                  "path": "tests/providers/MadeEasy/Computer-Science/088_Topicwise_Test_5_Part_Syllabus_GATE_2025_CS_Computer_Organization.html"
-                },
-                {
-                  "title": "089_Topicwise_Test_5_Part_Syllabus_GATE_2026_CS_Computer_Organization.html",
-                  "path": "tests/providers/MadeEasy/Computer-Science/089_Topicwise_Test_5_Part_Syllabus_GATE_2026_CS_Computer_Organization.html"
-                },
-                {
-                  "title": "090_Topicwise_Test_6_Part_Syllabus_GATE_2025_CS_Computer_Organization.html",
-                  "path": "tests/providers/MadeEasy/Computer-Science/090_Topicwise_Test_6_Part_Syllabus_GATE_2025_CS_Computer_Organization.html"
-                },
-                {
-                  "title": "091_Topicwise_Test_6_Part_Syllabus_GATE_2026_CS_Computer_Organization.html",
-                  "path": "tests/providers/MadeEasy/Computer-Science/091_Topicwise_Test_6_Part_Syllabus_GATE_2026_CS_Computer_Organization.html"
-                },
-                {
-                  "title": "092_Topicwise Test-7 Part Syllabus GATE 2025 CS Databases-1.html",
-                  "path": "tests/providers/MadeEasy/Computer-Science/092_Topicwise Test-7 Part Syllabus GATE 2025 CS Databases-1.html"
-                },
-                {
-                  "title": "093_Topicwise Test-7 Part Syllabus GATE 2026 CS Databases-1.html",
-                  "path": "tests/providers/MadeEasy/Computer-Science/093_Topicwise Test-7 Part Syllabus GATE 2026 CS Databases-1.html"
-                },
-                {
-                  "title": "094_Topicwise Test-8 Part Syllabus GATE 2025 CS Databases-2.html",
-                  "path": "tests/providers/MadeEasy/Computer-Science/094_Topicwise Test-8 Part Syllabus GATE 2025 CS Databases-2.html"
-                },
-                {
-                  "title": "095_Topicwise Test-8 Part Syllabus GATE 2026 CS Databases-2.html",
-                  "path": "tests/providers/MadeEasy/Computer-Science/095_Topicwise Test-8 Part Syllabus GATE 2026 CS Databases-2.html"
-                },
-                {
-                  "title": "096_Topicwise_Test_9_Part_Syllabus_GATE_2025_CS_Engineering_Mathematics.html",
-                  "path": "tests/providers/MadeEasy/Computer-Science/096_Topicwise_Test_9_Part_Syllabus_GATE_2025_CS_Engineering_Mathematics.html"
-                },
-                {
-                  "title": "097_Topicwise_Test_9_Part_Syllabus_GATE_2026_CS_Engineering_Mathematics.html",
-                  "path": "tests/providers/MadeEasy/Computer-Science/097_Topicwise_Test_9_Part_Syllabus_GATE_2026_CS_Engineering_Mathematics.html"
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "name": "Mechanical",
-      "providers": [
-        {
-          "name": "MadeEasy",
-          "series": [
-            {
-              "name": "All",
-              "tests": [
-                {
-                  "title": "001_Advance Level Test-1 Full Syllabus GATE 2025 ME.html",
-                  "path": "tests/providers/MadeEasy/Mechanical/001_Advance Level Test-1 Full Syllabus GATE 2025 ME.html"
-                },
-                {
-                  "title": "002_Advance Level Test-1 Full Syllabus GATE 2026 ME.html",
-                  "path": "tests/providers/MadeEasy/Mechanical/002_Advance Level Test-1 Full Syllabus GATE 2026 ME.html"
-                },
-                {
-                  "title": "003_Advance Level Test-2 Full Syllabus GATE 2025 ME.html",
-                  "path": "tests/providers/MadeEasy/Mechanical/003_Advance Level Test-2 Full Syllabus GATE 2025 ME.html"
-                },
-                {
-                  "title": "004_Advance Level Test-2 Full Syllabus GATE 2026 ME.html",
-                  "path": "tests/providers/MadeEasy/Mechanical/004_Advance Level Test-2 Full Syllabus GATE 2026 ME.html"
-                },
-                {
-                  "title": "005_Advance Level Test-3 Full Syllabus GATE 2025 ME.html",
-                  "path": "tests/providers/MadeEasy/Mechanical/005_Advance Level Test-3 Full Syllabus GATE 2025 ME.html"
-                },
-                {
-                  "title": "006_Advance Level Test-3 Full Syllabus GATE 2026 ME.html",
-                  "path": "tests/providers/MadeEasy/Mechanical/006_Advance Level Test-3 Full Syllabus GATE 2026 ME.html"
-                },
-                {
-                  "title": "007_Advance Level Test-4 Full Syllabus GATE 2025 ME.html",
-                  "path": "tests/providers/MadeEasy/Mechanical/007_Advance Level Test-4 Full Syllabus GATE 2025 ME.html"
-                },
-                {
-                  "title": "008_Advance Level Test-4 Full Syllabus GATE 2026 ME.html",
-                  "path": "tests/providers/MadeEasy/Mechanical/008_Advance Level Test-4 Full Syllabus GATE 2026 ME.html"
-                },
-                {
-                  "title": "009_Basic Level Test-1 Full Syllabus GATE 2025 ME.html",
-                  "path": "tests/providers/MadeEasy/Mechanical/009_Basic Level Test-1 Full Syllabus GATE 2025 ME.html"
-                },
-                {
-                  "title": "010_Basic Level Test-1 Full Syllabus GATE 2026 ME.html",
-                  "path": "tests/providers/MadeEasy/Mechanical/010_Basic Level Test-1 Full Syllabus GATE 2026 ME.html"
-                },
-                {
-                  "title": "011_Basic Level Test-2 Full Syllabus GATE 2025 ME.html",
-                  "path": "tests/providers/MadeEasy/Mechanical/011_Basic Level Test-2 Full Syllabus GATE 2025 ME.html"
-                },
-                {
-                  "title": "012_Basic Level Test-2 Full Syllabus GATE 2026 ME.html",
-                  "path": "tests/providers/MadeEasy/Mechanical/012_Basic Level Test-2 Full Syllabus GATE 2026 ME.html"
-                },
-                {
-                  "title": "013_Basic Level Test-3 Full Syllabus GATE 2025 ME.html",
-                  "path": "tests/providers/MadeEasy/Mechanical/013_Basic Level Test-3 Full Syllabus GATE 2025 ME.html"
-                },
-                {
-                  "title": "014_Basic Level Test-3 Full Syllabus GATE 2026 ME.html",
-                  "path": "tests/providers/MadeEasy/Mechanical/014_Basic Level Test-3 Full Syllabus GATE 2026 ME.html"
-                },
-                {
-                  "title": "015_Basic Level Test-4 Full Syllabus GATE 2025 ME.html",
-                  "path": "tests/providers/MadeEasy/Mechanical/015_Basic Level Test-4 Full Syllabus GATE 2025 ME.html"
-                },
-                {
-                  "title": "016_Basic Level Test-4 Full Syllabus GATE 2026 ME.html",
-                  "path": "tests/providers/MadeEasy/Mechanical/016_Basic Level Test-4 Full Syllabus GATE 2026 ME.html"
-                },
-                {
-                  "title": "017_ESE 2026 DEMO TEST ME.html",
-                  "path": "tests/providers/MadeEasy/Mechanical/017_ESE 2026 DEMO TEST ME.html"
-                },
-                {
-                  "title": "018_Mock Level Test-1 Full Syllabus GATE 2025 ME.html",
-                  "path": "tests/providers/MadeEasy/Mechanical/018_Mock Level Test-1 Full Syllabus GATE 2025 ME.html"
-                },
-                {
-                  "title": "019_Mock Level Test-1 Full Syllabus GATE 2026 ME.html",
-                  "path": "tests/providers/MadeEasy/Mechanical/019_Mock Level Test-1 Full Syllabus GATE 2026 ME.html"
-                },
-                {
-                  "title": "020_Mock Level Test-2 Full Syllabus GATE 2025 ME.html",
-                  "path": "tests/providers/MadeEasy/Mechanical/020_Mock Level Test-2 Full Syllabus GATE 2025 ME.html"
-                },
-                {
-                  "title": "021_Mock Level Test-2 Full Syllabus GATE 2026 ME.html",
-                  "path": "tests/providers/MadeEasy/Mechanical/021_Mock Level Test-2 Full Syllabus GATE 2026 ME.html"
-                },
-                {
-                  "title": "022_Mock Level Test-3 Full Syllabus GATE 2025 ME.html",
-                  "path": "tests/providers/MadeEasy/Mechanical/022_Mock Level Test-3 Full Syllabus GATE 2025 ME.html"
-                },
-                {
-                  "title": "023_Mock Level Test-3 Full Syllabus GATE 2026 ME.html",
-                  "path": "tests/providers/MadeEasy/Mechanical/023_Mock Level Test-3 Full Syllabus GATE 2026 ME.html"
-                },
-                {
-                  "title": "024_Mock Level Test-4 Full Syllabus GATE 2025 ME.html",
-                  "path": "tests/providers/MadeEasy/Mechanical/024_Mock Level Test-4 Full Syllabus GATE 2025 ME.html"
-                },
-                {
-                  "title": "025_Mock Level Test-4 Full Syllabus GATE 2026 ME.html",
-                  "path": "tests/providers/MadeEasy/Mechanical/025_Mock Level Test-4 Full Syllabus GATE 2026 ME.html"
-                },
-                {
-                  "title": "026_Subjectwise_Test_1_Part_Syllabus_GATE_2025_ME_Strength_of_Materials.html",
-                  "path": "tests/providers/MadeEasy/Mechanical/026_Subjectwise_Test_1_Part_Syllabus_GATE_2025_ME_Strength_of_Materials.html"
-                },
-                {
-                  "title": "027_Subjectwise_Test_1_Part_Syllabus_GATE_2026_ME_Strength_of_Materials.html",
-                  "path": "tests/providers/MadeEasy/Mechanical/027_Subjectwise_Test_1_Part_Syllabus_GATE_2026_ME_Strength_of_Materials.html"
-                },
-                {
-                  "title": "028_Subjectwise_Test_10_Part_Syllabus_GATE_2025_ME_IC_Engine,_Power.html",
-                  "path": "tests/providers/MadeEasy/Mechanical/028_Subjectwise_Test_10_Part_Syllabus_GATE_2025_ME_IC_Engine,_Power.html"
-                },
-                {
-                  "title": "029_Subjectwise_Test_10_Part_Syllabus_GATE_2026_ME_IC_Engine,_Power.html",
-                  "path": "tests/providers/MadeEasy/Mechanical/029_Subjectwise_Test_10_Part_Syllabus_GATE_2026_ME_IC_Engine,_Power.html"
-                },
-                {
-                  "title": "030_Subjectwise_Test_11_Part_Syllabus_GATE_2025_ME_Industrial_Engineering.html",
-                  "path": "tests/providers/MadeEasy/Mechanical/030_Subjectwise_Test_11_Part_Syllabus_GATE_2025_ME_Industrial_Engineering.html"
-                },
-                {
-                  "title": "031_Subjectwise_Test_11_Part_Syllabus_GATE_2026_ME_Industrial_Engineering.html",
-                  "path": "tests/providers/MadeEasy/Mechanical/031_Subjectwise_Test_11_Part_Syllabus_GATE_2026_ME_Industrial_Engineering.html"
-                },
-                {
-                  "title": "032_Subjectwise_Test_12_Part_Syllabus_GATE_2025_ME_Machine_Design.html",
-                  "path": "tests/providers/MadeEasy/Mechanical/032_Subjectwise_Test_12_Part_Syllabus_GATE_2025_ME_Machine_Design.html"
-                },
-                {
-                  "title": "033_Subjectwise_Test_12_Part_Syllabus_GATE_2026_ME_Machine_Design.html",
-                  "path": "tests/providers/MadeEasy/Mechanical/033_Subjectwise_Test_12_Part_Syllabus_GATE_2026_ME_Machine_Design.html"
-                },
-                {
-                  "title": "034_Subjectwise_Test_2_Part_Syllabus_GATE_2025_ME_Thermodynamics.html",
-                  "path": "tests/providers/MadeEasy/Mechanical/034_Subjectwise_Test_2_Part_Syllabus_GATE_2025_ME_Thermodynamics.html"
-                },
-                {
-                  "title": "035_Subjectwise_Test_2_Part_Syllabus_GATE_2026_ME_Thermodynamics.html",
-                  "path": "tests/providers/MadeEasy/Mechanical/035_Subjectwise_Test_2_Part_Syllabus_GATE_2026_ME_Thermodynamics.html"
-                },
-                {
-                  "title": "036_Subjectwise_Test_3_Part_Syllabus_GATE_2025_ME_Fluid_Mechanics.html",
-                  "path": "tests/providers/MadeEasy/Mechanical/036_Subjectwise_Test_3_Part_Syllabus_GATE_2025_ME_Fluid_Mechanics.html"
-                },
-                {
-                  "title": "037_Subjectwise_Test_3_Part_Syllabus_GATE_2026_ME_Fluid_Mechanics.html",
-                  "path": "tests/providers/MadeEasy/Mechanical/037_Subjectwise_Test_3_Part_Syllabus_GATE_2026_ME_Fluid_Mechanics.html"
-                },
-                {
-                  "title": "038_Subjectwise_Test_4_Part_Syllabus_GATE_2025_ME_Manufacturing.html",
-                  "path": "tests/providers/MadeEasy/Mechanical/038_Subjectwise_Test_4_Part_Syllabus_GATE_2025_ME_Manufacturing.html"
-                },
-                {
-                  "title": "039_Subjectwise_Test_4_Part_Syllabus_GATE_2026_ME_Manufacturing.html",
-                  "path": "tests/providers/MadeEasy/Mechanical/039_Subjectwise_Test_4_Part_Syllabus_GATE_2026_ME_Manufacturing.html"
-                },
-                {
-                  "title": "040_Subjectwise_Test_5_Part_Syllabus_GATE_2025_ME_Engineering_Mathematics.html",
-                  "path": "tests/providers/MadeEasy/Mechanical/040_Subjectwise_Test_5_Part_Syllabus_GATE_2025_ME_Engineering_Mathematics.html"
-                },
-                {
-                  "title": "041_Subjectwise_Test_5_Part_Syllabus_GATE_2026_ME_Engineering_Mathematics.html",
-                  "path": "tests/providers/MadeEasy/Mechanical/041_Subjectwise_Test_5_Part_Syllabus_GATE_2026_ME_Engineering_Mathematics.html"
-                },
-                {
-                  "title": "042_Subjectwise_Test_6_Part_Syllabus_GATE_2025_ME_General_Aptitude.html",
-                  "path": "tests/providers/MadeEasy/Mechanical/042_Subjectwise_Test_6_Part_Syllabus_GATE_2025_ME_General_Aptitude.html"
-                },
-                {
-                  "title": "043_Subjectwise_Test_6_Part_Syllabus_GATE_2026_ME_General_Aptitude.html",
-                  "path": "tests/providers/MadeEasy/Mechanical/043_Subjectwise_Test_6_Part_Syllabus_GATE_2026_ME_General_Aptitude.html"
-                },
-                {
-                  "title": "044_Subjectwise_Test_7_Part_Syllabus_GATE_2025_ME_Heat_Transfer.html",
-                  "path": "tests/providers/MadeEasy/Mechanical/044_Subjectwise_Test_7_Part_Syllabus_GATE_2025_ME_Heat_Transfer.html"
-                },
-                {
-                  "title": "045_Subjectwise_Test_7_Part_Syllabus_GATE_2026_ME_Heat_Transfer.html",
-                  "path": "tests/providers/MadeEasy/Mechanical/045_Subjectwise_Test_7_Part_Syllabus_GATE_2026_ME_Heat_Transfer.html"
-                },
-                {
-                  "title": "046_Subjectwise_Test_8_Part_Syllabus_GATE_2025_ME_Engineering_Mechanics.html",
-                  "path": "tests/providers/MadeEasy/Mechanical/046_Subjectwise_Test_8_Part_Syllabus_GATE_2025_ME_Engineering_Mechanics.html"
-                },
-                {
-                  "title": "047_Subjectwise_Test_8_Part_Syllabus_GATE_2026_ME_Engineering_Mechanics.html",
-                  "path": "tests/providers/MadeEasy/Mechanical/047_Subjectwise_Test_8_Part_Syllabus_GATE_2026_ME_Engineering_Mechanics.html"
-                },
-                {
-                  "title": "048_Subjectwise_Test_9_Part_Syllabus_GATE_2025_ME_Theory_of_Machines.html",
-                  "path": "tests/providers/MadeEasy/Mechanical/048_Subjectwise_Test_9_Part_Syllabus_GATE_2025_ME_Theory_of_Machines.html"
-                },
-                {
-                  "title": "049_Subjectwise_Test_9_Part_Syllabus_GATE_2026_ME_Theory_of_Machines.html",
-                  "path": "tests/providers/MadeEasy/Mechanical/049_Subjectwise_Test_9_Part_Syllabus_GATE_2026_ME_Theory_of_Machines.html"
-                },
-                {
-                  "title": "050_Topicwise_Test_1_Part_Syllabus_GATE_2025_ME_Strength_of_Materials.html",
-                  "path": "tests/providers/MadeEasy/Mechanical/050_Topicwise_Test_1_Part_Syllabus_GATE_2025_ME_Strength_of_Materials.html"
-                },
-                {
-                  "title": "051_Topicwise_Test_1_Part_Syllabus_GATE_2026_ME_Strength_of_Materials.html",
-                  "path": "tests/providers/MadeEasy/Mechanical/051_Topicwise_Test_1_Part_Syllabus_GATE_2026_ME_Strength_of_Materials.html"
-                },
-                {
-                  "title": "052_Topicwise_Test_10_Part_Syllabus_GATE_2025_ME_Engineering_Mathematics.html",
-                  "path": "tests/providers/MadeEasy/Mechanical/052_Topicwise_Test_10_Part_Syllabus_GATE_2025_ME_Engineering_Mathematics.html"
-                },
-                {
-                  "title": "053_Topicwise_Test_10_Part_Syllabus_GATE_2026_ME_Engineering_Mathematics.html",
-                  "path": "tests/providers/MadeEasy/Mechanical/053_Topicwise_Test_10_Part_Syllabus_GATE_2026_ME_Engineering_Mathematics.html"
-                },
-                {
-                  "title": "054_Topicwise_Test_11_Part_Syllabus_GATE_2025_ME_General_Aptitude.html",
-                  "path": "tests/providers/MadeEasy/Mechanical/054_Topicwise_Test_11_Part_Syllabus_GATE_2025_ME_General_Aptitude.html"
-                },
-                {
-                  "title": "055_Topicwise_Test_11_Part_Syllabus_GATE_2026_ME_General_Aptitude.html",
-                  "path": "tests/providers/MadeEasy/Mechanical/055_Topicwise_Test_11_Part_Syllabus_GATE_2026_ME_General_Aptitude.html"
-                },
-                {
-                  "title": "056_Topicwise_Test_12_Part_Syllabus_GATE_2025_ME_General_Aptitude.html",
-                  "path": "tests/providers/MadeEasy/Mechanical/056_Topicwise_Test_12_Part_Syllabus_GATE_2025_ME_General_Aptitude.html"
-                },
-                {
-                  "title": "057_Topicwise_Test_12_Part_Syllabus_GATE_2026_ME_General_Aptitude.html",
-                  "path": "tests/providers/MadeEasy/Mechanical/057_Topicwise_Test_12_Part_Syllabus_GATE_2026_ME_General_Aptitude.html"
-                },
-                {
-                  "title": "058_Topicwise_Test_13_Part_Syllabus_GATE_2025_ME_Casting,_Forming.html",
-                  "path": "tests/providers/MadeEasy/Mechanical/058_Topicwise_Test_13_Part_Syllabus_GATE_2025_ME_Casting,_Forming.html"
-                },
-                {
-                  "title": "059_Topicwise_Test_13_Part_Syllabus_GATE_2026_ME_Casting_Forming.html",
-                  "path": "tests/providers/MadeEasy/Mechanical/059_Topicwise_Test_13_Part_Syllabus_GATE_2026_ME_Casting_Forming.html"
-                },
-                {
-                  "title": "060_Topicwise_Test_14_Part_Syllabus_GATE_2025_ME_Machining_and_Machine.html",
-                  "path": "tests/providers/MadeEasy/Mechanical/060_Topicwise_Test_14_Part_Syllabus_GATE_2025_ME_Machining_and_Machine.html"
-                },
-                {
-                  "title": "061_Topicwise_Test_14_Part_Syllabus_GATE_2026_ME_Manufacturing_Engineering.html",
-                  "path": "tests/providers/MadeEasy/Mechanical/061_Topicwise_Test_14_Part_Syllabus_GATE_2026_ME_Manufacturing_Engineering.html"
-                },
-                {
-                  "title": "062_Topicwise_Test_15_Part_Syllabus_GATE_2025_ME_Metrology,_Engineering.html",
-                  "path": "tests/providers/MadeEasy/Mechanical/062_Topicwise_Test_15_Part_Syllabus_GATE_2025_ME_Metrology,_Engineering.html"
-                },
-                {
-                  "title": "063_Topicwise_Test_15_Part_Syllabus_GATE_2026_ME_Metrology,_Engineering.html",
-                  "path": "tests/providers/MadeEasy/Mechanical/063_Topicwise_Test_15_Part_Syllabus_GATE_2026_ME_Metrology,_Engineering.html"
-                },
-                {
-                  "title": "064_Topicwise_Test_16_Part_Syllabus_GATE_2025_ME_Engineering_Mechanics.html",
-                  "path": "tests/providers/MadeEasy/Mechanical/064_Topicwise_Test_16_Part_Syllabus_GATE_2025_ME_Engineering_Mechanics.html"
-                },
-                {
-                  "title": "065_Topicwise_Test_16_Part_Syllabus_GATE_2026_ME_Engineering_Mechanics.html",
-                  "path": "tests/providers/MadeEasy/Mechanical/065_Topicwise_Test_16_Part_Syllabus_GATE_2026_ME_Engineering_Mechanics.html"
-                },
-                {
-                  "title": "066_Topicwise_Test_17_Part_Syllabus_GATE_2025_ME_Theory_of_Machines.html",
-                  "path": "tests/providers/MadeEasy/Mechanical/066_Topicwise_Test_17_Part_Syllabus_GATE_2025_ME_Theory_of_Machines.html"
-                },
-                {
-                  "title": "067_Topicwise_Test_17_Part_Syllabus_GATE_2026_ME_Theory_of_Machines.html",
-                  "path": "tests/providers/MadeEasy/Mechanical/067_Topicwise_Test_17_Part_Syllabus_GATE_2026_ME_Theory_of_Machines.html"
-                },
-                {
-                  "title": "068_Topicwise_Test_18_Part_Syllabus_GATE_2025_ME_Theory_of_Machines.html",
-                  "path": "tests/providers/MadeEasy/Mechanical/068_Topicwise_Test_18_Part_Syllabus_GATE_2025_ME_Theory_of_Machines.html"
-                },
-                {
-                  "title": "069_Topicwise_Test_18_Part_Syllabus_GATE_2026_ME_Theory_of_Machines.html",
-                  "path": "tests/providers/MadeEasy/Mechanical/069_Topicwise_Test_18_Part_Syllabus_GATE_2026_ME_Theory_of_Machines.html"
-                },
-                {
-                  "title": "070_Topicwise_Test_19_Part_Syllabus_GATE_2025_ME_IC_Engine_&_Power.html",
-                  "path": "tests/providers/MadeEasy/Mechanical/070_Topicwise_Test_19_Part_Syllabus_GATE_2025_ME_IC_Engine_&_Power.html"
-                },
-                {
-                  "title": "071_Topicwise_Test_19_Part_Syllabus_GATE_2026_ME_IC_Engine_&_Power.html",
-                  "path": "tests/providers/MadeEasy/Mechanical/071_Topicwise_Test_19_Part_Syllabus_GATE_2026_ME_IC_Engine_&_Power.html"
-                },
-                {
-                  "title": "072_Topicwise_Test_2_Part_Syllabus_GATE_2025_ME_Strength_of_Materials.html",
-                  "path": "tests/providers/MadeEasy/Mechanical/072_Topicwise_Test_2_Part_Syllabus_GATE_2025_ME_Strength_of_Materials.html"
-                },
-                {
-                  "title": "073_Topicwise_Test_2_Part_Syllabus_GATE_2026_ME_Strength_of_Materials.html",
-                  "path": "tests/providers/MadeEasy/Mechanical/073_Topicwise_Test_2_Part_Syllabus_GATE_2026_ME_Strength_of_Materials.html"
-                },
-                {
-                  "title": "074_Topicwise_Test_20_Part_Syllabus_GATE_2025_ME_Refrigeration_&.html",
-                  "path": "tests/providers/MadeEasy/Mechanical/074_Topicwise_Test_20_Part_Syllabus_GATE_2025_ME_Refrigeration_&.html"
-                },
-                {
-                  "title": "075_Topicwise_Test_20_Part_Syllabus_GATE_2026_ME_Refrigeration_&.html",
-                  "path": "tests/providers/MadeEasy/Mechanical/075_Topicwise_Test_20_Part_Syllabus_GATE_2026_ME_Refrigeration_&.html"
-                },
-                {
-                  "title": "076_Topicwise_Test_21_Part_Syllabus_GATE_2025_ME_Industrial_Engineering.html",
-                  "path": "tests/providers/MadeEasy/Mechanical/076_Topicwise_Test_21_Part_Syllabus_GATE_2025_ME_Industrial_Engineering.html"
-                },
-                {
-                  "title": "077_Topicwise_Test_21_Part_Syllabus_GATE_2026_ME_Industrial_Engineering.html",
-                  "path": "tests/providers/MadeEasy/Mechanical/077_Topicwise_Test_21_Part_Syllabus_GATE_2026_ME_Industrial_Engineering.html"
-                },
-                {
-                  "title": "078_Topicwise_Test_22_Part_Syllabus_GATE_2026_ME_Industrial_Engineering.html",
-                  "path": "tests/providers/MadeEasy/Mechanical/078_Topicwise_Test_22_Part_Syllabus_GATE_2026_ME_Industrial_Engineering.html"
-                },
-                {
-                  "title": "079_Topicwise_Test_23_Part_Syllabus_GATE_2025_ME_Machine_Design.html",
-                  "path": "tests/providers/MadeEasy/Mechanical/079_Topicwise_Test_23_Part_Syllabus_GATE_2025_ME_Machine_Design.html"
-                },
-                {
-                  "title": "080_Topicwise_Test_23_Part_Syllabus_GATE_2026_ME_Machine_Design.html",
-                  "path": "tests/providers/MadeEasy/Mechanical/080_Topicwise_Test_23_Part_Syllabus_GATE_2026_ME_Machine_Design.html"
-                },
-                {
-                  "title": "081_Topicwise_Test_24_Part_Syllabus_GATE_2025_ME_Machine_Design.html",
-                  "path": "tests/providers/MadeEasy/Mechanical/081_Topicwise_Test_24_Part_Syllabus_GATE_2025_ME_Machine_Design.html"
-                },
-                {
-                  "title": "082_Topicwise_Test_24_Part_Syllabus_GATE_2026_ME_Machine_Design.html",
-                  "path": "tests/providers/MadeEasy/Mechanical/082_Topicwise_Test_24_Part_Syllabus_GATE_2026_ME_Machine_Design.html"
-                },
-                {
-                  "title": "083_Topicwise_Test_3_Part_Syllabus_GATE_2025_ME_Thermodynamics_1.html",
-                  "path": "tests/providers/MadeEasy/Mechanical/083_Topicwise_Test_3_Part_Syllabus_GATE_2025_ME_Thermodynamics_1.html"
-                },
-                {
-                  "title": "084_Topicwise_Test_3_Part_Syllabus_GATE_2026_ME_Thermodynamics_1.html",
-                  "path": "tests/providers/MadeEasy/Mechanical/084_Topicwise_Test_3_Part_Syllabus_GATE_2026_ME_Thermodynamics_1.html"
-                },
-                {
-                  "title": "085_Topicwise_Test_4_Part_Syllabus_GATE_2025_ME_Thermodynamics_2.html",
-                  "path": "tests/providers/MadeEasy/Mechanical/085_Topicwise_Test_4_Part_Syllabus_GATE_2025_ME_Thermodynamics_2.html"
-                },
-                {
-                  "title": "086_Topicwise_Test_4_Part_Syllabus_GATE_2026_ME_Thermodynamics_2.html",
-                  "path": "tests/providers/MadeEasy/Mechanical/086_Topicwise_Test_4_Part_Syllabus_GATE_2026_ME_Thermodynamics_2.html"
-                },
-                {
-                  "title": "087_Topicwise_Test_5_Part_Syllabus_GATE_2025_ME_Fluid_Mechanics.html",
-                  "path": "tests/providers/MadeEasy/Mechanical/087_Topicwise_Test_5_Part_Syllabus_GATE_2025_ME_Fluid_Mechanics.html"
-                },
-                {
-                  "title": "088_Topicwise_Test_5_Part_Syllabus_GATE_2026_ME_Fluid_Mechanics.html",
-                  "path": "tests/providers/MadeEasy/Mechanical/088_Topicwise_Test_5_Part_Syllabus_GATE_2026_ME_Fluid_Mechanics.html"
-                },
-                {
-                  "title": "090_Topicwise_Test_6_Part_Syllabus_GATE_2026_ME_Fluid_Mechanics (1).html",
-                  "path": "tests/providers/MadeEasy/Mechanical/090_Topicwise_Test_6_Part_Syllabus_GATE_2026_ME_Fluid_Mechanics (1).html"
-                },
-                {
-                  "title": "090_Topicwise_Test_6_Part_Syllabus_GATE_2026_ME_Fluid_Mechanics.html",
-                  "path": "tests/providers/MadeEasy/Mechanical/090_Topicwise_Test_6_Part_Syllabus_GATE_2026_ME_Fluid_Mechanics.html"
-                },
-                {
-                  "title": "091_Topicwise_Test_7_Part_Syllabus_GATE_2025_ME_Heat_Transfer_1.html",
-                  "path": "tests/providers/MadeEasy/Mechanical/091_Topicwise_Test_7_Part_Syllabus_GATE_2025_ME_Heat_Transfer_1.html"
-                },
-                {
-                  "title": "092_Topicwise_Test_7_Part_Syllabus_GATE_2026_ME_Heat_Transfer_1.html",
-                  "path": "tests/providers/MadeEasy/Mechanical/092_Topicwise_Test_7_Part_Syllabus_GATE_2026_ME_Heat_Transfer_1.html"
-                },
-                {
-                  "title": "093_Topicwise_Test_8_Part_Syllabus_GATE_2025_ME_Heat_Transfer_2.html",
-                  "path": "tests/providers/MadeEasy/Mechanical/093_Topicwise_Test_8_Part_Syllabus_GATE_2025_ME_Heat_Transfer_2.html"
-                },
-                {
-                  "title": "094_Topicwise_Test_8_Part_Syllabus_GATE_2026_ME_Heat_Transfer_2.html",
-                  "path": "tests/providers/MadeEasy/Mechanical/094_Topicwise_Test_8_Part_Syllabus_GATE_2026_ME_Heat_Transfer_2.html"
-                },
-                {
-                  "title": "095_Topicwise_Test_9_Part_Syllabus_GATE_2025_ME_Engineering_Mathematics.html",
-                  "path": "tests/providers/MadeEasy/Mechanical/095_Topicwise_Test_9_Part_Syllabus_GATE_2025_ME_Engineering_Mathematics.html"
-                },
-                {
-                  "title": "096_Topicwise_Test_9_Part_Syllabus_GATE_2026_ME_Engineering_Mathematics.html",
-                  "path": "tests/providers/MadeEasy/Mechanical/096_Topicwise_Test_9_Part_Syllabus_GATE_2026_ME_Engineering_Mathematics.html"
+                  "title": "file_9 [@ Dvruo Gate Zeal CSE 2026 Test Series]",
+                  "path": "/tests/providers/Computer Science/Gate Zeal/file_9 [@ Dvruo Gate Zeal CSE 2026 Test Series].html"
                 }
               ]
             }

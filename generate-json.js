@@ -4,6 +4,11 @@ const path = require("path");
 const BASE = "./tests/providers";
 const OUTPUT = "./data/series-manifest.json";
 
+// 🔥 normalize function (IMPORTANT)
+function normalize(name) {
+  return name.toLowerCase().replace(/[\s-_]/g, "");
+}
+
 function getDirs(dir) {
   return fs.readdirSync(dir).filter(f =>
     fs.statSync(path.join(dir, f)).isDirectory()
@@ -11,7 +16,7 @@ function getDirs(dir) {
 }
 
 function generate() {
-  const branches = [];
+  const branchesMap = {};
 
   const providers = getDirs(BASE);
 
@@ -22,31 +27,48 @@ function generate() {
       const branchPath = path.join(providerPath, branch);
 
       const files = fs.readdirSync(branchPath).filter(f => f.endsWith(".html"));
-
       if (!files.length) return;
 
-      let branchObj = branches.find(b => b.name === branch);
+      const branchKey = normalize(branch);
 
-      if (!branchObj) {
-        branchObj = { name: branch, providers: [] };
-        branches.push(branchObj);
+      // ✅ create branch if not exists
+      if (!branchesMap[branchKey]) {
+        branchesMap[branchKey] = {
+          name: branch.replace(/[-_]/g, " "),
+          providers: []
+        };
       }
 
-      branchObj.providers.push({
-        name: provider,
-        series: [{
-          name: "All",
-          tests: files.map(f => ({
-            title: f,
-            path: `${branchPath}/${f}`.replace(/\\/g, "/")
-          }))
-        }]
+      const branchObj = branchesMap[branchKey];
+
+      // ✅ check if provider already exists
+      let providerObj = branchObj.providers.find(
+        p => normalize(p.name) === normalize(provider)
+      );
+
+      if (!providerObj) {
+        providerObj = {
+          name: provider,
+          series: []
+        };
+        branchObj.providers.push(providerObj);
+      }
+
+      // ✅ add series
+      providerObj.series.push({
+        name: "All",
+        tests: files.map(f => ({
+          title: f.replace(".html", ""),
+          path: `/tests/providers/${provider}/${branch}/${f}` // 🔥 FIXED PATH
+        }))
       });
     });
   });
 
+  const branches = Object.values(branchesMap);
+
   fs.writeFileSync(OUTPUT, JSON.stringify({ branches }, null, 2));
-  console.log("🔥 JSON GENERATED");
+  console.log("🔥 JSON GENERATED CORRECTLY");
 }
 
 generate();
