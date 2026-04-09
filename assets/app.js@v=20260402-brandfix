@@ -174,17 +174,29 @@ function initializeTheme() {
 }
 
 function updateHeaderCounts() {
-  refs.branchCount.textContent = String(state.manifest.branchCount ?? 0);
-  refs.testCount.textContent = String(state.manifest.testCount ?? 0);
-  const providers = new Set();
+  const branches = state.manifest.branches || [];
 
-  state.manifest.branches.forEach((branch) => {
-    branch.providers.forEach((provider) => {
-      providers.add(displayProviderName(provider.name));
+  // ✅ Branch count
+  refs.branchCount.textContent = branches.length;
+
+  // ✅ Provider count
+  const providerSet = new Set();
+
+  // ✅ Test count
+  let totalTests = 0;
+
+  branches.forEach(branch => {
+    branch.providers?.forEach(provider => {
+      providerSet.add(displayProviderName(provider.name));
+
+      provider.series?.forEach(series => {
+        totalTests += series.tests?.length || 0;
+      });
     });
   });
 
-  refs.providerCount.textContent = String(providers.size);
+  refs.providerCount.textContent = providerSet.size;
+  refs.testCount.textContent = totalTests;
 }
 
 function resetSelection() {
@@ -250,12 +262,16 @@ function renderProviders() {
   if (!branch) return;
 
   branch.providers.forEach((provider, index) => {
-    const button = createElement(
-      "button",
-      "chip",
-      `${displayProviderName(provider.name)} (${provider.testCount})`
-    );
+    let testCount = 0;
+provider.series?.forEach(series => {
+  testCount += series.tests?.length || 0;
+});
 
+const button = createElement(
+  "button",
+  "chip",
+  `${displayProviderName(provider.name)} (${testCount})`
+);
     button.type = "button";
 
     if (state.providerIndex === index) {
