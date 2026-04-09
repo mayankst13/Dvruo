@@ -1,11 +1,11 @@
 const fs = require("fs");
 const path = require("path");
 
-const BASE = "./tests/providers";
-const OUTPUT = "./data/series-manifest.json";
+const BASE = path.join(__dirname, "tests/providers");
+const OUTPUT = path.join(__dirname, "data/series-manifest.json");
 
 function normalize(name) {
-  return name.toLowerCase().trim(); // 🔥 simple + safe
+  return name.toLowerCase().trim();
 }
 
 function getDirs(dir) {
@@ -14,23 +14,53 @@ function getDirs(dir) {
   );
 }
 
+// 🔥 RECURSIVE HTML FILE FINDER
+function getAllHtmlFiles(dir) {
+  let results = [];
+
+  const list = fs.readdirSync(dir);
+
+  list.forEach(file => {
+    const filePath = path.join(dir, file);
+    const stat = fs.statSync(filePath);
+
+    if (stat.isDirectory()) {
+      results = results.concat(getAllHtmlFiles(filePath)); // recursion
+    } else {
+      if (file.toLowerCase().endsWith(".html")) {
+        results.push(filePath);
+      }
+    }
+  });
+
+  return results;
+}
+
 function generate() {
   const branchesMap = {};
 
-  // ❗ FIRST LEVEL = BRANCHES (FIXED)
+  console.log("BASE:", BASE);
+
   const branches = getDirs(BASE);
+  console.log("Branches found:", branches);
 
   branches.forEach(branch => {
     const branchPath = path.join(BASE, branch);
-
-    // ❗ SECOND LEVEL = PROVIDERS (FIXED)
     const providers = getDirs(branchPath);
+
+    console.log(`➡️ Branch: ${branch}`);
+    console.log(`   Providers:`, providers);
 
     providers.forEach(provider => {
       const providerPath = path.join(branchPath, provider);
 
-      const files = fs.readdirSync(providerPath).filter(f => f.endsWith(".html"));
-      if (!files.length) return;
+      // 🔥 get ALL html files (recursive)
+      const files = getAllHtmlFiles(providerPath);
+
+      if (!files.length) {
+        console.log(`❌ No HTML files in: ${providerPath}`);
+        return;
+      }
 
       const branchKey = normalize(branch);
 
@@ -61,8 +91,10 @@ function generate() {
       providerObj.series.push({
         name: "All",
         tests: files.map(f => ({
-          title: f.replace(".html", ""),
-          path: `/tests/providers/${branch}/${provider}/${f}` // 🔥 PATH FIXED
+          title: path.basename(f).replace(/\.html$/i, ""),
+          path: f
+            .replace(__dirname, "")
+            .replace(/\\/g, "/") // windows fix
         }))
       });
     });
@@ -71,7 +103,8 @@ function generate() {
   const branchesArr = Object.values(branchesMap);
 
   fs.writeFileSync(OUTPUT, JSON.stringify({ branches: branchesArr }, null, 2));
-  console.log("🔥 JSON GENERATED CORRECTLY (FIXED)");
+
+  console.log("🔥 JSON GENERATED CORRECTLY");
 }
 
 generate();
