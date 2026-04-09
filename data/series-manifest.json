@@ -1,10 +1,10 @@
 {
   "branches": [
     {
-      "name": "MadeEasy",
+      "name": "Civil",
       "providers": [
         {
-          "name": "Civil",
+          "name": "MadeEasy",
           "series": [
             {
               "name": "All",
@@ -344,9 +344,288 @@
               ]
             }
           ]
+        }
+      ]
+    },
+    {
+      "name": "Computer Science",
+      "providers": [
+        {
+          "name": "Gate Zeal",
+          "series": [
+            {
+              "name": "All",
+              "tests": [
+                {
+                  "title": "file_1 [@ Dvruo Gate Zeal CSE 2026 Test Series]",
+                  "path": "/tests/providers/Computer Science/Gate Zeal/file_1 [@ Dvruo Gate Zeal CSE 2026 Test Series].html"
+                },
+                {
+                  "title": "file_10 [@ Dvruo Gate Zeal CSE 2026 Test Series]",
+                  "path": "/tests/providers/Computer Science/Gate Zeal/file_10 [@ Dvruo Gate Zeal CSE 2026 Test Series].html"
+                },
+                {
+                  "title": "file_15 [@ Dvruo Gate Zeal CSE 2026 Test Series]",
+                  "path": "/tests/providers/Computer Science/Gate Zeal/file_15 [@ Dvruo Gate Zeal CSE 2026 Test Series].html"
+                },
+                {
+                  "title": "file_17 [@ Dvruo Gate Zeal CSE 2026 Test Series]",
+                  "path": "/tests/providers/Computer Science/Gate Zeal/file_17 [@ Dvruo Gate Zeal CSE 2026 Test Series].html"
+                },
+                {
+                  "title": "file_18 [@ Dvruo Gate Zeal CSE 2026 Test Series]",
+                  "path": "/tests/providers/Computer Science/Gate Zeal/file_18 [@ Dvruo Gate Zeal CSE 2026 Test Series].html"
+                },
+                {
+                  "title": "file_2 [@ Dvruo Gate Zeal CSE 2026 Test Series]",
+                  "path": "/tests/providers/Computer Science/Gate Zeal/file_2 [@ Dvruo Gate Zeal CSE 2026 Test Series].html"
+                },
+                {
+                  "title": "file_21 [@ Dvruo Gate Zeal CSE 2026 Test Series]",
+                  "path": "/tests/providers/Computer Science/Gate Zeal/file_21 [@ Dvruo Gate Zeal CSE 2026 Test Series].html"
+                },
+                {
+                  "title": "file_22 [@ Dvruo Gate Zeal CSE 2026 Test Series]",
+                  "path": "/tests/providers/Computer Science/Gate Zeal/file_22 [@ Dvruo Gate Zeal CSE 2026 Test Series].html"
+                },
+                {
+                  "title": "file_23 [@ Dvruo Gate Zeal CSE 2026 Test Series]",
+                  "path": "/tests/providers/Computer Science/Gate Zeal/file_23 [@ Dvruo Gate Zeal CSE 2026 Test Series].html"
+                },
+                {
+                  "title": "file_24 [@ Dvruo Gate Zeal CSE 2026 Test Series]",
+                  "path": "/tests/providers/Computer Science/Gate Zeal/file_24 [@ Dvruo Gate Zeal CSE 2026 Test Series].html"
+                },
+                {
+                  "title": "file_25 [@ Dvruo Gate Zeal CSE 2026 Test Series]",
+                  "path": "/tests/providers/Computer Science/Gate Zeal/file_25 [@ Dvruo Gate Zeal CSE 2026 Test Series].html"
+                },
+                {
+                  "title": "file_26 [@ Dvruo Gate Zeal CSE 2026 Test Series]",
+                  "path": "/tests/providers/Computer Science/Gate Zeal/file_26 [@ Dvruo Gate Zeal CSE 2026 Test Series].html"
+                },
+                {
+                  "title": "file_27 [@ Dvruo Gate Zeal CSE 2026 Test Series]",
+                  "path": "/tests/providers/Computer Science/Gate Zeal/file_27 [@ Dvruo Gate Zeal CSE 2026 Test Series].html"
+                },
+                {
+                  "title": "file_28 [@ Dvruo Gate Zeal CSE 2026 Test Series]",
+                  "path": "/tests/providers/Computer Science/Gate Zeal/file_28 [@ Dvruo Gate Zeal CSE 2026 Test Series].html"
+                },
+                {
+                  "title": "file_29 [@ Dvruo Gate Zeal CSE 2026 Test Series]",
+                  "path": "/tests/providers/Computer Science/Gate Zeal/file_29 [@ Dvruo Gate Zeal CSE 2026 Test Series].html"
+                },
+                {
+                  "title": "file_3 [@ Dvruo Gate Zeal CSE 2026 Test Series]",
+                  "path": "/tests/providers/Computer Science/Gate Zeal/file_3 [@ Dvruo Gate Zeal CSE 2026 Test Series].html"
+                },
+                {
+                  "title": "file_30 [@ Dvruo Gate Zeal CSE 2026 Test Series]",
+                  "path": "/tests/providers/Computer Science/Gate Zeal/file_30 [@ Dvruo Gate Zeal CSE 2026 Test Series].html"
+                },
+                {
+                  "title": "file_33 [@ Dvruo Gate Zeal CSE 2026 Test Series]",
+                  "path": "/tests/providers/Computer Science/Gate Zeal/file_33 [@ Dvruo Gate Zeal CSE 2026 Test Series].html"
+                },
+                {
+                  "title": "file_34 [@ Dvruo Gate Zeal CSE 2026 Test Series]",
+                  "path": "/tests/providers/Computer Science/Gate Zeal/file_34 [@ Dvruo Gate Zeal CSE 2026 Test Series].html"
+                },
+                {
+                  "title": "file_35 [@ Dvruo Gate Zeal CSE 2026 Test Series]",
+                  "path": "/tests/providers/Computer Science/Gate Zeal/file_35 [@ Dvruo Gate Zeal CSE 2026 Test Series].html"
+                },
+                {
+                  "title": "file_36 [@ Dvruo Gate Zeal CSE 2026 Test Series]",
+                  "path": "/tests/providers/Computer Science/Gate Zeal/file_36 [@ Dvruo Gate Zeal CSE 2026 Test Series].html"
+                },
+                {
+                  "title": "file_39 [@ Dvruo Gate Zeal CSE 2026 Test Series]",
+                  "path": "/tests/providers/Computer Science/Gate Zeal/file_39 [@ Dvruo Gate Zeal CSE 2026 Test Series].html"
+                },
+                {
+                  "title": "file_4 [@ Dvruo Gate Zeal CSE 2026 Test Series]",
+                  "path": "/tests/providers/Computer Science/Gate Zeal/file_4 [@ Dvruo Gate Zeal CSE 2026 Test Series].html"
+                },
+                {
+                  "title": "file_40 [@ Dvruo Gate Zeal CSE 2026 Test Series]",
+                  "path": "/tests/providers/Computer Science/Gate Zeal/file_40 [@ Dvruo Gate Zeal CSE 2026 Test Series].html"
+                },
+                {
+                  "title": "file_41 [@ Dvruo Gate Zeal CSE 2026 Test Series]",
+                  "path": "/tests/providers/Computer Science/Gate Zeal/file_41 [@ Dvruo Gate Zeal CSE 2026 Test Series].html"
+                },
+                {
+                  "title": "file_42 [@ Dvruo Gate Zeal CSE 2026 Test Series]",
+                  "path": "/tests/providers/Computer Science/Gate Zeal/file_42 [@ Dvruo Gate Zeal CSE 2026 Test Series].html"
+                },
+                {
+                  "title": "file_43 [@ Dvruo Gate Zeal CSE 2026 Test Series]",
+                  "path": "/tests/providers/Computer Science/Gate Zeal/file_43 [@ Dvruo Gate Zeal CSE 2026 Test Series].html"
+                },
+                {
+                  "title": "file_44 [@ Dvruo Gate Zeal CSE 2026 Test Series]",
+                  "path": "/tests/providers/Computer Science/Gate Zeal/file_44 [@ Dvruo Gate Zeal CSE 2026 Test Series].html"
+                },
+                {
+                  "title": "file_45 [@ Dvruo Gate Zeal CSE 2026 Test Series]",
+                  "path": "/tests/providers/Computer Science/Gate Zeal/file_45 [@ Dvruo Gate Zeal CSE 2026 Test Series].html"
+                },
+                {
+                  "title": "file_46 [@ Dvruo Gate Zeal CSE 2026 Test Series]",
+                  "path": "/tests/providers/Computer Science/Gate Zeal/file_46 [@ Dvruo Gate Zeal CSE 2026 Test Series].html"
+                },
+                {
+                  "title": "file_47 [@ Dvruo Gate Zeal CSE 2026 Test Series]",
+                  "path": "/tests/providers/Computer Science/Gate Zeal/file_47 [@ Dvruo Gate Zeal CSE 2026 Test Series].html"
+                },
+                {
+                  "title": "file_48 [@ Dvruo Gate Zeal CSE 2026 Test Series]",
+                  "path": "/tests/providers/Computer Science/Gate Zeal/file_48 [@ Dvruo Gate Zeal CSE 2026 Test Series].html"
+                },
+                {
+                  "title": "file_49 [@ Dvruo Gate Zeal CSE 2026 Test Series]",
+                  "path": "/tests/providers/Computer Science/Gate Zeal/file_49 [@ Dvruo Gate Zeal CSE 2026 Test Series].html"
+                },
+                {
+                  "title": "file_5 [@ Dvruo Gate Zeal CSE 2026 Test Series]",
+                  "path": "/tests/providers/Computer Science/Gate Zeal/file_5 [@ Dvruo Gate Zeal CSE 2026 Test Series].html"
+                },
+                {
+                  "title": "file_50 [@ Dvruo Gate Zeal CSE 2026 Test Series]",
+                  "path": "/tests/providers/Computer Science/Gate Zeal/file_50 [@ Dvruo Gate Zeal CSE 2026 Test Series].html"
+                },
+                {
+                  "title": "file_51 [@ Dvruo Gate Zeal CSE 2026 Test Series]",
+                  "path": "/tests/providers/Computer Science/Gate Zeal/file_51 [@ Dvruo Gate Zeal CSE 2026 Test Series].html"
+                },
+                {
+                  "title": "file_52 [@ Dvruo Gate Zeal CSE 2026 Test Series]",
+                  "path": "/tests/providers/Computer Science/Gate Zeal/file_52 [@ Dvruo Gate Zeal CSE 2026 Test Series].html"
+                },
+                {
+                  "title": "file_53 [@ Dvruo Gate Zeal CSE 2026 Test Series]",
+                  "path": "/tests/providers/Computer Science/Gate Zeal/file_53 [@ Dvruo Gate Zeal CSE 2026 Test Series].html"
+                },
+                {
+                  "title": "file_54 [@ Dvruo Gate Zeal CSE 2026 Test Series]",
+                  "path": "/tests/providers/Computer Science/Gate Zeal/file_54 [@ Dvruo Gate Zeal CSE 2026 Test Series].html"
+                },
+                {
+                  "title": "file_55 [@ Dvruo Gate Zeal CSE 2026 Test Series]",
+                  "path": "/tests/providers/Computer Science/Gate Zeal/file_55 [@ Dvruo Gate Zeal CSE 2026 Test Series].html"
+                },
+                {
+                  "title": "file_57 [@ Dvruo Gate Zeal CSE 2026 Test Series]",
+                  "path": "/tests/providers/Computer Science/Gate Zeal/file_57 [@ Dvruo Gate Zeal CSE 2026 Test Series].html"
+                },
+                {
+                  "title": "file_58 [@ Dvruo Gate Zeal CSE 2026 Test Series]",
+                  "path": "/tests/providers/Computer Science/Gate Zeal/file_58 [@ Dvruo Gate Zeal CSE 2026 Test Series].html"
+                },
+                {
+                  "title": "file_59 [@ Dvruo Gate Zeal CSE 2026 Test Series]",
+                  "path": "/tests/providers/Computer Science/Gate Zeal/file_59 [@ Dvruo Gate Zeal CSE 2026 Test Series].html"
+                },
+                {
+                  "title": "file_6 [@ Dvruo Gate Zeal CSE 2026 Test Series]",
+                  "path": "/tests/providers/Computer Science/Gate Zeal/file_6 [@ Dvruo Gate Zeal CSE 2026 Test Series].html"
+                },
+                {
+                  "title": "file_60 [@ Dvruo Gate Zeal CSE 2026 Test Series]",
+                  "path": "/tests/providers/Computer Science/Gate Zeal/file_60 [@ Dvruo Gate Zeal CSE 2026 Test Series].html"
+                },
+                {
+                  "title": "file_61 [@ Dvruo Gate Zeal CSE 2026 Test Series]",
+                  "path": "/tests/providers/Computer Science/Gate Zeal/file_61 [@ Dvruo Gate Zeal CSE 2026 Test Series].html"
+                },
+                {
+                  "title": "file_62 [@ Dvruo Gate Zeal CSE 2026 Test Series]",
+                  "path": "/tests/providers/Computer Science/Gate Zeal/file_62 [@ Dvruo Gate Zeal CSE 2026 Test Series].html"
+                },
+                {
+                  "title": "file_63 [@ Dvruo Gate Zeal CSE 2026 Test Series]",
+                  "path": "/tests/providers/Computer Science/Gate Zeal/file_63 [@ Dvruo Gate Zeal CSE 2026 Test Series].html"
+                },
+                {
+                  "title": "file_64 [@ Dvruo Gate Zeal CSE 2026 Test Series]",
+                  "path": "/tests/providers/Computer Science/Gate Zeal/file_64 [@ Dvruo Gate Zeal CSE 2026 Test Series].html"
+                },
+                {
+                  "title": "file_65 [@ Dvruo Gate Zeal CSE 2026 Test Series]",
+                  "path": "/tests/providers/Computer Science/Gate Zeal/file_65 [@ Dvruo Gate Zeal CSE 2026 Test Series].html"
+                },
+                {
+                  "title": "file_66 [@ Dvruo Gate Zeal CSE 2026 Test Series]",
+                  "path": "/tests/providers/Computer Science/Gate Zeal/file_66 [@ Dvruo Gate Zeal CSE 2026 Test Series].html"
+                },
+                {
+                  "title": "file_68 [@ Dvruo Gate Zeal CSE 2026 Test Series]",
+                  "path": "/tests/providers/Computer Science/Gate Zeal/file_68 [@ Dvruo Gate Zeal CSE 2026 Test Series].html"
+                },
+                {
+                  "title": "file_69 [@ Dvruo Gate Zeal CSE 2026 Test Series]",
+                  "path": "/tests/providers/Computer Science/Gate Zeal/file_69 [@ Dvruo Gate Zeal CSE 2026 Test Series].html"
+                },
+                {
+                  "title": "file_7 [@ Dvruo Gate Zeal CSE 2026 Test Series]",
+                  "path": "/tests/providers/Computer Science/Gate Zeal/file_7 [@ Dvruo Gate Zeal CSE 2026 Test Series].html"
+                },
+                {
+                  "title": "file_70 [@ Dvruo Gate Zeal CSE 2026 Test Series]",
+                  "path": "/tests/providers/Computer Science/Gate Zeal/file_70 [@ Dvruo Gate Zeal CSE 2026 Test Series].html"
+                },
+                {
+                  "title": "file_71 [@ Dvruo Gate Zeal CSE 2026 Test Series]",
+                  "path": "/tests/providers/Computer Science/Gate Zeal/file_71 [@ Dvruo Gate Zeal CSE 2026 Test Series].html"
+                },
+                {
+                  "title": "file_72 [@ Dvruo Gate Zeal CSE 2026 Test Series]",
+                  "path": "/tests/providers/Computer Science/Gate Zeal/file_72 [@ Dvruo Gate Zeal CSE 2026 Test Series].html"
+                },
+                {
+                  "title": "file_73 [@ Dvruo Gate Zeal CSE 2026 Test Series]",
+                  "path": "/tests/providers/Computer Science/Gate Zeal/file_73 [@ Dvruo Gate Zeal CSE 2026 Test Series].html"
+                },
+                {
+                  "title": "file_74 [@ Dvruo Gate Zeal CSE 2026 Test Series]",
+                  "path": "/tests/providers/Computer Science/Gate Zeal/file_74 [@ Dvruo Gate Zeal CSE 2026 Test Series].html"
+                },
+                {
+                  "title": "file_75 [@ Dvruo Gate Zeal CSE 2026 Test Series]",
+                  "path": "/tests/providers/Computer Science/Gate Zeal/file_75 [@ Dvruo Gate Zeal CSE 2026 Test Series].html"
+                },
+                {
+                  "title": "file_76 [@ Dvruo Gate Zeal CSE 2026 Test Series]",
+                  "path": "/tests/providers/Computer Science/Gate Zeal/file_76 [@ Dvruo Gate Zeal CSE 2026 Test Series].html"
+                },
+                {
+                  "title": "file_77 [@ Dvruo Gate Zeal CSE 2026 Test Series]",
+                  "path": "/tests/providers/Computer Science/Gate Zeal/file_77 [@ Dvruo Gate Zeal CSE 2026 Test Series].html"
+                },
+                {
+                  "title": "file_78 [@ Dvruo Gate Zeal CSE 2026 Test Series]",
+                  "path": "/tests/providers/Computer Science/Gate Zeal/file_78 [@ Dvruo Gate Zeal CSE 2026 Test Series].html"
+                },
+                {
+                  "title": "file_79 [@ Dvruo Gate Zeal CSE 2026 Test Series]",
+                  "path": "/tests/providers/Computer Science/Gate Zeal/file_79 [@ Dvruo Gate Zeal CSE 2026 Test Series].html"
+                },
+                {
+                  "title": "file_8 [@ Dvruo Gate Zeal CSE 2026 Test Series]",
+                  "path": "/tests/providers/Computer Science/Gate Zeal/file_8 [@ Dvruo Gate Zeal CSE 2026 Test Series].html"
+                },
+                {
+                  "title": "file_9 [@ Dvruo Gate Zeal CSE 2026 Test Series]",
+                  "path": "/tests/providers/Computer Science/Gate Zeal/file_9 [@ Dvruo Gate Zeal CSE 2026 Test Series].html"
+                }
+              ]
+            }
+          ]
         },
         {
-          "name": "Computer Science",
+          "name": "MadeEasy",
           "series": [
             {
               "name": "All",
@@ -742,9 +1021,14 @@
               ]
             }
           ]
-        },
+        }
+      ]
+    },
+    {
+      "name": "Data Science & AI",
+      "providers": [
         {
-          "name": "Data Science & AI",
+          "name": "MadeEasy",
           "series": [
             {
               "name": "All",
@@ -1060,9 +1344,14 @@
               ]
             }
           ]
-        },
+        }
+      ]
+    },
+    {
+      "name": "Electrical-Engineering",
+      "providers": [
         {
-          "name": "Electrical-Engineering",
+          "name": "MadeEasy",
           "series": [
             {
               "name": "All",
@@ -1190,9 +1479,14 @@
               ]
             }
           ]
-        },
+        }
+      ]
+    },
+    {
+      "name": "Electronics-Communication",
+      "providers": [
         {
-          "name": "Electronics-Communication",
+          "name": "MadeEasy",
           "series": [
             {
               "name": "All",
@@ -1592,9 +1886,14 @@
               ]
             }
           ]
-        },
+        }
+      ]
+    },
+    {
+      "name": "Mechanical",
+      "providers": [
         {
-          "name": "Mechanical",
+          "name": "MadeEasy",
           "series": [
             {
               "name": "All",
@@ -1982,285 +2281,6 @@
                 {
                   "title": "096_Topicwise_Test_9_Part_Syllabus_GATE_2026_ME_Engineering_Mathematics",
                   "path": "/tests/providers/Mechanical/MadeEasy/096_Topicwise_Test_9_Part_Syllabus_GATE_2026_ME_Engineering_Mathematics.html"
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "name": "Gate Zeal",
-      "providers": [
-        {
-          "name": "Computer Science",
-          "series": [
-            {
-              "name": "All",
-              "tests": [
-                {
-                  "title": "file_1 [@ Dvruo Gate Zeal CSE 2026 Test Series]",
-                  "path": "/tests/providers/Computer Science/Gate Zeal/file_1 [@ Dvruo Gate Zeal CSE 2026 Test Series].html"
-                },
-                {
-                  "title": "file_10 [@ Dvruo Gate Zeal CSE 2026 Test Series]",
-                  "path": "/tests/providers/Computer Science/Gate Zeal/file_10 [@ Dvruo Gate Zeal CSE 2026 Test Series].html"
-                },
-                {
-                  "title": "file_15 [@ Dvruo Gate Zeal CSE 2026 Test Series]",
-                  "path": "/tests/providers/Computer Science/Gate Zeal/file_15 [@ Dvruo Gate Zeal CSE 2026 Test Series].html"
-                },
-                {
-                  "title": "file_17 [@ Dvruo Gate Zeal CSE 2026 Test Series]",
-                  "path": "/tests/providers/Computer Science/Gate Zeal/file_17 [@ Dvruo Gate Zeal CSE 2026 Test Series].html"
-                },
-                {
-                  "title": "file_18 [@ Dvruo Gate Zeal CSE 2026 Test Series]",
-                  "path": "/tests/providers/Computer Science/Gate Zeal/file_18 [@ Dvruo Gate Zeal CSE 2026 Test Series].html"
-                },
-                {
-                  "title": "file_2 [@ Dvruo Gate Zeal CSE 2026 Test Series]",
-                  "path": "/tests/providers/Computer Science/Gate Zeal/file_2 [@ Dvruo Gate Zeal CSE 2026 Test Series].html"
-                },
-                {
-                  "title": "file_21 [@ Dvruo Gate Zeal CSE 2026 Test Series]",
-                  "path": "/tests/providers/Computer Science/Gate Zeal/file_21 [@ Dvruo Gate Zeal CSE 2026 Test Series].html"
-                },
-                {
-                  "title": "file_22 [@ Dvruo Gate Zeal CSE 2026 Test Series]",
-                  "path": "/tests/providers/Computer Science/Gate Zeal/file_22 [@ Dvruo Gate Zeal CSE 2026 Test Series].html"
-                },
-                {
-                  "title": "file_23 [@ Dvruo Gate Zeal CSE 2026 Test Series]",
-                  "path": "/tests/providers/Computer Science/Gate Zeal/file_23 [@ Dvruo Gate Zeal CSE 2026 Test Series].html"
-                },
-                {
-                  "title": "file_24 [@ Dvruo Gate Zeal CSE 2026 Test Series]",
-                  "path": "/tests/providers/Computer Science/Gate Zeal/file_24 [@ Dvruo Gate Zeal CSE 2026 Test Series].html"
-                },
-                {
-                  "title": "file_25 [@ Dvruo Gate Zeal CSE 2026 Test Series]",
-                  "path": "/tests/providers/Computer Science/Gate Zeal/file_25 [@ Dvruo Gate Zeal CSE 2026 Test Series].html"
-                },
-                {
-                  "title": "file_26 [@ Dvruo Gate Zeal CSE 2026 Test Series]",
-                  "path": "/tests/providers/Computer Science/Gate Zeal/file_26 [@ Dvruo Gate Zeal CSE 2026 Test Series].html"
-                },
-                {
-                  "title": "file_27 [@ Dvruo Gate Zeal CSE 2026 Test Series]",
-                  "path": "/tests/providers/Computer Science/Gate Zeal/file_27 [@ Dvruo Gate Zeal CSE 2026 Test Series].html"
-                },
-                {
-                  "title": "file_28 [@ Dvruo Gate Zeal CSE 2026 Test Series]",
-                  "path": "/tests/providers/Computer Science/Gate Zeal/file_28 [@ Dvruo Gate Zeal CSE 2026 Test Series].html"
-                },
-                {
-                  "title": "file_29 [@ Dvruo Gate Zeal CSE 2026 Test Series]",
-                  "path": "/tests/providers/Computer Science/Gate Zeal/file_29 [@ Dvruo Gate Zeal CSE 2026 Test Series].html"
-                },
-                {
-                  "title": "file_3 [@ Dvruo Gate Zeal CSE 2026 Test Series]",
-                  "path": "/tests/providers/Computer Science/Gate Zeal/file_3 [@ Dvruo Gate Zeal CSE 2026 Test Series].html"
-                },
-                {
-                  "title": "file_30 [@ Dvruo Gate Zeal CSE 2026 Test Series]",
-                  "path": "/tests/providers/Computer Science/Gate Zeal/file_30 [@ Dvruo Gate Zeal CSE 2026 Test Series].html"
-                },
-                {
-                  "title": "file_33 [@ Dvruo Gate Zeal CSE 2026 Test Series]",
-                  "path": "/tests/providers/Computer Science/Gate Zeal/file_33 [@ Dvruo Gate Zeal CSE 2026 Test Series].html"
-                },
-                {
-                  "title": "file_34 [@ Dvruo Gate Zeal CSE 2026 Test Series]",
-                  "path": "/tests/providers/Computer Science/Gate Zeal/file_34 [@ Dvruo Gate Zeal CSE 2026 Test Series].html"
-                },
-                {
-                  "title": "file_35 [@ Dvruo Gate Zeal CSE 2026 Test Series]",
-                  "path": "/tests/providers/Computer Science/Gate Zeal/file_35 [@ Dvruo Gate Zeal CSE 2026 Test Series].html"
-                },
-                {
-                  "title": "file_36 [@ Dvruo Gate Zeal CSE 2026 Test Series]",
-                  "path": "/tests/providers/Computer Science/Gate Zeal/file_36 [@ Dvruo Gate Zeal CSE 2026 Test Series].html"
-                },
-                {
-                  "title": "file_39 [@ Dvruo Gate Zeal CSE 2026 Test Series]",
-                  "path": "/tests/providers/Computer Science/Gate Zeal/file_39 [@ Dvruo Gate Zeal CSE 2026 Test Series].html"
-                },
-                {
-                  "title": "file_4 [@ Dvruo Gate Zeal CSE 2026 Test Series]",
-                  "path": "/tests/providers/Computer Science/Gate Zeal/file_4 [@ Dvruo Gate Zeal CSE 2026 Test Series].html"
-                },
-                {
-                  "title": "file_40 [@ Dvruo Gate Zeal CSE 2026 Test Series]",
-                  "path": "/tests/providers/Computer Science/Gate Zeal/file_40 [@ Dvruo Gate Zeal CSE 2026 Test Series].html"
-                },
-                {
-                  "title": "file_41 [@ Dvruo Gate Zeal CSE 2026 Test Series]",
-                  "path": "/tests/providers/Computer Science/Gate Zeal/file_41 [@ Dvruo Gate Zeal CSE 2026 Test Series].html"
-                },
-                {
-                  "title": "file_42 [@ Dvruo Gate Zeal CSE 2026 Test Series]",
-                  "path": "/tests/providers/Computer Science/Gate Zeal/file_42 [@ Dvruo Gate Zeal CSE 2026 Test Series].html"
-                },
-                {
-                  "title": "file_43 [@ Dvruo Gate Zeal CSE 2026 Test Series]",
-                  "path": "/tests/providers/Computer Science/Gate Zeal/file_43 [@ Dvruo Gate Zeal CSE 2026 Test Series].html"
-                },
-                {
-                  "title": "file_44 [@ Dvruo Gate Zeal CSE 2026 Test Series]",
-                  "path": "/tests/providers/Computer Science/Gate Zeal/file_44 [@ Dvruo Gate Zeal CSE 2026 Test Series].html"
-                },
-                {
-                  "title": "file_45 [@ Dvruo Gate Zeal CSE 2026 Test Series]",
-                  "path": "/tests/providers/Computer Science/Gate Zeal/file_45 [@ Dvruo Gate Zeal CSE 2026 Test Series].html"
-                },
-                {
-                  "title": "file_46 [@ Dvruo Gate Zeal CSE 2026 Test Series]",
-                  "path": "/tests/providers/Computer Science/Gate Zeal/file_46 [@ Dvruo Gate Zeal CSE 2026 Test Series].html"
-                },
-                {
-                  "title": "file_47 [@ Dvruo Gate Zeal CSE 2026 Test Series]",
-                  "path": "/tests/providers/Computer Science/Gate Zeal/file_47 [@ Dvruo Gate Zeal CSE 2026 Test Series].html"
-                },
-                {
-                  "title": "file_48 [@ Dvruo Gate Zeal CSE 2026 Test Series]",
-                  "path": "/tests/providers/Computer Science/Gate Zeal/file_48 [@ Dvruo Gate Zeal CSE 2026 Test Series].html"
-                },
-                {
-                  "title": "file_49 [@ Dvruo Gate Zeal CSE 2026 Test Series]",
-                  "path": "/tests/providers/Computer Science/Gate Zeal/file_49 [@ Dvruo Gate Zeal CSE 2026 Test Series].html"
-                },
-                {
-                  "title": "file_5 [@ Dvruo Gate Zeal CSE 2026 Test Series]",
-                  "path": "/tests/providers/Computer Science/Gate Zeal/file_5 [@ Dvruo Gate Zeal CSE 2026 Test Series].html"
-                },
-                {
-                  "title": "file_50 [@ Dvruo Gate Zeal CSE 2026 Test Series]",
-                  "path": "/tests/providers/Computer Science/Gate Zeal/file_50 [@ Dvruo Gate Zeal CSE 2026 Test Series].html"
-                },
-                {
-                  "title": "file_51 [@ Dvruo Gate Zeal CSE 2026 Test Series]",
-                  "path": "/tests/providers/Computer Science/Gate Zeal/file_51 [@ Dvruo Gate Zeal CSE 2026 Test Series].html"
-                },
-                {
-                  "title": "file_52 [@ Dvruo Gate Zeal CSE 2026 Test Series]",
-                  "path": "/tests/providers/Computer Science/Gate Zeal/file_52 [@ Dvruo Gate Zeal CSE 2026 Test Series].html"
-                },
-                {
-                  "title": "file_53 [@ Dvruo Gate Zeal CSE 2026 Test Series]",
-                  "path": "/tests/providers/Computer Science/Gate Zeal/file_53 [@ Dvruo Gate Zeal CSE 2026 Test Series].html"
-                },
-                {
-                  "title": "file_54 [@ Dvruo Gate Zeal CSE 2026 Test Series]",
-                  "path": "/tests/providers/Computer Science/Gate Zeal/file_54 [@ Dvruo Gate Zeal CSE 2026 Test Series].html"
-                },
-                {
-                  "title": "file_55 [@ Dvruo Gate Zeal CSE 2026 Test Series]",
-                  "path": "/tests/providers/Computer Science/Gate Zeal/file_55 [@ Dvruo Gate Zeal CSE 2026 Test Series].html"
-                },
-                {
-                  "title": "file_57 [@ Dvruo Gate Zeal CSE 2026 Test Series]",
-                  "path": "/tests/providers/Computer Science/Gate Zeal/file_57 [@ Dvruo Gate Zeal CSE 2026 Test Series].html"
-                },
-                {
-                  "title": "file_58 [@ Dvruo Gate Zeal CSE 2026 Test Series]",
-                  "path": "/tests/providers/Computer Science/Gate Zeal/file_58 [@ Dvruo Gate Zeal CSE 2026 Test Series].html"
-                },
-                {
-                  "title": "file_59 [@ Dvruo Gate Zeal CSE 2026 Test Series]",
-                  "path": "/tests/providers/Computer Science/Gate Zeal/file_59 [@ Dvruo Gate Zeal CSE 2026 Test Series].html"
-                },
-                {
-                  "title": "file_6 [@ Dvruo Gate Zeal CSE 2026 Test Series]",
-                  "path": "/tests/providers/Computer Science/Gate Zeal/file_6 [@ Dvruo Gate Zeal CSE 2026 Test Series].html"
-                },
-                {
-                  "title": "file_60 [@ Dvruo Gate Zeal CSE 2026 Test Series]",
-                  "path": "/tests/providers/Computer Science/Gate Zeal/file_60 [@ Dvruo Gate Zeal CSE 2026 Test Series].html"
-                },
-                {
-                  "title": "file_61 [@ Dvruo Gate Zeal CSE 2026 Test Series]",
-                  "path": "/tests/providers/Computer Science/Gate Zeal/file_61 [@ Dvruo Gate Zeal CSE 2026 Test Series].html"
-                },
-                {
-                  "title": "file_62 [@ Dvruo Gate Zeal CSE 2026 Test Series]",
-                  "path": "/tests/providers/Computer Science/Gate Zeal/file_62 [@ Dvruo Gate Zeal CSE 2026 Test Series].html"
-                },
-                {
-                  "title": "file_63 [@ Dvruo Gate Zeal CSE 2026 Test Series]",
-                  "path": "/tests/providers/Computer Science/Gate Zeal/file_63 [@ Dvruo Gate Zeal CSE 2026 Test Series].html"
-                },
-                {
-                  "title": "file_64 [@ Dvruo Gate Zeal CSE 2026 Test Series]",
-                  "path": "/tests/providers/Computer Science/Gate Zeal/file_64 [@ Dvruo Gate Zeal CSE 2026 Test Series].html"
-                },
-                {
-                  "title": "file_65 [@ Dvruo Gate Zeal CSE 2026 Test Series]",
-                  "path": "/tests/providers/Computer Science/Gate Zeal/file_65 [@ Dvruo Gate Zeal CSE 2026 Test Series].html"
-                },
-                {
-                  "title": "file_66 [@ Dvruo Gate Zeal CSE 2026 Test Series]",
-                  "path": "/tests/providers/Computer Science/Gate Zeal/file_66 [@ Dvruo Gate Zeal CSE 2026 Test Series].html"
-                },
-                {
-                  "title": "file_68 [@ Dvruo Gate Zeal CSE 2026 Test Series]",
-                  "path": "/tests/providers/Computer Science/Gate Zeal/file_68 [@ Dvruo Gate Zeal CSE 2026 Test Series].html"
-                },
-                {
-                  "title": "file_69 [@ Dvruo Gate Zeal CSE 2026 Test Series]",
-                  "path": "/tests/providers/Computer Science/Gate Zeal/file_69 [@ Dvruo Gate Zeal CSE 2026 Test Series].html"
-                },
-                {
-                  "title": "file_7 [@ Dvruo Gate Zeal CSE 2026 Test Series]",
-                  "path": "/tests/providers/Computer Science/Gate Zeal/file_7 [@ Dvruo Gate Zeal CSE 2026 Test Series].html"
-                },
-                {
-                  "title": "file_70 [@ Dvruo Gate Zeal CSE 2026 Test Series]",
-                  "path": "/tests/providers/Computer Science/Gate Zeal/file_70 [@ Dvruo Gate Zeal CSE 2026 Test Series].html"
-                },
-                {
-                  "title": "file_71 [@ Dvruo Gate Zeal CSE 2026 Test Series]",
-                  "path": "/tests/providers/Computer Science/Gate Zeal/file_71 [@ Dvruo Gate Zeal CSE 2026 Test Series].html"
-                },
-                {
-                  "title": "file_72 [@ Dvruo Gate Zeal CSE 2026 Test Series]",
-                  "path": "/tests/providers/Computer Science/Gate Zeal/file_72 [@ Dvruo Gate Zeal CSE 2026 Test Series].html"
-                },
-                {
-                  "title": "file_73 [@ Dvruo Gate Zeal CSE 2026 Test Series]",
-                  "path": "/tests/providers/Computer Science/Gate Zeal/file_73 [@ Dvruo Gate Zeal CSE 2026 Test Series].html"
-                },
-                {
-                  "title": "file_74 [@ Dvruo Gate Zeal CSE 2026 Test Series]",
-                  "path": "/tests/providers/Computer Science/Gate Zeal/file_74 [@ Dvruo Gate Zeal CSE 2026 Test Series].html"
-                },
-                {
-                  "title": "file_75 [@ Dvruo Gate Zeal CSE 2026 Test Series]",
-                  "path": "/tests/providers/Computer Science/Gate Zeal/file_75 [@ Dvruo Gate Zeal CSE 2026 Test Series].html"
-                },
-                {
-                  "title": "file_76 [@ Dvruo Gate Zeal CSE 2026 Test Series]",
-                  "path": "/tests/providers/Computer Science/Gate Zeal/file_76 [@ Dvruo Gate Zeal CSE 2026 Test Series].html"
-                },
-                {
-                  "title": "file_77 [@ Dvruo Gate Zeal CSE 2026 Test Series]",
-                  "path": "/tests/providers/Computer Science/Gate Zeal/file_77 [@ Dvruo Gate Zeal CSE 2026 Test Series].html"
-                },
-                {
-                  "title": "file_78 [@ Dvruo Gate Zeal CSE 2026 Test Series]",
-                  "path": "/tests/providers/Computer Science/Gate Zeal/file_78 [@ Dvruo Gate Zeal CSE 2026 Test Series].html"
-                },
-                {
-                  "title": "file_79 [@ Dvruo Gate Zeal CSE 2026 Test Series]",
-                  "path": "/tests/providers/Computer Science/Gate Zeal/file_79 [@ Dvruo Gate Zeal CSE 2026 Test Series].html"
-                },
-                {
-                  "title": "file_8 [@ Dvruo Gate Zeal CSE 2026 Test Series]",
-                  "path": "/tests/providers/Computer Science/Gate Zeal/file_8 [@ Dvruo Gate Zeal CSE 2026 Test Series].html"
-                },
-                {
-                  "title": "file_9 [@ Dvruo Gate Zeal CSE 2026 Test Series]",
-                  "path": "/tests/providers/Computer Science/Gate Zeal/file_9 [@ Dvruo Gate Zeal CSE 2026 Test Series].html"
                 }
               ]
             }

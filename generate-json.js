@@ -4,9 +4,8 @@ const path = require("path");
 const BASE = "./tests/providers";
 const OUTPUT = "./data/series-manifest.json";
 
-// 🔥 normalize function (IMPORTANT)
 function normalize(name) {
-  return name.toLowerCase().replace(/[\s-_]/g, "");
+  return name.toLowerCase().trim(); // 🔥 simple + safe
 }
 
 function getDirs(dir) {
@@ -18,30 +17,34 @@ function getDirs(dir) {
 function generate() {
   const branchesMap = {};
 
-  const providers = getDirs(BASE);
+  // ❗ FIRST LEVEL = BRANCHES (FIXED)
+  const branches = getDirs(BASE);
 
-  providers.forEach(provider => {
-    const providerPath = path.join(BASE, provider);
+  branches.forEach(branch => {
+    const branchPath = path.join(BASE, branch);
 
-    getDirs(providerPath).forEach(branch => {
-      const branchPath = path.join(providerPath, branch);
+    // ❗ SECOND LEVEL = PROVIDERS (FIXED)
+    const providers = getDirs(branchPath);
 
-      const files = fs.readdirSync(branchPath).filter(f => f.endsWith(".html"));
+    providers.forEach(provider => {
+      const providerPath = path.join(branchPath, provider);
+
+      const files = fs.readdirSync(providerPath).filter(f => f.endsWith(".html"));
       if (!files.length) return;
 
       const branchKey = normalize(branch);
 
-      // ✅ create branch if not exists
+      // ✅ create branch
       if (!branchesMap[branchKey]) {
         branchesMap[branchKey] = {
-          name: branch.replace(/[-_]/g, " "),
+          name: branch,
           providers: []
         };
       }
 
       const branchObj = branchesMap[branchKey];
 
-      // ✅ check if provider already exists
+      // ✅ check provider exists
       let providerObj = branchObj.providers.find(
         p => normalize(p.name) === normalize(provider)
       );
@@ -54,21 +57,21 @@ function generate() {
         branchObj.providers.push(providerObj);
       }
 
-      // ✅ add series
+      // ✅ add tests
       providerObj.series.push({
         name: "All",
         tests: files.map(f => ({
           title: f.replace(".html", ""),
-          path: `/tests/providers/${provider}/${branch}/${f}` // 🔥 FIXED PATH
+          path: `/tests/providers/${branch}/${provider}/${f}` // 🔥 PATH FIXED
         }))
       });
     });
   });
 
-  const branches = Object.values(branchesMap);
+  const branchesArr = Object.values(branchesMap);
 
-  fs.writeFileSync(OUTPUT, JSON.stringify({ branches }, null, 2));
-  console.log("🔥 JSON GENERATED CORRECTLY");
+  fs.writeFileSync(OUTPUT, JSON.stringify({ branches: branchesArr }, null, 2));
+  console.log("🔥 JSON GENERATED CORRECTLY (FIXED)");
 }
 
 generate();
