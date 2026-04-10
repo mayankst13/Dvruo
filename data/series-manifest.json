@@ -2285,6 +2285,256 @@
               ]
             }
           ]
+        },
+        {
+          "name": "Physics Wallah",
+          "series": [
+            {
+              "name": "All",
+              "tests": [
+                {
+                  "title": "Applied_Thermodynamics___Weekly_Test_02",
+                  "path": "/tests/providers/Mechanical/Physics Wallah/Applied_Thermodynamics___Weekly_Test_02.html"
+                },
+                {
+                  "title": "Applied_Thermodynamics___Weekly_Test_03",
+                  "path": "/tests/providers/Mechanical/Physics Wallah/Applied_Thermodynamics___Weekly_Test_03.html"
+                },
+                {
+                  "title": "Applied_Thermodynamics___Weekly_Test_04",
+                  "path": "/tests/providers/Mechanical/Physics Wallah/Applied_Thermodynamics___Weekly_Test_04.html"
+                },
+                {
+                  "title": "Applied_Thermodynamics___Weekly_Test_05",
+                  "path": "/tests/providers/Mechanical/Physics Wallah/Applied_Thermodynamics___Weekly_Test_05.html"
+                },
+                {
+                  "title": "Applied_Thermodynamics____Weekly_Test_01",
+                  "path": "/tests/providers/Mechanical/Physics Wallah/Applied_Thermodynamics____Weekly_Test_01.html"
+                },
+                {
+                  "title": "Basic_Thermodynamics___Subjectwise_Full_Syllabus_Test",
+                  "path": "/tests/providers/Mechanical/Physics Wallah/Basic_Thermodynamics___Subjectwise_Full_Syllabus_Test.html"
+                },
+                {
+                  "title": "Basic_Thermodynamics___Weekly_Test_01",
+                  "path": "/tests/providers/Mechanical/Physics Wallah/Basic_Thermodynamics___Weekly_Test_01.html"
+                },
+                {
+                  "title": "Basic_Thermodynamics___Weekly_Test_02",
+                  "path": "/tests/providers/Mechanical/Physics Wallah/Basic_Thermodynamics___Weekly_Test_02.html"
+                },
+                {
+                  "title": "Basic_Thermodynamics___Weekly_Test_03",
+                  "path": "/tests/providers/Mechanical/Physics Wallah/Basic_Thermodynamics___Weekly_Test_03.html"
+                },
+                {
+                  "title": "Engineering_Mathematics__Part_02____Weekly_Test_01",
+                  "path": "/tests/providers/Mechanical/Physics Wallah/Engineering_Mathematics__Part_02____Weekly_Test_01.html"
+                },
+                {
+                  "title": "Engineering_Mathematics___Weekly_Test_02",
+                  "path": "/tests/providers/Mechanical/Physics Wallah/Engineering_Mathematics___Weekly_Test_02.html"
+                },
+                {
+                  "title": "Engineering_Mathematics___Weekly_Test_03",
+                  "path": "/tests/providers/Mechanical/Physics Wallah/Engineering_Mathematics___Weekly_Test_03.html"
+                },
+                {
+                  "title": "Engineering_Mathematics___Weekly_Test_04",
+                  "path": "/tests/providers/Mechanical/Physics Wallah/Engineering_Mathematics___Weekly_Test_04.html"
+                },
+                {
+                  "title": "Engineering_Mathematics___Weekly_Test_05",
+                  "path": "/tests/providers/Mechanical/Physics Wallah/Engineering_Mathematics___Weekly_Test_05.html"
+                },
+                {
+                  "title": "Engineering_Mathematics___Weekly_Test_06",
+                  "path": "/tests/providers/Mechanical/Physics Wallah/Engineering_Mathematics___Weekly_Test_06.html"
+                },
+                {
+                  "title": "Engineering_Mechanics___Subjectwise_Full_Syllabus_Test",
+                  "path": "/tests/providers/Mechanical/Physics Wallah/Engineering_Mechanics___Subjectwise_Full_Syllabus_Test.html"
+                },
+                {
+                  "title": "Engineering_Mechanics___Weekly_Test_01",
+                  "path": "/tests/providers/Mechanical/Physics Wallah/Engineering_Mechanics___Weekly_Test_01.html"
+                },
+                {
+                  "title": "Engineering_Mechanics___Weekly_Test_02",
+                  "path": "/tests/providers/Mechanical/Physics Wallah/Engineering_Mechanics___Weekly_Test_02.html"
+                },
+                {
+                  "title": "Engineering_Mechanics___Weekly_Test_03",
+                  "path": "/tests/providers/Mechanical/Physics Wallah/Engineering_Mechanics___Weekly_Test_03.html"
+                },
+                {
+                  "title": "Fluid_Mechanics___Machinery___Subjectwise_Full_Syllabus_Test",
+                  "path": "/tests/providers/Mechanical/Physics Wallah/Fluid_Mechanics___Machinery___Subjectwise_Full_Syllabus_Test.html"
+                },
+                {
+                  "title": "Fluid_Mechanics___Machinery___Weekly_Test_01",
+                  "path": "/tests/providers/Mechanical/Physics Wallah/Fluid_Mechanics___Machinery___Weekly_Test_01.html"
+                },
+                {
+                  "title": "Fluid_Mechanics___Machinery___Weekly_Test_02",
+                  "path": "/tests/providers/Mechanical/Physics Wallah/Fluid_Mechanics___Machinery___Weekly_Test_02.html"
+                },
+                {
+                  "title": "Fluid_Mechanics___Machinery___Weekly_Test_03",
+                  "path": "/tests/providers/Mechanical/Physics Wallah/Fluid_Mechanics___Machinery___Weekly_Test_03.html"
+                },
+                {
+                  "title": "Fluid_Mechanics___Machinery___Weekly_Test_04",
+                  "path": "/tests/providers/Mechanical/Physics Wallah/Fluid_Mechanics___Machinery___Weekly_Test_04.html"
+                },
+                {
+                  "title": "General_Aptitude___Weekly_Test_03",
+                  "path": "/tests/providers/Mechanical/Physics Wallah/General_Aptitude___Weekly_Test_03.html"
+                },
+                {
+                  "title": "General_Aptitude____Weekly_Test_01",
+                  "path": "/tests/providers/Mechanical/Physics Wallah/General_Aptitude____Weekly_Test_01.html"
+                },
+                {
+                  "title": "General_Aptitude____Weekly_Test_02",
+                  "path": "/tests/providers/Mechanical/Physics Wallah/General_Aptitude____Weekly_Test_02.html"
+                },
+                {
+                  "title": "Heat_Transfer___Subjectwise_Full_Syllabus_Test",
+                  "path": "/tests/providers/Mechanical/Physics Wallah/Heat_Transfer___Subjectwise_Full_Syllabus_Test.html"
+                },
+                {
+                  "title": "Heat_Transfer___Weekly_Test_01",
+                  "path": "/tests/providers/Mechanical/Physics Wallah/Heat_Transfer___Weekly_Test_01.html"
+                },
+                {
+                  "title": "Heat_Transfer___Weekly_Test_02",
+                  "path": "/tests/providers/Mechanical/Physics Wallah/Heat_Transfer___Weekly_Test_02.html"
+                },
+                {
+                  "title": "Industrial_Engineering___Subjectwise_Full_Syllabus_Test",
+                  "path": "/tests/providers/Mechanical/Physics Wallah/Industrial_Engineering___Subjectwise_Full_Syllabus_Test.html"
+                },
+                {
+                  "title": "Industrial_Engineering___Weekly_Test_01",
+                  "path": "/tests/providers/Mechanical/Physics Wallah/Industrial_Engineering___Weekly_Test_01.html"
+                },
+                {
+                  "title": "Industrial_Engineering___Weekly_Test_02",
+                  "path": "/tests/providers/Mechanical/Physics Wallah/Industrial_Engineering___Weekly_Test_02.html"
+                },
+                {
+                  "title": "Industrial_Engineering___Weekly_Test_03",
+                  "path": "/tests/providers/Mechanical/Physics Wallah/Industrial_Engineering___Weekly_Test_03.html"
+                },
+                {
+                  "title": "Machine_Design___Subjectwise_Full_Syllabus_Test",
+                  "path": "/tests/providers/Mechanical/Physics Wallah/Machine_Design___Subjectwise_Full_Syllabus_Test.html"
+                },
+                {
+                  "title": "Machine_Design___Weekly_Test_01",
+                  "path": "/tests/providers/Mechanical/Physics Wallah/Machine_Design___Weekly_Test_01.html"
+                },
+                {
+                  "title": "Machine_Design___Weekly_Test_02",
+                  "path": "/tests/providers/Mechanical/Physics Wallah/Machine_Design___Weekly_Test_02.html"
+                },
+                {
+                  "title": "Machine_Design___Weekly_Test_03",
+                  "path": "/tests/providers/Mechanical/Physics Wallah/Machine_Design___Weekly_Test_03.html"
+                },
+                {
+                  "title": "Manufacturing_Process_01__Weekly_Test_02",
+                  "path": "/tests/providers/Mechanical/Physics Wallah/Manufacturing_Process_01__Weekly_Test_02.html"
+                },
+                {
+                  "title": "Manufacturing_Process_01___Weekly_Test_01",
+                  "path": "/tests/providers/Mechanical/Physics Wallah/Manufacturing_Process_01___Weekly_Test_01.html"
+                },
+                {
+                  "title": "Manufacturing_Process_01____Weekly_Test_03",
+                  "path": "/tests/providers/Mechanical/Physics Wallah/Manufacturing_Process_01____Weekly_Test_03.html"
+                },
+                {
+                  "title": "Manufacturing_Process_2___Weekly_Test_01",
+                  "path": "/tests/providers/Mechanical/Physics Wallah/Manufacturing_Process_2___Weekly_Test_01.html"
+                },
+                {
+                  "title": "Manufacturing_Process_2___Weekly_Test_02",
+                  "path": "/tests/providers/Mechanical/Physics Wallah/Manufacturing_Process_2___Weekly_Test_02.html"
+                },
+                {
+                  "title": "Manufacturing_Process_2___Weekly_Test_03",
+                  "path": "/tests/providers/Mechanical/Physics Wallah/Manufacturing_Process_2___Weekly_Test_03.html"
+                },
+                {
+                  "title": "Material_Science___Subjectwise_Full_Syllabus_Test",
+                  "path": "/tests/providers/Mechanical/Physics Wallah/Material_Science___Subjectwise_Full_Syllabus_Test.html"
+                },
+                {
+                  "title": "Material_Science___Weekly_Test_01",
+                  "path": "/tests/providers/Mechanical/Physics Wallah/Material_Science___Weekly_Test_01.html"
+                },
+                {
+                  "title": "Mock_test_01",
+                  "path": "/tests/providers/Mechanical/Physics Wallah/Mock_test_01.html"
+                },
+                {
+                  "title": "Mock_test_02",
+                  "path": "/tests/providers/Mechanical/Physics Wallah/Mock_test_02.html"
+                },
+                {
+                  "title": "Mock_test_03",
+                  "path": "/tests/providers/Mechanical/Physics Wallah/Mock_test_03.html"
+                },
+                {
+                  "title": "Mock_test_04",
+                  "path": "/tests/providers/Mechanical/Physics Wallah/Mock_test_04.html"
+                },
+                {
+                  "title": "Mock_test_05",
+                  "path": "/tests/providers/Mechanical/Physics Wallah/Mock_test_05.html"
+                },
+                {
+                  "title": "Strength_Of_Materials___Weekly_Test_01",
+                  "path": "/tests/providers/Mechanical/Physics Wallah/Strength_Of_Materials___Weekly_Test_01.html"
+                },
+                {
+                  "title": "Strength_Of_Materials___Weekly_Test_02",
+                  "path": "/tests/providers/Mechanical/Physics Wallah/Strength_Of_Materials___Weekly_Test_02.html"
+                },
+                {
+                  "title": "Strength_Of_Materials___Weekly_Test_03",
+                  "path": "/tests/providers/Mechanical/Physics Wallah/Strength_Of_Materials___Weekly_Test_03.html"
+                },
+                {
+                  "title": "Theory_of_Machines_and_Vibrations___Weekly_Test_01",
+                  "path": "/tests/providers/Mechanical/Physics Wallah/Theory_of_Machines_and_Vibrations___Weekly_Test_01.html"
+                },
+                {
+                  "title": "Theory_of_Machines_and_Vibrations___Weekly_Test_02",
+                  "path": "/tests/providers/Mechanical/Physics Wallah/Theory_of_Machines_and_Vibrations___Weekly_Test_02.html"
+                },
+                {
+                  "title": "Theory_of_Machines_and_Vibrations___Weekly_Test_03",
+                  "path": "/tests/providers/Mechanical/Physics Wallah/Theory_of_Machines_and_Vibrations___Weekly_Test_03.html"
+                },
+                {
+                  "title": "Theory_of_Machines_and_Vibrations___Weekly_Test_04",
+                  "path": "/tests/providers/Mechanical/Physics Wallah/Theory_of_Machines_and_Vibrations___Weekly_Test_04.html"
+                },
+                {
+                  "title": "Theory_of_Machines_and_Vibrations___Weekly_Test_05",
+                  "path": "/tests/providers/Mechanical/Physics Wallah/Theory_of_Machines_and_Vibrations___Weekly_Test_05.html"
+                },
+                {
+                  "title": "Verbal_Aptitude___Full_Syllabus_Test",
+                  "path": "/tests/providers/Mechanical/Physics Wallah/Verbal_Aptitude___Full_Syllabus_Test.html"
+                }
+              ]
+            }
+          ]
         }
       ]
     }
