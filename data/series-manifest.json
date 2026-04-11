@@ -1344,6 +1344,388 @@
               ]
             }
           ]
+        },
+        {
+          "name": "Physics Wallah",
+          "series": [
+            {
+              "name": "All",
+              "tests": [
+                {
+                  "title": "Algorithms___Full_Syllabus_Test",
+                  "path": "/tests/providers/Data Science & AI/Physics Wallah/Algorithms___Full_Syllabus_Test.html"
+                },
+                {
+                  "title": "Algorithms___Weekly_Test_01",
+                  "path": "/tests/providers/Data Science & AI/Physics Wallah/Algorithms___Weekly_Test_01.html"
+                },
+                {
+                  "title": "Algorithms___Weekly_Test_02",
+                  "path": "/tests/providers/Data Science & AI/Physics Wallah/Algorithms___Weekly_Test_02.html"
+                },
+                {
+                  "title": "Algorithms___Weekly_Test_03",
+                  "path": "/tests/providers/Data Science & AI/Physics Wallah/Algorithms___Weekly_Test_03.html"
+                },
+                {
+                  "title": "Algorithms___Weekly_Test_04",
+                  "path": "/tests/providers/Data Science & AI/Physics Wallah/Algorithms___Weekly_Test_04.html"
+                },
+                {
+                  "title": "Algorithms___Weekly_Test_05",
+                  "path": "/tests/providers/Data Science & AI/Physics Wallah/Algorithms___Weekly_Test_05.html"
+                },
+                {
+                  "title": "Algorithms___Weekly_Test_06",
+                  "path": "/tests/providers/Data Science & AI/Physics Wallah/Algorithms___Weekly_Test_06.html"
+                },
+                {
+                  "title": "Artificial_Intelligence___Weekly_Test_01",
+                  "path": "/tests/providers/Data Science & AI/Physics Wallah/Artificial_Intelligence___Weekly_Test_01.html"
+                },
+                {
+                  "title": "Artificial_Intelligence___Weekly_Test_02",
+                  "path": "/tests/providers/Data Science & AI/Physics Wallah/Artificial_Intelligence___Weekly_Test_02.html"
+                },
+                {
+                  "title": "Artificial_Intelligence___Weekly_Test_03",
+                  "path": "/tests/providers/Data Science & AI/Physics Wallah/Artificial_Intelligence___Weekly_Test_03.html"
+                },
+                {
+                  "title": "Calculus_and_Optimization___Weekly_Test_01",
+                  "path": "/tests/providers/Data Science & AI/Physics Wallah/Calculus_and_Optimization___Weekly_Test_01.html"
+                },
+                {
+                  "title": "Calculus_and_Optimization___Weekly_Test_02",
+                  "path": "/tests/providers/Data Science & AI/Physics Wallah/Calculus_and_Optimization___Weekly_Test_02.html"
+                },
+                {
+                  "title": "Compiler_Design___Weekly_Test_01",
+                  "path": "/tests/providers/Data Science & AI/Physics Wallah/Compiler_Design___Weekly_Test_01.html"
+                },
+                {
+                  "title": "Compiler_Design___Weekly_Test_02",
+                  "path": "/tests/providers/Data Science & AI/Physics Wallah/Compiler_Design___Weekly_Test_02.html"
+                },
+                {
+                  "title": "Compiler_Design___Weekly_Test_03",
+                  "path": "/tests/providers/Data Science & AI/Physics Wallah/Compiler_Design___Weekly_Test_03.html"
+                },
+                {
+                  "title": "Compiler_Design___Weekly_Test_04",
+                  "path": "/tests/providers/Data Science & AI/Physics Wallah/Compiler_Design___Weekly_Test_04.html"
+                },
+                {
+                  "title": "Computer_Networks____Weekly_Test_01",
+                  "path": "/tests/providers/Data Science & AI/Physics Wallah/Computer_Networks____Weekly_Test_01.html"
+                },
+                {
+                  "title": "Computer_Networks____Weekly_Test_02",
+                  "path": "/tests/providers/Data Science & AI/Physics Wallah/Computer_Networks____Weekly_Test_02.html"
+                },
+                {
+                  "title": "Computer_Networks____Weekly_Test_03",
+                  "path": "/tests/providers/Data Science & AI/Physics Wallah/Computer_Networks____Weekly_Test_03.html"
+                },
+                {
+                  "title": "Computer_Networks____Weekly_Test_04",
+                  "path": "/tests/providers/Data Science & AI/Physics Wallah/Computer_Networks____Weekly_Test_04.html"
+                },
+                {
+                  "title": "Computer_Networks____Weekly_Test_05",
+                  "path": "/tests/providers/Data Science & AI/Physics Wallah/Computer_Networks____Weekly_Test_05.html"
+                },
+                {
+                  "title": "Computer_Networks____Weekly_Test_06",
+                  "path": "/tests/providers/Data Science & AI/Physics Wallah/Computer_Networks____Weekly_Test_06.html"
+                },
+                {
+                  "title": "Computer_Networks____Weekly_Test_07",
+                  "path": "/tests/providers/Data Science & AI/Physics Wallah/Computer_Networks____Weekly_Test_07.html"
+                },
+                {
+                  "title": "Computer_Organization_and_Architecture___Weekly_Test_01",
+                  "path": "/tests/providers/Data Science & AI/Physics Wallah/Computer_Organization_and_Architecture___Weekly_Test_01.html"
+                },
+                {
+                  "title": "Computer_Organization_and_Architecture___Weekly_Test_02",
+                  "path": "/tests/providers/Data Science & AI/Physics Wallah/Computer_Organization_and_Architecture___Weekly_Test_02.html"
+                },
+                {
+                  "title": "Computer_Organization_and_Architecture___Weekly_Test_03",
+                  "path": "/tests/providers/Data Science & AI/Physics Wallah/Computer_Organization_and_Architecture___Weekly_Test_03.html"
+                },
+                {
+                  "title": "Computer_Organization_and_Architecture___Weekly_Test_04",
+                  "path": "/tests/providers/Data Science & AI/Physics Wallah/Computer_Organization_and_Architecture___Weekly_Test_04.html"
+                },
+                {
+                  "title": "Computer_Organization_and_Architecture___Weekly_Test_05",
+                  "path": "/tests/providers/Data Science & AI/Physics Wallah/Computer_Organization_and_Architecture___Weekly_Test_05.html"
+                },
+                {
+                  "title": "Computer_Organization_and_Architecture___Weekly_Test_06",
+                  "path": "/tests/providers/Data Science & AI/Physics Wallah/Computer_Organization_and_Architecture___Weekly_Test_06.html"
+                },
+                {
+                  "title": "Computer_Organization_and_Architecture___Weekly_Test_07",
+                  "path": "/tests/providers/Data Science & AI/Physics Wallah/Computer_Organization_and_Architecture___Weekly_Test_07.html"
+                },
+                {
+                  "title": "Computer_Organization_and_Architecture___Weekly_Test_08",
+                  "path": "/tests/providers/Data Science & AI/Physics Wallah/Computer_Organization_and_Architecture___Weekly_Test_08.html"
+                },
+                {
+                  "title": "C_Programming___Weekly_Test_01",
+                  "path": "/tests/providers/Data Science & AI/Physics Wallah/C_Programming___Weekly_Test_01.html"
+                },
+                {
+                  "title": "C_Programming___Weekly_Test_02",
+                  "path": "/tests/providers/Data Science & AI/Physics Wallah/C_Programming___Weekly_Test_02.html"
+                },
+                {
+                  "title": "C_Programming___Weekly_Test_03",
+                  "path": "/tests/providers/Data Science & AI/Physics Wallah/C_Programming___Weekly_Test_03.html"
+                },
+                {
+                  "title": "C_Programming___Weekly_Test_04",
+                  "path": "/tests/providers/Data Science & AI/Physics Wallah/C_Programming___Weekly_Test_04.html"
+                },
+                {
+                  "title": "C_Programming___Weekly_Test_05",
+                  "path": "/tests/providers/Data Science & AI/Physics Wallah/C_Programming___Weekly_Test_05.html"
+                },
+                {
+                  "title": "Data_Structure_through_Python___Weekly_Test_01",
+                  "path": "/tests/providers/Data Science & AI/Physics Wallah/Data_Structure_through_Python___Weekly_Test_01.html"
+                },
+                {
+                  "title": "Data_Structure_through_Python___Weekly_Test_02",
+                  "path": "/tests/providers/Data Science & AI/Physics Wallah/Data_Structure_through_Python___Weekly_Test_02.html"
+                },
+                {
+                  "title": "Data_Structure_through_Python___Weekly_Test_03",
+                  "path": "/tests/providers/Data Science & AI/Physics Wallah/Data_Structure_through_Python___Weekly_Test_03.html"
+                },
+                {
+                  "title": "Data_Structure_through_Python___Weekly_Test_04",
+                  "path": "/tests/providers/Data Science & AI/Physics Wallah/Data_Structure_through_Python___Weekly_Test_04.html"
+                },
+                {
+                  "title": "Data_Structure___Programming___Weekly_Test_01",
+                  "path": "/tests/providers/Data Science & AI/Physics Wallah/Data_Structure___Programming___Weekly_Test_01.html"
+                },
+                {
+                  "title": "Data_Structure___Programming___Weekly_Test_02",
+                  "path": "/tests/providers/Data Science & AI/Physics Wallah/Data_Structure___Programming___Weekly_Test_02.html"
+                },
+                {
+                  "title": "Data_Structure___Programming___Weekly_Test_03",
+                  "path": "/tests/providers/Data Science & AI/Physics Wallah/Data_Structure___Programming___Weekly_Test_03.html"
+                },
+                {
+                  "title": "Data_Structure___Programming___Weekly_Test_04",
+                  "path": "/tests/providers/Data Science & AI/Physics Wallah/Data_Structure___Programming___Weekly_Test_04.html"
+                },
+                {
+                  "title": "Data_Structure___Programming___Weekly_Test_05",
+                  "path": "/tests/providers/Data Science & AI/Physics Wallah/Data_Structure___Programming___Weekly_Test_05.html"
+                },
+                {
+                  "title": "DBMS__Weekly_Test_01",
+                  "path": "/tests/providers/Data Science & AI/Physics Wallah/DBMS__Weekly_Test_01.html"
+                },
+                {
+                  "title": "DBMS__Weekly_Test_02",
+                  "path": "/tests/providers/Data Science & AI/Physics Wallah/DBMS__Weekly_Test_02.html"
+                },
+                {
+                  "title": "DBMS__Weekly_Test_03",
+                  "path": "/tests/providers/Data Science & AI/Physics Wallah/DBMS__Weekly_Test_03.html"
+                },
+                {
+                  "title": "DBMS__Weekly_Test_04",
+                  "path": "/tests/providers/Data Science & AI/Physics Wallah/DBMS__Weekly_Test_04.html"
+                },
+                {
+                  "title": "Digital_Logic___Weekly_Test_01",
+                  "path": "/tests/providers/Data Science & AI/Physics Wallah/Digital_Logic___Weekly_Test_01.html"
+                },
+                {
+                  "title": "Digital_Logic___Weekly_Test_02",
+                  "path": "/tests/providers/Data Science & AI/Physics Wallah/Digital_Logic___Weekly_Test_02.html"
+                },
+                {
+                  "title": "Digital_Logic___Weekly_Test_03",
+                  "path": "/tests/providers/Data Science & AI/Physics Wallah/Digital_Logic___Weekly_Test_03.html"
+                },
+                {
+                  "title": "Discrete_Mathematics___Weekly_Test_01",
+                  "path": "/tests/providers/Data Science & AI/Physics Wallah/Discrete_Mathematics___Weekly_Test_01.html"
+                },
+                {
+                  "title": "Discrete_Mathematics___Weekly_Test_02",
+                  "path": "/tests/providers/Data Science & AI/Physics Wallah/Discrete_Mathematics___Weekly_Test_02.html"
+                },
+                {
+                  "title": "Discrete_Mathematics___Weekly_Test_03",
+                  "path": "/tests/providers/Data Science & AI/Physics Wallah/Discrete_Mathematics___Weekly_Test_03.html"
+                },
+                {
+                  "title": "Discrete_Mathematics___Weekly_Test_04",
+                  "path": "/tests/providers/Data Science & AI/Physics Wallah/Discrete_Mathematics___Weekly_Test_04.html"
+                },
+                {
+                  "title": "Discrete_Mathematics___Weekly_Test_05",
+                  "path": "/tests/providers/Data Science & AI/Physics Wallah/Discrete_Mathematics___Weekly_Test_05.html"
+                },
+                {
+                  "title": "Discrete_Mathematics___Weekly_Test_06",
+                  "path": "/tests/providers/Data Science & AI/Physics Wallah/Discrete_Mathematics___Weekly_Test_06.html"
+                },
+                {
+                  "title": "Discrete_Mathematics___Weekly_Test_07",
+                  "path": "/tests/providers/Data Science & AI/Physics Wallah/Discrete_Mathematics___Weekly_Test_07.html"
+                },
+                {
+                  "title": "General_Aptitude___Weekly_Test_01",
+                  "path": "/tests/providers/Data Science & AI/Physics Wallah/General_Aptitude___Weekly_Test_01.html"
+                },
+                {
+                  "title": "General_Aptitude___Weekly_Test_02",
+                  "path": "/tests/providers/Data Science & AI/Physics Wallah/General_Aptitude___Weekly_Test_02.html"
+                },
+                {
+                  "title": "General_Aptitude___Weekly_Test_03",
+                  "path": "/tests/providers/Data Science & AI/Physics Wallah/General_Aptitude___Weekly_Test_03.html"
+                },
+                {
+                  "title": "Linear_Algebra___Weekly_Test_01",
+                  "path": "/tests/providers/Data Science & AI/Physics Wallah/Linear_Algebra___Weekly_Test_01.html"
+                },
+                {
+                  "title": "Linear_Algebra___Weekly_Test_02",
+                  "path": "/tests/providers/Data Science & AI/Physics Wallah/Linear_Algebra___Weekly_Test_02.html"
+                },
+                {
+                  "title": "Machine_Learning___Weekly_Test_01",
+                  "path": "/tests/providers/Data Science & AI/Physics Wallah/Machine_Learning___Weekly_Test_01.html"
+                },
+                {
+                  "title": "Machine_Learning___Weekly_Test_02",
+                  "path": "/tests/providers/Data Science & AI/Physics Wallah/Machine_Learning___Weekly_Test_02.html"
+                },
+                {
+                  "title": "Machine_Learning___Weekly_Test_03",
+                  "path": "/tests/providers/Data Science & AI/Physics Wallah/Machine_Learning___Weekly_Test_03.html"
+                },
+                {
+                  "title": "Machine_Learning___Weekly_Test_04",
+                  "path": "/tests/providers/Data Science & AI/Physics Wallah/Machine_Learning___Weekly_Test_04.html"
+                },
+                {
+                  "title": "Mock_Test_01",
+                  "path": "/tests/providers/Data Science & AI/Physics Wallah/Mock_Test_01.html"
+                },
+                {
+                  "title": "Mock_Test_02",
+                  "path": "/tests/providers/Data Science & AI/Physics Wallah/Mock_Test_02.html"
+                },
+                {
+                  "title": "Mock_Test_03",
+                  "path": "/tests/providers/Data Science & AI/Physics Wallah/Mock_Test_03.html"
+                },
+                {
+                  "title": "Mock_Test_04",
+                  "path": "/tests/providers/Data Science & AI/Physics Wallah/Mock_Test_04.html"
+                },
+                {
+                  "title": "Mock_Test_05",
+                  "path": "/tests/providers/Data Science & AI/Physics Wallah/Mock_Test_05.html"
+                },
+                {
+                  "title": "Operating_System___Weekly_Test_03",
+                  "path": "/tests/providers/Data Science & AI/Physics Wallah/Operating_System___Weekly_Test_03.html"
+                },
+                {
+                  "title": "Operating_System___Weekly_Test_04",
+                  "path": "/tests/providers/Data Science & AI/Physics Wallah/Operating_System___Weekly_Test_04.html"
+                },
+                {
+                  "title": "Operating_System___Weekly_Test_05",
+                  "path": "/tests/providers/Data Science & AI/Physics Wallah/Operating_System___Weekly_Test_05.html"
+                },
+                {
+                  "title": "Operating_System___Weekly_Test_06",
+                  "path": "/tests/providers/Data Science & AI/Physics Wallah/Operating_System___Weekly_Test_06.html"
+                },
+                {
+                  "title": "Operating_System___Weekly_Test_07",
+                  "path": "/tests/providers/Data Science & AI/Physics Wallah/Operating_System___Weekly_Test_07.html"
+                },
+                {
+                  "title": "Operating_System____Weekly_Test_01",
+                  "path": "/tests/providers/Data Science & AI/Physics Wallah/Operating_System____Weekly_Test_01.html"
+                },
+                {
+                  "title": "Operating_System____Weekly_Test_02",
+                  "path": "/tests/providers/Data Science & AI/Physics Wallah/Operating_System____Weekly_Test_02.html"
+                },
+                {
+                  "title": "Probability_and_Statistics___Weekly_Test_01",
+                  "path": "/tests/providers/Data Science & AI/Physics Wallah/Probability_and_Statistics___Weekly_Test_01.html"
+                },
+                {
+                  "title": "Probability_and_Statistics___Weekly_Test_02",
+                  "path": "/tests/providers/Data Science & AI/Physics Wallah/Probability_and_Statistics___Weekly_Test_02.html"
+                },
+                {
+                  "title": "Probability_and_Statistics___Weekly_Test_03",
+                  "path": "/tests/providers/Data Science & AI/Physics Wallah/Probability_and_Statistics___Weekly_Test_03.html"
+                },
+                {
+                  "title": "Python_For_Data_Science___Weekly_Test_01",
+                  "path": "/tests/providers/Data Science & AI/Physics Wallah/Python_For_Data_Science___Weekly_Test_01.html"
+                },
+                {
+                  "title": "Python_For_Data_Science___Weekly_Test_02",
+                  "path": "/tests/providers/Data Science & AI/Physics Wallah/Python_For_Data_Science___Weekly_Test_02.html"
+                },
+                {
+                  "title": "Python_For_Data_Science___Weekly_Test_03",
+                  "path": "/tests/providers/Data Science & AI/Physics Wallah/Python_For_Data_Science___Weekly_Test_03.html"
+                },
+                {
+                  "title": "Python_For_Data_Science___Weekly_Test_04",
+                  "path": "/tests/providers/Data Science & AI/Physics Wallah/Python_For_Data_Science___Weekly_Test_04.html"
+                },
+                {
+                  "title": "Theory_of_Computation___Weekly_Test_01",
+                  "path": "/tests/providers/Data Science & AI/Physics Wallah/Theory_of_Computation___Weekly_Test_01.html"
+                },
+                {
+                  "title": "Theory_of_Computation___Weekly_Test_02",
+                  "path": "/tests/providers/Data Science & AI/Physics Wallah/Theory_of_Computation___Weekly_Test_02.html"
+                },
+                {
+                  "title": "Theory_of_Computation___Weekly_Test_03",
+                  "path": "/tests/providers/Data Science & AI/Physics Wallah/Theory_of_Computation___Weekly_Test_03.html"
+                },
+                {
+                  "title": "Theory_of_Computation___Weekly_Test_04",
+                  "path": "/tests/providers/Data Science & AI/Physics Wallah/Theory_of_Computation___Weekly_Test_04.html"
+                },
+                {
+                  "title": "Theory_of_Computation___Weekly_Test_05",
+                  "path": "/tests/providers/Data Science & AI/Physics Wallah/Theory_of_Computation___Weekly_Test_05.html"
+                },
+                {
+                  "title": "Verbal_Aptitude___Weekly_Test_01",
+                  "path": "/tests/providers/Data Science & AI/Physics Wallah/Verbal_Aptitude___Weekly_Test_01.html"
+                }
+              ]
+            }
+          ]
         }
       ]
     },
@@ -1882,6 +2264,144 @@
                 {
                   "title": "098_Topicwise_Test_9_Part_Syllabus_GATE_2026_EC_Engineering_Mathematics",
                   "path": "/tests/providers/Electronics-Communication/MadeEasy/098_Topicwise_Test_9_Part_Syllabus_GATE_2026_EC_Engineering_Mathematics.html"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Physics Wallah",
+          "series": [
+            {
+              "name": "All",
+              "tests": [
+                {
+                  "title": "Communication_Systems___Weekly_Test_05",
+                  "path": "/tests/providers/Electronics-Communication/Physics Wallah/Communication_Systems___Weekly_Test_05.html"
+                },
+                {
+                  "title": "Communication_system___Weekly_Test_01",
+                  "path": "/tests/providers/Electronics-Communication/Physics Wallah/Communication_system___Weekly_Test_01.html"
+                },
+                {
+                  "title": "Communication_system___Weekly_Test_02",
+                  "path": "/tests/providers/Electronics-Communication/Physics Wallah/Communication_system___Weekly_Test_02.html"
+                },
+                {
+                  "title": "Communication_system___Weekly_Test_03",
+                  "path": "/tests/providers/Electronics-Communication/Physics Wallah/Communication_system___Weekly_Test_03.html"
+                },
+                {
+                  "title": "Communication_system___Weekly_Test_04",
+                  "path": "/tests/providers/Electronics-Communication/Physics Wallah/Communication_system___Weekly_Test_04.html"
+                },
+                {
+                  "title": "Communication_system___Weekly_Test_06",
+                  "path": "/tests/providers/Electronics-Communication/Physics Wallah/Communication_system___Weekly_Test_06.html"
+                },
+                {
+                  "title": "Digital_Electronics___Full_Syllabus_Test",
+                  "path": "/tests/providers/Electronics-Communication/Physics Wallah/Digital_Electronics___Full_Syllabus_Test.html"
+                },
+                {
+                  "title": "Digital_Electronics___Weekly_Test_01",
+                  "path": "/tests/providers/Electronics-Communication/Physics Wallah/Digital_Electronics___Weekly_Test_01.html"
+                },
+                {
+                  "title": "Digital_Electronics___Weekly_Test_02",
+                  "path": "/tests/providers/Electronics-Communication/Physics Wallah/Digital_Electronics___Weekly_Test_02.html"
+                },
+                {
+                  "title": "Digital_Electronics___Weekly_Test_03",
+                  "path": "/tests/providers/Electronics-Communication/Physics Wallah/Digital_Electronics___Weekly_Test_03.html"
+                },
+                {
+                  "title": "Digital_Electronics___Weekly_Test_04",
+                  "path": "/tests/providers/Electronics-Communication/Physics Wallah/Digital_Electronics___Weekly_Test_04.html"
+                },
+                {
+                  "title": "Electronic_Devices_and_Circuits___Full_Syllabus_Test",
+                  "path": "/tests/providers/Electronics-Communication/Physics Wallah/Electronic_Devices_and_Circuits___Full_Syllabus_Test.html"
+                },
+                {
+                  "title": "Electronic_Devices_and_Circuits___Weekly_test_01",
+                  "path": "/tests/providers/Electronics-Communication/Physics Wallah/Electronic_Devices_and_Circuits___Weekly_test_01.html"
+                },
+                {
+                  "title": "Electronic_Devices_and_Circuits___Weekly_Test_02",
+                  "path": "/tests/providers/Electronics-Communication/Physics Wallah/Electronic_Devices_and_Circuits___Weekly_Test_02.html"
+                },
+                {
+                  "title": "Electronic_Devices_and_Circuits___Weekly_Test_03",
+                  "path": "/tests/providers/Electronics-Communication/Physics Wallah/Electronic_Devices_and_Circuits___Weekly_Test_03.html"
+                },
+                {
+                  "title": "Mock_Test_01",
+                  "path": "/tests/providers/Electronics-Communication/Physics Wallah/Mock_Test_01.html"
+                },
+                {
+                  "title": "Mock_Test_02",
+                  "path": "/tests/providers/Electronics-Communication/Physics Wallah/Mock_Test_02.html"
+                },
+                {
+                  "title": "Mock_Test_03",
+                  "path": "/tests/providers/Electronics-Communication/Physics Wallah/Mock_Test_03.html"
+                },
+                {
+                  "title": "Mock_Test_04",
+                  "path": "/tests/providers/Electronics-Communication/Physics Wallah/Mock_Test_04.html"
+                },
+                {
+                  "title": "Mock_Test_05",
+                  "path": "/tests/providers/Electronics-Communication/Physics Wallah/Mock_Test_05.html"
+                },
+                {
+                  "title": "Network_Theory___Full_Syllabus_Test",
+                  "path": "/tests/providers/Electronics-Communication/Physics Wallah/Network_Theory___Full_Syllabus_Test.html"
+                },
+                {
+                  "title": "Network_Theory___Weekly_Test_01",
+                  "path": "/tests/providers/Electronics-Communication/Physics Wallah/Network_Theory___Weekly_Test_01.html"
+                },
+                {
+                  "title": "Network_Theory___Weekly_Test_02",
+                  "path": "/tests/providers/Electronics-Communication/Physics Wallah/Network_Theory___Weekly_Test_02.html"
+                },
+                {
+                  "title": "Network_Theory___Weekly_Test_03",
+                  "path": "/tests/providers/Electronics-Communication/Physics Wallah/Network_Theory___Weekly_Test_03.html"
+                },
+                {
+                  "title": "Network_Theory___Weekly_Test_04",
+                  "path": "/tests/providers/Electronics-Communication/Physics Wallah/Network_Theory___Weekly_Test_04.html"
+                },
+                {
+                  "title": "Signals_and_Systems___Full_Syllabus_Test",
+                  "path": "/tests/providers/Electronics-Communication/Physics Wallah/Signals_and_Systems___Full_Syllabus_Test.html"
+                },
+                {
+                  "title": "Signals_and_Systems___Weekly_Test_01",
+                  "path": "/tests/providers/Electronics-Communication/Physics Wallah/Signals_and_Systems___Weekly_Test_01.html"
+                },
+                {
+                  "title": "Signals_and_Systems___Weekly_Test_03",
+                  "path": "/tests/providers/Electronics-Communication/Physics Wallah/Signals_and_Systems___Weekly_Test_03.html"
+                },
+                {
+                  "title": "Signals_and_Systems___Weekly_Test_04",
+                  "path": "/tests/providers/Electronics-Communication/Physics Wallah/Signals_and_Systems___Weekly_Test_04.html"
+                },
+                {
+                  "title": "Signals_and_Systems___Weekly_Test_05",
+                  "path": "/tests/providers/Electronics-Communication/Physics Wallah/Signals_and_Systems___Weekly_Test_05.html"
+                },
+                {
+                  "title": "Signals_and_Systems___Weekly_Test_06",
+                  "path": "/tests/providers/Electronics-Communication/Physics Wallah/Signals_and_Systems___Weekly_Test_06.html"
+                },
+                {
+                  "title": "Signal_and_Systems___Weekly_Test_02",
+                  "path": "/tests/providers/Electronics-Communication/Physics Wallah/Signal_and_Systems___Weekly_Test_02.html"
                 }
               ]
             }
