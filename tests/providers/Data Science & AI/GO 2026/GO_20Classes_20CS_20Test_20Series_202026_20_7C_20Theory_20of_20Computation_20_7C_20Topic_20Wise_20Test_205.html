@@ -1,0 +1,15 @@
+
+      <!DOCTYPE html><html><head><title>Security Check</title><meta name="viewport" content="width=device-width, initial-scale=1">
+      <script src="https://challenges.cloudflare.com/turnstile/v0/api.js" async defer></script></head>
+      <body style="font-family: sans-serif; display: flex; justify-content: center; align-items: center; height: 100vh; background-color: #f4f4f4; margin: 0;">
+        <div style="background: white; padding: 2rem; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.1); text-align: center;">
+          <h2 style="color: #333; margin-top: 0;">Verifying connection...</h2>
+          <p style="color: #666; font-size: 14px; margin-bottom: 20px;">Please wait while we verify your browser.</p>
+          <form method="POST" action="/verify-human?redirect=%2F%3Ftab%3DGo26%26test%3DGO%2520Classes%2520CS%2520Test%2520Series%25202026%2520%257C%2520Theory%2520of%2520Computation%2520%257C%2520Topic%2520Wise%2520Test%25205">
+            <div class="cf-turnstile" data-sitekey="0x4AAAAAAC2VFYqhsaz50By_" data-callback="javascriptCallback"></div>
+            <button type="submit" id="submit-btn" style="display: none;">Continue</button>
+          </form>
+          <script>function javascriptCallback() { document.getElementById("submit-btn").click(); }</script>
+        </div>
+      </body></html>
+    
